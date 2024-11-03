@@ -18,27 +18,30 @@ def main():
     window = create_window(board)
 
     while True:
-        event, values = window.read()
+        try:
+            event, values = window.read()
 
-        if event == sg.WIN_CLOSED:
-            break
+            if event == sg.WIN_CLOSED:
+                break
 
-        if event == 'Make Move':
-            move = values['-MOVE-']
-            try:
-                move = chess.Move.from_uci(move)
-                if move in board.legal_moves:
-                    board.push(move)
-                    window['-BOARD-'].update(data=draw_board(board))
-                    window['-MOVE-'].update('')  # Clear input
-                else:
-                    sg.popup_error("Illegal move!")
-            except:
-                sg.popup_error("Invalid move format!")
+            if event == 'Make Move':
+                move = values['-MOVE-']
+                try:
+                    move = chess.Move.from_uci(move)
+                    if move in board.legal_moves:
+                        board.push(move)
+                        window['-BOARD-'].update(data=draw_board(board))
+                        window['-MOVE-'].update('')  # Clear input
+                    else:
+                        sg.popup_error("Illegal move!")
+                except:
+                    sg.popup_error("Invalid move format!")
 
-        if event == 'Reset':
-            board.reset()
-            window['-BOARD-'].update(data=draw_board(board))
+            if event == 'Reset':
+                board.reset()
+                window['-BOARD-'].update(data=draw_board(board))
+        except any as e:
+            print(e)
 
     window.close()
 
