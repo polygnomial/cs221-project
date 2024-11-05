@@ -1,0 +1,22 @@
+Plan for check in:
+
+1. Literature Review:
+Add some papers here
+Add some medium articles here
+Maybe even some gh repos
+
+2. Dataset
+what data set are we going to use?
+
+Probably CCRL dataset?
+
+3. Baseline with be minimax as depth 1?
+Also we can use a very simple eval function with just counting piece weights?
+
+4. Minimax to highest depth possible without many second slowdowns
+5. For minimax- how do we learn a better eval function?
+6. Metrics
+Macro: Did we win the game vs lose vs draw?
+Mico: How good was our move? Consult oracle (figure out where to get an oracle)
+
+7. Future work would be neural net with supervised learning
