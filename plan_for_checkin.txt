@@ -5,10 +5,16 @@ Add some papers here
 Add some medium articles here
 Maybe even some gh repos
 
+https://arxiv.org/pdf/1712.01815
+https://blogs.cornell.edu/info2040/2022/09/30/game-theory-how-stockfish-mastered-chess/
+https://github.com/stanford-cs221/sample-projects/blob/master/arijitb-aparnak-chess.pdf
+https://www.semanticscholar.org/paper/Learning-the-Piece-Values-for-Three-Chess-Variants-Droste-F%C3%BCrnkranz/964f515a40fb84cf01973a82f1cc01df033c062f
+
 2. Dataset
 what data set are we going to use?
 
 Probably CCRL dataset?
+https://lczero.org/blog/2018/09/a-standard-dataset/
 
 3. Baseline with be minimax as depth 1?
 Also we can use a very simple eval function with just counting piece weights?
