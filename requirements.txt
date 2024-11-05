@@ -1,5 +1,2 @@
 chess
-PySimpleGUI
-tkinter
-pillow
-cairosvg
+pygame
