@@ -2,6 +2,7 @@
 import pygame
 import chess
 import math
+from agent import play_min_maxN
 
 
 #initialise display
@@ -40,6 +41,28 @@ pieces = {
 
 for key in pieces:
     pieces[key] = pygame.transform.scale(pieces[key], (100, 100))
+
+def promote_pawn(board, start_square, end_square):
+    """Handles promotion of a pawn with user choice."""
+    promotion_choice = input("Promote to (q)ueen, (r)ook, (b)ishop, or (n)ight? ")
+    promotion_piece = {
+        'q': chess.QUEEN,
+        'r': chess.ROOK,
+        'b': chess.BISHOP,
+        'n': chess.KNIGHT
+    }.get(promotion_choice.lower(), chess.QUEEN)  # Default to queen
+
+    # Create the promotion move
+    move = chess.Move(start_square, end_square, promotion=promotion_piece)
+    if move in board.legal_moves:
+        board.push(move)
+        print("Pawn promoted!")
+    else:
+        print("Illegal move.")
+
+# Example move with promotion from e7 to e8
+# promote_pawn(board, chess.E7, chess.E8)
+# print(board)
 
 def update(scrn,board):
     '''
@@ -137,7 +160,7 @@ def main(BOARD):
 
                                 
                                 #highlight squares it can move to
-                                pygame.draw.rect(scrn,BLUE,pygame.Rect(TX1,TY1,100,100),5)
+                                pygame.draw.circle(scrn,BLUE,(TX1+50,TY1+50),10)
                         
                         index_moves = [a.to_square for a in moves]
      
@@ -239,45 +262,46 @@ def main(BOARD):
 #             print(BOARD)
 #     pygame.quit()
 
-# def main_two_agent(BOARD,agent1,agent_color1,agent2):
-#     '''
-#     for agent vs agent game
+def main_two_agent(BOARD,agent1,agent_color1,agent2):
+    '''
+    for agent vs agent game
     
-#     '''
+    '''
   
-#     #make background black
-#     scrn.fill(BLACK)
-#     #name window
-#     pygame.display.set_caption('Chess')
+    #make background black
+    scrn.fill(BLACK)
+    #name window
+    pygame.display.set_caption('Chess')
     
-#     #variable to be used later
+    #variable to be used later
 
-#     status = True
-#     while (status):
-#         #update screen
-#         update(scrn,BOARD)
+    status = True
+    while (status):
+        drawBoard()
+        #update screen
+        update(scrn,BOARD)
         
-#         if BOARD.turn==agent_color1:
-#             BOARD.push(agent1(BOARD))
+        if BOARD.turn==agent_color1:
+            BOARD.push(agent1(BOARD))
 
-#         else:
-#             BOARD.push(agent2(BOARD))
+        else:
+            BOARD.push(agent2(BOARD))
 
-#         scrn.fill(BLACK)
+        scrn.fill(BLACK)
             
-#         for event in pygame.event.get():
+        for event in pygame.event.get():
      
-#             # if event object type is QUIT
-#             # then quitting the pygame
-#             # and program both.
-#             if event.type == pygame.QUIT:
-#                 status = False
+            # if event object type is QUIT
+            # then quitting the pygame
+            # and program both.
+            if event.type == pygame.QUIT:
+                status = False
      
-#     # deactivates the pygame library
-#         if BOARD.outcome() != None:
-#             print(BOARD.outcome())
-#             status = False
-#             print(BOARD)
-#     pygame.quit()
+    # deactivates the pygame library
+        if BOARD.outcome() != None:
+            print(BOARD.outcome())
+            status = False
+            print(BOARD)
+    pygame.quit()
 
-main(b)
+main_two_agent(b,play_min_maxN,b.turn,play_min_maxN)
