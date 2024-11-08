@@ -9,6 +9,7 @@ https://arxiv.org/pdf/1712.01815
 https://blogs.cornell.edu/info2040/2022/09/30/game-theory-how-stockfish-mastered-chess/
 https://github.com/stanford-cs221/sample-projects/blob/master/arijitb-aparnak-chess.pdf
 https://www.semanticscholar.org/paper/Learning-the-Piece-Values-for-Three-Chess-Variants-Droste-F%C3%BCrnkranz/964f515a40fb84cf01973a82f1cc01df033c062f
+https://github.com/facebookresearch/minimax?tab=readme-ov-file
 
 2. Dataset
 what data set are we going to use?
@@ -23,6 +24,18 @@ Also we can use a very simple eval function with just counting piece weights?
 5. For minimax- how do we learn a better eval function?
 6. Metrics
 Macro: Did we win the game vs lose vs draw?
-Mico: How good was our move? Consult oracle (figure out where to get an oracle)
+Micro: How good was our move? Consult oracle (figure out where to get an oracle)
 
 7. Future work would be neural net with supervised learning
+
+
+Flynn:
+ - figuring out how to not need to deep copy the board and also integrate moves into the current board position quickly.
+ - This is important because one of the constraints on how deep we can go is processing time for a single move
+
+Adhish:
+ - Look into better evaluation functions
+ - download stockfish
+
+Seena:
+ - Look into better evaluation functions
