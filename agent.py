@@ -1,57 +1,70 @@
 import random
 from copy import deepcopy
+import chess
 
 #an agent that moves randommly
 def random_agent(BOARD):
     return random.choice(list(BOARD.legal_moves))
 
-scoring= {'p': -1,
-          'n': -3,
-          'b': -3,
-          'r': -5,
-          'q': -9,
-          'k': 0,
-          'P': 1,
-          'N': 3,
-          'B': 3,
-          'R': 5,
-          'Q': 9,
-          'K': 0,
-          }
+scoring= {
+    'p': -1,
+    'n': -3,
+    'b': -3,
+    'r': -5,
+    'q': -9,
+    'k': 0,
+    'P': 1,
+    'N': 3,
+    'B': 3,
+    'R': 5,
+    'Q': 9,
+    'K': 0,
+}
 #simple evaluation function
-def eval_board(BOARD):
+def eval_board(board):
     score = 0
-    pieces = BOARD.piece_map()
+    pieces = board.piece_map()
     for key in pieces:
         score += scoring[str(pieces[key])]
 
     return score
 
-def min_maxN(BOARD,N):
-    moves = list(BOARD.legal_moves)
+def min_maxN(board, depth, alpha, beta):
+    if (board.is_stalemate() or board.is_insufficient_material()):
+        return (0, None)
+    if (board.is_checkmate()):
+        score = float('inf') if (board.outcome().winner == chess.WHITE) else float('-inf')
+        return (score, None)
+    if (depth == 0):
+        return (eval_board(board), None)
+    
+    moves = list(board.legal_moves)
     scores = []
 
     for move in moves:
-        temp = deepcopy(BOARD)
+        temp = deepcopy(board)
+        # push our move and then delegate to the adversary
         temp.push(move)
+        score, _ = min_maxN(temp,depth-1, alpha, beta)
+        if (board.turn == chess.WHITE): # max
+            if (score >= beta): #prune
+                return (score, move)
+            if (score > alpha):
+                alpha = score
+        else: #min
+            if (score <= alpha): #prune
+                return (score, move)
+            if (score < beta):
+                beta = score
+        scores.append(score)
 
-        if N>1:
-            temp_best_move = min_maxN(temp,N-1)
-            temp.push(temp_best_move)
-
-        scores.append(eval_board(temp))
-
-    if BOARD.turn == True:
-        best_move = moves[scores.index(max(scores))]
-    else:
-        best_move = moves[scores.index(min(scores))]
-
-    return best_move
+    bestScore = max(scores) if board.turn == chess.WHITE else min(scores)
+    return (bestScore, moves[scores.index(bestScore)])
         
 # a simple wrapper function as the display only gives one imput , BOARD
-def play_min_maxN(BOARD):
-    N=4
-    return min_maxN(BOARD,N)
+def play_min_maxN(board):
+    N=2*2 # depth 2 but multiply by 2 to ensure both players play per depth
+    return min_maxN(board,N, float('-inf'), float('inf'))[1]
 
 
 # import chess.polyglot
