@@ -19,32 +19,57 @@ scoring= {
     'Q': 9,
     'K': 0,
 }
-#simple evaluation function
-def eval_board(board):
-    score = 0
-    pieces = board.piece_map()
-    for key in pieces:
-        score += scoring[str(pieces[key])]
 
+
+# initialize and return a piece count dictionary
+def initialize_piece_count(board):
+    
+    piece_count = {'P': 0, 'N': 0, 'B': 0, 'R': 0, 'Q': 0, 'K': 0,
+               'p': 0, 'n': 0, 'b': 0, 'r': 0, 'q': 0, 'k': 0}
+
+    pieces = board.piece_map()
+    for piece in pieces.values():
+        piece_count[str(piece)] += 1
+
+    return piece_count
+
+# simple evaluation function
+def eval_board(piece_count, board):
+    score = 0
+    for piece, count in piece_count.items():
+        score += count * scoring[piece]
     return score
 
-def min_maxN(board, depth, alpha, beta):
+def min_maxN(board, depth, alpha, beta, piece_count):
     if (board.is_stalemate() or board.is_insufficient_material()):
         return (0, None)
     if (board.is_checkmate()):
         score = float('inf') if (board.outcome().winner == chess.WHITE) else float('-inf')
         return (score, None)
     if (depth == 0):
-        return (eval_board(board), None)
+        return (eval_board(piece_count, board), None)
     
     moves = list(board.legal_moves)
     scores = []
 
     for move in moves:
-        # push our move and then delegate to the adversary
+        # if the move is a capture, decrement the count of the captured piece
+        was_capture = False
+        if board.is_capture(move):
+            captured_piece = str(board.piece_at(move.to_square))
+            piece_count[captured_piece] -= 1
+            was_capture = True
+
         board.push(move)
-        score, _ = min_maxN(board,depth-1, alpha, beta)
+
+        # recursive call delegating to the other player
+        score, _ = min_maxN(board,depth-1, alpha, beta, piece_count)
+
+        # reset board and piece count
         board.pop()
+        if was_capture:
+            piece_count[captured_piece] += 1
+
         if (board.turn == chess.WHITE): # max
             if (score >= beta): #prune
                 return (score, move)
@@ -63,7 +88,8 @@ def min_maxN(board, depth, alpha, beta):
 # a simple wrapper function as the display only gives one imput , BOARD
 def play_min_maxN(board):
     N=2*2 # depth 2 but multiply by 2 to ensure both players play per depth
-    return min_maxN(board,N, float('-inf'), float('inf'))[1]
+    piece_count = initialize_piece_count(board)
+    return min_maxN(board,N, float('-inf'), float('inf'), piece_count)[1]
 
 
 # import chess.polyglot
