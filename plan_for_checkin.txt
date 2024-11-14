@@ -103,3 +103,7 @@ def eval_board(BOARD):
     
     return score
 
+
+1. piece square table (Flynn)
+2. pawn shield (Prerna)
+3. trapped pieces (Adhish)
