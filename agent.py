@@ -1,5 +1,4 @@
 import random
-from copy import deepcopy
 import chess
 
 #an agent that moves randommly
@@ -42,10 +41,10 @@ def min_maxN(board, depth, alpha, beta):
     scores = []
 
     for move in moves:
-        temp = deepcopy(board)
         # push our move and then delegate to the adversary
-        temp.push(move)
-        score, _ = min_maxN(temp,depth-1, alpha, beta)
+        board.push(move)
+        score, _ = min_maxN(board,depth-1, alpha, beta)
+        board.pop()
         if (board.turn == chess.WHITE): # max
             if (score >= beta): #prune
                 return (score, move)
