@@ -1,2 +1,3 @@
 chess
 pygame
+open_spiel
