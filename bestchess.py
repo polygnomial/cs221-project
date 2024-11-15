@@ -2,16 +2,10 @@
 import pygame
 import chess
 import math
+from typing import Optional
 import time
 from agent import min_max_agent, random_agent
 from collections import defaultdict
-
-
-#initialise display
-X = 800
-Y = 800
-scrn = pygame.display.set_mode((X, Y))
-pygame.init()
 
 #basic colours
 WHITE = (255, 255, 255)
@@ -22,24 +16,34 @@ BLACK = (0, 255, 0)
 TAN = (236, 218, 185)
 BROWN = (174, 138, 104)
 
-#load piece images
-pieces = {
-    'p': pygame.image.load('images/black_pawn.png').convert_alpha(),
-    'n': pygame.image.load('images/black_knight.png').convert_alpha(),
-    'b': pygame.image.load('images/black_bishop.png').convert_alpha(),
-    'r': pygame.image.load('images/black_rook.png').convert_alpha(),
-    'q': pygame.image.load('images/black_queen.png').convert_alpha(),
-    'k': pygame.image.load('images/black_king.png').convert_alpha(),
-    'P': pygame.image.load('images/white_pawn.png').convert_alpha(),
-    'N': pygame.image.load('images/white_knight.png').convert_alpha(),
-    'B': pygame.image.load('images/white_bishop.png').convert_alpha(),
-    'R': pygame.image.load('images/white_rook.png').convert_alpha(),
-    'Q': pygame.image.load('images/white_queen.png').convert_alpha(),
-    'K': pygame.image.load('images/white_king.png').convert_alpha(),
-}
+def initialize_display():
+    #initialise display
+    X = 800
+    Y = 800
+    scrn = pygame.display.set_mode((X, Y))
+    pygame.init()
+    return scrn
 
-for key in pieces:
-    pieces[key] = pygame.transform.scale(pieces[key], (100, 100))
+#load piece images
+def initialize_pieces():
+    pieces = {
+        'p': pygame.image.load('images/black_pawn.png').convert_alpha(),
+        'n': pygame.image.load('images/black_knight.png').convert_alpha(),
+        'b': pygame.image.load('images/black_bishop.png').convert_alpha(),
+        'r': pygame.image.load('images/black_rook.png').convert_alpha(),
+        'q': pygame.image.load('images/black_queen.png').convert_alpha(),
+        'k': pygame.image.load('images/black_king.png').convert_alpha(),
+        'P': pygame.image.load('images/white_pawn.png').convert_alpha(),
+        'N': pygame.image.load('images/white_knight.png').convert_alpha(),
+        'B': pygame.image.load('images/white_bishop.png').convert_alpha(),
+        'R': pygame.image.load('images/white_rook.png').convert_alpha(),
+        'Q': pygame.image.load('images/white_queen.png').convert_alpha(),
+        'K': pygame.image.load('images/white_king.png').convert_alpha(),
+    }
+
+    for key in pieces:
+        pieces[key] = pygame.transform.scale(pieces[key], (100, 100))
+    return pieces
 
 def promote_pawn(board, start_square, end_square):
     """Handles promotion of a pawn with user choice."""
@@ -59,11 +63,7 @@ def promote_pawn(board, start_square, end_square):
     else:
         print("Illegal move.")
 
-# Example move with promotion from e7 to e8
-# promote_pawn(board, chess.E7, chess.E8)
-# print(board)
-
-def update(scrn,board):
+def update(scrn,board, pieces):
     '''
     updates the screen basis the board class
     '''
@@ -77,13 +77,15 @@ def update(scrn,board):
 
     pygame.display.flip()
 
-def drawBoard():
+def drawBoard(scrn):
     for i in range(8):
         for j in range(8):
             color = TAN if (i%2 == j%2) else BROWN
             scrn.fill(color, pygame.Rect(j*100, i*100, 100, 100))
 
-def main(BOARD):
+def main(board):
+    scrn = initialize_display()
+    pieces = initialize_pieces()
 
     '''
     for human vs human game
@@ -99,7 +101,7 @@ def main(BOARD):
     status = True
     while (status):
         #update screen
-        update(scrn,BOARD)
+        update(scrn, board, pieces)
 
         for event in pygame.event.get():
      
@@ -125,7 +127,7 @@ def main(BOARD):
                     
                     move = moves[index_moves.index(index)]
                     
-                    BOARD.push(move)
+                    board.push(move)
 
                     drawBoard()
 
@@ -137,7 +139,7 @@ def main(BOARD):
                 # show possible moves
                 else:
                     #check the square that is clicked
-                    piece = BOARD.piece_at(index)
+                    piece = board.piece_at(index)
                     #if empty pass
                     if piece == None:
                         
@@ -145,7 +147,7 @@ def main(BOARD):
                     else:
                         
                         #figure out what moves this piece can make
-                        all_moves = list(BOARD.legal_moves)
+                        all_moves = list(board.legal_moves)
                         moves = []
                         for m in all_moves:
                             if m.from_square == index:
@@ -163,14 +165,16 @@ def main(BOARD):
                         
                         index_moves = [a.to_square for a in moves]
      
-    # deactivates the pygame library
-        if BOARD.outcome() != None:
-            print(BOARD.outcome())
+        # deactivates the pygame library
+        if board.outcome() != None:
+            print(board.outcome())
             status = False
-            print(BOARD)
+            print(board)
     pygame.quit()
 
 def main_one_agent(agent,agent_color):
+    scrn = initialize_display()
+    pieces = initialize_pieces()
     #initialise chess board
     board = chess.Board()
     
@@ -192,7 +196,7 @@ def main_one_agent(agent,agent_color):
     while (status):
         drawBoard()
         #update screen
-        update(scrn,board)
+        update(scrn,board, pieces)
         
      
         if board.turn==agent_color:
@@ -266,6 +270,8 @@ def main_one_agent(agent,agent_color):
     pygame.quit()
 
 def main_two_agent(agent1,agent2):
+    scrn = initialize_display()
+    pieces = initialize_pieces()
     '''
     for agent vs agent game
     
@@ -285,7 +291,7 @@ def main_two_agent(agent1,agent2):
     while (status):
         drawBoard()
         #update screen
-        update(scrn,board)
+        update(scrn,board, pieces)
         
         if board.turn==agent_color1:
             board.push(agent1(board))
@@ -310,11 +316,11 @@ def main_two_agent(agent1,agent2):
             print(board)
             drawBoard()
             #update screen
-            update(scrn,board)
+            update(scrn,board, pieces)
             time.sleep(5)
     pygame.quit()
 
-def main_headless_two_agent(agent1,agent2):
+def main_headless_two_agent(agent1,agent2) -> Optional[chess.Color]:
     #initialise chess board
     board = chess.Board()
     agent_color1 = board.turn
@@ -336,11 +342,16 @@ def main_headless_two_agent(agent1,agent2):
             status = False
             print(board)
             winner = board.outcome().winner
-    return winner
+    if (winner == None):
+        return None
+    if (chess.WHITE == winner):
+        return "WHITE"
+    else:
+        return "BLACK"
 
 numGames = 50
+winnerMap = defaultdict(lambda: 0)
 for i in range(numGames):
-    winnerMap = defaultdict(lambda: 0)
     winner = main_headless_two_agent(min_max_agent(2), random_agent)
     winnerMap[winner] += 1
 
