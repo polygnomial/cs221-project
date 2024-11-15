@@ -1,6 +1,7 @@
 import random
 import chess
 import pdb
+from piece_square_tables import piece_square_table_score
 
 #an agent that moves randommly
 def random_agent(BOARD):
@@ -42,7 +43,11 @@ def eval_board(piece_count, board):
 
     storm_score = eval_pawn_storm(piece_count, board)
     score += storm_score
+
+    score += piece_square_table_score(board, piece_count)
+
     return score
+
 
 def min_maxN(board, depth, alpha, beta, piece_count):
     if (board.is_stalemate() or board.is_insufficient_material()):
