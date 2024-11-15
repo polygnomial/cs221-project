@@ -7,9 +7,11 @@ class ChessGraphics():
         #basic colors
         self.WHITE = (255, 255, 255)
         self.GREY = (128, 128, 128)
-        self.YELLOW = (204, 204, 0)
-        self.BLUE = (50, 255, 255)
-        self.BLACK = (0, 255, 0)
+        self.TAN_YELLOW = (207, 209, 134)
+        self.BROWN_YELLOW = (170, 162, 86)
+        self.TAN_GREEN = (138, 151, 111)
+        self.BROWN_GREEN = (107, 111, 70)
+        self.BLACK = (0, 0, 0)
         self.TAN = (236, 218, 185)
         self.BROWN = (174, 138, 104)
 
@@ -21,6 +23,8 @@ class ChessGraphics():
         #name window
         pygame.display.set_caption('Chess')
         self.pieces = self.initialize_pieces()
+        self.moves = dict()
+        self.last_move = None
     
     def initialize_screen(self, dimension: int):
         screen = pygame.display.set_mode((dimension, dimension))
@@ -49,13 +53,46 @@ class ChessGraphics():
     
     def draw_game(self):
         self.draw_board()
+        self.highlight_squares()
+        self.draw_last_move()
         self.draw_pieces()
+    
+    def draw_rect(self, color: chess.Color, row: int, col: int):
+        pygame.draw.rect(self.screen, color,(row*100, col*100, 100, 100))
+
+    def get_position(self, square: int):
+        row = square%8
+        col = 7-square//8
+        return (row, col)
+    
+    def draw_last_move_square(self, square):
+        if (square not in self.moves):
+            row, col = self.get_position(square)
+            color = self.TAN_YELLOW if (row%2 == col%2) else self.BROWN_YELLOW
+            self.draw_rect(color, row, col)
+
+    def draw_last_move(self):
+        if (self.last_move):
+            self.draw_last_move_square(self.last_move.from_square)
+            self.draw_last_move_square(self.last_move.to_square)
+    
+    def highlight_squares(self):
+        for square in self.moves:
+            row, col = self.get_position(square)
+            if (self.board.piece_at(square) is None):
+                color = self.TAN_GREEN if (row%2 == col%2) else self.BROWN_GREEN
+                pygame.draw.circle(self.screen, color, (100*row + 50, 100*col + 50), 10)
+            else:
+                circ_color = self.TAN if (row%2 == col%2) else self.BROWN
+                rect_color = self.TAN_GREEN if (row%2 == col%2) else self.BROWN_GREEN
+                self.draw_rect(rect_color, row, col)
+                pygame.draw.circle(self.screen, circ_color, (100*row + 50, 100*col + 50), 50, width=0)
 
     def draw_board(self):
         for i in range(8):
             for j in range(8):
                 color = self.TAN if (i%2 == j%2) else self.BROWN
-                self.screen.fill(color, pygame.Rect(j*100, i*100, 100, 100))
+                pygame.draw.rect(self.screen, color,(j*100, i*100, 100, 100))
     
     def draw_pieces(self):
         '''
@@ -70,41 +107,37 @@ class ChessGraphics():
                 self.screen.blit(self.pieces[str(piece)],((i%8)*100,700-(i//8)*100))
 
         pygame.display.flip()
-    
-    def highlight_square(self, destination: int):
-        destination_x = 100*(destination%8)
-        destination_y = 100*(7-destination//8)
-        pygame.draw.circle(self.screen,self.BLUE,(destination_x + 50, destination_y + 50),10)
+
 
     def capture_human_interaction(self):
-        moves = dict()
-        while(True):
-            for event in pygame.event.get():
-            
-                # if event object type is QUIT
-                # then quitting the pygame
-                # and program both.
-                if event.type == pygame.QUIT:
-                    return False
+        for event in pygame.event.get():
+        
+            # if event object type is QUIT
+            # then quitting the pygame
+            # and program both.
+            if event.type == pygame.QUIT:
+                return False
 
-                # if mouse clicked
-                if event.type == pygame.MOUSEBUTTONDOWN:
-                    #reset previous screen from clicks
-                    self.screen.fill(self.BLACK)
-                    #get position of mouse
-                    pos = pygame.mouse.get_pos()
+            # if mouse clicked
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                #reset previous screen from clicks
+                self.screen.fill(self.BLACK)
+                #get position of mouse
+                pos = pygame.mouse.get_pos()
 
-                    #find which square was clicked and index of it
-                    square = (math.floor(pos[0]/100),math.floor(pos[1]/100))
-                    index = (7-square[1])*8+(square[0])
+                #find which square was clicked and index of it
+                square = (math.floor(pos[0]/100),math.floor(pos[1]/100))
+                index = (7-square[1])*8+(square[0])
 
-                    if index in moves: # make the move
-                        self.board.push(moves[index])
-                        return True
-                    else: # show possible moves
-                        piece = self.board.piece_at(index)
-                        if piece is not None:
-                            for move in list(self.board.legal_moves):
-                                if move.from_square == index:
-                                    moves[move.to_square] = move
-                                    self.highlight_square(move.to_square)
+                if index in self.moves: # make the move
+                    self.board.push(self.moves[index])
+                    self.last_move = self.moves[index]
+                    self.moves = dict()
+                else: # show possible moves
+                    self.moves = dict()
+                    piece = self.board.piece_at(index)
+                    if piece is not None:
+                        for move in list(self.board.legal_moves):
+                            if move.from_square == index:
+                                self.moves[move.to_square] = move
+        return True
