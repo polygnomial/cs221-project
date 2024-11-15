@@ -6,8 +6,8 @@ from typing import Dict
 from collections import defaultdict
 
 #an agent that moves randommly
-def random_agent(BOARD):
-    return random.choice(list(BOARD.legal_moves))
+def random_agent(board):
+    return random.choice(list(board.legal_moves))
 
 scoring= {
     'p': -1, # Black pawn
@@ -58,8 +58,8 @@ def eval_piece_count(piece_count):
 def featureExtractor(piece_count, board):
     return {
         "piece_count": eval_piece_count(piece_count),
-        "pawn_storm": eval_pawn_storm(board),
-        "piece_square": piece_square_table_score(board, piece_count)
+        # "pawn_storm": eval_pawn_storm(board),
+        # "piece_square": piece_square_table_score(board, piece_count)
     }
 
 weights = {
@@ -72,6 +72,24 @@ weights = {
 def eval_board(piece_count, board):
     return dotProduct(featureExtractor(piece_count, board), weights)
 
+def get_captured_piece(board, move):
+    captured_piece = str(board.piece_at(move.to_square))
+    if (captured_piece != 'None'):
+        return captured_piece
+    
+    #en passant
+    idx = 0
+    if (move.from_square > move.to_square): # black captures white piece
+        if (move.from_square - 7 == move.to_square): # piece is to the right
+            idx = move.from_square + 1
+        else: # piece is to the left
+            idx = move.from_square - 1
+    else: # white captures black piece
+        if (move.from_square + 7 == move.to_square): # piece is to the left
+            idx = move.from_square - 1
+        else: # piece is to the right
+            idx = move.from_square + 1
+    return str(board.piece_at(idx))
 
 def min_maxN(board, depth, alpha, beta, piece_count):
     if (board.is_stalemate() or board.is_insufficient_material()):
@@ -89,10 +107,7 @@ def min_maxN(board, depth, alpha, beta, piece_count):
         # if the move is a capture, decrement the count of the captured piece
         was_capture = False
         if board.is_capture(move):
-            captured_piece = str(board.piece_at(move.to_square))
-            if (captured_piece == 'None'):
-                print(f"MOVE TO: {move.to_square}")
-                print(f"FEN: {board.fen()}")
+            captured_piece = get_captured_piece(board, move)
             piece_count[captured_piece] -= 1
             was_capture = True
 
@@ -122,7 +137,9 @@ def min_maxN(board, depth, alpha, beta, piece_count):
     return (bestScore, moves[scores.index(bestScore)])
         
 # a simple wrapper function as the display only gives one imput , BOARD
-def play_min_maxN(board):
-    N=2*2 # depth 2 but multiply by 2 to ensure both players play per depth
-    piece_count = initialize_piece_count(board)
-    return min_maxN(board,N, float('-inf'), float('inf'), piece_count)[1]
+def min_max_agent(N):
+    N*=2 # depth N but multiply by 2 to ensure both players play per depth
+    def minMaxDelegate(board):
+        piece_count = initialize_piece_count(board)
+        return min_maxN(board,N, float('-inf'), float('inf'), piece_count)[1]
+    return minMaxDelegate

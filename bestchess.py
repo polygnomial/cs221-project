@@ -2,7 +2,9 @@
 import pygame
 import chess
 import math
-from agent import play_min_maxN
+import time
+from agent import min_max_agent, random_agent
+from collections import defaultdict
 
 
 #initialise display
@@ -19,9 +21,6 @@ BLUE = (50, 255, 255)
 BLACK = (0, 255, 0)
 TAN = (236, 218, 185)
 BROWN = (174, 138, 104)
-
-#initialise chess board
-b = chess.Board()
 
 #load piece images
 pieces = {
@@ -171,7 +170,9 @@ def main(BOARD):
             print(BOARD)
     pygame.quit()
 
-def main_one_agent(BOARD,agent,agent_color):
+def main_one_agent(agent,agent_color):
+    #initialise chess board
+    board = chess.Board()
     
     '''
     for agent vs human game
@@ -191,11 +192,11 @@ def main_one_agent(BOARD,agent,agent_color):
     while (status):
         drawBoard()
         #update screen
-        update(scrn,BOARD)
+        update(scrn,board)
         
      
-        if BOARD.turn==agent_color:
-            BOARD.push(agent(BOARD))
+        if board.turn==agent_color:
+            board.push(agent(board))
             scrn.fill(BLACK)
 
         else:
@@ -225,21 +226,21 @@ def main_one_agent(BOARD,agent,agent_color):
                         move = moves[index_moves.index(index)]
                         #print(BOARD)
                         #print(move)
-                        BOARD.push(move)
+                        board.push(move)
                         index=None
                         index_moves = []
                         
                     # show possible moves
                     else:
                         
-                        piece = BOARD.piece_at(index)
+                        piece = board.piece_at(index)
                         
                         if piece == None:
                             
                             pass
                         else:
 
-                            all_moves = list(BOARD.legal_moves)
+                            all_moves = list(board.legal_moves)
                             moves = []
                             for m in all_moves:
                                 if m.from_square == index:
@@ -258,17 +259,20 @@ def main_one_agent(BOARD,agent,agent_color):
                             index_moves = [a.to_square for a in moves]
      
     # deactivates the pygame library
-        if BOARD.outcome() != None:
-            print(BOARD.outcome())
+        if board.outcome() != None:
+            print(board.outcome())
             status = False
-            print(BOARD)
+            print(board)
     pygame.quit()
 
-def main_two_agent(BOARD,agent1,agent_color1,agent2):
+def main_two_agent(agent1,agent2):
     '''
     for agent vs agent game
     
     '''
+    #initialise chess board
+    board = chess.Board()
+    agent_color1 = board.turn
   
     #make background black
     scrn.fill(BLACK)
@@ -281,13 +285,13 @@ def main_two_agent(BOARD,agent1,agent_color1,agent2):
     while (status):
         drawBoard()
         #update screen
-        update(scrn,BOARD)
+        update(scrn,board)
         
-        if BOARD.turn==agent_color1:
-            BOARD.push(agent1(BOARD))
+        if board.turn==agent_color1:
+            board.push(agent1(board))
 
         else:
-            BOARD.push(agent2(BOARD))
+            board.push(agent2(board))
 
         scrn.fill(BLACK)
             
@@ -300,12 +304,47 @@ def main_two_agent(BOARD,agent1,agent_color1,agent2):
                 status = False
      
     # deactivates the pygame library
-        if BOARD.outcome() != None:
-            print(BOARD.outcome())
+        if board.outcome() != None:
+            print(board.outcome())
             status = False
-            print(BOARD)
+            print(board)
+            drawBoard()
+            #update screen
+            update(scrn,board)
+            time.sleep(5)
     pygame.quit()
 
-# main_two_agent(b,play_min_maxN,b.turn,play_min_maxN)
+def main_headless_two_agent(agent1,agent2):
+    #initialise chess board
+    board = chess.Board()
+    agent_color1 = board.turn
+    '''
+    for agent vs agent game
+    
+    '''
 
-main_one_agent(b,play_min_maxN,b.turn)
+    status = True
+    winner = None
+    while (status):
+        if board.turn==agent_color1:
+            board.push(agent1(board))
+        else:
+            board.push(agent2(board))
+     
+        if board.outcome() != None:
+            print(board.outcome())
+            status = False
+            print(board)
+            winner = board.outcome().winner
+    return winner
+
+numGames = 50
+for i in range(numGames):
+    winnerMap = defaultdict(lambda: 0)
+    winner = main_headless_two_agent(min_max_agent(2), random_agent)
+    winnerMap[winner] += 1
+
+for winner in winnerMap:
+    print(f"{winner} won {winnerMap[winner]}/{numGames}")
+
+# main_one_agent(b,play_min_maxN,b.turn)
