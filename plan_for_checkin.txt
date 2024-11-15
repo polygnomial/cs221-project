@@ -108,3 +108,54 @@ def eval_board(BOARD):
 2. pawn shield and pawn storm (Prerna)
 3. trapped pieces (Adhish)
 - if trapped pieces is too hard, King Tropism and Virtual Mobility
+
+
+
+
+
+
+def eval_pawn_storm(piece_count, board):
+    '''
+    From https://www.chessprogramming.org/King_Safety
+    If the enemy pawns are near to the king, there might be a threat of
+    opening a file, even if the pawn shield is intact. Penalties for storming
+    enemy pawns must be lower than penalties for (semi)open files,
+    otherwise the pawn storm might backfire, resulting in a blockage.
+    '''
+
+    print("\n------------ Starting Pawn Storm Evaluation ------------")
+    print(f"Current board position:\n{board}")
+    print(f"Piece count: {piece_count}")
+    
+    white_king_square = None
+    black_king_square = None
+    for square in chess.SQUARES:
+        piece = board.piece_at(square)
+        if piece is not None:
+            if piece.symbol() == 'K':
+                white_king_square = square #Getting white kind position
+                print(f"White king found at square: {chess.square_name(white_king_square)}")
+            elif piece.symbol() == 'k':
+                black_king_square = square #Getting black kind position
+                print(f"Black king found at square: {chess.square_name(black_king_square)}")
+
+    if white_king_square is None or black_king_square is None:
+        print("Missing king(s), returning 0")
+        return 0 #If either king is missing dont proceed
+
+
+    print("\nEvaluating White's pawn storm:")
+    white_storm_score = eval_side_storm(board, chess.WHITE, piece_count, white_king_square,
+                                        black_king_square)
+    print(f"White's storm score: {white_storm_score}")
+
+    print("\nEvaluating Black's pawn storm...")
+    black_storm_score = eval_side_storm(board, chess.BLACK, piece_count, black_king_square,
+                                        white_king_square)
+    print(f"Black's storm score: {black_storm_score}")
+    
+    pawn_storm_score = white_storm_score - black_storm_score
+    print(f"\nFinal pawn storm score: {pawn_storm_score}")
+    #pdb.set_trace()  
+
+    return pawn_storm_score
