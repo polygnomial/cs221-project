@@ -3,6 +3,7 @@ from typing import Optional
 from agent import Agent, MiniMaxAgent, RandomAgent
 from collections import defaultdict
 from graphics import ChessGraphics
+from multiprocessing import Pool, cpu_count
 
 class ChessGame():
     def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True):
@@ -46,11 +47,24 @@ class ChessGame():
 
 # ChessGame(player2=MiniMaxAgent(depth=2)).run()
 
-numGames = 50
-winnerMap = defaultdict(lambda: 0)
-for i in range(numGames):
-    winner = ChessGame(player1=RandomAgent(), player2=MiniMaxAgent(depth=2), useGraphics=False).run()
-    winnerMap[winner] += 1
+# Simulate a single game and return the winner
+def simulate_game(_):
+    return ChessGame(player1=RandomAgent(), player2=MiniMaxAgent(depth=2), useGraphics=False).run()
 
-for winner in winnerMap:
-    print(f"{winner} won {winnerMap[winner]}/{numGames}")
+if __name__ == "__main__":
+    numGames = 50
+    numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
+
+    # Use multiprocessing.Manager to handle shared state (optional, if needed)
+    with Pool(processes=numWorkers) as pool:
+        # Run games in parallel
+        results = pool.map(simulate_game, range(numGames))
+
+    # Aggregate results
+    winnerMap = defaultdict(int)
+    for winner in results:
+        winnerMap[winner] += 1
+
+    # Print the results
+    for winner, count in winnerMap.items():
+        print(f"{winner} won {count}/{numGames}")
