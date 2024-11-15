@@ -105,5 +105,6 @@ def eval_board(BOARD):
 
 
 1. piece square table (Flynn)
-2. pawn shield (Prerna)
+2. pawn shield and pawn storm (Prerna)
 3. trapped pieces (Adhish)
+- if trapped pieces is too hard, King Tropism and Virtual Mobility
