@@ -1,0 +1,2794 @@
+French Defense: Marshall Variation
+r3kb1r/1p2n1pp/1pn2p2/1B1pNb2/8/2N5/PPP3PP/R1B2RK1 w kq - 0 13
+Queen's Pawn Game #2
+r1bqr1k1/pp3ppp/2pb1n2/4N3/4p3/2PB4/PP1NQPPP/R1B2RK1 w - - 0 12
+English Opening: Anglo-Indian Defense, King's Knight Variation
+r2q1rk1/pb1nbppp/1p2pn2/2p3N1/2P1p3/1PNP2P1/P4PBP/R1BQ1RK1 w - - 2 11
+Petrov's Defense #2
+rnb1r1k1/ppp1qppp/8/8/8/3P1N2/PPP1BPPP/R2QK2R w KQ - 4 12
+Nimzowitsch-Larsen Attack
+r2q1rk1/ppp1bppp/2n1pn2/8/2B3b1/1P2PN2/PB1P1PPP/RN1Q1RK1 w - - 3 9
+Sicilian Defense: Franco-Sicilian Variation
+r3kb1r/pp2qppp/3p1n2/2pP4/2P2n2/2N2Q1P/PP2BPP1/R3K2R w KQkq - 0 13
+Budapest Defense
+r1b2rk1/pp1pqppp/2p5/8/1bP5/2NQP2P/PP1B1PP1/R3K2R w KQ - 0 13
+Italian Game: Anti-Fried Liver Defense
+r4rk1/1pp1q1pn/1pnpp2p/4p3/1P2P2P/P4N2/1BPP1PP1/R2QR1K1 w - - 1 14
+Hungarian Opening
+r2qk2r/pp1n1ppp/8/2p1p1b1/1nPpP3/1P1P2PB/PB3P1P/RN1QK2R w KQkq - 3 12
+Queen's Gambit Refused: Baltic Defense, Pseudo-Slav
+r2q1rk1/pp1n1pp1/2pbp2p/8/2PPn3/3Q1N2/PP3PPP/R1B1R1K1 w - - 0 13
+Sicilian Defense
+r1bq1rk1/1p2bppp/p2p1n2/2p1p3/2P1P3/3P1N2/PP2BPPP/R2QBRK1 w - - 0 11
+Scandinavian Defense: Mieses-Kotroc Variation
+rnb3nr/1p1k4/p1pbp2p/4q3/4B3/2NQ4/PPPP1PPP/R1B2RK1 w - - 2 16
+Queen's Gambit Declined: Normal Defense
+r4rk1/pp1b1ppp/2N1p3/2b5/2B5/1P2PP2/P5PP/R1Bq1RK1 w - - 0 14
+Slav Defense: Exchange Variation
+r1bqk2r/3nbppp/p3pn2/1p1p2B1/3P4/P1N2N2/1PQ1PPPP/3RKB1R w Kkq - 2 10
+French Defense: Advance Variation, Nimzowitsch System
+2kr2nr/pp1b2pp/1qn1p3/3pP1N1/2p5/P1N1b3/1PPQBPPP/1R3RK1 w - - 0 14
+French Defense: Knight Variation
+r1b2rk1/p1qn1ppp/2pb1n2/1p1p2B1/3P4/2NB1NP1/PPP2P1P/R2QR1K1 w - - 0 11
+Queen's Pawn Game: Chigorin Variation
+r2q1rk1/1pp1ppbp/p1n3p1/3p3n/3P1B2/2PBPP1P/PPQN1P2/R3K2R w KQ - 1 11
+Modern Defense: Geller's System
+r2q1rk1/pb2n1bp/1pnpppp1/8/3P3B/2PB1N2/PP1N1PPP/R2Q1RK1 w - - 2 12
+Sicilian Defense: Open #3
+1r1q1rk1/4ppbp/2npbnp1/1p6/4P3/1PN1BPP1/P3N1BP/R2Q1RK1 w - - 0 15
+Italian Game: Hungarian Defense
+r2q1rk1/pp2bppp/5n2/n1pp1P2/8/3B3P/PPP2PP1/RNBQR1K1 w - - 0 12
+King's Pawn Game: Tayler Opening
+r1bq1rk1/ppp2pp1/2np1n1p/b3p3/4P3/2PP1N1P/PP1BBPP1/RN1Q1RK1 w - - 2 9
+English Opening: King's English Variation, Two Knights Variation, Keres Variation
+r2qkb1r/1p3ppp/2n1bn2/p2pp3/8/P1NP1NP1/1P2PPBP/R1BQK2R w KQkq - 0 9
+Horwitz Defense
+r1bq1rk1/pppn2pp/3bp3/3pNp2/3PnP2/2PBP1P1/PP1N3P/R1BQK2R w KQ - 4 10
+Ruy Lopez: Morphy Defense, Modern Steinitz Defense
+r4rk1/2p1bpp1/p2p1n1p/2p1p3/P3P3/1qPPBN1P/1P1Q1PP1/R4RK1 w - - 1 17
+Scandinavian Defense: Mieses-Kotroc Variation
+rn2kbnr/4pppp/2p1b3/p7/8/1P1PBP2/1qP3PP/1NKR1BNR w kq - 0 15
+Horwitz Defense
+3r1rk1/pp3ppp/4pn2/2n1N3/1q3P2/2N2Q2/PP3PPP/R4RK1 w - - 6 15
+Bird Opening
+3q1rk1/1p2bppp/p1r1pn2/2pp4/5P2/1P1PP3/PBPN2PP/R2Q1RK1 w - - 4 13
+Caro-Kann Defense: Panov Attack
+rnbq1rk1/1p2bppp/p3pn2/8/2pP4/P1NB1N2/1P3PPP/R1BQ1RK1 w - - 0 10
+Scandinavian Defense: Modern Variation #2
+r2q1rk1/pp2bpp1/2p1pn1p/8/2B5/P1PP1Q1P/2PB1PP1/R4RK1 w - - 2 15
+French Defense: Knight Variation
+rn1qk2r/pp3ppp/4b3/2bn4/2B5/5N2/PP3PPP/RNBQK2R w KQkq - 2 9
+Zukertort Opening: Tennison Gambit
+rn1q1rk1/pppbbppp/4pn2/8/3P4/2NBBN2/PP3PPP/R2Q1RK1 w - - 8 13
+Philidor Defense #2
+rnbq1rk1/4bppp/p1pp1n2/1p4B1/3NP3/1BN5/PPPQ1PPP/R3K2R w KQ - 0 10
+Center Game: Normal Variation
+r2qr1k1/pppb1ppp/3p1n2/8/1b2P3/2NnBP1P/PPPQN1P1/R3K2R w KQ - 0 12
+Tarrasch Defense: Classical Variation, Endgame Variation
+2r2rk1/p4pp1/1qp1bb1p/3p4/8/1PN1P1P1/P4PBP/2RQ1RK1 w - - 1 16
+Sicilian Defense: Najdorf Variation
+rnb1k2r/1pq1bppp/p2ppn2/6B1/3NP3/2NB1Q2/PPP2PPP/R3K2R w KQkq - 4 9
+Italian Game: Two Knights Defense, Modern Bishop's Opening
+r2q1rk1/ppp1bppp/2n5/4p3/2B3b1/3PPN2/PPPN2PP/R2Q1RK1 w - - 3 10
+Sicilian Defense: Loewenthal Variation
+r2qk2r/pp2bppp/2np1n2/1B2pP2/8/2N5/PPP2PPP/R1BQK2R w KQkq - 3 9
+Sicilian Defense: Marshall Counterattack
+2rq1rk1/bp2n1pp/p1n2p2/3p3b/8/1N1B1NBP/PPP2PP1/R2QR1K1 w - - 4 15
+King's Indian Defense: Semi-Classical Variation
+r1bqrnk1/ppp2pbp/3ppnp1/3P4/2P5/2N1PN2/PP2BPPP/R1BQR1K1 w - - 0 10
+Nimzo-Indian Defense: Normal Line
+r4rk1/1bpnqppp/p4n2/1p1p4/8/P1N1P3/BPQ2PPP/R1BR2K1 w - - 0 14
+Giuoco Piano
+r1b2rk1/ppp2pp1/2np1q1p/2b1p3/2B1P3/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9
+French Defense: Queen's Knight
+2kr3r/pppb1ppp/2nbp3/8/2B5/2P1BN2/PPP1KPPP/R2R4 w - - 7 11
+English Opening: King's English Variation, Nimzowitsch Variation
+r2q1r1k/pp1nb1pp/2ppbn2/4pp2/1PP5/P1NP1NP1/1B2PPBP/R2Q1RK1 w - - 3 11
+Owen Defense
+r2qkb1r/2pp1ppp/bp2p3/p2P4/2P1P3/4Q3/PP1NNPPP/R4RK1 w kq - 1 12
+Three Knights Opening
+rn1qk2r/pppb1p2/5n1p/2b1p3/2BN2pP/P1N5/1PP2PP1/R1BQ1RK1 w kq - 0 13
+Hungarian Opening
+r1bqr1k1/pp1n1pbp/1np3p1/3p4/3P1B2/2N2NP1/PPP2PBP/R2QR1K1 w - - 2 13
+Semi-Slav Defense: Accelerated Move Order
+r2q1rk1/1p1b2pp/p1n1p3/3pP3/4pP2/P3P3/1PB3PP/R1BQ1RK1 w - - 2 15
+Dutch Defense
+rnb2rk1/ppb2qpp/2p5/1PPpp3/3Pp1N1/2N1P3/P4PPP/R1BQ1RK1 w - - 0 14
+Scandinavian Defense: Main Line, Mieses Variation
+r2q1rk1/pp1nbppp/2p2pb1/8/2BP4/2P2PN1/PP1B2PP/R2Q1RK1 w - - 7 14
+Queen's Gambit Declined
+r4rk1/pp4pp/2nqpn2/3p4/8/2NBP2P/PP3PP1/R2QK2R w KQ - 4 13
+Caro-Kann Defense: Exchange Variation
+r1bq1rk1/pp3ppp/2nbpn2/3p4/1P1P4/P2B1N1P/2P2PP1/RNBQK2R w KQ - 1 9
+Van Geet Opening
+r1bq1rk1/pp2ppbp/2n2np1/3p4/3P4/1PN2N2/PBP1BPPP/R2Q1RK1 w - - 0 10
+Four Knights Game: Italian Variation
+r2q1rk1/ppp2ppp/2n1b3/2nBP3/8/2P2N2/P1P2PPP/R1BQK2R w KQ - 3 11
+Scandinavian Defense: Main Line
+rn2k2r/ppq2ppp/2pbpn2/7b/3P4/2N2N1P/PPPBBPP1/R2Q1RK1 w kq - 3 11
+Nimzo-Larsen Attack
+r4rk1/p1qn2bp/2p3p1/1p2p3/1P2Pp2/3B3P/PBPP2P1/R2Q1RK1 w - - 0 17
+Scandinavian Defense
+r3kb1r/pp1b1ppp/2n1pn2/2p5/4P3/5PN1/PPPN2PP/R1BK1B1R w kq - 2 9
+Sicilian Defense: Pin Variation
+r2qr1k1/1p2bpp1/p1npbn1p/4p3/4P3/P1NB2BP/1PP1NPP1/R2Q1RK1 w - - 2 15
+Queen's Pawn Game: Zukertort Variation
+r2q1rk1/4bpp1/p1p1pn1p/1p1pB3/P2P4/2PQP3/1P1N1PPP/R3K2R w KQ - 1 14
+Sicilian Defense: McDonnell Attack
+r1bqk2r/1p2npbp/p1npp1p1/2p5/2B1PP2/P1PP1N2/1P4PP/RNBQ1RK1 w kq - 0 9
+Indian Game: Budapest Defense
+r2q1rk1/pppn1ppp/3p1n2/5bB1/1bP5/2N1P3/PP3PPP/2RQKBNR w K - 1 9
+Caro-Kann Defense
+2r1k2r/ppqn1ppp/4pn2/3p4/2P2b2/P2PBN2/1P1N1PPP/R2Q1RK1 w k - 1 12
+Caro-Kann Defense: Exchange Variation
+rn1q1rk1/p4ppp/bp2pn2/3pN3/3P4/2B2Q2/PPP2PPP/R3KB1R w KQ - 2 11
+King's Pawn Game: Napoleon Attack
+r1bq1rk1/2p2ppp/p2p1b2/np2p3/4P3/1BPP1Q1P/PP3PP1/R1B1K1NR w KQ - 0 11
+Bishop's Opening: Berlin Defense
+2rq1rk1/1p3ppp/2np1b2/1p2p3/4P3/2PP4/R2NNPPP/3Q1RK1 w - - 4 18
+French Defense: Steinitz Attack
+r2q1rk1/pppbnpp1/3bp1np/8/3P4/2PB1N2/PPQN1PPP/R1B1K2R w KQ - 6 11
+Sicilian Defense: Old Sicilian
+r3kb1r/1b3ppp/p2p1q2/1pp1p3/4P3/3P1N2/PPP2PPP/RN1Q1RK1 w kq - 0 12
+French Defense: Knight Variation
+rn2kbnr/pp3ppp/4p3/1q1p4/8/2N2N2/PPPP1PPP/R1B1K2R w KQkq - 0 9
+Caro-Kann Defense: Exchange Variation
+2rqr1k1/pp1bpp1p/2n2bp1/3p4/3P4/2PB4/PP1NNPPP/R2Q1RK1 w - - 8 13
+Ruy Lopez: Closed
+r1bqk2r/4bp1p/p2p1n2/npp1p3/4P1p1/2PP1N1P/PPB2PP1/RNBQR1K1 w kq - 0 12
+King's Pawn Game: Leonardis Variation
+2kr1n1r/ppp3pp/5p2/2q1p1P1/1n2P2P/2NP1N2/bPP1Q1B1/2KR2R1 w - - 0 18
+Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line
+r3kb1r/ppp2ppp/5n2/n2qp1N1/8/8/PPPP1PPP/RNBQ1RK1 w kq - 0 9
+Mieses Opening
+r3k1nr/pbpnqp1p/1p1pp1p1/8/4P3/P1NP1P2/1PP1N1PP/R2QKB1R w KQkq - 0 9
+Old Benoni Defense
+2r2rk1/1bqnppbp/pp1p1np1/8/1PP5/P3PN1P/1B1NBPP1/2RQ1RK1 w - - 5 16
+Queen's Gambit Accepted
+rnb1r1k1/ppp2ppp/3b4/8/4PP2/2NpBN2/PP4PP/3RK2R w - - 6 13
+Queen's Pawn Game: Chigorin Variation
+r3k2r/1b1n2pp/p3pp2/1pqp4/6P1/2N1PP2/PPPQ3P/1K1R1B1R w kq - 0 15
+Caro-Kann Defense
+r2qk2r/pp2bppp/2n1pn2/3p2Bb/3P4/2PB1N1P/PP3PP1/RN1Q1RK1 w kq - 2 10
+Caro-Kann Defense: Classical Variation
+2kr3r/1p1nbppb/p1p1pn1p/8/3PN2B/1PPB1PN1/1P4PP/R4RK1 w - - 4 15
+Indian Game: Colle System, King's Indian Variation
+r1bq1rk1/pppn2bp/6p1/4pp2/4B3/2P1PN2/PP3PPP/R1BQ1RK1 w - - 0 11
+Scandinavian Defense: Main Line
+2kr3r/ppq2ppp/3bpn2/2p5/2PP1P2/7P/PP1BQ1PN/R4RK1 w - - 0 16
+Van't Kruijs Opening
+rnb2rk1/ppp2pbp/3p2p1/4p1P1/8/3BP3/PPPP1PP1/RNB1K2R w KQ - 1 11
+King's Pawn Game: Macleod Attack
+r1b2rk1/ppp2ppp/2n1qn2/8/4p3/2P4P/PP1PBPP1/RNBQ1RK1 w - - 3 10
+Caro-Kann Defense: Exchange Variation
+r2q1rk1/pp1nppbp/5np1/3p4/3P4/2P1BN2/PP3PPP/RN1Q1RK1 w - - 4 10
+Old Benoni Defense
+2kr3r/ppq2ppp/2nbpn2/3p4/3P1P2/2PB2Q1/PP1N2PP/R1B2RK1 w - - 6 12
+Scandinavian Defense
+r3kb1r/pp1q1p1p/n4p2/2p3p1/1P1pP1b1/2PP1N2/P1Q2PPP/R1B1KB1R w KQkq - 1 12
+Benoni Defense: Benoni Gambit Accepted
+r1bqk2r/pp1nbppp/2n1p3/3pP1B1/8/2NB1N2/PPP2PPP/R2QK2R w KQkq - 5 9
+Scandinavian Defense: Mieses-Kotroc Variation
+r1b2rk1/ppq1bppp/2p2n2/3pN3/3P1P2/3B3P/PPP3P1/R1BQ1RK1 w - - 2 14
+Indian Game
+r2q1rk1/pb2p1bp/1pn3p1/1Bp2p2/1P1P4/P1P1Pp2/3N2PP/R1BQ1RK1 w - - 0 14
+Sicilian Defense
+r2qk2r/pb1n1pbp/1pnpp1p1/2p3P1/4P3/2NPBN1P/PPPQBP2/R3K2R w KQkq - 1 11
+King's Indian Attack
+r4rk1/pp1qbpp1/2p2nnp/8/3pP3/3P2PP/PPP1N1B1/R1B1QRK1 w - - 1 15
+Philidor Defense #2
+r1bqk2r/pp2npbp/2np2p1/4p3/1NP1P3/5N1P/P2P1PP1/R1BQKB1R w KQkq - 1 9
+Queen's Indian Defense
+rn1qk2r/pbp2pp1/1p1ppn1p/8/2PP3B/2P1PN2/P4PPP/R2QKB1R w KQkq - 0 9
+Sicilian Defense: Najdorf Variation
+2rq1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQB1PP/2KR3R w - - 10 12
+Sicilian Defense: McDonnell Attack
+r1b2rk1/pp2bnpp/1q2p3/2pp3B/8/3P2BP/PPP3P1/RN1Q1RK1 w - - 4 15
+Tarrasch Defense
+2r2rk1/1p2bppp/p4n2/3p1q2/3P4/P1N1B3/1P1Q1PPP/2R2RK1 w - - 3 16
+Saragossa Opening
+r1b1r1k1/ppbnqpp1/2p2n1p/4p3/2N1P2B/2P2N2/PPQ1BPPP/3RK2R w K - 6 13
+French Defense: Classical Variation, Burn Variation, Main Line
+r1b1r1k1/ppp2ppp/5q2/4n3/8/2PB1N2/PP3PPP/R2Q1RK1 w - - 0 13
+King's Pawn Game: Maroczy Defense
+r2k1bnr/pp1n2pp/2p1bp2/4p3/4P3/2N1B3/PPP2PPP/2KR1BNR w - - 0 9
+Queen's Pawn Game: Mason Attack
+rn1q1rk1/6bp/p1p2pp1/1p1p3n/3P4/2NQPN1P/PPP2P1B/R3K2R w KQ - 0 14
+French Defense: Exchange Variation
+r1bq1rk1/ppp2ppp/2nb1n2/8/2BP4/2N2N2/PP3PPP/R1BQ1RK1 w - - 5 9
+Pirc Defense #4
+r4k1r/ppqb1p2/4p1p1/3pb2p/8/1B2B2P/PPP2PP1/2RQ1RK1 w - - 0 17
+Italian Game: Schilling-Kostic Gambit
+r1bq1rk1/1p2bppp/2pp1n2/p3p3/2B1P3/2NPBQ2/PPP2PPP/R4RK1 w - - 0 11
+King's Pawn Game
+r2q1rk1/ppp2ppp/2n5/2bn4/5N2/2P3PP/PP1P2K1/RNBQ1R2 w - - 1 14
+Queen's Gambit Declined
+r4rk1/3b1ppp/p1nNpn2/1p6/2B5/P3P3/1P1N1PPP/R3K2R w KQ - 0 15
+English Opening: King's English Variation
+r3k2r/pppq1ppp/2n2n2/4p3/2PpP2P/1P1P1N2/P2bBPP1/R2QK2R w KQkq - 0 12
+Indian Game
+r2qr1k1/pbpnppbp/1p1p1np1/8/3P1B2/2P1PN1P/PP1NBPP1/R2Q1RK1 w - - 6 10
+French Defense: Exchange Variation
+rn2r1k1/pbp2ppp/1p1q1n2/3p4/3P4/2PB3P/PP2NPP1/RN1Q1RK1 w - - 1 11
+Philidor Defense #3
+r2bk2r/pp1q1pp1/2np1np1/2p1p3/2B1P1P1/P1PP1Q1P/1P3P2/RNB2RK1 w kq - 2 13
+Scotch Game
+r4rk1/1p2bpp1/p2pbn1p/2p5/4P3/2NBB2P/PPP2PP1/R4RK1 w - - 2 14
+King's Indian Defense: Saemisch Variation, Normal Defense
+r1bq1r2/pppn2kp/3p2p1/3Pp2n/2P1p3/2NB1P2/PP1Q2PP/R3K1NR w KQ - 0 12
+Ruy Lopez: Berlin Defense #2
+r2qr1k1/1ppb2p1/p1nb1nNp/3p4/3P4/2N4P/PP3PP1/R1BQRBK1 w - - 4 17
+Italian Game: Classical Variation, Albin Gambit
+r1bq1rk1/ppp3pp/1bn2n2/3p4/5B2/2PB1N2/PP3PPP/RN1Q1RK1 w - - 0 11
+French Defense: Knight Variation
+rn1qr1k1/ppp2ppp/3b4/3p4/3Pn1b1/3B1NN1/PPPB1PPP/R2Q1RK1 w - - 13 11
+Sicilian Defense: Najdorf Variation, Opocensky Variation, Traditional Line
+r2q1rk1/1p2bppp/p1n1bn2/P2p4/4PR2/1NN5/1PP1B1PP/R1BQ2K1 w - - 0 13
+Slav Defense #2
+r2qk2r/pp3ppp/2bbpn2/3pN3/3P4/1QN1P3/PP3PPP/R1B2RK1 w kq - 2 12
+Alekhine Defense: Maroczy Variation
+r1bqr1k1/pppn1pbp/3p1np1/4p1B1/4P3/2NP1N2/PPPQBPPP/R4RK1 w - - 0 9
+Queen's Pawn Game: Symmetrical Variation, Pseudo-Catalan
+r1bqk2r/3n1ppp/1p2pn2/p1bp4/8/P4NP1/1PPNPPBP/R1BQ1RK1 w kq - 0 9
+Sicilian Defense: Smith-Morra Gambit
+r1n2rk1/pp1q1pbp/2nNp1p1/3pP3/3P4/5B1P/PP3PP1/R1BQ1RK1 w - - 1 14
+Horwitz Defense
+r1b1k2r/pp2qppp/2n1p3/3n4/8/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 10
+Old Benoni Defense #2
+rnbqr1k1/5pbp/pn1p2p1/1ppP4/4P3/2NB2N1/PPQB1PPP/4RRK1 w - - 12 14
+King's Gambit Declined, Queen's Knight Defense
+r1b2rk1/ppp2pp1/2n2q1p/4p3/4P3/3P1N2/PPP1B1PP/R2QK2R w KQ - 0 12
+Sicilian Defense: Morphy Gambit
+2rq3r/1p1pkpbp/p1nnp1p1/4P3/2B2P2/8/PPP3PP/R1BQ1RK1 w - - 0 15
+Sicilian Defense: Staunton-Cochrane Variation
+r2qkb1r/pp3ppp/2np4/2pnp3/2P1P3/5B2/PP1P1PPP/R1BQ1RK1 w kq - 0 9
+Sicilian Defense: Marshall Counterattack
+r1bq1rk1/4nppp/2p5/p1bp4/8/2N2N2/PPP2PPP/R1BQR1K1 w - - 0 11
+Sicilian Defense: Closed Variation
+1r1q1rk1/pb2bpp1/1pnppn1p/2p5/4PP2/2NPB1PP/PPP1N1BK/R2Q1R2 w - - 0 12
+Sicilian Defense
+1rbqk1nr/4ppbp/p1np2p1/1pp5/4P2P/P1NP1NP1/1PPB1P2/R2QKB1R w KQk - 1 9
+King's Pawn Game: Napoleon Attack
+r1bq1rk1/ppp1bppp/4pn2/4p1B1/4P3/2PP1Q2/PP3PPP/RN2K1NR w KQ - 4 10
+Zukertort Opening: Sicilian Invitation
+r1bq1rk1/1p2bppp/p1n1pn2/2p5/8/NP3NP1/PBP2PBP/R2QR1K1 w - - 0 12
+Sicilian Defense: Accelerated Dragon
+r2q1rk1/1b1p1pbp/p1n3p1/4p3/1pP1P3/1P1B1N2/PB3PPP/R2Q1RK1 w - - 0 15
+Nimzowitsch Defense
+r2q1rk1/ppp2ppp/2n1bn2/1B1p4/1b1P4/2N2N2/PPP1QPPP/R1B1K2R w KQ - 6 9
+Scandinavian Defense
+r3kbnr/p1p1pppp/2p5/8/8/5q2/PPPP1PPP/RNB1R1K1 w kq - 0 9
+Philidor Defense #4
+r1bq1rk1/pp3ppp/8/2np4/2p1P3/2P1P3/PPQNB1PP/R3K2R w KQ - 2 18
+Slav Defense: Exchange Variation
+2rq1rk1/pp1bbppp/2n1pn2/3p4/3P1B2/2N2NP1/PP2PPBP/2RQ1RK1 w - - 9 11
+Zukertort Opening: Sicilian Invitation
+r1bqr1k1/p4pbp/2p2np1/3pp3/2P5/1P2P3/PB1NBPPP/R2Q1RK1 w - - 0 12
+Yusupov-Rubinstein System
+rn1q1rk1/pb2bppp/1p1ppn2/8/3N4/PP2P3/1BP1BPPP/RN1Q1RK1 w - - 0 10
+Caro-Kann Defense: Maroczy Variation
+r2qk1nr/p2b1ppp/1bp1p3/3pP3/1P1B4/P1N2P2/2P3PP/R2QK1NR w KQkq - 1 12
+Caro-Kann Defense: Advance Variation, Short Variation
+2rq1rk1/1p2bppp/p3p1b1/3pPn2/3P4/P1B2N2/BP3PPP/2RQR1K1 w - - 0 17
+Nimzo-Larsen Attack: Classical Variation
+3r1r2/1pq1ppkp/p5p1/2p5/1nP2Pb1/1P2PN2/P1Q1B1PP/R4RK1 w - - 1 16
+Russian Game: Modern Attack, Center Attack
+r3k2r/ppp1bppp/2n1b3/1n6/8/3BBN2/PPP2PPP/R4RK1 w kq - 0 13
+Horwitz Defense
+r1bq1rk1/pp3pp1/4pn1p/2np4/6P1/2NBPN1P/PPPQ1P2/R3K2R w KQ - 0 11
+Dutch Defense: Classical Variation
+r3qrk1/pbpn2pp/1p1ppn2/5p2/2PP4/P1BBPN2/1P2QPPP/R3K2R w KQ - 3 12
+Italian Game: Classical Variation #2
+r2q1rk1/2p2pp1/p1np1n1p/1pb1p2b/2B1P3/2PP1N1P/PP1N1PP1/R1BQ1RK1 w - - 0 12
+Sicilian Defense: Sozin, not Scheveningen
+r2qk2r/4bppp/p1ppbn2/6B1/2B1PR2/2N5/PPP3PP/R2Q2K1 w kq - 1 12
+Sicilian Defense: Old Sicilian
+r2qkb1r/pp3ppp/2b2n2/2pp4/8/3P1N1P/PPP2PP1/RNBQK2R w KQkq - 0 9
+Vienna Game: Falkbeer Variation
+r2q1rk1/ppp2ppp/5n2/4p3/3bP1P1/3PBQ1P/PPP5/R3KB1R w KQ - 0 13
+Petrov's Defense #2
+r3k2r/ppp1bppp/2np4/8/3P2b1/8/PPPN1PPP/R1B1KB1R w KQkq - 1 10
+Zukertort Opening: Kingside Fianchetto
+r1bq1rk1/pppn1pbp/5np1/4p3/8/2P2NP1/PP1NPPBP/R1BQ1RK1 w - - 0 9
+Philidor Defense: Exchange Variation
+r2q1rk1/ppp1bppp/3p1n2/5PB1/8/2Nn4/PPP2PPP/R2QR1K1 w - - 0 12
+Scandinavian Defense: Modern Variation #2
+r4rk1/pp3ppp/2qb4/4n3/2P5/7P/PP3PP1/RNBQ1R1K w - - 0 14
+Nimzowitsch Defense
+1r1q1rk1/2pb1ppp/pbnp4/1p1Bp3/1P2P3/P2P1N1P/2P2PP1/R1BQ1RK1 w - - 1 13
+Scotch Game: Schmidt Variation
+r1b2rk1/p1pp1ppp/2p1q3/2b1n1B1/4P3/2NB1Q1P/PPP2PP1/R4RK1 w - - 1 12
+Philidor Defense #3
+r3k1n1/ppp1bpp1/1n1p2q1/4p3/2N1P3/1BPPB2r/PP1Q1P1P/R4R1K w q - 0 16
+Queen's Gambit Declined: Harrwitz Attack
+r2q1rk1/1b1n1pp1/p3pn1p/1pb3N1/4NB2/P2BP3/1P3PPP/R2Q1RK1 w - - 0 14
+Dutch Defense: Classical Variation
+rnbq1rk1/ppp1b1pp/8/3p4/3PB3/6P1/PP2NP1P/R1BQK2R w KQ - 0 11
+Four Knights Game: Spanish Variation, Rubinstein Variation Accepted
+r1b1kb1r/2ppqppp/p7/1p6/B2Nn3/8/PPPPQPPP/R1B1K2R w KQkq - 0 10
+English Opening: Great Snake Variation
+rn1qk2r/pp2n1bp/2p1b1p1/3p1p2/5P2/3P2P1/PP2PNBP/RNBQ1RK1 w kq - 1 10
+Philidor Defense #3
+r1bqkb1r/p4pp1/2pp1n1p/1p2p3/4P3/PnNPBN1P/1PP2PP1/R2QK2R w KQkq - 0 10
+Scotch Game
+r1b1kb1r/p1p1n1p1/2p2p1p/4p3/4P3/2N2N2/PPPB1PPP/R3K2R w KQ - 2 11
+Scandinavian Defense: Mieses-Kotroc Variation
+r2q1rk1/pp1nbppp/2p1p3/8/3P4/4nB2/PPPQNPPP/R3R1K1 w - - 0 15
+Bird Opening
+r2qk2r/1p1nbppp/p1n1p3/3p4/2pP1P2/P3P3/1PP1B1PP/RNBQ1RK1 w kq - 0 11
+Queen's Pawn Game #2
+r4rk1/pp1nnppp/1qpb4/3p1b2/3P4/1P1BPN2/P4PPP/RNBQ1RK1 w - - 5 11
+Caro-Kann Defense: Exchange Variation
+2rqk2r/p4pp1/2nbp1p1/3p3n/1p1P4/2PQBP2/PP1NN1PP/1K1R3R w k - 0 16
+Sicilian Defense: Smith-Morra Gambit #2
+r4rk1/ppq1b1pp/2b1p3/5p2/6Q1/2P1BN1P/PP3PP1/3RK2R w K - 0 17
+Queen's Pawn Game #3
+r4k1r/1ppqbppp/p3pn2/3p4/P2P4/2N1P3/1PPB1PPP/R2Q1RK1 w - - 2 12
+Sicilian Defense: Chekhover Variation
+r2qk2r/p2bbppp/3ppn2/2p3B1/2PQP3/5N2/PP3PPP/RN2R1K1 w kq - 0 11
+Sicilian Defense: Kan Variation, Knight Variation
+r3nr1k/1pqb1ppp/p1npp3/6bP/3NP3/2N3Q1/PPP1BPP1/2KR3R w - - 0 15
+Russian Game: Three Knights Game
+r3r1k1/pp1nqpp1/2p2n1p/3pp3/4P3/1PPPBQ1P/P4PPN/3R1RK1 w - - 4 15
+Queen's Pawn Game: Mason Attack
+2kr3r/pp1nqpp1/2p1pnp1/3pN3/3P4/1QPBP2P/PP3PP1/R3K2R w KQ - 5 15
+Benoni Defense: Benoni Gambit Accepted
+r1b2rk1/1p1pbpp1/p1n2q1p/2P1p3/1P6/P1P1P3/5PPP/RN1QKBNR w KQ - 1 10
+English Opening: Caro-Kann Defensive System
+2rqk2r/1b2bppp/p1n1pn2/1p1p4/1P1P1B2/P1N2NP1/4PPBP/R2Q1RK1 w k - 3 12
+Sicilian Defense: Old Sicilian
+r2qkb1r/3p1ppp/b1p1p3/p7/2Q1P3/2N1B3/PPP2PPP/R3K2R w KQkq - 2 12
+Queen's Pawn Game: Stonewall Attack
+r3kb1r/p3pp1p/n1p1q1p1/1p1p4/1P1PnP2/2P1PN2/P1Q3PP/R1B1K1NR w KQkq - 0 14
+Nimzo-Larsen Attack
+rn1q1rk1/pb2bppp/1pp1pn2/3p4/8/1P1PPN2/PBPNBPPP/R2Q1RK1 w - - 2 9
+Gruenfeld Defense: Stockholm Variation
+r2q1rk1/pb2ppbp/1pn2np1/2ppN1B1/2PP3P/2N1P3/PP2BPP1/R2QK2R w KQ - 2 10
+Benko Gambit Accepted, Fully Accepted Variation
+rr4k1/1b1p1pbp/q2Ppnp1/2p5/1nN5/2N3PP/PP2PPB1/1RBQ1RK1 w - - 5 16
+Queen's Pawn Game: Chigorin Variation
+r2qkb1r/pp3ppp/2n1pn2/1Bpp4/3P1B2/2N1PQ1P/PPP2PP1/R3K2R w KQkq - 2 10
+Italian Game
+2kr1b1r/pbp1qp2/1pnp1n1p/1B2p1p1/4P3/2NP1NB1/PPP2PPP/R2Q1RK1 w - - 4 11
+Van Geet Opening
+r2qkb1r/pppn1pp1/4pn1p/7P/3P4/3Q1NN1/PPP2PP1/R1B1K2R w KQkq - 1 11
+French Defense: La Bourdonnais Variation
+r3kb1r/1bpp1p1p/1pn1pnp1/p6q/3PPP2/2P3PP/PP2Q3/RNB1KBNR w KQkq - 1 12
+Caro-Kann Defense: Accelerated Panov Attack #2
+rn1qk2r/pp1bppbp/5np1/8/3P4/2NB1N2/PP3PPP/R1BQK2R w KQkq - 4 10
+King's Pawn Game: McConnell Defense
+r3k1nr/pppnbppp/3p2q1/3P2B1/4P3/5N2/PPP2PPP/RN1QK2R w KQkq - 2 10
+Queen's Gambit Refused: Marshall Defense
+r2q1rk1/pp2bpp1/2n1pn1p/2pp4/2PP4/P1N1P3/1P2BPPP/R1BQ1RK1 w - - 6 11
+English Opening: Carls-Bremen System
+1r1q1rk1/1bppnpbp/6p1/p2Np3/2P1P2P/P4NP1/1P3PB1/1R1Q1RK1 w - - 1 16
+Franco-Benoni Defense
+r1bq1rk1/pp1nbppp/3p1n2/2pP4/2B1PN2/2N5/PPP3PP/R1BQ1RK1 w - - 1 10
+Queen's Pawn Game #2
+r1bqr1nk/p2n1pbp/2p1p1p1/3p4/P2P4/B1NBPN2/2P2PPP/R2QK2R w KQ - 0 13
+English Opening: Anglo-Indian Defense, King's Knight Variation
+1br2rk1/ppqn1ppp/2p5/3p2Bb/NP1Pn3/P3PNPP/4BP2/R2Q1RK1 w - - 1 15
+Old Benoni Defense
+r2qkb1r/pp3ppp/4pn2/3pn3/3N4/2P1P3/PP2QPPP/RNB1K2R w KQkq - 0 10
+St. George Defense
+2rq1rk1/1b2bppp/pn1ppn2/1p6/1P1PP3/P2B1N2/1B1NQPPP/2R2RK1 w - - 5 14
+Four Knights Game: Italian Variation
+r4rk1/1pp2pp1/p2pbn1p/4p3/q3P3/3Pb2P/BPP2PPN/R2Q1R1K w - - 0 15
+Caro-Kann Defense
+r2qkb1r/pp3ppp/2n1pn2/3p4/3P4/2PQ1N2/PP3PPP/RNB2RK1 w kq - 2 9
+Queen's Gambit Declined
+rnbq1rk1/pp3ppp/4pn2/3p4/2Pp4/5NP1/PP1NPPBP/R2Q1RK1 w - - 0 9
+King's Gambit Declined, Queen's Knight Defense
+1r4nr/1ppk2bp/p1np4/3B2p1/4Pp2/P1NP3P/1PP3P1/R1B2RK1 w - - 0 14
+French Defense: La Bourdonnais Variation
+r2nk1nr/1bqp1ppp/1p1bp3/p1p1P3/3P1P2/2PB1N2/PP4PP/R1BQ1RK1 w kq - 0 14
+Queen's Pawn Game: Colle System
+r2q1rk1/1n2bpp1/4pn1p/2pp1b2/1pP5/PQB1PN2/3NBPPP/R4RK1 w - - 0 16
+Sicilian Defense: Smith-Morra Gambit #2
+r2q1rk1/pb2bppp/1pnppn2/6B1/4P3/2PB1N1P/PP3PP1/RN1Q1RK1 w - - 2 11
+Modern Defense
+rnq2rk1/1p1bppbp/p1p2np1/4p3/PP1P4/2PB1N2/5PPP/RNBQ1RK1 w - - 0 11
+Ruy Lopez: Classical Variation, Central Variation
+r3k1nr/1pp2ppp/p1p2qb1/2b1p3/4P1P1/2PP1N1P/PP3P2/RNBQ1RK1 w kq - 1 10
+King's Gambit
+rn1qkb1r/5ppp/2p2n2/1p2pPB1/p3p1b1/2PP1N2/PPB1Q1PP/RN2K2R w KQkq - 0 12
+Hungarian Opening: Catalan Formation
+1r1q1rk1/1b2bppp/p3p3/1p1pn3/3P1P2/1P4P1/PBP3BP/R2QR1K1 w - - 0 18
+English Opening: Symmetrical Variation, Anti-Benoni Variation
+r1b2rk1/pp3ppp/3p1n2/2q1n3/2PNp3/1QP3P1/P2BPPBP/R4RK1 w - - 4 14
+Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation
+rnb1k2r/1pq1bppp/p2ppn2/6B1/4PP2/1NN2Q2/PPP3PP/R3KB1R w KQkq - 5 10
+Owen Defense
+2rq1r2/1bp1npkp/p2p2p1/1p1Pp3/4P3/PnN4P/1PPQ1PPN/R4RK1 w - - 0 17
+Sicilian Defense: Dragon Variation, Levenfish Variation
+r2q1rk1/pp2ppbp/2np1np1/8/4PP2/2NB1b2/PPP3PP/R1B1QRK1 w - - 0 11
+King's Pawn Game: Mengarini's Opening
+r4rk1/ppp2pp1/1b1p1q1p/nP6/3PP3/P4N2/4BPPP/R2QK2R w KQ - 1 14
+King's Indian Defense: Semi-Averbakh System
+r1bq1rk1/1pp3bp/n2p1np1/p2Pp3/2P1P3/2N1BN2/PP2BP1P/R2QK2R w KQ - 0 12
+Reti Opening
+r2q1rk1/pb1nbppp/1pp1pn2/3p4/2P5/1P1PPN2/PB1NBPPP/R2Q1RK1 w - - 3 10
+Caro-Kann Defense: Two Knights Attack, Mindeno Variation, Exchange Line
+rn1qk2r/pp3ppp/4pn2/2p5/3pP3/3P1QPP/PPPN1P2/R3KB1R w KQkq - 0 11
+Queen's Pawn Game #2
+r2qr1k1/p1p2ppp/1bp2n2/3p1p2/3P4/1NP1P3/PP1B1PPP/R2Q1RK1 w - - 0 13
+Hungarian Opening: Symmetrical Variation
+rn1q1rk1/pp2ppbp/2p3p1/3p4/8/2NP1BP1/PPPQPP1P/1R3RK1 w - - 0 12
+Slav Defense
+r1bqr1k1/pp1nbpp1/2p1p2p/2Pp4/3Pn3/2N2NP1/PP2PPBP/R1BQR1K1 w - - 2 12
+Saragossa Opening
+r1b1k2r/pp1nqppp/2n1p3/3pP3/3p4/2P2N2/PPQ2PPP/RN2KB1R w KQkq - 0 10
+Philidor Defense #4
+r1bq1rk1/ppp1bpp1/3p1n1p/4p3/2BnP3/2NP3P/PPP2PPN/R1BQ1RK1 w - - 2 9
+Queen's Pawn Game: Zukertort Variation
+r2qk2r/pp1nbpp1/2p1p2p/2Pp1b2/3P4/P1P1PN2/1B2BPPP/R2QK2R w KQkq - 4 11
+Queen's Pawn Game: Chigorin Variation
+r2qk2r/2pb1ppp/p2bpn2/1p1p4/3P4/1PN1PN2/1PPB1PPP/R2Q1RK1 w kq - 1 11
+Four Knights Game: Gunsberg Variation
+r1bqk2r/1pp2ppp/1pn5/3np3/8/P1PB1N2/1P1P1PPP/R1BQK2R w KQkq - 0 10
+Vienna Game: Stanley Variation
+r1b2rk1/p1q2pp1/7p/1p1n4/8/PP1PBN2/5PPP/R2QK2R w KQ - 0 16
+King's Pawn Game: Mengarini's Opening
+rn2k2r/pp1bnppp/3p2q1/bPp1p1B1/P3P2P/2PP1P2/6P1/RN1QKBNR w KQkq - 3 11
+Sicilian Defense: Smith-Morra Gambit #2
+r1b1k2r/pp1p1ppp/2n1pn2/2q5/Q3P3/2P2N2/PP3PPP/RN2KB1R w KQkq - 0 9
+Queen's Pawn Game: Levitsky Attack
+rnbq1r1k/pp6/5pQ1/2bp3p/7P/2P1P3/PP3PP1/RN2K1NR w KQ - 1 12
+Indian Game
+rn2kb1r/1p3p1p/1pp1pp2/3p1b2/2PP4/2N5/PP2PPPP/R3KBNR w KQkq - 0 9
+Gruenfeld Defense: Three Knights Variation, Vienna Variation
+rn1q1rk1/p3ppbp/1p3np1/8/2bN4/1QN1P3/PP3PPP/R1BR2K1 w - - 0 12
+Four Knights Game: Italian Variation, Noa Gambit
+r1bn1bkr/ppp3p1/7p/8/4p3/5N1N/PPP2PPP/R1B1K2R w KQ - 0 12
+Scandinavian Defense: Richter Variation #2
+r2r2k1/pp3pb1/2n2npp/8/6b1/2N1BN2/PP2BPPP/R2R2K1 w - - 0 15
+Trompowsky Attack: Classical Defense, Big Center Variation
+r3kb1r/1p1b1pp1/1p2p2p/n2pP3/3P1P2/5N2/PP2B1PP/RN3RK1 w kq - 3 14
+Queen's Pawn Game: Symmetrical Variation
+r4rk1/pppn1ppp/3q1n2/3ppb2/3P4/2P1PN1P/PP1NBPP1/R2QK2R w KQ - 0 10
+Old Benoni Defense
+r2qkb1r/pp3ppp/2n2n2/3p3P/8/2N4P/PP2PP2/R1BQKB1R w KQkq - 1 11
+Sicilian Defense: Staunton-Cochrane Variation
+r3k2r/1bq1bpp1/ppnppn1p/2p5/2P1P2P/P1NP1NPB/1P1B1P2/R2Q1RK1 w kq - 7 12
+Sicilian Defense: Paulsen Variation
+r1bq1rk1/4bp1p/p2ppp2/1p6/3QP3/2N2P2/PPP3PP/2KR1B1R w - - 0 13
+Sicilian Defense: Kalashnikov Variation
+r1bqkb1r/5ppp/p1np4/1p1np3/4P3/N3B3/PPP2PPP/R2QKB1R w KQkq - 0 10
+Horwitz Defense
+r3r1k1/1pqb1pbp/p1n1pnp1/3p4/3P4/1P2PB2/PB1NNPPP/R2Q1RK1 w - - 4 14
+Sicilian Defense: Alapin Variation
+2rqnrk1/pb2ppbp/1p1p2pB/4P3/3PN3/1P3N2/P2Q1PPP/R3R1K1 w - - 0 18
+French Defense: Knight Variation
+r2qk1r1/pbppbp1p/1p2pnp1/8/N3P3/P1BP2QP/1PP1BPP1/R3K2R w KQq - 2 13
+Scandinavian Defense: Modern Variation #2
+rn1q1rk1/pp3ppp/2pb4/3p1b2/3P4/5N2/PPP1BPPP/R1BQ1RK1 w - - 2 10
+Slav Defense #2
+2rq1rk1/1p3pp1/p1n1bp1p/3p4/3P4/P1RBPN2/1P3PPP/3QK2R w K - 0 14
+Queen's Pawn
+r1bq1rk1/pp1n1ppp/2pbp3/8/3Pn3/P2B1N1P/1PP2PP1/R1BQK2R w KQ - 0 10
+Four Knights Game: Spanish Variation, Classical Variation
+r1b1k2r/2p2p2/2p3pp/p2qP2n/Np1p4/1P1P1N1P/P1PQ1PP1/R3K2R w KQkq - 0 16
+Hungarian Opening
+r3kr2/ppp2pp1/2n1q3/3p3p/3Pp1nP/1P2P1P1/P1P2PB1/RN1QK2R w KQq - 1 12
+Italian Game: Anti-Fried Liver Defense
+r1bqk1nr/1ppp1pp1/p1n4p/4p3/1PB1P3/P1PPbN2/5PPP/RN1QK2R w KQkq - 0 9
+Vienna Game: Anderssen Defense
+rn3qk1/1pp4n/p2p2b1/4p1N1/7r/2NP3Q/PPP1BbP1/2KR3R w - - 0 18
+Queen's Pawn Game: Stonewall Attack
+rnb2rk1/pp3pbp/4p1p1/4N3/2B1nP1q/1Q2B3/PP4PP/RN1R2K1 w - - 3 13
+Hungarian Opening
+r3k2r/ppqn1ppp/2pbpnb1/3p4/1P5N/P2P2P1/1BP1PPBP/RN1QK2R w KQkq - 1 10
+Nimzo-Indian Defense: Classical Variation
+1rbq1rk1/p1p2ppp/1pB1p3/6b1/2pP4/2P1P1P1/P1Q2P1P/1RB2RK1 w - - 1 14
+Sicilian Defense
+r2q1rk1/pb1nppbp/1p1p1np1/2p5/4PP2/3P1NP1/PPP1N1BP/R1BQ1RK1 w - - 2 10
+Four Knights Game: Scotch Variation Accepted
+r1bq1rk1/p4pp1/2pb1n1p/3p4/8/3B1Q1P/PPP1NPP1/R1B2RK1 w - - 2 13
+Modern Defense
+r2q1rk1/ppp2pbp/3p1np1/4p3/3nP1b1/3P1NP1/PPPNQPBP/R1B1R1K1 w - - 6 10
+French Defense: Steinitz Attack
+1r1q1rk1/p2n1pp1/4pb1p/1p1p4/3P4/2P2N2/PP1N1PPP/R2QR1K1 w - - 0 14
+Scotch Game: Schmidt Variation
+r2qr1k1/pbp2ppp/2p2n2/8/2B1p3/P1B5/1PP2PPP/R2Q1RK1 w - - 2 13
+Queen's Pawn Game: Levitsky Attack
+r3k2r/ppp1bppp/2nqpn2/1B1p1bB1/3P1N2/2P1PP2/PP4PP/RN1QK2R w KQkq - 4 9
+Queen's Pawn Game #3
+rn3rk1/2p2pb1/1p2pqpp/p1Np4/3P1P2/P1B1P3/1PP3PP/R2Q1RK1 w - - 0 15
+Queen's Pawn Game: London System
+r2q1rk1/ppp2ppp/2n1p3/2Pp4/3PnB2/P1P1PQ2/5PPP/R3KB1R w KQ - 1 11
+Horwitz Defense
+rnb1k2r/pp3ppp/1q2pn2/2bp4/3N4/PP2P3/2PBBPPP/RN1QK2R w KQkq - 1 9
+Queen's Pawn Game: Zukertort Variation
+r1bq1rk1/pp3ppp/2n1pn2/2bp4/8/P1P2NP1/1P2PPBP/RNBQ1RK1 w - - 0 9
+English Defense #2
+rn2k2r/pbq1bppp/1p1ppn2/2p5/2PP4/1P2PN2/PB1NBPPP/R2QK2R w KQkq - 2 9
+Indian Game
+r2q1rk1/1bp1bpp1/1p1ppn1p/p7/3PnB2/P1P1PN1P/BP1N1PP1/2RQ1RK1 w - - 0 13
+Queen's Pawn Game: Zukertort Variation
+r4rk1/pp1n1ppp/2pqpn2/3p4/3P4/2PQPN2/PP1N1PPP/R4RK1 w - - 1 11
+French Defense: Exchange Variation, Monte Carlo Variation
+r2q1rk1/ppp1bpp1/2n3bp/3n4/2BP4/4BPN1/PP2N1PP/R2QR1K1 w - - 2 15
+Sicilian Defense: Snyder Variation
+r2q1rk1/pp2b1pp/2npbn2/2p1p3/4P3/PP1B1N1P/1BPN1PP1/R2QK2R w KQ - 1 11
+Old Benoni Defense #2
+r1b1kbnr/3p1pp1/1qnP4/1pp1p2p/8/P3P1B1/1P3PPP/RN1QKBNR w KQkq - 0 10
+Queen's Pawn Game: Zukertort Variation
+rn1q1rk1/pp2nppp/2pbp3/3p4/3P4/2PQPN2/PP1N1PPP/R1B2RK1 w - - 5 9
+Italian Game: Classical Variation, Albin Gambit
+r6r/ppp1kppp/1b2bn2/4p1B1/2B1P3/2P5/PP1N1PPP/R4RK1 w - - 4 12
+Benoni Defense
+r1bq1rk1/pp3pbp/3pp1n1/5p2/2PP4/3BB3/PP1N1PPP/R2Q1RK1 w - - 4 13
+Caro-Kann Defense: Maroczy Variation
+r1qr2k1/1b1nbppp/pp2pn2/2p5/3PBB2/2NQ1PN1/PPP3PP/3R1RK1 w - - 0 16
+Sicilian Defense #2
+r2qk2r/p2bbppp/2pp1n2/4p1B1/4P3/5N2/PPP2PPP/RN1Q1RK1 w kq - 4 10
+Scotch Game
+r1b1kb1r/pp3ppp/2pq4/4p3/4n3/2Q5/PPP1BPPP/RNB1R1K1 w kq - 6 12
+Queen's Gambit Declined: Harrwitz Attack
+2rq1rk1/1bpnbpp1/p3pn1p/1p6/3PPB2/2NB1N1P/PPQ2PP1/R4RK1 w - - 1 13
+French Defense: Exchange Variation
+r2q1rk1/ppp1nppp/1bn5/3p1b2/1P1P4/P1N2N2/2PBBPPP/R2Q1RK1 w - - 1 11
+Nimzowitsch Defense: Scandinavian Variation, Exchange Variation
+r1b1k2r/ppp1nppp/4p3/8/2Pn2q1/P4N2/2PBBPPP/R2Q1RK1 w kq - 0 12
+Alekhine Defense: Normal Variation
+r1bqk2r/pp1p1ppp/1nn1p3/4P3/3P4/8/PP1QBPPP/RN2K1NR w KQkq - 1 10
+Queen's Pawn
+r2qk2r/1p1bbppp/p1n1pn2/1B1p4/3P4/P1N1BN1P/1PP2PP1/R2Q1RK1 w kq - 0 11
+Queen's Pawn Game: Torre Attack
+rnbqr1k1/pp3ppp/2pb4/3p1p2/3P3N/3BP3/PPPN1PPP/R2QK2R w KQ - 0 9
+Caro-Kann Defense
+r1b1k2r/1p2bppp/1p2p3/3pP3/5P1P/2N5/PPP3P1/R1B1K2R w KQkq - 0 14
+Sicilian Defense: French Variation
+r1b2rk1/2q1b1pp/p1p1ppn1/2ppP3/2P5/1P1P1N2/P2NQPPP/R1B1R1K1 w - - 0 13
+Queen's Pawn Game: Torre Attack
+r1bqk1r1/pp2bp2/2n1pp1p/2pp4/3P4/2PBPN2/PP1NQPPP/R3K2R w KQq - 2 10
+Scandinavian Defense: Modern Variation #2
+rnbqkb1r/pp3ppp/4p3/8/3p4/5N2/PPPBBPPP/R2QK2R w KQkq - 0 9
+Queen's Gambit Declined: Tarrasch Defense, Pseudo-Tarrasch
+r2q1rk1/1b2bppp/p1n1pn2/1p6/3P4/P1N1BN2/BP3PPP/R2Q1RK1 w - - 2 13
+Scandinavian Defense: Mieses-Kotroc Variation
+r2q1rk1/pp1n1ppp/2p2nb1/b3p3/6P1/P1NP1Q1P/1PP1NPBB/R3K2R w KQ - 1 13
+Queen's Gambit Accepted: Old Variation
+r1bq1rk1/ppp1nppp/3b1n2/3Pp3/2B1P3/5P2/PP2N1PP/RNBQ1RK1 w - - 1 10
+Sicilian Defense
+r3k1nr/pp1np1bp/4q1p1/2p1Np2/5P2/3P4/PPP1Q1PP/RNB1K2R w KQkq - 2 13
+Caro-Kann Defense: Advance Variation
+r1b1kb1r/pp3ppp/1qn1p3/3pPn2/3P1P2/5N2/PPB3PP/RNBQK2R w KQkq - 3 10
+Queen's Pawn Game
+r3k2r/1pp1qppp/p1n2n2/3p4/1b1P1P2/2NBPb2/PP4PP/R1BQ1RK1 w kq - 0 11
+French Defense: Advance Variation
+r1bqk2r/pp2bppp/2n1p3/3pPn2/3p4/2PBBN2/PP3PPP/RN1Q1RK1 w kq - 0 9
+Hungarian Opening: Indian Defense
+r3k2r/pp2qppp/2nb4/2pbp3/8/1P1P2P1/PBPNNP1P/R2Q1RK1 w kq - 0 13
+Queen's Pawn Game: Chigorin Variation
+r3k2r/ppp1qppp/2n2n2/3p4/1b1P4/2NbBN1P/PPP2PP1/R2QK2R w KQkq - 0 10
+Queen's Gambit Refused: Chigorin Defense, Main Line
+r4rk1/1pp1nppp/p2nq3/3p4/3P4/P1N1PQ2/1P1N1PPP/R4RK1 w - - 3 18
+Amazon Attack
+2rqkb1r/1Q1n1p1p/4pnp1/3p1b2/p1PP4/5P2/PP1BP1PP/RN2KBNR w KQk - 0 11
+Slav Defense
+rn2kb1r/pp3ppp/1qp1pnb1/8/2QP4/2N1P1NP/PP3PP1/R1B1KB1R w KQkq - 3 10
+Dutch Defense: Leningrad Variation, Warsaw Variation
+rnb1qrk1/pp4bp/2p2np1/4ppB1/2P5/2N2NP1/PPQ1PPBP/R4RK1 w - - 0 11
+Sicilian Defense: Dragon Variation
+1r3r2/p3ppkp/2ppbnp1/q7/4P1P1/2N2P2/PPPQ3P/1K1R1B1R w - - 3 15
+Queen's Pawn Game: Chigorin Variation
+r1b2rk1/ppp1n1pp/2nq1p2/3p4/3Pp3/2P1PN1P/PPB2PP1/RN1Q1RK1 w - - 0 11
+Englund Gambit
+r3k1nr/ppp2ppp/2n1b3/q7/4Q3/2P2N2/P3BPPP/R1B2RK1 w kq - 3 13
+Sicilian Defense: Modern Variations, Main Line
+r2qkb1r/p2bpp1p/2pp1np1/8/B3P3/2N5/PPP2PPP/R1BQK2R w KQkq - 0 9
+Alekhine Defense: John Tracy Gambit
+r2q1rk1/pp2ppbn/2pp2p1/6P1/4P3/2NP4/PPP1NP2/R2QK2R w KQ - 1 14
+Indian Game: London System
+r3rbk1/2qn1ppp/2bppn2/1p6/2NP4/2P2N1P/1P3PPB/R2QRBK1 w - - 0 18
+Sicilian Defense: Closed Variation
+r1bq1rk1/pp3p1p/2np1bp1/2p1p1B1/4P3/3P1N2/PPP1BPPP/R2Q1RK1 w - - 0 10
+King's Indian Attack
+r2q1rk1/pbp1bppp/1pn1pn2/3p4/3P1B2/2P2NP1/PP1NPPBP/R2Q1RK1 w - - 5 9
+Sicilian Defense: Bowdler Attack
+r2qk2r/1b2bppp/p1nppn2/1pp5/4P3/P1NP1N1P/BPP2PP1/R1BQ1RK1 w kq - 4 10
+Scandinavian Defense: Modern Variation #2
+rn1qr1k1/ppp2ppp/4bn2/8/3P4/P1B5/1PP2PPP/R2QKBNR w KQ - 1 9
+Old Benoni Defense
+r1bq1rk1/p3bppp/3p1n2/2pp4/1pP1P3/1P3N2/1P3PPP/RNBQR1K1 w - - 0 13
+Caro-Kann Defense: Breyer Variation
+r1bq1rk1/pp1nbppp/2p2n2/4p3/4P3/2PPBN1P/PP4P1/RN1QKB1R w KQ - 3 9
+Sicilian Defense: Bowdler Attack
+r1bq1rk1/pp3pb1/3p2pp/4n3/4P3/1BN2N1P/PPP3P1/R2Q1R1K w - - 2 18
+French Defense #2
+r1bq1rk1/ppp3pp/1n1b4/5p1n/5B2/3P2PP/PPPQN1BK/RN3R2 w - - 7 14
+Giuoco Piano
+r3k2r/ppp3p1/2np1npp/2b1p3/2B1P1P1/2NP3P/PPP2P2/R1B1K2R w KQkq - 0 12
+English Opening: King's English Variation
+rnbqr1k1/ppp2pp1/3p3p/2bP4/3Np3/1Q4P1/PP1PPPBP/R1B2RK1 w - - 2 11
+King's Pawn Game: Busch-Gass Gambit
+2b3nr/1pPp3p/2n3k1/3Q4/4P1N1/8/r4PPP/q1B2RK1 w - - 2 17
+Hungarian Opening: Indian Defense
+1rbq1rk1/pp1n1pbp/5np1/2p1p3/8/2P1P1P1/PP1NNPBP/R1BQR1K1 w - - 0 11
+Bird Opening
+r3k1nr/p1ppq1pp/1pbbpp2/8/3P1P2/4P3/PPP1B1PP/RNBQ1RK1 w kq - 0 9
+Bishop's Opening
+r2q1rk1/pppbbpp1/3p1n1p/4n3/3NP3/1BN1Q3/PPP2PPP/R1B2RK1 w - - 4 13
+Caro-Kann Defense
+r1bq1rk1/pp5p/2p1pbp1/7Q/3PB3/2P5/PP4PP/R1B1K2R w KQ - 0 16
+Alekhine Defense: Two Pawn Attack, Lasker Variation
+r3k2r/pp2bppp/2nq4/3p3b/3P4/5N1P/PP2BPP1/R1BQ1RK1 w kq - 1 14
+Sicilian Defense: McDonnell Attack
+r1b1kb1r/1pqp1pp1/p1n1pn2/7p/2P1PP2/4BN2/PP4PP/RN1QKB1R w KQkq - 2 9
+Sicilian Defense: Delayed Alapin
+r1bq1rk1/pp2ppb1/2np1npp/2p5/4P3/2PPBNP1/PP3PBP/RN1Q1RK1 w - - 0 9
+Scandinavian Defense: Mieses-Kotroc Variation
+r1b1k1nr/p3ppbp/2p3p1/8/8/2N2N2/PPP2PPP/R1B1K2R w KQkq - 0 11
+Sicilian Defense: Nyezhmetdinov-Rossolimo Attack
+r4rk1/p1qbppbp/2pp1np1/2p3B1/4P3/2PP1N1P/PP3PP1/RN1QR1K1 w - - 7 11
+Sicilian Defense: McDonnell Attack
+r2q1rk1/pp1bbppp/2nppn2/1Bp5/4PP2/P1NP1N2/1PP3PP/R1BQ1RK1 w - - 3 9
+Italian Game: Hungarian Defense
+r2q1rk1/ppp1bppp/3p1n2/8/2bQPP2/2N1B3/PPP3PP/R4RK1 w - - 0 11
+Nimzo-Larsen Attack
+rn1q1rk1/pp2ppb1/4bnpp/2pp4/5P2/1PNBPN2/PBPP2PP/R2Q1RK1 w - - 2 10
+Scotch Game: Potter Variation
+r1bqr1k1/pp3ppp/5n2/2pp4/3bP3/2NQ1P2/PPPB2PP/2KR1B1R w - - 0 13
+Scandinavian Defense: Mieses-Kotroc Variation
+rn2k2r/pp2bppp/2p1p3/3b4/5B2/3P1N2/PPP2PPP/1K1R1B1R w kq - 2 12
+Wade Defense
+r3k2r/ppqnbppp/2p2n2/4p2b/4P3/2N1BN1P/PPPQBPP1/R4RK1 w kq - 4 11
+Pterodactyl Defense: Western, Rhamphorhynchus
+2r2rk1/2qnppbp/1p1p1np1/p7/P3P3/1QP1BN1P/1P2BPP1/3R1RK1 w - - 0 16
+King's Indian Attack: French Variation
+r1bq1rk1/p3ppbp/5np1/3p2B1/8/6P1/PP2PPBP/RN1Q1RK1 w - - 2 11
+Bishop's Opening: Berlin Defense
+r1bqk2r/2npbppp/2p2n2/pp6/4Pp2/PBNP4/1PPBN1PP/R2QK2R w KQkq - 0 10
+French Defense: Exchange Variation
+rn1qr1k1/ppp2ppp/3b1n2/3p2B1/3P2b1/2PB4/PP2NPPP/RN1Q1RK1 w - - 7 9
+French Defense: Winawer Variation, Advance Variation
+r3k2r/ppqb1ppp/4p3/2npPn2/3B1P2/P1PB1N2/2P3PP/R2QK2R w KQkq - 2 13
+Nimzowitsch Defense: Franco-Nimzowitsch Variation
+1r2r1k1/pppq1pp1/2nb1nbp/3p1N2/3P4/2PBB2P/PPQN1PP1/R4RK1 w - - 6 15
+Semi-Slav Defense
+r2qbrk1/pp2b1p1/2p2n1p/3p1p2/3P4/P1N1P2P/1P2BPPN/2RQR1K1 w - - 1 17
+Hungarian Opening: Slav Formation
+rnb1k2r/1p3ppp/pqpb1n2/3p4/3P4/2P2PP1/PP2N1BP/RNBQ1RK1 w kq - 0 10
+Nimzo-Larsen Attack: Indian Variation
+r1bqk2r/pp3ppp/2pbpn2/3p4/3P4/1PP1PN2/P3BPPP/RN1Q1RK1 w kq - 6 10
+French Defense: Advance Variation, Paulsen Attack
+r3k2r/pp1b1ppp/2n1p2n/1B1pP3/3P4/1P3N2/1P1N1PPP/R3K2R w KQkq - 3 12
+Sicilian Defense: Closed Variation, Fianchetto Variation
+r1b2rk1/p1q2pbp/1pn1p1p1/2p5/8/2PPB1P1/PP2NPBP/R2Q1RK1 w - - 0 13
+Sicilian Defense: Modern Variations, Main Line
+r1q2r2/1p1bppkp/p2p1np1/4n3/3NP3/2PBQ2P/PP3PP1/RN3RK1 w - - 2 14
+Ruy Lopez: Morphy Defense, Caro Variation
+1rbq1rk1/5ppp/p2p1b2/1pp5/3pP3/1B1P3P/PPPQNPP1/R4RK1 w - - 0 15
+Polish Defense
+r2q1rk1/1bpn1pbp/p5p1/1p1P4/4N3/3B1N2/PPP2PPP/R2QR1K1 w - - 2 14
+Caro-Kann Defense: Gurgenidze System
+r1b1qrk1/pp4bp/2p3p1/3pn1Bn/8/2NB1N1P/PPP1QPP1/R4RK1 w - - 0 13
+Blackmar-Diemer Gambit
+rnbqr1k1/ppp2ppp/8/8/2B1Q3/2P5/P1P1NPPP/R3K2R w KQ - 1 12
+Trompowsky Attack
+r1bqr1k1/1p3pbp/p1p3p1/3p1p2/2PPn3/1PN1P1P1/P1QN1PBP/R4RK1 w - - 2 14
+French Defense: Knight Variation
+rn1qk2r/pp3pp1/2pbbn1p/3p4/8/3B1N2/PPPP1PPP/RNBQR1K1 w kq - 2 9
+Van't Kruijs Opening
+rn2kb1r/5ppp/4pq2/1pp5/p7/2PP1b1P/PPBN1PP1/R2QK2R w KQkq - 0 14
+Scandinavian Defense
+r1bqk2r/pp3ppp/1bn1p3/3nP3/3p1P2/3P1N2/PP1NB1PP/R1BQ1RK1 w kq - 7 11
+Italian Game: Anti-Fried Liver Defense
+r1bqr1k1/1pp2pp1/p1p2n1p/4p3/4P3/B1PP1N2/P1P2PPP/R2Q1RK1 w - - 0 11
+Van't Kruijs Opening
+r1b1kb1r/1pp2pp1/2np3p/p3p2P/1n2P1P1/5P2/PPPP4/RNBK1BNR w kq - 0 10
+Queen's Pawn Game: London System
+r2q1rk1/pb1nbppp/1p2p3/3pN3/3P4/2PB2n1/PP3PPP/RN1Q1RK1 w - - 0 13
+Caro-Kann Defense: Advance Variation, Short Variation
+2r2rk1/1p2bppp/1pn3n1/1N2P3/P2p4/5N2/1P3PPP/R1B1R1K1 w - - 0 18
+Italian Game: Giuoco Pianissimo, Normal
+r3qrk1/1pp3p1/p1nppn1p/4p3/PP2P3/2PPNN2/5PPP/R2Q1RK1 w - - 1 14
+Giuoco Piano
+2kr3r/pppq1ppp/2n1bn2/2p1p3/4P3/1B1P1N1P/PPP2PP1/RN1Q1RK1 w - - 0 10
+Queen's Pawn Game: London System
+r1bq1rk1/pp1nbpp1/2p4p/3pN3/3P1P2/2N5/PP2BPPP/2RQK2R w K - 0 12
+Sicilian Defense
+rnb2rk1/pp3ppp/2q2b2/2p1p3/8/2NP1N1P/PPP1BPP1/R2QK2R w KQ - 4 10
+French Defense: Knight Variation
+rn2k2r/pp1b1ppp/4pn2/2b5/8/4NN2/PPPB1PPP/R3KB1R w KQkq - 4 10
+Pirc Defense: Byrne Variation
+rnb2rk1/ppp1qpbp/3p2p1/8/3PB3/2N2N2/PPP2PPP/R2Q1RK1 w - - 3 10
+English Opening: Symmetrical Variation, Two Knights Line
+r1bqk2r/pp2ppbp/2np2p1/2p5/2P1PP2/2NPB1P1/PP4BP/R2QK2R w KQkq - 0 11
+Queen's Pawn Game: Colle System
+1k1r3r/ppqn1pp1/2pb1n2/3p1b1p/3P4/PP2PN1P/1B1NBPP1/2RQ1RK1 w - - 1 14
+Semi-Slav Defense: Accelerated Move Order
+r1b2rk1/ppq1b1pp/2p1pp2/3nN3/3PNP2/4P3/PP3PBP/R2Q1RK1 w - - 0 15
+King's Pawn Game: Leonardis Variation
+r3kb1r/pppn1ppp/8/8/3n4/2NP4/PP2BPPP/R1B2RK1 w kq - 2 11
+Pterodactyl Defense: Eastern, Benoni
+rnbq1rk1/4ppbp/p2p1np1/1ppP4/4P3/2NBBN2/PPPQ1PPP/R3K2R w KQ - 0 9
+Russian Game: Three Knights Game
+rnbqr1k1/pppp1ppp/8/8/3Nn3/2PBB3/P1P2PPP/R2Q1RK1 w - - 0 10
+Caro-Kann Defense: Advance Variation
+r2qkb1r/pp1n1ppp/2p1p1n1/3pP3/3P4/1P1Q1N2/P1P2PPP/RNB2RK1 w kq - 1 9
+Pirc Defense #2
+rn5r/ppp1k1pp/3bpn2/4p3/4P3/2N2N2/PPP2PPP/R1B2RK1 w - - 2 10
+Nimzo-Larsen Attack: Classical Variation
+r1b1k2r/ppbnqppp/2p1p3/2Pp4/3Pn3/1P2PNP1/PB2BP1P/RN1Q1RK1 w kq - 1 12
+Ruy Lopez: Steinitz Defense
+r5k1/1ppqrppp/p2p1bn1/3P4/3N1P2/2PQ3P/PP1B2P1/R4R1K w - - 2 17
+Slav Indian
+r2qkb1r/1p3ppp/p1n1pn2/3p4/3P1B2/2NQPN2/PP3PPP/R3K2R w KQkq - 1 10
+Queen's Pawn Game: Chigorin Variation
+r2qk2r/1p3pp1/p3p2p/2bpnb2/4nB2/P1NBP2P/1PP2PP1/R2Q1RK1 w kq - 0 12
+Sicilian Defense: Smith-Morra Gambit Declined, Push Variation
+r1bq1rk1/pp2ppbp/2np1np1/1N6/4PB2/2PB1N2/PP3PPP/R2Q1RK1 w - - 0 10
+Semi-Slav Defense: Accelerated Move Order
+r1bqk2r/pp1nbppp/2p5/3p4/3P1B2/4PN2/PP3PPP/R2QKB1R w KQkq - 0 9
+Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line
+r3kb1r/pppq1pp1/5n1p/n2Pp1N1/8/8/PPPP1PPP/RNBQ1RK1 w kq - 0 9
+Semi-Slav Defense: Bogoljubov Variation
+r1bqk2r/1p1nbppp/p1p1pn2/8/2pP4/2NBPN2/PPQ2PPP/R1B2RK1 w kq - 0 9
+Blackmar-Diemer Gambit: Ryder Gambit
+r2qk2r/pQ1n1ppp/3ppnb1/1B6/3P2P1/2N4P/PPP5/R3K1NR w KQkq - 1 12
+King's Pawn Game: Tayler Opening
+r2qkb1r/ppp2ppp/3p4/4n3/3PP3/8/PPP2nPP/RNBQR1K1 w kq - 0 9
+Queen's Gambit Declined: Harrwitz Attack
+rnbq1rk1/ppb3pp/2p1p3/2Pp1p2/3Pn3/2N1PNB1/PPQ2PPP/R3KB1R w KQ - 0 10
+Saragossa Opening
+r3qrk1/1pp1bppp/2n1bn2/p3p3/P3P3/2P2NP1/1PQN1PBP/R1B2RK1 w - - 0 12
+Ruy Lopez: Exchange Variation, King's Bishop Variation
+r3k2r/1pp1q1pp/p2bbn2/2p1N1B1/3Q4/2N5/PPP2PPP/R4RK1 w kq - 0 13
+Sicilian Defense: Bowdler Attack
+1rb2rk1/4ppbp/1qnp1np1/1pp3N1/4PP2/1BPP3P/1P4P1/RNBQ1RK1 w - - 2 13
+Bishop's Opening
+r2q1rk1/pbp1npb1/1p1p2np/4p1p1/2B1P3/P1PP1NB1/1PQN1PPP/R4RK1 w - - 3 13
+Sicilian Defense: Alapin Variation
+2rq1rk1/1p2bppp/p1nppn2/8/3PP1b1/2N1BN2/PP2BPPP/RQ3RK1 w - - 6 12
+Scotch Game
+r1b1kb1r/pp3ppp/8/2pp1P2/4q1P1/4Q3/PPP1B2P/R1B1K2R w KQkq - 0 15
+French Defense: Two Knights Variation
+r1br2k1/1pq1bppp/p3pn2/8/P2N4/2PB4/1P3PPP/R1BQR1K1 w - - 5 14
+Ruy Lopez: Exchange Variation, Alekhine Variation
+r4rk1/1p2bppp/pnp1b3/8/1Pp1PB2/2P2P2/P2NN1PP/R4R1K w - - 1 18
+Grob Opening
+rnbqkbnr/pp4p1/2p2p2/4p1p1/3pPP1P/3P4/PPP1N1B1/R1BQK1NR w KQkq - 0 10
+Slav Defense: Quiet Variation
+rnbq1rk1/pp3pbp/2p2np1/3p4/3P4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 0 9
+Four Knights Game: Scotch Variation Accepted
+r1bq1rk1/p1p2ppp/5n2/3p4/1b6/2NB4/PPP2PPP/R1BQ1RK1 w - - 0 10
+English Opening: King's English Variation, Two Knights Variation
+r2q1r1k/1p4pB/p1npbp2/8/3pp3/1Pn2N2/P1QB1PPP/R4RK1 w - - 0 17
+Blumenfeld Countergambit #2
+r1bq1rk1/pp2bppp/2n1pn2/3p4/2PP4/P2B1N2/1P3PPP/RNBQ1RK1 w - - 0 9
+Sicilian Defense: Sozin, not Scheveningen
+3r1rk1/1pq3pp/p3p3/2bpp2n/3nP3/2NQNP2/PPP3PP/R1BR3K w - - 3 18
+Sicilian Defense
+r2qkbnr/pp3ppp/3p4/4p3/2PpP3/3P1Q2/PP1N1PPP/R3KB1R w KQkq - 0 9
+Old Indian: Czech Variation
+r2q1rk1/1b1nbppp/p2p4/Pp1P4/1P2Pp2/2N2N1P/4BPP1/1R1Q1RK1 w - - 1 18
+King's Indian Defense: Normal Variation, Rare Defenses
+r1bq1rk1/1p1n1pb1/p2p1n1p/2pPp1p1/2P1P2B/2NB1N2/PP3PPP/R2Q1RK1 w - - 0 12
+Pirc Defense #5
+rnbq2k1/ppp1prb1/3p2pp/8/3PN3/5N2/PPP2PPP/R1BQ1RK1 w - - 0 9
+Ruy Lopez: Berlin Defense, Beverwijk Variation
+r1bq1rk1/ppppbppp/5n2/4p1B1/2B1P3/3P1Q2/PPP2PPP/RN3RK1 w - - 3 9
+Four Knights Game: Scotch Variation Accepted
+r1b1r1k1/p3qpp1/2pb1n1p/3p4/N6B/2P5/PPB2PPP/R2Q1RK1 w - - 4 15
+Horwitz Defense
+1k1r1bnr/pp1qnppp/3p4/4p3/3N4/PQP1P3/1P1N1PPP/R1B2RK1 w - - 0 13
+Queen's Pawn Game: Mason Attack
+r2qk1nr/ppp1b2p/2b1pp2/6p1/3P1B2/4RN2/PPP2PPP/RN1Q2K1 w kq - 0 12
+Queen's Pawn Game: Zukertort Variation
+rn1q1rk1/pp2bppp/2p5/3p1pB1/3Pn3/1N2PN2/PPP2PPP/R2Q1RK1 w - - 2 10
+French Defense: Knight Variation
+rnbq1rk1/pp3ppp/3b1n2/2p3B1/3p4/P1NP1N1P/1PP2PP1/R2QKB1R w KQ - 0 9
+Caro-Kann Defense: Panov Attack
+r1bq1rk1/4bppp/p3pn2/1p4B1/1n1P4/2NB1N2/PP3PPP/R2QR1K1 w - - 2 13
+Bishop's Opening: Vienna Hybrid, Spielmann Attack
+r2q1rk1/pp3pp1/2ppbn1p/4p1B1/4P3/3P1N1P/PPP2PP1/R2Q1RK1 w - - 0 12
+Colle System
+r2q1rk1/1b2bpp1/p1p1pn1p/3p4/P1P5/4P1P1/1P1N1PBP/R1BQ1RK1 w - - 1 13
+Queen's Pawn Game #2
+r1bq1rk1/p3bpp1/2n1pn1p/1p1p4/2pP4/2P1PPN1/PPB1N1PP/R1BQK2R w KQ - 0 11
+Old Indian Defense
+1r1q1rk1/5ppp/1n1bbn2/2p5/Q1P5/2N1PN2/P2B1PPP/R3KB1R w KQ - 3 16
+Sicilian Defense: Lasker-Pelikan Variation, Schlechter Variation
+r1bqk2r/pp1p1ppp/2n5/4p3/4n3/1NB5/PPP2PPP/R2QKB1R w KQkq - 0 9
+Sicilian Defense: Bowdler Attack
+r2q1rk1/pb3ppp/1p2pbn1/2pp4/P1B1PP2/2PP3P/1P2Q1PN/R1B2RK1 w - - 0 14
+Indian Game: London System
+r1bqr1k1/pp1nbppp/2p1pn2/3p4/3P1B2/1PN1PN2/P1P1BPPP/R2Q1RK1 w - - 1 9
+Modern Defense
+2rq1rk1/1p2ppbp/p2p2p1/3n1b2/B2P4/P4N2/1PPB1PPP/R2Q1RK1 w - - 2 14
+Ruy Lopez: Exchange Variation
+2kr3r/1pp2ppp/p1p4n/4Nb2/1b6/3P1P2/PPP1K1PP/RNB1R3 w - - 3 13
+Queen's Pawn Game: Levitsky Attack
+2kr1bnr/pppq3p/2n1pp2/1B1p1bp1/3P4/2N1P1BP/PPP2PP1/R2QK1NR w KQ - 0 9
+Pirc Defense #2
+r6r/1ppnk1p1/p2bpn1p/4p1B1/4P3/P1N2N1P/1PP2PP1/2KR3R w - - 0 13
+Alekhine Defense: Maroczy Variation
+r2q1rk1/1ppnpp1p/4b1p1/p7/4P1B1/P1NP3P/1PPb1RP1/R2Q2K1 w - - 0 15
+Pirc Defense #4
+r2qk2r/3nnpbp/p2pp1p1/1pp5/4PP2/P2PNN2/1PP3PP/R1BQK2R w KQkq - 2 12
+Zukertort Opening: Slav Invitation
+r2qk2r/pp1n1ppp/2p1pn2/3p4/2PP4/bP3BP1/P3PP1P/RN1Q1RK1 w kq - 0 10
+Queen's Gambit Refused: Marshall Defense, Tan Gambit
+2rqk2r/1p3ppp/p1n1pn2/3p3b/3P1b2/P1NBPPB1/1PQ3PP/R3K2R w KQk - 0 14
+Horwitz Defense
+r4rk1/pp1b1ppp/1qn1pn2/2bp4/5B2/1QP1PN2/PP1NBPPP/R4RK1 w - - 0 11
+Saragossa Opening
+r1b1r1k1/1p3ppp/p2q1n2/4p3/3pP3/3P2P1/PP2QPBP/R1B2RK1 w - - 0 18
+Sicilian Defense: Smith-Morra Gambit Declined, Scandinavian Formation
+r2qkb1r/pp1b1ppp/2n1pn2/1B6/8/2P2N2/PP2QPPP/RNB1K2R w KQkq - 0 9
+Sicilian Defense: Dragon Variation, Classical Variation #2
+r1bq1rk1/p3ppbp/2pp2p1/4n1P1/4P2P/2N5/PPPBBP2/R2QK2R w KQ - 1 12
+Mieses Opening
+r2qr1k1/1p2ppbp/p1n2np1/3p4/3P4/P1NQPN1P/1P3PP1/R1B2RK1 w - - 1 14
+Sicilian Defense: Closed
+r1bq1rk1/pp2npbp/3pp1p1/2p5/P1BnPP2/2NP1N2/1PP3PP/R1B1QRK1 w - - 3 10
+Philidor Defense #4
+r3qrk1/pppnb1p1/2npp2p/8/2BP2b1/1Q3N2/PP3PPP/RNB2RK1 w - - 0 13
+English Opening: King's English Variation, Kramnik-Shirov Counterattack
+r2qr1k1/bpp2pp1/3p2np/p4b2/2PPnN2/P3BNPP/1P3PB1/R2Q1RK1 w - - 7 18
+English Defense #2
+2r1kb2/p2p1p1p/1pn1p3/1N4q1/2P3r1/1P2P2Q/P4PP1/R1B2RK1 w - - 2 18
+Slav Defense: Exchange Variation
+2rq1rk1/1p3pp1/p1n1pn1p/3p4/3P2b1/P1N1PNP1/1P2BPP1/2RQ1RK1 w - - 1 14
+Sicilian Defense: Bowdler Attack
+r1bq1rk1/1p2bpp1/p1n4p/2npp3/8/2NBBN2/PPP2PPP/R2QR1K1 w - - 0 14
+Ruy Lopez: Morphy Defense, Caro Variation
+r2qkb1r/2p2ppp/p4n2/1p2p3/4P3/1n5P/PPP2PP1/RNBQ1RK1 w kq - 0 12
+Queen's Gambit Declined: Three Knights Variation
+rn1q1rk1/p2bbppp/1p2pn2/3p4/3P4/1PN2NP1/P3PPBP/R1BQ1RK1 w - - 0 10
+Sicilian Defense: McDonnell Attack
+r1b1k2r/pp3ppp/3bp1n1/2p1q3/8/2P5/PP1PBNPP/R1BQ1RK1 w kq - 1 12
+Queen's Gambit Accepted: Central Variation, Alekhine System
+rn3rk1/1ppq2pp/p3pp2/3n4/3P4/PQ3N2/3B1PPP/2R1K2R w K - 0 16
+Center Game: Normal Variation
+r2q1rk1/1bppnpp1/p1n4p/1pb5/4P3/1BN2N2/PPP2PPP/R1BQ1RK1 w - - 0 11
+Sicilian Defense: Bowdler Attack
+r4rk1/pp2bppp/1n2p2n/2ppP3/5P2/1PPP1N2/P3K1PP/RNB4R w - - 3 14
+Italian Game: Two Knights Defense, Modern Bishop's Opening
+r3k2r/1p3ppp/p1ppbq2/4p3/4P3/1P1P1N1P/1PP2PP1/R2QK2R w KQkq - 0 13
+French Defense: King's Indian Attack
+r2qr1k1/ppp1bppp/2n1bn2/3p2B1/8/2PP1N2/PP1QBPPP/RN2R1K1 w - - 5 13
+Queen's Gambit Declined: Exchange Variation
+r4rk1/2qnbppp/p7/1p1QP3/2p4P/P3PP2/1PB3P1/R1B1K2R w KQ - 1 17
+Sicilian Defense: Delayed Alapin Variation
+1r3rk1/p2bqppp/4pn2/6B1/2BPp3/1Q6/P4PPP/R4RK1 w - - 1 17
+Russian Game: Urusov Gambit
+r3kb1r/ppp1qppp/2b5/4Q3/8/8/PPPP1PPP/RNB1K2R w KQkq - 1 10
+French Defense: Normal Variation
+2kr1b1r/pbppq1p1/1pn1pn1p/8/Q1PP4/2NBBPP1/PP5P/R3K1NR w KQ - 0 12
+Robatsch (Modern) Defense
+1r1q1rk1/pQp1npbp/2B1p1p1/3pPb2/3P1B2/2P5/PP3PPP/RN2K1NR w KQ - 1 11
+Sicilian Defense: Alapin Variation
+r1b2rk1/pp3ppp/2n1pn2/q7/1b1P4/2NB1N2/PP1B1PPP/R2QK2R w KQ - 3 12
+Sicilian Defense: Old Sicilian
+r2qk2r/4bpp1/2nppn1p/1pp5/4P1b1/1BPPBN2/1P1N1PPP/R2Q1RK1 w kq - 0 12
+English Opening: Carls-Bremen System
+rn1q1rk1/pp2bppp/8/3p4/PP2b3/1Q4P1/4PPBP/1RB1K1NR w K - 0 13
+Rat Defense: English Rat
+r2qk2r/ppp2ppp/3p1bb1/2nPp3/2P1P3/2NB1N2/PP3PPP/R2QK2R w KQkq - 5 10
+Van't Kruijs Opening
+2r1kb1r/3p1ppp/p1q1pn2/1p6/8/1PP1P1P1/PB3P1P/RN1Q1RK1 w k - 1 13
+Queen's Gambit Declined: Normal Defense
+3q1rk1/2pbbppp/2n1p3/1NPp4/3Pn3/4PN2/3B1PPP/Q3KB1R w K - 3 14
+Blackmar-Diemer Gambit Declined, Weinsbach Declination
+r1b1k2r/pp3ppp/2n1p3/3qP3/1b1P4/5N2/PP4PP/R1BQKB1R w KQkq - 3 11
+Queen's Gambit Accepted: Showalter Variation
+rn1qk2r/p3bppp/2p1pn2/1p4Bb/2pPP3/2N2N1P/PP2BPP1/R2Q1RK1 w kq - 1 10
+Caro-Kann Defense: Classical Variation
+rn2k1nr/ppq2pp1/2pbp1bp/8/2BP1B2/5N2/PPP1NPPP/R2QK2R w KQkq - 4 10
+Bogo-Indian Defense: Exchange Variation
+r2qr1k1/p1pb1ppp/1p1p1nn1/3Pp3/1PP1P3/3B1N1P/P4PPN/R2Q1RK1 w - - 2 14
+King's Pawn Game: Napoleon Attack
+r2q1rk1/1pp2ppp/1pnpbn2/4p3/2B1P3/3P1Q1P/PPP1NPP1/R1B1K2R w KQ - 1 10
+Bird Opening
+r2q1rk1/pb2bpp1/1pn1pn1p/8/2Pp1P2/1P1P1N2/PB1NB1PP/R2Q1R1K w - - 2 13
+Queen's Pawn Game #2
+rnb2rk1/p5pp/2pqpn2/1p1p1p2/3P4/P1N1PN1P/1PP2PP1/R2QKB1R w KQ - 0 10
+Slav Defense: Exchange Variation
+r4rk1/p4ppp/2pqpn2/3p1b2/B2P4/2N1P3/PP3PPP/R2Q1RK1 w - - 0 14
+Caro-Kann Defense
+2rqkb1r/pp3ppp/2n1pn2/3p1bB1/3P4/2P2N2/PP2BPPP/RN1Q1RK1 w k - 0 9
+Caro-Kann Defense: Exchange Variation
+r1bqk2r/1p2nppp/3bpn2/pP1p4/3P4/2PB1N1P/P4PP1/RNBQK2R w KQkq - 1 10
+Queen's Pawn Game: Chigorin Variation
+r1bqk2r/1p1nbppp/p3pn2/3p4/N2p1B2/3BPN2/PPP2PPP/R2Q1RK1 w kq - 0 9
+Gruenfeld Defense: Three Knights Variation, Paris Variation
+r2q1rk1/pp2ppbp/1n4p1/3n4/3P2b1/1BN1BN2/PP3PPP/R2QR1K1 w - - 7 13
+English Defense #2
+2kr2r1/pbppbp2/1p2pnqp/3P2p1/2PBP3/P1NQ3P/1P3PPN/4RRK1 w - - 3 16
+Zukertort Opening: Tennison Gambit
+r2qkb1r/p1pb1pp1/2p4p/4p3/4P3/2N5/PPP2PPP/R1BQK2R w KQkq - 0 10
+Ruy Lopez: Berlin Defense #2
+r3k2r/p1p2ppp/8/1b1p4/1b1Pn3/5P2/PPP3PP/RNBKR3 w kq - 0 14
+Italian Game: Classical Variation, Giuoco Pianissimo
+r5k1/1ppq1rpp/1bnppn2/p3p1B1/P3P3/1QPP1N2/1P1N1PPP/1R3RK1 w - - 3 13
+Benoni Defense: Classical Variation, New York Variation
+r1b1k2r/1p3p1p/p2p2p1/2pPb2n/P3P2q/2NBB2P/1P3PP1/R2Q1RK1 w kq - 2 15
+English Opening: Caro-Kann Defensive System
+r3kb1r/pp3ppp/1qn1pn2/3p4/3P4/2N3P1/PP2PPBP/R1BQK2R w KQkq - 0 10
+Scandinavian Defense: Mieses-Kotroc Variation
+r2qk2r/pp2bppp/2n1pn2/2p5/8/2NPB2P/PPPNQPP1/R4RK1 w kq - 1 12
+Queen's Pawn Game: Zukertort Variation
+r1b1k1nr/pp3ppp/1qpb4/3pn1B1/8/1PP1PN2/P2N1PPP/R2QKB1R w KQkq - 0 9
+Queen's Pawn
+r2q1rk1/pp1nppbp/2pp1np1/8/3P1Bb1/N1PBPN2/PP3PPP/R2Q1RK1 w - - 5 9
+Ruy Lopez: Closed Variations, Bogoljubov Variation
+5r1k/2prbppp/p4n2/np2p3/4P3/NBP1BP1P/PP3P1K/R3R3 w - - 2 17
+Caro-Kann Defense: Advance Variation, Short Variation
+2r1kb1r/pp1n1ppp/q3p1n1/3pP3/3P3N/4Q3/PP1BNPPP/R3K2R w KQk - 1 14
+Alekhine Defense
+r4rk1/1ppq1pb1/p1nppnpp/1B6/3PP3/2N3QP/PPP2PP1/R1B2RK1 w - - 0 13
+Sicilian Defense: Hyperaccelerated Fianchetto
+r1b1k2r/p3ppbp/2p2np1/4B3/8/2N5/PPP2PPP/R2qKB1R w KQkq - 0 11
+French Defense: Exchange Variation
+r2q1rk1/pp2bppp/2p2n2/3pn1B1/3P4/2NQ4/PPP2PPP/R3R1K1 w - - 0 12
+Pirc Defense #3
+r2q1rk1/1bpn1pbp/pp1p1np1/4p3/3PPP2/2NB2NP/PPP3P1/R1BQR1K1 w - - 0 11
+Pirc Defense #5
+r3k2r/pp5p/n1ppqbp1/4p3/4P3/2N2Q1P/PPP1NPP1/2KR3R w kq - 1 14
+Sicilian Defense: Bowdler Attack
+r1bqk1nr/p2p2b1/1pn1pp1p/2p1P1p1/2B5/3P1N1P/PPP2PP1/RNBQR1K1 w kq - 0 9
+Queen's Pawn
+r2qk2r/pp3p1p/2pBpnp1/3n4/8/6QP/PPP2PP1/R3KB1R w KQkq - 0 13
+Caro-Kann Defense
+r4rk1/2q2pbp/b1p2npB/pp2p3/4P3/2NB1P1P/PPPQ2P1/3R1RK1 w - - 1 15
+Modern Defense
+rn1qk2r/pbp1npb1/1p4pp/3p4/2B5/3P1N2/PPP2PPP/RNBQR1K1 w kq - 2 10
+Owen Defense
+rn1q1rk1/pb2npbp/1pp3p1/3p4/8/1BNP1N1P/PPPB1PP1/R2Q1RK1 w - - 2 11
+Sicilian Defense: Hyperaccelerated Fianchetto
+r2r2k1/pp1qppbp/5np1/3P4/3B4/2N2P2/PPP3PP/R2Q1RK1 w - - 3 13
+English Opening: Anglo-Scandinavian Defense
+5rk1/2pq1pbp/B1n1p1p1/3bP1B1/1r1P4/2Q2P2/PP4PP/R3K1NR w KQ - 1 18
+Ruy Lopez: Berlin Defense, l'Hermet Variation
+r1bk1b1r/ppp2ppp/2p5/4Pn2/8/5N2/PPP2PPP/RNB2RK1 w - - 0 9
+Hungarian Opening: Symmetrical Variation
+r4rk1/pp1q1pbp/2ppb1p1/4n3/4P3/3PN1PP/PPP3B1/R1B1QRK1 w - - 1 15
+Scandinavian Defense: Modern Variation #2
+r3k2r/pppq1ppp/2nb4/4p3/8/2P5/PP1PNPPP/R1BQ1RK1 w kq - 2 11
+Van't Kruijs Opening
+rn2k2r/1bqp1pp1/p3p2p/1p5n/4P3/P1P1bP1P/1PBNN1P1/R1BQ1R1K w kq - 3 15
+Mieses Opening
+1rb2r2/p2q1pkp/1pn1p1p1/2p5/8/3P1NP1/PPQ1PPBP/1R3RK1 w - - 0 15
+Sicilian Defense: Bowdler Attack
+r1bk1b1r/pp2np2/4p2p/3pP1p1/7B/2PB4/PP3PPP/RN2K2R w KQ - 0 14
+Saragossa Opening
+rnbq1rk1/pp2bppp/2p1pn2/8/2BP4/2P2N2/PP1B1PPP/RN1QK2R w KQ - 2 10
+Scandinavian Defense: Main Line
+r3k2r/pb3ppp/4pn2/1p6/8/3P1N2/P1P2PPP/R3KB1R w KQkq - 0 15
+Queen's Pawn Game: Chigorin Variation
+r2q1rk1/2p1nppp/1p1bpn2/p2p4/P2P2b1/1QP1PNB1/1P1NBPPP/R3K2R w KQ - 0 11
+Vienna Game: Falkbeer Variation
+r2q1rk1/ppb2pp1/2pp1n1p/P3p3/1P2P1b1/2NPQ3/2PNBPPP/R4RK1 w - - 3 16
+Hungarian Opening: Indian Defense
+r1bqr1k1/ppp2pbp/5np1/8/3nPP2/7P/PPPNN1B1/R1BQ1RK1 w - - 1 12
+Italian Game
+r2qkbnr/2p2ppp/3p4/pp2p2b/4P3/Pn1P1N1P/1PPN1PP1/R1BQ1RK1 w kq - 0 10
+Bishop's Opening: Boi Variation
+r2qk1nr/ppp3pp/2np1pb1/2b1p3/2B1P1P1/3PBN1P/PPP2P2/RN1QK2R w KQkq - 2 9
+Owen Defense
+3rk1nr/p1p2pbp/1pn1p1p1/8/4P3/2N2N2/PPP2PPP/R1B1K2R w KQk - 2 10
+French Defense #2
+r1bq1rk1/bpp2ppp/p1n1pn2/8/2BP4/P1P3NP/1P3PP1/R1BQK1NR w KQ - 1 10
+Philidor Defense #2
+r2qk2r/ppp1bppp/2bp1n2/8/3QP3/2N2N1P/PPP2PP1/R1B1K2R w KQkq - 2 9
+Hungarian Opening: Catalan Formation
+r2qr1k1/pp1bbppp/2n1p3/2p5/4N3/3P2P1/PPP2PBP/R1BQR1K1 w - - 7 12
+Sicilian Defense: Old Sicilian
+1rbqk1nr/1p2ppbp/p1np2p1/6B1/3NP3/2N5/PPP1BPPP/R2Q1RK1 w k - 2 9
+Slav Defense #2
+r3kb1r/pp1n1pp1/1q2pnp1/3p4/3P4/PQN1PN2/1P3PPP/R1B1K2R w KQkq - 2 11
+Scotch Game: Schmidt Variation
+r1bq1rk1/p1p1bppp/5n2/3p4/2P5/3B4/PP3PPP/RNBQ1RK1 w - - 1 10
+Owen Defense
+r4rk1/p1qn1ppp/1pp1pn2/3p2B1/P2P4/2PB1Q2/2P2PPP/4RRK1 w - - 4 15
+Bishop's Opening: Vienna Hybrid, Spielmann Attack
+r3k2r/1ppq1pp1/p1np1nbp/2b1p3/2B1P1PP/P1NP4/1PP2P1N/R1BQK1R1 w Qkq - 0 12
+Ruy Lopez: Closed Variations, Bogoljubov Variation
+r2q1rk1/2p1bppp/p1np1n2/1p2p3/3PP1b1/1BP2N2/PP3PPP/RNBQR1K1 w - - 1 10
+English Opening: Anglo-Indian Defense, Queen's Knight Variation
+2rq1rk1/1b1n1ppp/p3pb2/1p1p4/1P1P1N2/P3PNP1/5PBP/R2Q1RK1 w - - 5 16
+French Defense: Exchange Variation
+r4rk1/pp1q1p1p/2p2pb1/3p4/1b1P2P1/2NB3P/PPP2P2/R2Q1RK1 w - - 0 14
+Slav Defense: Three Knights Variation
+2rq1rk1/1p2bppp/p3p3/8/1P1PN3/P1n1B3/4QPPP/R2R2K1 w - - 1 18
+Hungarian Opening: Catalan Formation
+r3k2r/1bq1bppp/p1p2n2/2pp1PB1/Q3p3/2PP2P1/PP2P1BP/RN2K2R w KQkq - 2 13
+King's Pawn Game: Napoleon Attack
+r4rk1/p1p1bppp/1pnq1n2/4p3/4P3/2P1BQ2/PP1NNPPP/R3K2R w KQ - 6 12
+Caro-Kann Defense: Two Knights Attack, Mindeno Variation
+rn1qk2r/pp1nbppp/2p1p1b1/3pP1B1/3P2P1/2NB1N1P/PPP2P2/R2QK2R w KQkq - 3 10
+English Opening: Agincourt Defense, Neo-Catalan Declined
+2rq1rk1/pb1nbppp/1p2pn2/8/2PP4/2N2NP1/PB3PBP/R2Q1RK1 w - - 1 13
+Russian Game: Modern Attack, Symmetrical Variation #2
+r2qr1k1/ppp2ppp/3b1n2/4n1Bb/8/2P2N1P/PP1NBPP1/R2Q1RK1 w - - 3 13
+Caro-Kann Defense
+r2qkb1r/pp3ppp/2n1pn2/3p4/3P4/2PQ1N1P/PP3PP1/RNB1K2R w KQkq - 0 9
+Slav Defense: Modern Line
+r2q1rk1/1p1n1ppp/5n2/1Pbp3b/8/2N1PN1P/4BPP1/1RBQK2R w K - 0 15
+Bishop's Opening
+rn2k2r/pp2bp2/2pp2p1/4p2p/4P1n1/1B1P4/PPP2PPP/RN2K1NR w KQkq - 0 11
+Zukertort Opening: Slav Invitation
+2br1rk1/ppq1b1pp/2p3n1/4pp2/2P1N3/1P2P3/PBQ1BPPP/2RR2K1 w - - 0 17
+Queen's Gambit Accepted
+r2r2k1/1b2bppp/pn2pn2/1p6/8/1PN1PN2/PB2BPPP/2R2RK1 w - - 0 15
+Sicilian Defense: French Variation, Westerinen Attack
+rn2k1nr/pp1bbppp/8/1Bp5/3p4/1P3N2/PBPP1PPP/RN2K2R w KQkq - 2 9
+Scandinavian Defense: Mieses-Kotroc Variation
+rn1qkbnr/pp2pppp/2p5/1N3b2/3P4/5P2/PPPBB1PP/R2QK1NR w KQkq - 2 9
+Owen Defense
+r2qkb1r/1b3ppp/2n1p3/1ppnP3/2Np4/3P1NP1/1PP2PBP/R1BQR1K1 w kq - 0 13
+English Opening: Agincourt Defense #3
+2rqr1k1/pp3pbp/3p1np1/2pPn3/4P3/2N4P/PP2BPP1/R1BQR1K1 w - - 3 15
+Alekhine Defense: Hunt Variation, Lasker Simul Gambit
+rnbqkb1r/5ppp/1p2p3/2ppP3/3P4/2PB4/P4PPP/R1BQK1NR w KQkq - 0 11
+Queen's Pawn Game #2
+r2q1rk1/pp2bppp/1n2bn2/3p4/2pP4/2N1PN2/PPQ1BPPP/R1BR2K1 w - - 10 12
+Sicilian Defense: French Variation
+r1br2k1/pp2bppp/2n1pq2/8/8/2P2N2/PP2BPPP/R1BQ1RK1 w - - 7 12
+Scotch Game: Potter Variation
+r3r1k1/1p1b1ppp/1p1p1q2/p2Pn3/3N4/8/PPP1QPPP/1K1R1BR1 w - - 2 17
+Sicilian Defense: Lasker-Dunne Attack
+r1bq1rk1/pp2npbp/2np2p1/2pNp3/2P1P3/2N3P1/PP1P1PBP/R1BQK2R w KQ - 0 9
+Bishop's Opening
+r2q1r1k/4bp2/p1p2n1p/1p1ppQ1P/1P2P3/P1NP4/B1P2P1P/R3K2R w KQ - 0 18
+Grob Opening: Spike, Hurst Attack
+3r1rk1/pp3ppp/2n3n1/3N4/1b4b1/6B1/PP2PPBP/R4KNR w - - 4 16
+Queen's Gambit Refused: Baltic Defense
+r2qk2r/pp1n1ppp/4p3/2pp1b2/2PPn3/P1P1PN2/1B2BPPP/R2QK2R w KQkq - 0 10
+King's Indian Defense: Four Pawns Attack
+rnbq1rk1/pp3pbp/3p1np1/2pp4/2P1PP2/2NB1N2/PP4PP/R1BQK2R w KQ - 0 9
+Philidor Defense #3
+r2qk2r/ppp2ppp/3p1b2/3Np3/2BnP3/3P1Q2/PPP2PPP/R3K2R w KQkq - 4 10
+Sicilian Defense: Smith-Morra Gambit #2
+r2q1rk1/pp1bbppp/2nppn2/8/Q3P3/2P1BN1P/PP1N1PP1/R3KB1R w KQ - 3 10
+Giuoco Piano
+r4rk1/1ppq1pp1/pb1p1nnp/4pN2/4P1P1/1bPP1N1P/PP3P2/R1BQR1K1 w - - 0 15
+Italian Game: Classical Variation, Greco Gambit, Traditional Line
+r1bqk2r/ppp2ppp/2n5/3n4/2BP4/5N2/PP1N1PPP/R2QK2R w KQkq - 0 10
+Trompowsky Attack
+r2q1rk1/pb1nbppp/1pp1pn2/3p4/3P1B2/P1NBPP1N/1PP3PP/R2Q1RK1 w - - 1 12
+Sicilian Defense: Bowdler Attack
+r1b2rk1/1pq2ppp/p1nb4/2pB4/3pP3/P4N1P/1PP2PP1/R1BQ1RK1 w - - 3 14
+Grob Opening: Grob Gambit, Fritz Gambit
+1r1qkb1r/Q1pbpp1p/1n3np1/3P4/2p1P3/2N5/PP3PBP/R1B1K1NR w KQk - 1 11
+Bird Opening: From's Gambit
+r3r1k1/1ppqbppp/3pnn2/1P6/4PB2/NQPP1B2/6PP/R4RK1 w - - 3 16
+Philidor Defense: Lion Variation
+r1b1k2r/ppq2p2/2p2bnp/4p1p1/2B1P3/2N2N1P/PPPQ1PP1/R4RK1 w kq - 1 14
+Pirc Defense: Kholmov System
+r1bq1rk1/p2nppbp/2pp1np1/1p6/3PP3/1BN1BP2/PPPQ2PP/R3K1NR w KQ - 2 9
+Queen's Gambit Declined: Modern, Knight Defense #2
+r2q1rk1/pp2bpp1/5n1p/2ppNb2/3P4/2N1P3/PP2BPPP/R2QK2R w KQ - 2 12
+Sicilian Defense: Smith-Morra Gambit #2
+r4rk1/pp2qppp/2b1p3/3pPn2/8/2P2N1P/PP2QPP1/RN3RK1 w - - 0 16
+Caro-Kann Defense
+rnbqk2r/pp1p1pp1/7p/3QP3/1b6/2p5/PP3PPP/RNB1K1NR w KQkq - 0 10
+Caro-Kann Defense: Karpov Variation
+r3k2r/1pq2ppp/2p1pbb1/p7/3P4/2P2N2/PP2QPPP/RB1R2K1 w kq - 2 16
+Ruy Lopez: Exchange Variation
+r3k1nr/1pp3pp/p1p2p2/8/3P2q1/4BNb1/PPP2P2/R2Q1RK1 w kq - 0 15
+Queen's Gambit Accepted
+r1bqk2r/ppp2ppp/8/3n4/2B1PQ2/8/PP3PPP/R3K2R w KQkq - 0 12
+Zukertort Opening: Sicilian Invitation
+r2qk1nr/pp2ppbp/2bp2p1/8/8/2P3P1/PP2PPBP/RNBQ1RK1 w kq - 0 9
+Alekhine Defense: Scandinavian Variation
+2kr1b1r/ppp3pp/2n5/4pb2/8/2P2N1P/PP3PP1/R1B1KB1R w - - 0 12
+Sicilian Defense: Dragon Variation
+2rq1rk1/1p1bppbp/p2p1np1/6B1/2BQP2P/2N2P2/PPP3P1/2KR3R w - - 1 13
+Italian Game: Giuoco Pianissimo
+r1bq1rk1/ppp2pp1/3p3p/n2Np3/4P3/3PbN1P/PPP2PP1/R2QR1K1 w - - 0 12
+Four Knights Game: Italian Variation
+r2qr1k1/1ppnb1p1/p1np3p/4pp2/1P2P1b1/P1NPBN2/2P1BPPP/R2Q1RK1 w - - 0 14
+Philidor Defense: Hanham Variation
+2kr3r/p1p2ppp/bp3n2/4p3/1q2P3/3P1N2/P3QPPP/R1BR2K1 w - - 0 15
+Scotch Game
+r1b2rk1/pp2bppp/2p2n2/8/2B5/8/PPP2PPP/RNB2RK1 w - - 4 12
+Slav Defense
+r1bq1rk1/pp1nb1pp/2p5/3pp3/3P1B2/5N2/PP2BPPP/R2Q1RK1 w - - 0 13
+Bird Opening: Dutch Variation
+2rq1rk1/1p1bbppp/p1n1pn2/3pN3/3P1P2/P3P3/1P1NB1PP/R1BQ1RK1 w - - 0 12
+King's Pawn Game: McConnell Defense
+rn2k1nr/pp3ppp/2pp4/7q/4P1b1/2NBbN1P/PPP2PP1/R2QK2R w KQkq - 0 11
+Caro-Kann Defense #2
+r2qkb1r/pp1npppp/2p3b1/8/3PN3/3Q1P2/PPP3PP/R1B1K1NR w KQkq - 1 9
+Sicilian Defense: Snyder Variation
+r2qkb1r/p3nppp/b3p3/2p5/3pPP2/1P1P4/PB1N2PP/R2QK1NR w KQkq - 2 11
+Sicilian Defense: Closed Variation, Korchnoi Defense
+r1b2rk1/pp2bpp1/2n2q1p/2p5/3p4/3P1NP1/PPP1QPBP/R1B2RK1 w - - 0 12
+Sicilian Defense: Delayed Alapin Variation
+r1b1k2r/p4ppp/2p1pn2/8/3PpB2/2P5/P4PPP/R3KB1R w KQkq - 1 12
+Rat Defense: Small Center Defense
+r1bqk2r/pp3ppp/1npppb2/8/2PPP3/2NQ1N2/PP3PPP/R3KB1R w KQkq - 0 9
+Caro-Kann Defense
+2rq1rk1/3n1pbp/p3p1p1/1p1pN3/3P4/P1NQ4/1PP2PPP/4RRK1 w - - 0 16
+Ruy Lopez: Closed Variations, Kholmov Variation
+r2q1rk1/2p1bppp/p1n2n2/1p1bp3/8/2P2N1P/PPBP1PP1/RNBQR1K1 w - - 0 12
+Indian Game
+r2qk2r/pbpn1pbp/1p1p2p1/4p3/3P4/2PBPNP1/PP1N1PP1/R2QK2R w KQkq - 0 11
+Van't Kruijs Opening
+r2r2k1/1pp1n1bp/p1n3p1/4pp2/8/1PN1PBP1/P1P2P1P/R1B2RK1 w - - 0 14
+Sicilian Defense: Old Sicilian
+r3kb1r/1p2pppp/p4n2/4n3/8/2N2B2/PP3PPP/R1B1K2R w KQkq - 0 12
+Slav Defense: Geller Gambit #2
+r2qkb1r/pp3ppp/2n1p3/3pP3/3P2b1/5N2/PP2BPPP/R1BQK2R w KQkq - 2 10
+Italian Game: Giuoco Pianissimo, Italian Four Knights Variation
+r1bqk2r/1pp2ppp/p1np4/2b1p3/2B1P3/2NPnN2/PPP1QPPP/R4RK1 w kq - 0 9
+Scandinavian Defense
+r2qk2r/ppp2ppp/2n2n2/4p3/1b2P3/2NP1B2/PPP3PP/R1BQK2R w KQkq - 1 9
+Tarrasch Defense: Symmetrical Variation
+r1bq1rk1/pp3ppp/2n1pn2/2b5/2p5/2N1PN2/PP2BPPP/R1BQ1RK1 w - - 0 9
+Ponziani Opening: Jaenisch Counterattack
+r1bq1rk1/1p1nn1pp/pb1p1p2/1PpP1P2/4P1Q1/7P/PB1N2P1/RN2KB1R w KQ - 0 16
+Queen's Pawn Game: Levitsky Attack
+r2q1rk1/1b2bpp1/p3pn1p/1p2N3/4nB2/P1N1P3/1P2BPPP/R2Q1RK1 w - - 4 15
+Sicilian Defense
+rnbq1rk1/1p2bppp/p2ppn2/6B1/3NP3/P1NB4/1PP2PPP/R2QK2R w KQ - 5 9
+Petrov's Defense
+r1bb1rk1/ppp2pp1/2npq2p/3Np3/3PP3/5N1P/PPP1QPP1/2KR1B1R w - - 1 12
+Canard Opening
+r1bq1rk1/pp3ppp/2nbp3/2ppN3/3PnP2/2PBP3/PP4PP/RNBQ1RK1 w - - 7 9
+Nimzo-Indian Defense: Classical Variation, Berlin Variation
+r1bq1rk1/p4ppp/1p1p1n2/n1pPp3/P1P5/2PBPN2/2Q2PPP/R1B2RK1 w - - 0 12
+French Defense: Exchange Variation
+r3k2r/ppqn1pp1/2pb1n1p/3p1b2/3P4/4B1PP/PPPNNPB1/R2Q1RK1 w kq - 6 11
+Pirc Defense: Classical Variation
+3r1rk1/ppq1ppbp/1np3p1/4Pb2/2PPN3/5B2/PP2Q1PP/R1B2RK1 w - - 7 15
+Indian Game: Anti-Gruenfeld, Alekhine Variation
+r2q1rk1/3b1pbp/3p1np1/pp1Pp3/Pn2P3/1P2BP2/3N2PP/RBNQ1RK1 w - - 0 16
+Sicilian Defense: McDonnell Attack
+r3kbnr/1bqn1ppp/p2pp3/1pp5/4PP2/2PP1N2/PPN1B1PP/R1BQK2R w KQkq - 2 9
+Nimzowitsch Defense, Declined Variation
+r1b1k1nr/1pp1qp1p/p1n3p1/8/3b4/1BNPB3/PPP2PPP/R2Q1RK1 w kq - 0 11
+Trompowsky Attack
+2r1r1k1/pp1q1ppp/1np1bp2/8/3PPb2/2N2N2/PPQ1BPPP/1R1R2K1 w - - 15 16
+French Defense: Knight Variation
+rn1q1rk1/pp2nppp/2pb4/3p1b2/3P4/2P1BN2/PP2BPPP/RN1Q1RK1 w - - 6 9
+Scandinavian Defense
+rnbq1rk1/p3bppp/1pp1p1n1/3pP3/3PBP2/5N2/PPP3PP/RNBQK2R w KQ - 4 9
+Queen's Pawn
+2rq1rk1/3n1ppp/p1pbpn2/1p3b2/1P1P4/P1N1PN2/3BBPPP/2RQ1RK1 w - - 6 13
+Queen's Pawn Game #3
+r2q1rk1/p2b1pbp/2p1p1p1/2Qp4/1P1Pn3/P2BP3/1B3PPP/R3K1NR w KQ - 3 16
+English Opening
+r1bqr1k1/pp2bppp/2pp1nn1/4p3/1PP5/P1N1P1P1/1B1PNPBP/1R1QK2R w K - 3 11
+Italian Game: Classical Variation, Greco Gambit, Traditional Line
+r1bq1rk1/ppp2ppp/2n5/3n4/2BP4/5N2/PP1N1PPP/R2Q1RK1 w - - 2 11
+Zukertort Opening: Queenside Fianchetto Variation
+rn1q1rk1/pbp1b1pp/1p1p4/3PNp2/3Qn3/4P3/PP2BPPP/RNB2RK1 w - - 0 11
+Queen's Gambit Declined: Modern Variation
+rnbq1rk1/pp3pp1/4pb1p/3p4/3P4/2NBPN2/PP3PPP/R2QK2R w KQ - 2 10
+Bird Opening
+r2q1rk1/pb3ppp/1p1bpnn1/2ppN3/3P1PP1/2PBPQ2/PP1N3P/R1B2RK1 w - - 1 12
+Van't Kruijs Opening
+r1bqk1nr/ppppb1p1/7p/4n1B1/4P2P/8/PPP3P1/RN1QKBNR w KQkq - 0 9
+French Defense: La Bourdonnais Variation
+r2qk2r/pp1bnppp/3b4/1BpP4/3n1P2/5N2/PP4PP/RNBQ1RK1 w kq - 0 10
+Pterodactyl Defense: Eastern, Anhanguera
+r1bqr1k1/pp4bp/2n1pnp1/3pN3/3B4/1BN5/PPP2PPP/R2Q1RK1 w - - 4 14
+Robatsch (Modern) Defense
+rnbq1rk1/ppp3bp/4p1p1/3p1n2/3P4/3BBN2/PPPN1PPP/R2QK2R w KQ - 0 10
+Queen's Pawn Game: London System
+r2q1rk1/1p2bppp/p1b1pn2/3pN3/2Pp1B2/2N1P2P/PP3PP1/R2Q1RK1 w - - 0 12
+English Opening: Caro-Kann Defensive System
+r2qkb1r/pp3ppp/2n1pn2/3p4/8/2NP1BP1/PP2PP1P/R1BQK2R w KQkq - 0 9
+Sicilian Defense: Bowdler Attack
+r1bqk2r/1p2bppp/p2ppn2/8/P1BnP3/2N4P/1PP2PP1/R1BQ1RK1 w kq - 0 10
+Queen's Pawn Game #2
+r2qk2r/ppp2ppp/3b1n2/3p4/1P6/2P1PN2/P4PPP/R1BQ1RK1 w kq - 3 12
+Sicilian Defense: Najdorf Variation
+rnbqk2r/1p2bppp/p2p4/3np3/P3P3/1N6/1PP2PPP/R1BQKB1R w KQkq - 0 9
+Ruy Lopez: Morphy Defense, Anderssen Variation
+r1bqk2r/2p1bppp/p2p1n2/np1Np3/4P3/1B1P1N2/PPP2PPP/R1BQK2R w KQkq - 2 9
+Scandinavian Defense: Mieses-Kotroc Variation
+r3r1k1/1ppn1ppp/p2b4/7b/3Pn3/P1N2N1P/1P1BBPP1/R3RK2 w - - 3 16
+Old Indian Defense
+r3k2r/ppqbbpp1/2p2n1p/4p3/2P1P3/3B1N1P/PP3PP1/R1BQ1RK1 w kq - 1 12
+Indian Game: Wade-Tartakower Defense
+r2qk2r/pp1nppbp/2pp1np1/8/2PP4/2N1PP1B/PP1B1P1P/R2QK2R w KQkq - 0 9
+Indian Game
+r2q1rk1/pp2bppp/2n1bn2/2pp4/5B2/2N2NP1/PPP1PPBP/R2Q1RK1 w - - 0 10
+Queen's Pawn Game: Chigorin Variation
+r2q1rk1/ppp2pp1/2n1pn1p/3p4/3P2b1/2PBPNP1/PP1N1PP1/R2QK2R w KQ - 0 10
+Ruy Lopez: Steinitz Defense
+r2qkbnr/p1p3pp/3p1p2/2pPp3/8/5N2/PPPPQPPP/R1B1K2R w KQkq - 0 9
+Caro-Kann Defense: Modern Variation
+r2qk1nr/pp1n1ppp/4p3/3pP3/3P4/1Q6/PP1b1PPP/R1B1K1NR w KQkq - 0 10
+Blackmar-Diemer Gambit: Gedult Gambit
+rn1q1r2/p1p1bpkp/1p2p1p1/3n4/3PN3/2PQ1N2/PPB3PP/R1B3K1 w - - 4 15
+Scandinavian Defense: Mieses-Kotroc Variation
+r4rk1/pp1qbppp/2p1pn2/6B1/3P4/2NQ4/PPP2PPP/3R1RK1 w - - 0 14
+Alekhine Defense: Maroczy Variation
+rnbq1rk1/1p1nb1p1/4p2p/p1p1Pp2/2Pp1P2/P2P1N2/1P2BNPP/1RBQ1RK1 w - - 0 14
+Sicilian Defense
+r1bq1rk1/4bp1p/p1p3p1/3pP2Q/8/3B4/PPP3PP/R1B2RK1 w - - 0 15
+Semi-Slav Defense
+r1b2rk1/pp2qppp/2n1p3/3p4/3P4/2QBPN2/PP3PPP/R3K2R w KQ - 2 12
+Queen's Gambit Declined: Traditional Variation
+r1b2rk1/ppp1qppp/8/3p4/1n1P4/4PN2/PPB2PPP/R2QK2R w KQ - 2 12
+King's Indian Attack: Symmetrical Defense
+r1bq1rk1/1p2ppbp/2np1np1/p1p5/2P5/P1N2NP1/1P1PPPBP/1RBQ1RK1 w - - 0 9
+Ruy Lopez: Classical Variation
+1r1q1rk1/p1p1bppp/2p2n2/4p1B1/2P1P3/3P1Q1P/P4PP1/RN3RK1 w - - 1 13
+Old Benoni Defense
+r4rk1/p3ppbp/1nNq1np1/1p1p4/3P4/2P5/PP3PPP/R1BQRNK1 w - - 4 17
+Horwitz Defense
+r2q1rk1/pb1nn1b1/1p2p1pp/2pp1p2/3P4/1NPNP1P1/PP3PBP/R1BQ1RK1 w - - 0 16
+King's Pawn Game: Wayward Queen Attack
+r3r1k1/1p3pb1/p1ppbnpp/4p3/PP2P3/2PPBN1P/3N1PP1/3R1RK1 w - - 0 17
+Russian Game: Damiano Variation
+r1bq1rk1/pp3ppp/2nb4/2pNp3/4P3/3B4/PPPP2PP/R1BQ1RK1 w - - 6 10
+French Defense: Advance Variation #2
+r3k2r/pp1b1ppp/4p3/1PqpP3/P1n5/2PQ1N2/5PPP/RN3RK1 w kq - 0 15
+Four Knights Game: Gunsberg Variation
+r1b2rk1/ppp2ppp/2n5/2bqp3/8/P4N2/1PPPBPPP/R1BQ1RK1 w - - 4 9
+Indian Game
+r1bqr1k1/pppn1pbp/5np1/3p4/3PP3/3B1N2/PP1NQPPP/R1B2RK1 w - - 0 11
+Ruy Lopez: Exchange Variation, Lutikov Variation
+r2q1rk1/3p1ppp/2bb4/p1p1p3/P3P3/3PBN2/1P3PPP/R2Q1RK1 w - - 0 14
+Queen's Pawn Game: Mason Attack
+r2q1rk1/pp2bppp/2n1pn2/3p2Bb/3P4/2P2N1P/PP1NBPP1/R2Q1RK1 w - - 3 12
+Philidor Defense #2
+rnbqk2r/4bpp1/p1pp1n1p/1p2p3/4P3/P1N2N1P/BPPP1PP1/R1BQK2R w KQkq - 2 9
+Queen's Pawn
+rn1qk2r/3pppbp/2b3p1/1p1nP3/8/5N2/PP2BPPP/RNBQ1RK1 w kq - 1 11
+Caro-Kann Defense
+r3k2r/pp3ppp/2nqpnb1/3p4/3P2P1/2N2N1P/PPPQ1P2/R3KBR1 w Qkq - 0 12
+Sicilian Defense: Dragon, 6.Be3
+r1bq1r2/p3ppkp/2pp1np1/8/4P3/2N4P/PPPQ1PP1/R3KB1R w KQ - 0 13
+Gruenfeld Defense: Three Knights Variation, Paris Variation
+r1bq1rk1/pp2ppbp/1n4p1/3n4/3P4/P1N2N2/BP3PPP/R1BQ1RK1 w - - 3 12
+Modern Defense
+rn1qr1k1/pp3pbp/2p2np1/3b4/3P4/2N1BPP1/PP2N1BP/R2QR1K1 w - - 0 14
+Semi-Slav Defense: Bogoljubov Variation
+r1bqk2r/3nbppp/1pp1pn2/p1Pp4/1P1P4/2NBPN2/P4PPP/R1BQK2R w KQkq - 0 9
+Scotch Game: Classical Variation
+r1bq1rk1/p1pp1ppp/1bp2n2/8/3BP3/2N5/PPP2PPP/R2QKB1R w KQ - 4 9
+Queen's Pawn Game: Liedmann Gambit
+r1b2rk1/pp1p2pp/2n1p1n1/q4p2/2PN4/2PBB3/P1Q2PPP/R4RK1 w - - 0 13
+Queen's Gambit Refused: Marshall Defense
+r2q1rk1/ppb2ppp/2p2n2/2P2b2/3P4/P6P/1P1N1PP1/RNBQ1RK1 w - - 5 15
+French Defense: Rubinstein Variation
+1r1r2k1/pb1n1pp1/1p3q1p/2pP4/1PP1p3/5N2/P2QBPPP/3R1RK1 w - - 0 18
+Scandinavian Defense: Mieses-Kotroc Variation
+r1b1kb1r/ppp1pppp/5n2/3n4/8/2NPB3/PPP1NPPP/2KR1B1R w kq - 5 9
+Queen's Pawn Game: Chigorin Variation
+rn3rk1/1p1qbppp/p3pn2/8/3N4/2N1B3/PPP2PPP/R2Q1RK1 w - - 2 12
+English Opening: King's English Variation
+r3k2r/pp3ppp/2n2n2/q2p1b2/1b1PpN2/2N1P1P1/PP1B1PBP/R2QK2R w KQkq - 6 11
+Caro-Kann Defense
+r2qk2r/pp1b1ppp/2n1pb2/1B1p4/3P4/2N2N2/PPP1QPPP/R3K2R w KQkq - 0 10
+French Defense: Rubinstein Variation, Fort Knox Variation
+r2q1rk1/pppnbppp/2b1p3/6B1/3Pn3/3B1N2/PPP1QPPP/3R1RK1 w - - 0 11
+King's Pawn Game: King's Head Opening #2
+r1bqk2r/pppp1ppp/8/3Pp3/8/3P1P2/PPPbQ1PP/R3KB1R w KQkq - 0 10
+Sicilian Defense
+r1b1r1k1/2q2pbp/p2pp1p1/1p6/2PnPP2/P6P/BPPB2PN/R1Q2RK1 w - - 1 18
+English Defense #2
+r2qr1k1/pbpn1ppp/1p6/4p3/2P1n3/B1P2NP1/P3QPBP/3R1RK1 w - - 0 14
+Four Knights Game: Italian Variation
+3r1r1k/ppp3pp/8/3Pp1N1/1b1n2b1/2N5/PPP2PPP/R1B2RK1 w - - 1 13
+Pirc Defense #4
+r4rk1/ppqnbppp/2pp1nb1/4p3/3PP3/2NBBN1P/PPPQ1PP1/3R1RK1 w - - 9 12
+Sicilian Defense: Bowdler Attack
+1rbqk2r/3p1ppp/p1n1pb2/1p6/2pPP3/1BP2N2/PP3PPP/RN1Q1RK1 w k - 0 11
+Queen's Pawn Game: Veresov Attack, Boyce Defense
+r2qk2r/pp2ppb1/1np1b1pp/4P3/3P4/3Q1NB1/PPP3PP/2KR1B1R w kq - 3 13
+Horwitz Defense
+rn2k1nr/pp3pp1/4p3/1q1p2B1/3P4/PPb1PN1P/2Q2P1P/R3K2R w KQkq - 0 14
+Ruy Lopez: Bird Variation
+r3k2r/pp1qb1p1/2pp1n1p/4p1B1/4P3/2PP3Q/P2N1PPP/R4RK1 w kq - 0 15
+Sicilian Defense
+r2qk2r/pp1bbpp1/2np1n1p/1Np1p3/2B1P3/3PBN2/PPP2PPP/R2Q1RK1 w kq - 2 9
+Indian Game
+r1kq1b1r/ppp4p/2n2p2/3pp1pQ/3P4/1NP1P1B1/P1b2PPP/R3KB1R w KQ - 0 13
+Bishop's Opening: Vienna Hybrid, Spielmann Attack
+r2qk2r/pppb1ppp/3p1n2/2b1pP2/2n1P3/P1NP1N2/1PP3PP/R1BQK2R w KQkq - 0 9
+Bishop's Opening: Boi Variation
+r1b1r1k1/ppp2pp1/2n4p/2q1p3/4P3/3P1N1P/PPP2RP1/RN1Q2K1 w - - 3 13
+Queen's Pawn Game: Colle System
+rn1q1rk1/pp2bppp/2p1pn2/3pN3/2PP4/2N1P2P/PP2bPP1/R1BQ1RK1 w - - 0 10
+French Defense: Knight Variation
+r1bqk2r/ppp4p/2n2pn1/3p4/1b1P4/4BN2/PP3PPP/RN1QKB1R w KQkq - 2 10
+London System
+r4rk1/pp2ppbp/1qnp2p1/8/3P4/2P2N1P/PP2QPPB/R3K2R w KQ - 0 16
+Three Knights Opening #2
+r2q1rk1/ppp2pp1/1bnp1n1p/7b/NPBpP3/P1P2N1P/5PP1/R1BQR1K1 w - - 0 13
+Reti Opening: Anglo-Slav Variation, New York System
+2rq1rk1/pp1n1pp1/3bp2p/3pNb2/2PPnP2/1PN2B2/PB4PP/R2Q1RK1 w - - 1 14
+Ruy Lopez: Steinitz Defense
+r2q1r2/2pb2bk/p2p1pnp/1p2p1p1/1PB1P3/2PP2BP/P4PP1/R2QNRK1 w - - 0 17
+French Defense: Advance Variation
+5rk1/pp1b2pp/1qnbp2r/3p4/3PP3/2NB1N2/PP2Q1PP/3R1R1K w - - 1 18
+Sicilian Defense: Open
+r1bq1rk1/p2pppbp/1np3p1/4P3/2P5/1P6/PBQ2PPP/RN2KB1R w KQ - 4 11
+Italian Game: Anti-Fried Liver Defense
+r2q1rk1/ppp3p1/3ppn1p/4p3/3nP3/2NPRN1P/PPP2PP1/R2Q2K1 w - - 1 12
+Sicilian Defense: Najdorf Variation
+rnb1k2r/1pq1bppp/p2ppn2/6B1/3NP3/2NB1P2/PPP3PP/R2QK2R w KQkq - 3 9
+King's Knight Opening
+r2q1rk1/1p3ppp/8/p2pPb2/PnpP1P2/4B3/1P1QB1PP/R4RK1 w - - 1 17
+Petrov's Defense
+r1b2rk1/ppp2ppp/2n2n2/3qp3/8/2BP1N1P/PPP1BPP1/R2QK2R w KQ - 1 10
+Indian Game: Anti-Nimzo-Indian
+r2q1rk1/p4ppp/2pb4/3p4/6n1/2N1P3/PPQ2PPP/R1B2RK1 w - - 0 14
+King's Pawn Game: Maroczy Defense
+rn1k2nr/ppp1b1pp/5p2/4p3/4P2B/5b2/PPP1BPPP/RN2K2R w KQ - 0 9
+Saragossa Opening
+5rk1/p2n1ppp/2Q1bq2/2bpp3/6P1/2PPPN1P/Pr1N1PB1/R3K2R w KQ - 0 15
+Pirc Defense #4
+rnb1kbnr/pp3ppp/1qppp3/8/2P1P3/2BP1N2/P4PPP/RN1QKB1R w KQkq - 2 10
+Nimzowitsch Defense
+r1b1kb1r/ppBp2pp/2n4n/5p2/2Bpq3/6P1/PPP1QP1P/RN2K1NR w KQkq - 0 10
+Nimzo-Larsen Attack: Classical Variation
+r1bq1rk1/p3bppp/1pn1p3/8/3Pp3/1PP2N2/PB2BPPP/R2Q1RK1 w - - 0 12
+Rat Defense: Harmonist
+r1bqkb1r/ppp3pp/2n2n2/4p3/2B5/3PB3/PPP3PP/RN1QK1NR w KQkq - 1 9
+Queen's Pawn
+q4rk1/3nppbp/2pp1np1/1p6/2BP1B2/2P1PN1P/1PQ2PP1/4K2R w K - 0 14
+Queen's Pawn Game: Chigorin Variation
+r2qk2r/pppb1ppp/2n1pn2/1N1p4/3P4/PP3N2/1KPQPPPP/R4B1R w kq - 3 13
+French Defense: Exchange Variation
+2kr3r/pp1q1p1p/2p1bp1b/3p4/3P4/P1NB4/1PP1QPPP/R3K2R w KQ - 1 13
+Sicilian Defense: Closed Variation, Traditional
+2kr3r/1b3ppn/ppnqp3/2p4p/5P2/2PPB1PP/PP2N1B1/R2Q1RK1 w - - 0 16
+Indian Game
+r4rk1/pppb3p/3q1pp1/3pn1N1/1P5P/P1Q1P3/2P2PP1/R3KB1R w KQ - 0 16
+Three Knights Opening #2
+r2q1rk1/ppp2pp1/2np1n1p/4p3/4P3/B1PB1QPP/P1PP1P2/R3K2R w KQ - 0 11
+Queen's Pawn Game: Mason Attack
+2kr3r/ppp2ppp/4bn2/3pq3/8/2P1P1P1/PP1NBPP1/R2QK2R w KQ - 1 13
+Caro-Kann Defense
+r2qk2r/pp3ppp/2nbpnb1/3p4/3P1BP1/2N2N1P/PPPQ1P2/R3KBR1 w Qkq - 5 11
+Canard Opening
+r2q1rk1/pp3pbp/2p2np1/2n1pP2/4P3/2PB1Q1P/PP1N2P1/R1B1K2R w KQ - 1 13
+Franco-Benoni Defense
+r1bqk2r/ppn1npb1/3p3p/2pP2p1/8/2N1BN2/PPPQ1PPP/R3KB1R w KQkq - 2 11
+Sicilian Defense
+r3r1k1/pp3pbp/2n2np1/2p1P3/7P/5NPb/PP3P1N/R1BqR1KB w - - 0 18
+Nimzo-Larsen Attack: Modern Variation #2
+r2qk2r/ppp3pp/2nb1n2/4pp2/8/2N1P1P1/PB1PQPBP/R3K2R w KQkq - 1 11
+Scandinavian Defense: Main Line
+r3k2r/ppqn1ppp/2pbpn2/5bB1/3P4/P1N2N2/1PP1BPPP/R2Q1RK1 w kq - 5 11
+Philidor Defense
+r4bnr/ppk3pp/1np1bp2/4p3/4P3/P1N1BN2/1PP2PPP/2KR1B1R w - - 3 11
+Zukertort Opening: Pirc Invitation
+1r3rk1/2qbn1bp/1p1p1np1/pPpPpp2/N1P1P3/P3BP1P/3NB1P1/1R1Q1RK1 w - - 1 18
+Colle System
+r1bq1rk1/p3bppp/1pn1pn2/3p4/3P4/4PNP1/PP3PBP/RNBQR1K1 w - - 0 10
+Pirc Defense: Classical Variation
+r1bq1rk1/pp1nppbp/5np1/2p1p3/3P4/2NBBN2/PPP2PPP/R2Q1RK1 w - - 0 9
+Old Benoni Defense
+r1bq1rk1/pp2bppp/2n1pn2/3p4/1P1P4/P3PN2/1B3PPP/RN1QKB1R w KQ - 3 9
+French Defense: Knight Variation
+r4rk1/pppq1ppp/2n2b2/3p4/3P4/2PQ1N1P/PP3PP1/RN3RK1 w - - 0 12
+Hungarian Opening: Sicilian Invitation
+r1bq1rk1/pp2bpp1/2n2n1p/2p5/3pP3/1P1P1NP1/PB1N1PBP/R2Q1RK1 w - - 0 12
+Vienna Game: Vienna Gambit
+r1b1kb1r/pp3ppp/8/2p1P3/3npB2/7P/PPP3P1/2KR1BNR w kq - 0 11
+Bird Opening
+rn4k1/p2pq1pp/1p2pr2/5p2/P2PbP2/RP2PN2/4B1PP/3Q1RK1 w - - 1 15
+Russian Game: Cozio (Lasker) Attack
+r3k2r/pppnbppp/3p4/8/2bP4/2P5/PP1N1PPP/R1B1K2R w KQkq - 0 14
+Queen's Pawn
+r1bq1rk1/1p4bp/p1pp1np1/5p2/3PpN2/2P1P3/PPQBBPPP/R3K2R w KQ - 0 14
+Caro-Kann Defense
+2r2rk1/1pq1bppp/p1n1pn2/3p4/PP1P2b1/1QPBBN2/3N1PPP/R4RK1 w - - 3 13
+English Opening: Caro-Kann Defensive System
+r4rk1/pp1nqppp/2pbpn2/3p4/2PP2b1/1PN2NP1/PB2PPBP/R2Q1RK1 w - - 3 10
+French Defense: Knight Variation
+rn1q1rk1/pp2bppp/2p2n2/3p2B1/3P2b1/2N2N2/PPP1BPPP/R2Q1RK1 w - - 0 9
+Queen's Pawn Game: Mason Attack
+r2q1rk1/2p1bppp/b1n1p3/p2p4/Pp1P1B2/1P2PN1P/2P1QPP1/R1N2RK1 w - - 1 16
+Sicilian Defense: Open #3
+r1bqk2r/p2p1ppp/1p2pn2/4P3/7Q/4b3/PPP1BPPP/RN2K2R w KQkq - 0 10
+Bird Opening
+r1bqr1k1/pp2ppnp/2n3p1/2pp4/5P2/1P1PPN1P/P1P1B1P1/RN1Q1RK1 w - - 0 11
+Bishop's Opening: Berlin Defense
+2kr3r/ppp1bppp/2n2n2/4p3/4P1b1/1B2BN2/PPPN1PPP/R2K3R w - - 3 10
+Colle System
+r4rk1/1pqb1ppp/p1nppn2/8/3P4/4PB2/PP1N1PPP/R1BQ1RK1 w - - 2 12
+Zukertort Opening: Tennison Gambit
+r1b2rk1/1p3ppp/p1p1pn2/4N3/3q4/3B3Q/PPP2PPP/R4RK1 w - - 2 14
+Nimzo-Larsen Attack: Modern Variation #2
+r2q1rk1/1ppbbppp/p1np1n2/4p3/8/1PNPPN2/PBP1BPPP/R2QK2R w KQ - 1 9
+Nimzo-Indian Defense: Leningrad Variation
+rn1qk2r/p2b1ppp/1p1ppn2/2pP2B1/2P5/1QP5/P3PPPP/R3KBNR w KQkq - 0 9
+Nimzo-Larsen Attack: Classical Variation
+r2qkb1r/pp3ppp/2n1pn2/3p4/8/1P2P3/PBP1NPPP/RN1QK2R w KQkq - 0 9
+Indian Game: Pawn Push Variation
+r1b4r/ppp1kppp/2nbpn2/8/8/2PBPN2/PP1N1PPP/R1B1K2R w KQ - 7 10
+Mieses Opening
+r2qkb1r/1p1bpppp/2n2n2/p2p4/3P4/1PP1P3/2Q2PPP/RNB1KBNR w KQkq - 0 9
+Queen's Pawn Game: Mason Attack
+r3kb1r/pp1n1ppp/1q2pn2/2pp4/3P1B2/1PPQPN2/P2N1PPP/R3K2R w KQkq - 0 10
+Sicilian Defense: Smith-Morra Gambit Accepted, Kan Formation
+r1b2rk1/1pqn1ppp/p1npp3/b5B1/2B1P3/P1N2N1P/1P2QPP1/2R2RK1 w - - 3 14
+Scotch Game: Mieses Variation
+r3kb1r/p1ppqp1p/b1p3p1/3nP3/2P5/1P6/P3QPPP/RNB1KB1R w KQkq - 0 10
+Queen's Indian Defense: Miles Variation
+rn1qk2r/p1p1bppp/1p1pp3/8/2PPbB2/1RP1PN2/P3BPPP/3Q1RK1 w kq - 0 13
+Indian Game
+r1bq1rk1/pp1nbp1p/4pnp1/2p3B1/3PP3/2PB4/PPQN2PP/R3K1NR w KQ - 0 10
+Indian Game
+r2qk2r/p1p1ppbp/2ppbnp1/8/3PP3/2N2P2/PPP1Q1PP/R1B1K1NR w KQkq - 3 9
+French Defense: La Bourdonnais Variation
+r1bqk2r/b3nppp/p3p3/2ppP3/3P1P2/2N2N2/PP4PP/R1BQ1R1K w kq - 0 13
+English Opening: King's English Variation
+r2q1rk1/bpp2pp1/p1npbn1p/4p3/1PP5/P1NP1NP1/3BPPBP/R2Q1RK1 w - - 1 11
+English Opening: Carls-Bremen System
+rnbr2k1/ppq1bpp1/5n1p/3pp3/1P6/P1NP1NP1/4PPBP/1RBQ1RK1 w - - 0 12
+English Opening: King's English Variation
+3r1rk1/ppp1b1pp/3p2qn/3P4/3p1p2/1P1P2P1/PB2PPBP/R1QR2K1 w - - 0 17
+Queen's Pawn Game: Zukertort Variation
+r3k2r/1pp2pp1/p1n1p1q1/3p1b1p/3P3b/2P1P1P1/PP1NBPP1/R2Q1RK1 w kq - 0 14
+Queen's Pawn Game: London System
+r2q1rk1/ppp1ppbp/5np1/3pn3/3P1B2/3BP2P/PPP2PP1/R2QK2R w KQ - 0 10
+Slav Defense #2
+r2q1rk1/3b1pp1/ppn1p2p/2Pp4/3PnB2/P4NP1/2Q1PPBP/R4RK1 w - - 2 16
+Queen's Pawn Game: Krause Variation
+2r2rk1/pp3pp1/2nqp2p/3p4/3Pn1b1/2P2N2/PP1NBPPP/R2Q1RK1 w - - 2 14
+Queen's Pawn Game #2
+r3k1nr/1ppqb1pp/4pp2/p2pP3/P7/4P3/1PP2PPP/RNBQ1RK1 w kq - 0 10
+Trompowsky Attack: Classical Defense
+r1bq1rk1/pp1nbpp1/2p1pn1p/3p4/2PP3B/3BPN2/PP3PPP/RN1Q1RK1 w - - 0 9
+Russian Game: Cozio (Lasker) Attack
+r3k2r/ppp1bppp/2np1n2/5bB1/8/2NP1N2/PPP1BPPP/2KR3R w kq - 1 11
+Zukertort Opening: Black Mustang Defense
+r1bq1rk1/ppp2ppp/2nb1n2/3pp3/3P4/1PP2NP1/PB2PPBP/RN1Q1RK1 w - - 0 9
+King's Gambit Declined, Queen's Knight Defense
+r1bqk2r/1pp1bppp/p2p1n2/8/2BQPP2/2N5/PPP3PP/R1B1K2R w KQkq - 3 9
+Zukertort Opening: Slav Invitation
+r2qk2r/1b1nppbp/pppp1np1/8/4P3/3PBN1P/PPP1BPP1/R1QN1RK1 w kq - 10 12
+Nimzo-Larsen Attack
+r2q1rk1/pp1n1bbp/2p2np1/3p4/3P1N2/1P4PP/PBPN2BK/R2Q1R2 w - - 2 15
+Van't Kruijs Opening
+r1b2rk1/pp3ppp/1qnbpn2/2pp4/3P4/2P1PN2/PP1NBPPP/R1BQ1RK1 w - - 7 9
+Queen's Gambit Declined: Three Knights Variation
+rnbqk2r/ppp2pb1/4p2p/3p2p1/2PPn3/2N2NB1/PP1QPPPP/R3KB1R w KQkq - 2 9
+French Defense: Winawer Variation, Advance Variation #2
+r1b1k2r/pp2nppp/2n1p3/3pP3/2pP4/q1P2N2/2PBBPPP/1R1QK2R w Kkq - 2 12
+Rat Defense: Harmonist
+r2qk1nr/1b2bppp/p1npp3/2p5/PpB1PP2/4NN2/1PPP2PP/R1BQK2R w KQkq - 2 10
+King's Indian Defense: Semi-Classical Variation
+rnbqr1k1/ppp2pbp/3p1np1/8/2PPp3/2N1P3/PP1NBPPP/R1BQ1RK1 w - - 2 9
+English Defense #2
+2rq1rk1/1b1nbpp1/pp2pn1p/1N6/8/3QBNP1/PP2PPBP/R2R2K1 w - - 0 16
+Saragossa Opening
+rnq2rk1/pp3pb1/2p1pnp1/6Bp/8/1QPP1NP1/PP3PKP/RN3R2 w - - 4 15
+Caro-Kann Defense
+2rq1rk1/1p1nbppp/p3pnb1/3p2B1/3P4/2PB1N1P/PPQN1PP1/R3R1K1 w - - 4 14
+Modern Defense
+r1bq1rk1/pp2ppbp/2n3pn/1B1pP3/3P1P2/5N2/PP4PP/RNBQK2R w KQ - 5 9
+Sicilian Defense: Najdorf Variation
+r1bq1rk1/1p1nppbp/p2p1np1/6B1/3NP3/2N5/PPP1BPPP/R2Q1R1K w - - 4 10
+English Opening: King's English Variation
+r2qk2r/1p2bppp/p1n2n2/3p4/3Pp1b1/2N1P1P1/PP2NPBP/R1BQ1RK1 w kq - 4 12
+French Defense: Advance Variation #2
+r2q1rk1/1p3pp1/pb2b2p/3pPp2/3P4/2N2Q2/PP3PPP/R1B1R1K1 w - - 5 15
+Old Indian Defense
+r2qk2r/1pp1bpp1/p1npp2p/8/2PP1P2/P3BP2/1P4PP/RN1QK2R w KQkq - 2 13
+East Indian Defense
+r3k2r/1ppq1p2/p1n2b1p/1Q1pp1pP/3P4/2P1PN2/PP1N1PP1/R3K2R w KQkq - 0 14
+Sicilian Defense: Bowdler Attack
+r1b1k2r/4bpp1/pq1ppn1p/2p5/1nP1P3/2NPBN2/BP3PPP/R2Q1RK1 w kq - 2 13
+Vienna Game: Max Lange Defense
+r2qk2r/1pp2p2/1pnp1n1p/4p3/4P1b1/P2P1N2/1PP1BPP1/R1BQ1RK1 w kq - 0 12
+Dutch Defense
+rn1q1rk1/pp1bb1pp/2p1p3/3p1p2/3Pn3/1P2PNPP/PBP2PB1/RN1Q1RK1 w - - 5 10
+Caro-Kann Defense
+r3kb1r/pp3p1p/2n1pp2/3p4/3P4/2NB4/PPP2PPP/R3K2R w KQkq - 0 11
+Queen's Gambit Refused: Chigorin Defense #3
+r2q1rk1/5ppp/b3p3/p1bp4/8/P3PN2/1P1B1PPP/R2QR1K1 w - - 0 15
+Slav Defense #2
+r2qkbnr/5ppp/p1n1p3/1p1p1b2/B2P1B2/2N1P3/PP3PPP/R2QK1NR w KQkq - 0 9
+St. George Defense
+r2qk2r/1bp2ppp/p2bp3/1p1n4/3PB3/4BN2/PPP1QPPP/2KR3R w kq - 2 12
+Nimzo-Larsen Attack: Modern Variation #4
+r5k1/2pqbppp/p1npbn2/4p1N1/r5PP/1PNPPP2/1BPQB3/4K2R w K - 0 15
+Queen's Pawn Game: Zukertort Variation
+rn1qk2r/pp3ppp/2p1p3/3p1b2/3P4/4PN1P/PPPQ1PPb/R3KB1R w KQkq - 0 10
+English Opening: King's English Variation
+2r1k2r/p2q1ppp/1pb2n2/2np4/3Np3/2Q3P1/PP1PPPBP/R1B1K2R w KQk - 4 15
+Sicilian Defense
+r2qk2r/pp1bppbp/3p2p1/2pP4/2Q5/1P3N2/P1PP1PPP/R1B2RK1 w kq - 1 12
+Hungarian Opening
+r2qr1k1/pb3p1p/npp1p1p1/3pNn2/3P4/Q1P3P1/PP2PPBP/RN2K2R w KQ - 1 15
+Caro-Kann Defense: Exchange Variation
+rn1qk2r/pp3ppp/4pnb1/3p4/1b1P4/2N3N1/PPPBBPPP/R2QK2R w KQkq - 4 9
+English Opening: The Whale
+rnbq1r1k/bp4pp/2pp2n1/pP1Np3/P1P1Pp2/BQ3N2/3PBPPP/R4RK1 w - - 0 14
+Grob Opening: Grob Gambit
+r1q1kb1r/p2b1ppp/4pn2/2p5/6P1/8/PP1PPPQP/RNB1K1NR w KQkq - 3 10
+French Defense: Exchange Variation, Monte Carlo Variation
+r1b1kb1r/ppp2ppp/8/8/1nBP2n1/4BN2/PP3PPP/RN2K2R w KQkq - 0 11
+St. George Defense
+r1b2rk1/2p1bpp1/pnn1p2p/4P3/2B1N3/5NB1/PP1R1PPP/3R2K1 w - - 1 18
+Sicilian Defense: Najdorf Variation
+r2qk2r/1p3ppp/p2bbp2/2pN4/2P1PP2/8/PP2B1PP/R2QK2R w KQkq - 1 14
+King's Pawn Game: Napoleon Attack
+r1bqk2r/ppppn1pp/2n2p2/4p3/2P1P3/2PP4/P2Q1PPP/R1B1KBNR w KQkq - 3 9
+French Defense: Knight Variation
+2r2rk1/pp3pp1/2bq1b1p/3p4/3P4/2N2NP1/PP3PP1/2RQ1RK1 w - - 4 18
+English Defense #2
+3qk2r/prpnppbp/1p1p1np1/8/2PP3N/4P1P1/PP3P1P/RNBQ1RK1 w k - 0 10
+Queen's Gambit Declined: Queen's Knight Variation
+r1bq1rk1/ppp1nppp/3b1n2/3Pp3/2B1P3/P1N5/1PQ2PPP/R1B1K1NR w KQ - 1 10
+Sicilian Defense: Delayed Alapin Variation
+r1b1kb1r/5ppp/p1N1pq2/3p4/3Qn3/2P5/PP1N1PPP/R1B1K2R w KQkq - 1 11
+French Defense: Advance Variation
+r3kb1r/pp3ppp/1q2p3/3pPn2/b1pP1P2/PnP2N2/1PQN1BPP/3RKB1R w Kkq - 13 13
+King's Pawn Game: Leonardis Variation
+r1bq1rk1/ppp1bppp/5n2/4p1B1/4P3/2NP4/PPP3PP/R2QKB1R w KQ - 4 9
+Four Knights Game: Spanish Variation, Rubinstein Variation Accepted
+r1b2rk1/pppp1ppp/5q2/1Bb5/4n3/5N2/PPPP1PPP/R1BQ1RK1 w - - 5 10
+Four Knights Game: Italian Variation
+r3qrk1/ppp3p1/1bnppn1p/4p3/NP2P3/P2P1N1P/2P2PP1/R1BQ1RK1 w - - 3 12
+Old Benoni Defense
+r3k2r/ppq2p2/2nbp2p/3p1np1/3P4/2P2N1P/PP3PP1/R1BQRNK1 w kq - 2 13
+Scotch Game
+r3k2r/pqp1bppp/3pb3/8/8/5B2/PPP2PPP/R1B1R1K1 w kq - 0 14
+French Defense: Exchange Variation
+rnb2rk1/ppq1n1pp/2pb4/3pp3/3P1P2/2NB4/PPP1Q1PP/R1B2RK1 w - - 0 11
+Sicilian Defense: Old Sicilian
+1r3rk1/2q1bppp/2p1bn2/pP1pp1B1/4P3/P1NB4/2P1QPPP/R4RK1 w - - 0 16
+Sicilian Defense #2
+r2q1rk1/1p1bbpp1/p2p1n1p/4p3/4P3/2PBBP1P/PP4P1/RN1Q1RK1 w - - 0 13
+Polish Opening
+2kr1b1r/p1p3pp/5p2/3bp3/1P2N1n1/P2PPN1q/1BQ1KP1P/R5R1 w - - 4 18
+Hungarian Opening: Reversed Modern Defense
+r1bq1rk1/pp2bppp/2n2n2/2pp4/8/1P1pP1P1/PBPNNPBP/1R1Q1RK1 w - - 0 11
+Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+r1bqk2r/5ppp/p1np4/1p1Np1b1/4P3/N1P5/PP3PPP/R2QKB1R w KQkq - 1 12
+English Opening: King's English Variation
+1r3rk1/pbp2pp1/1pnp1q1p/4p3/2P5/P2PB1P1/1P2PPBP/R2Q1RK1 w - - 0 15
+Queen's Gambit Refused: Austrian Defense
+r1b1k2r/pp3ppp/2n1p3/q7/3P1n2/P4N2/1P1N1PPP/R2QKB1R w KQkq - 4 12
+Gruenfeld Defense: Stockholm Variation
+r1bq1rk1/p4p1p/p1pp1bp1/8/3P4/2N1PN2/PP3PPP/R2QK2R w KQ - 2 11
+French Defense: Rubinstein Variation, Blackburne Defense
+r1b1k2r/1pqn1ppp/p2bpn2/8/3N4/4B1N1/PPP1BPPP/R2Q1RK1 w kq - 0 13
+Old Benoni Defense
+r1b1k2r/2qpbppp/ppn1pn2/8/2P5/2N1PN2/PP1BBPPP/R2QK2R w KQkq - 0 10
+Indian Game: East Indian Defense
+r2q1rk1/p3bpp1/b4n1p/3p4/2p1n2B/P1N1P3/1PB2PPP/R2QNRK1 w - - 6 17
+Sicilian Defense: Alapin Variation, Barmen Defense, Modern Line
+r3kb1r/pp2pppp/2n5/3n4/6b1/2P2N2/PP2BPPP/RNB1K2R w KQkq - 0 9
+Ruy Lopez: Exchange Variation, Lutikov Variation
+r2qk2r/2p1bppp/p1ppbn2/4p3/4P3/1P1P1N1P/PBP2PP1/RN1QK2R w KQkq - 3 9
+Amazon Attack
+r1b1kb1r/pp2pppp/2p2n2/3pN3/3P4/6P1/PPP1PPP1/RN2KB1R w KQ - 4 10
+French Defense: Advance Variation #3
+r1bqk2r/p1p3pp/2pbpn2/3p4/3P1B2/3B4/PPP2PPP/RN1QK2R w KQkq - 2 9
+English Opening: Anglo-Indian Defense, Queen's Indian Formation
+rn3rk1/pbp2pp1/1p1ppq1p/8/2P5/P1P2NP1/1P2PPBP/R2Q1RK1 w - - 0 11
+Sicilian Defense: Open
+r3k2r/pp4pp/6n1/5nB1/1bPp4/3B4/P4PPP/RN2K2R w KQkq - 0 17
+Sicilian Defense: Loewenthal Variation
+r1bk2nr/pp4pp/2p2p2/4b3/2B1P3/8/PPP3PP/RNB1K2R w KQ - 0 10
+Queen's Pawn
+2rq1rk1/pb1nnpbp/1pppp1p1/8/1P1P4/P1P1PN1P/1B1NBPP1/2RQK2R w K - 4 12
+Dutch Defense
+r2q1rk1/pp2b1pp/2p1pn2/3pNp2/1P1PnP2/2PBPb2/P2BQ1PP/1R3RK1 w - - 0 15
+Alekhine Defense: Scandinavian Variation, Geschev Gambit
+rb3rk1/pbq2ppp/4p3/2p5/4n3/3P1NP1/PPP1BP1P/R2Q1RK1 w - - 0 15
+Benoni Defense: Weenink Variation
+r1bqk2r/pp3ppp/4pn2/8/2Pb4/P1N5/1P3PPP/R1BQKB1R w KQkq - 0 10
+Sicilian Defense: Closed Variation
+rn1qk2r/1b1nbppp/p3p3/1pppP3/5PP1/P1NP1N1P/1PP5/R1BQKB1R w KQkq - 1 10
+Four Knights Game: Italian Variation
+r3k2r/p1p2ppp/2p2q2/2b5/6b1/5N2/PPPP1PPP/R1BQK2R w KQkq - 3 11
+Scandinavian Defense: Lasker Variation
+r3kb1r/ppqn1pp1/2p3b1/4p1Pp/2NP2nP/2N2Q2/PPP2PB1/R1B1K2R w KQkq - 0 14
+Indian Game: Gedult Attack, Gedult Attack
+r1b1r1k1/ppp2ppp/2n2n2/3p4/3P2P1/P1N1qP1B/1P1QP2P/2KR2NR w - - 1 12
+Queen's Pawn Game: Zukertort Variation
+r2qk2r/1pp2ppp/p1nbpn2/3p4/3P1B1P/2NPPN2/PP3PP1/R2QK2R w KQkq - 1 9
+Queen's Gambit Declined
+rn1q1rk1/pp1nb1pp/2p2p2/P2p4/3P2b1/5N2/1P1BBPPP/RN1Q1RK1 w - - 3 14
+Three Knights Opening
+2kr1b1r/ppp2ppp/2np4/7n/2B1PB2/2NP1P1P/PPP5/R3K2R w KQ - 1 12
+English Opening: Agincourt Defense, Keres Defense
+r4rk1/pp1bbppp/4p3/1q6/3n4/4B1P1/PPQ1PPBP/R4RK1 w - - 0 14
+Queen's Pawn Game: London System
+r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP1B2/3QPN2/PP1N1PPP/R4RK1 w - - 1 10
+King's Indian Attack
+r1bq1rk1/ppp1bpp1/2n2n1p/4p3/3pP3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 9
+Pirc Defense #4
+r1q2rk1/pp1nppbp/2p2np1/8/8/1PNB3P/PBPP1PP1/R2Q1RK1 w - - 0 12
+Sicilian Defense #2
+rn3rk1/1p1q1pbp/p2p2p1/3np3/4P3/6N1/PPP2PPP/R1BQR1K1 w - - 0 13
+Queen's Gambit Declined: Exchange Variation, Positional Variation
+r3r1k1/pp1nbppb/2p4p/3p4/3PnB2/1PN1PN1P/1P2BPP1/R1R3K1 w - - 3 17
+Queen's Pawn Game: Zukertort Variation
+r3k2r/pp1n1ppp/1qpbpn2/3p3b/3P4/1QPBPN1P/PP1N1PP1/R1B2RK1 w kq - 1 10
+Sicilian Defense
+1r2kb1r/2qbnppp/p3p3/3pP3/2pP1P2/2N2N2/PP4PP/R1BQ1R1K w k - 0 13
+Four Knights Game: Italian Variation
+r1bq1rk1/pp3p2/5n1p/2bp2p1/P1Bp4/3P2BP/1PP1NPP1/R2QK2R w KQ - 0 14
+Queen's Pawn Game
+r2qr1k1/1ppbppb1/2n2npp/1B1p4/3P1B2/P3PN1P/2P2PP1/RN1Q1RK1 w - - 1 12
+Queen's Pawn Game: Symmetrical Variation, Pseudo-Catalan
+1r3rk1/pbq1bppp/1p2p3/2npP3/5P2/2P3P1/PP1N1BBP/R2QR1K1 w - - 8 16
+Scandinavian Defense: Mieses-Kotroc Variation
+rn2kbnr/1ppqppp1/p5p1/1N6/3P2P1/5P2/PPP4P/R1BQKB1R w KQkq - 0 11
+Caro-Kann Defense: Hillbilly Attack
+2kr1b1r/1p3ppp/1qn1bp2/p2p4/3P4/1BN2N2/PPP2PPP/R2Q1RK1 w - - 0 11
+Sicilian Defense: Bowdler Attack
+r2qkbnr/pp3ppp/8/2n5/3p4/2N5/PPP2PPP/R1BQK1NR w KQkq - 0 9
+Russian Game: Three Knights Game
+r2qk2r/ppp2ppp/1bnp1n2/4p2b/1PB1P3/P1N2N1P/2PP1PP1/R1BQ1RK1 w kq - 1 9
+Queen's Pawn Game: Levitsky Attack
+r1b1k2r/ppp5/5q1p/3p2p1/3P1p2/2P5/PP3PPP/R1Q1KB1R w KQkq - 0 16
+Sicilian Defense: Paulsen Variation, Szen Variation
+r1bqk2r/1p2bppp/p1nppn2/8/2PNP3/2N5/PP3PPP/R1BQKB1R w KQkq - 4 9
+King's Pawn Game: Wayward Queen Attack
+r1b1k2r/pp1p1ppp/2n5/3n4/8/b4NQ1/PPqPBPPP/R1B1K2R w KQkq - 0 10
+King's Indian Defense: Normal Variation, Rare Defenses
+r1bq1rk1/pp1n1pb1/3p1n1p/3Np1p1/2P1P2B/3B1N2/PP3PPP/R2Q1RK1 w - - 0 12
+Sicilian Defense: Smith-Morra Gambit #2
+r2qkb1r/1p1b1ppp/p1nppn2/8/2B1P3/2N1QN2/PPP2PPP/R1B2RK1 w kq - 2 9
+Queen's Pawn Game: Mason Attack
+r3k2r/ppp2ppp/2n2n2/3pq3/8/2N1P3/PPP1NPPP/R2Q1RK1 w kq - 0 11
+Queen's Pawn Game: Zukertort Variation
+rn1qk2r/p4ppp/1ppb1n2/3p1b2/3P4/1QN1PN2/PP2BPPP/R1B1K2R w KQkq - 2 9
+Scandinavian Defense: Main Line
+r3k2r/pp1nbppp/2p1pn2/q4b2/8/2NP1N1P/PPPBBPP1/R2Q1RK1 w kq - 4 10
+Queen's Pawn
+r4rk1/pbq3bp/3p2p1/3p1p2/2nP4/4P3/P2N1PPP/RNBQ1RK1 w - - 4 18
+Three Knights Opening
+2kr1b1r/2p3pp/p1pqbp2/4p3/2P5/1P3N2/PB1PQPPP/2R1K2R w K - 3 14
+Saragossa Opening
+r1b2rk1/1p2bppp/p1n1pq2/3p4/3P4/2NBPN2/PP3PPP/R2Q1RK1 w - - 0 11
+Sicilian Defense: Smith-Morra Gambit #2
+r1b1k1nr/pp3ppp/3pp3/n7/2P1P3/1P6/P2N1PPP/R3KBNR w KQkq - 0 10
+Modern Defense
+rnb1k1nr/pp2qpbp/2p3p1/3p4/3P4/2P2PP1/PP1NN2P/R1BQKB1R w KQkq - 0 9
+English Opening: Carls-Bremen System
+r1bq1rk1/pp3ppp/2n2n2/2bp4/3N4/2N1P1P1/PP3PBP/R1BQK2R w KQ - 1 10
+Queen's Indian Defense
+rn1q1rk1/1bp1ppbp/1p1p1np1/p7/P2P1B2/4PN1P/1PP1BPP1/RN1Q1RK1 w - - 0 9
+Benko Gambit
+rnb1k2r/p2pppbp/6p1/q1pP4/2P1n3/2N5/PB1QPPPP/R3KBNR w KQkq - 5 9
+Caro-Kann Defense: Panov Attack
+r1bq1rk1/pp1n1ppp/4pn2/3p2B1/2PP4/P1P2N2/5PPP/R2QKB1R w KQ - 3 10
+Queen's Gambit Declined: Exchange Variation, Positional Variation
+r2qr1k1/pp1n1pp1/2p2b1p/3pN3/3P1P2/2NQP3/PP4PP/R4RK1 w - - 0 14
+English Defense #2
+r2q1rk1/pbpnbppp/1p2pn2/3pN3/3P4/2PBP3/PP1N1PPP/R1BQ1RK1 w - - 4 9
+Sicilian Defense: Bowdler Attack
+r4rk1/pp1qbppp/3ppn2/2p5/4P3/3P1Q2/PPP2PPP/RNB1K2R w KQ - 1 12
+French Defense: Mediterranean Defense
+rn1qkb1r/1b1p1ppp/2p1p3/pp2P3/P2P4/1B2P3/1PP3PP/RN1QK1NR w KQkq - 1 9
+Sicilian Defense
+r1bq1rk1/1p2bppp/p1nppn2/8/P1BNP3/2N1B3/1PP2PPP/R2Q1RK1 w - - 3 10
+Paleface Attack
+r1bq1rk1/p2nppbp/1p1p1np1/2pP4/P1P1P3/N4P2/1P1B2PP/R2QKBNR w KQ - 2 9
+Sicilian Defense: Najdorf Variation, Adams Attack
+r3k2r/1pqbbpp1/p1nppn1p/8/3NP1P1/2N1B2P/PPPQ1PB1/R4RK1 w kq - 8 12
+Torre Attack
+rnbq1rk1/4pp1p/p1pp1bp1/1p6/3PP3/1BN2N2/PPP2PPP/R2Q1RK1 w - - 0 10
+French Defense: La Bourdonnais Variation
+r1b1k1nr/pp3ppp/1qn1p3/3pP3/3P1P2/1Q2B1P1/PP1b3P/R3KBNR w KQkq - 0 11
+Bird Opening
+r2q1rk1/pbp2ppp/1p1bpn2/4B3/5P2/1PN1P3/P2PB1PP/R2Q1RK1 w - - 3 13
+Caro-Kann Defense
+r1bqkb1r/3n1ppp/pp2pn2/3p4/2PP4/1P1B1N2/P4PPP/RNBQ1RK1 w kq - 0 9
+Sicilian Defense: Alapin Variation, Smith-Morra Declined
+r1bqkb1r/pp3ppp/2n5/3pp3/3P4/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 10
+Sicilian Defense
+r2qk2r/pp1bbppp/2nppn2/8/3NP3/2N1B3/PPP1BPPP/R2QK2R w KQkq - 1 9
+Amar Opening
+r2q1rk1/pp1nbppp/2p1pn2/3p1b2/2PP1N2/2N3P1/PP2PPBP/R1BQ1RK1 w - - 5 9
+Bird Opening
+r2q1rk1/pp2ppbp/2np1np1/2p5/2P1PPb1/2NP1N2/PP2B1PP/R1BQ1RK1 w - - 5 9
+Sicilian Defense: Bowdler Attack
+r1b3k1/pp1pqppp/5n2/4n3/8/3B4/PP1Q1PPP/RNB3K1 w - - 0 15
+King's Pawn Game: McConnell Defense
+rn2k2r/pp2bpp1/2pp1nqp/8/2BNP1b1/2N3Q1/PPP2PP1/R1B2RK1 w kq - 4 12
+Old Benoni Defense
+r2q1rk1/1p2n1bp/p2p1pp1/3Np3/2PnP3/1P3BB1/P4PPP/R2Q1RK1 w - - 1 17
+Zukertort Opening: Tennison Gambit
+r3k2r/1ppn1ppp/p3p3/2b5/8/3q4/PPPPBPPP/R1B1K2R w KQkq - 0 13
+Danish Gambit Declined, Sorensen Defense
+r1b3k1/ppp1bp1p/2nr1qp1/1B6/4Q3/2P2N2/PP1N1PPP/R4RK1 w - - 8 13
+Queen's Indian Defense
+r4rk1/p3qpp1/4pn1p/Q1pb4/8/4PN2/1P2BPPP/2RR2K1 w - - 4 18
+Nimzo-Larsen Attack
+3r1rk1/ppqnbppp/2p1pn2/8/2PN4/1P1QPN2/PB3PPP/R3K2R w KQ - 5 13
+King's Pawn Opening: 2.b3
+r3k1nQ/1p1n1p1p/2ppb3/p7/2P1PN1P/qP1B2P1/P2P4/4K2R w Kq - 0 17
+Scandinavian Defense: Modern Variation #2
+2kr1b1r/pppb1ppp/2n5/1B6/8/2B5/PPP2PPP/R3K1NR w KQ - 5 11
+French Defense: Knight Variation
+rn3rk1/pp3ppp/2pq1b2/3n4/1P1P4/P4N2/4BPPP/R1BQ1RK1 w - - 1 13
+Sicilian Defense: Closed Variation
+r2q1rk1/1b2n1bp/p1np1pp1/1pp1p3/4PP2/2NP1NPP/PPPQ1BB1/R4RK1 w - - 2 13
+Latvian Gambit: Mason Countergambit
+r1b2rk1/pp4pp/2p2n2/3p4/1qPPp3/8/PP2BPPP/RN1Q1RK1 w - - 1 13
+Queen's Gambit Declined: Queen's Knight Variation
+r2qr1k1/pb1n1ppp/2pbpn2/1p6/3P4/P1N1PN1P/1P1BBPP1/R2Q1RK1 w - - 1 13
+Ruy Lopez: Berlin Defense, Beverwijk Variation
+r2q1rk1/1pp2pp1/p1p4p/5P2/1bP1n3/2N1B2P/PPP3P1/R3QRK1 w - - 0 18
+Sicilian Defense: Boleslavsky Variation, Louma Variation
+r2qkb1r/p4ppp/2ppbn2/4p1B1/4P3/2N5/PPP1BPPP/R2QK2R w KQkq - 2 9
+King's Pawn Game: Busch-Gass Gambit
+r1bq1rk1/1p1n1pp1/2pp1n1p/p3p3/P1B1P3/3PPN1P/1PP1N1P1/R1Q2RK1 w - - 6 13
+Van Geet Opening
+r1bqr1k1/p1p2ppp/1pnb1p2/8/3P4/2P2N2/PP2BPPP/R1BQ1RK1 w - - 0 10
+Crab Opening
+r2qkb1r/pbpp1ppp/1p3n2/8/P2Nn2P/1Q2R3/1P2PPP1/RNB1KB2 w Qkq - 6 11
+Neo-Gruenfeld Defense: Non- or Delayed Fianchetto
+r1bq1rk1/pp2ppbp/2n3p1/3p4/3P4/3BPN2/PP3PPP/R1BQK2R w KQ - 2 10
+Queen's Pawn Game: Chigorin Variation
+r2q1rk1/pbp1b1pp/1pn5/8/3Pp3/2P3P1/P5BP/1RBQNRK1 w - - 0 15
+English Opening: King's English Variation, Reversed Sicilian
+r1bqk2r/1pp1bpp1/p2p4/4p1n1/1PP1N3/P2P2P1/1B2PPB1/R2Q1RK1 w kq - 3 15
+Queen's Pawn
+rn2k2r/p1q2pp1/1ppbpnp1/3pN3/3P1P2/1QP1P1B1/PP1N2PP/R3K2R w KQkq - 0 13
+Zukertort Opening: Slav Invitation
+r3k1nr/pp1qb1pp/2n1b3/3p1p2/2PPp3/6P1/PP1N1PBP/RNBQR1K1 w kq - 0 13
+Alekhine Defense: Normal Variation
+2r1r1k1/p3bppp/3p4/2nP4/6b1/5N2/PP3PPP/R1B1KB1R w KQ - 1 16
+French Defense: Advance Variation #4
+r2qk1nr/p4ppp/1pb1p3/2bpP3/3B4/5N2/PPP2PPP/RN1Q1RK1 w kq - 2 10
+English Opening: Agincourt Defense
+1b2r1k1/ppqn1ppp/2p5/1P1p4/3Pr3/P3P2P/1B1QNPP1/2R1K2R w K - 1 18
+Sicilian Defense: Smith-Morra Gambit #2
+r1bq1rk1/pp3ppp/2n2n2/3pp3/4P3/2BBQN2/PPP2PPP/R3K2R w KQ - 0 10
+French Defense: Knight Variation
+r2q1rk1/3n1ppp/p3pn2/1p1p4/3P4/5N2/PP1P1PPP/R1BQ1RK1 w - - 0 13
+Caro-Kann Defense: Exchange Variation
+r2qk2r/pp1nbppp/4pn2/3p3b/3P4/2N2N1P/PPP1BPP1/R1BQR1K1 w kq - 3 10
+Queen's Pawn Game: Zukertort Variation
+r1bq1rk1/pp2bppp/4pn2/3p4/1n1P4/1P1B1N2/PBP2PPP/RN1QR1K1 w - - 9 10
+Sicilian Defense: Smith-Morra Gambit Accepted, Pin Defense
+r1bq1rk1/bp2nppp/p1np4/P3p3/1PB1P3/1QN2N2/3B1PPP/R2R2K1 w - - 0 15
+Italian Game: Classical Variation, Giuoco Pianissimo
+r2qk2r/1pp3p1/p1nppn1p/4p3/PP2P3/2PPbN2/2N2PPP/R2QK2R w KQkq - 0 12
+Nimzo-Larsen Attack
+rn3rk1/pbppb1pp/1p3n1q/3pNp2/2P5/1P2P3/PB1NBPPP/R2Q1RK1 w - - 2 12
+Sicilian Defense: McDonnell Attack
+r2qk1nr/pp1bbppp/2n5/1Bp5/3p1P2/2N2N2/PPPP2PP/R1BQ1RK1 w kq - 0 9
+Mieses Opening
+r1b1kb1r/pppnq1pp/2n1p3/3pP3/8/1P3N2/P1PN1PPP/R1BQKB1R w KQkq - 1 9
+French Defense: Advance Variation #2
+2r1kb1r/pp1b1ppp/1qn1p3/3pPn2/3P4/1P3N2/PB2BPPP/RN1Q1RK1 w k - 3 11
+Queen's Pawn Game: Levitsky Attack
+r1bq1rk1/pp1n1pp1/4pb1p/2ppN3/3P1P2/3BP3/PPP3PP/RN1Q1RK1 w - - 0 10
+Polish Opening: Outflank Variation
+r2qk2r/pp1n1ppp/3bpn2/3p1b2/1P6/4PN1P/PB1PBPP1/RN1QK2R w KQkq - 0 9
+Caro-Kann Defense
+r3kbnr/pp3ppp/1qn1p3/3p2Bb/3P4/2P2N1P/PP2BPP1/RN1QK2R w KQkq - 2 9
+Sicilian Defense: French Variation
+r1bqk2r/3n1p1p/4p1p1/p1p1b3/2Pp1BQ1/3B4/PP1N1PPP/R4RK1 w kq - 0 16
+Queen's Gambit Refused: Chigorin Defense, Exchange Variation
+r3kbnr/pp1b1ppp/8/2pq4/3P4/5P2/PP4PP/RNBQKB1R w KQkq - 0 9
+King's Pawn Game: Busch-Gass Gambit
+rn2k2r/ppp2ppp/3p3n/2b5/1P3P2/3b3P/P1PP1P2/RNB1KBR1 w Qkq - 0 12
+Horwitz Defense
+2r2rk1/pb1n1ppp/1p1qpn2/2pp4/P2P4/2P1PN2/1PQNBPPP/R4RK1 w - - 4 12
+Slav Defense: Exchange Variation
+r2qk2r/1p2bppp/p1n1pn2/3p2B1/3P4/2NBPP2/PP3P1P/R2QK2R w KQkq - 4 11
+English Opening
+r2qk2r/1bp2ppp/1p1p1n2/3p4/1bP1PP2/pPNQ4/P3N1PP/R1B2RK1 w kq - 0 14
+Modern Defense: Standard Defense
+r1bq1rk1/pp2ppbp/3p1np1/2n5/4P3/2N2NP1/PPP2PBP/R1BQ1RK1 w - - 2 9
+Torre Attack
+r2qk2r/1b1nbp2/4p3/pp1pP1pp/2p5/2P1P1BP/PP1N1PP1/1BRQR1K1 w kq - 0 17
+Queen's Pawn Game: Mason Attack
+r1bq1rk1/5ppp/p2bpn2/3pN3/2pP1B2/P3P2P/1PB2PP1/R2QK2R w KQ - 4 14
+Horwitz Defense
+r1bqk2r/1p3ppp/p1n1pn2/2bp4/5B2/2P1PN1P/PP1N1PP1/R2QKB1R w KQkq - 0 10
+Trompowsky Attack: Classical Defense
+r1b2rk1/ppp2pbp/2n1pqp1/3p4/3P4/2PBPN2/PP1N1PPP/R2QK2R w KQ - 0 9
+King's Pawn Game: Leonardis Variation
+rnb1k2r/ppp3pp/8/2b1pp2/4P3/2P2P2/PP4PP/R1BK1BNR w kq - 0 9
+King's Indian Attack: French Variation
+r2qk2r/pp2bppp/2n2n2/2p1p3/2NpP1b1/3P1NP1/PPP2PBP/R1BQ1RK1 w kq - 2 9
+Italian Game: Classical Variation, Albin Gambit
+r1bqr3/ppp1kpp1/2n2n2/2b1p1N1/2B4Q/2PP4/PP3PPP/RN3RK1 w - - 8 14
+Englund Gambit
+r3k2r/ppp1bppp/1nn1b3/8/8/1B2PN2/PP3PPP/RNB1K2R w KQkq - 4 11
+Queen's Pawn
+r2qk2r/pppbn1bp/3p1np1/3Ppp2/4P3/2PB1N2/PP1N1PPP/R1BQ1RK1 w kq - 2 10
+Four Knights Game: Italian Variation
+r1bq1rk1/ppp2pp1/1bnp1n1p/4p3/1PB1P3/P1NP1N1P/2P2PP1/R1BQK2R w KQ - 1 9
+English Defense
+1r2k2r/pbpp2pp/1p2pq2/8/1bPnB3/2N2N2/PP2QPPP/R4RK1 w k - 0 12
+French Defense: Mediterranean Defense
+r1b2rk1/pp1p1ppp/8/4P3/1n6/3BQ3/PqP2PPP/3RK1NR w K - 4 13
+Hungarian Opening
+r2q1rk1/pb2bppp/1p3n2/2p5/3pP1P1/3P1N1P/PPP3B1/R1BQ1RK1 w - - 1 14
+English Opening: King's English Variation, Two Knights Variation
+r1b2r2/1pqn1pkp/2p2np1/p3p3/2P5/2NP1NP1/PP1QP1BP/R3K2R w KQ - 0 13
+Van't Kruijs Opening
+r1bqk2r/pp4pp/2nbpn2/3p1p2/3P4/3BPP2/PP2N1PP/RNBQ1RK1 w kq - 4 9
+Hungarian Opening
+r6r/ppp1kppp/1bn3b1/4p3/4P3/2P1BPPN/PP2K1BP/3R3R w - - 5 15
+Queen's Pawn Game: Torre Attack
+r1bq1rk1/ppp2pp1/2nb1p1p/3p4/3P4/P1P1PN2/1P1N1PPP/R2QKB1R w KQ - 1 9
+Mieses Opening
+r2qk2r/pb2bpp1/1pn4p/2pnp3/8/PP1P2PP/1BPN1PB1/RQ2K1NR w KQkq - 0 12
+Scandinavian Defense: Boehnke Gambit
+rn2k1r1/ppp2p2/3q1Bb1/4n1Pp/7P/3P2K1/PPP5/RN1Q1B1R w q - 0 17
+Queen's Gambit Refused: Baltic Defense
+r3k2r/1ppqbpp1/p1n1pnp1/3p4/2PP4/P1N1PN2/1PQB1PPP/R3K2R w KQkq - 2 11
+Caro-Kann Defense: Main Line
+rn1q1rk1/1p3pp1/2pbpn1p/8/p2P4/P2Q1N2/1PPBNPPP/R4RK1 w - - 1 13
+Semi-Slav Defense: Botvinnik Variation
+r1b2rk1/pp4pp/2pqpn2/8/3P4/2NN4/PP3PPP/1Q2RRK1 w - - 1 18
+Scandinavian Defense: Mieses-Kotroc Variation
+r2q1rk1/2p2ppp/p4b2/1p1pNb2/1PnP1P2/P1P5/B4BPP/R2Q1RK1 w - - 1 17
+Owen Defense
+rn1qk2r/pbp1bppp/1p1pp3/8/4P3/2NP1N2/PPPQBPPP/R3K2R w KQkq - 4 9
+Sicilian Defense: Dragon Variation
+r1bqk2r/p3ppbp/2pp1np1/8/4P3/2NB4/PPP2PPP/R1BQ1RK1 w kq - 0 9
+Van't Kruijs Opening
+rnbq1rk1/ppp2pp1/3n1b1p/3pN3/3P4/P2BP3/1P3PPP/RNBQK2R w KQ - 2 11
+Caro-Kann Defense
+r4rk1/p4ppp/1p1qp3/n2p3b/3P4/2PB1N1P/PPQn1PP1/R4RK1 w - - 0 16
+Elephant Gambit
+r3kbnr/ppp3pp/2n2p2/4p3/4P3/2N2B2/PPP2PPP/R1BK3R w kq - 2 9
+Queen's Pawn Game: Zukertort Variation
+r2qkb1r/pp1n1pp1/2p1pn1p/3p4/3P1B2/2PQPN2/PP1N1PPP/R3K2R w KQkq - 2 9
+Zukertort Opening: Queen's Gambit Invitation
+r2q1rk1/1p1b1ppp/p1n1pb2/3p4/3P4/2N2NP1/PP2PPBP/R2QR1K1 w - - 0 12
+Bishop's Opening
+rnbq1rk1/ppp2ppn/3p3p/3Np3/2B1P3/3P1N2/PPP2PPP/R2QK2R w KQ - 2 10
+English Opening: Anglo-Indian Defense, Queen's Knight Variation
+1r1q1rk1/1p1b1p1p/p1nppbp1/8/P1Pp4/4P1P1/1P2NPBP/R1BQ1RK1 w - - 0 14
+Slav Defense #2
+r2qk1nr/pp3ppp/1np5/3p1b2/1b1P4/2N1PN2/PP2BPPP/R1BQ1RK1 w kq - 0 9
+Zukertort Opening: Quiet System
+3rr1k1/ppq2pp1/2pb1np1/8/3P4/5B1P/PP3PP1/R1BQR1K1 w - - 3 18
+English Opening: Caro-Kann Defensive System
+rn2kb1r/1p3p1p/2p1p1p1/1p1n4/3PN3/4PP2/PP3P1P/R1B1KBR1 w Qkq - 0 12
+Ruy Lopez: Morphy Defense, Classical Defense Deferred
+r1bq1rk1/bpp2ppp/p1np1n2/8/BP1pP3/2P2N2/P4PPP/RNBQR1K1 w - - 0 10
+Sicilian Defense: Four Knights Variation
+r1b2rk1/pp3ppp/2nbpq2/8/6Q1/1NPB4/P1PB1PPP/R4RK1 w - - 5 13
+Queen's Gambit Refused: Austrian Defense
+r3k2r/pp1b2pp/2n1qp2/4p3/7B/4P3/PP1Q1PPP/R3KB1R w KQkq - 1 16
+Sicilian Defense: Delayed Alapin Variation
+r2qk1nr/1b2bppp/p1n5/1p1Bp3/8/2N2N2/PP3PPP/R1BQK2R w KQkq - 0 12
+Torre Attack #2
+1r1qkb1r/p2p1ppp/1p2pn2/8/1P1p4/P5P1/1BPNPPbP/R2Q1RK1 w k - 0 11
+Colle System #2
+r2qrnk1/p3b1pp/2p5/2ppp3/3P4/2PBPRQ1/PP5P/R1B3K1 w - - 0 17
+Gruenfeld Defense: Counterthrust Variation
+rnbq1rk1/pp2ppbp/6p1/3p4/3P4/4P1P1/PP3PBP/R1BQK1NR w KQ - 1 9
+Nimzo-Larsen Attack: Indian Variation
+r1bqnrk1/pp1pppbp/2n3p1/8/3p4/1PN1PN2/PBP1BPPP/R2QK2R w KQ - 0 9
+Caro-Kann Defense: Classical Variation, Main Line
+r3kb1r/pp1q1pp1/2p1pn1p/8/3P3P/3Q2N1/PPPB1PP1/R3K2R w KQkq - 0 13
+Indian Game
+r2q1rk1/1p2ppbp/p1np1np1/2p2b2/P1BP1B2/2P1PN1P/1P3PP1/RN1Q1RK1 w - - 1 10
+Old Benoni Defense
+r2qkb1r/pp3ppp/2npbn2/3Np3/2P5/4PN2/PP3PPP/R1BQKB1R w KQkq - 4 9
+Queen's Pawn Game: Zukertort Variation
+r1bqk2r/1p1nbppp/p3pn2/3p4/2pP1B2/P1N1PN1P/1PP1BPP1/R2QK2R w KQkq - 0 9
+Zukertort Opening: Pirc Invitation
+r2q1rk1/1pp2pp1/p1npbb1p/4p3/1PP5/P2P1NP1/1B2PP1P/R2QKB1R w KQ - 1 11
+Queen's Pawn Game: Torre Attack
+r2q1rk1/pppnbppp/4p1b1/3p4/3PnB2/2PBPN2/PP2QPPP/RN3RK1 w - - 9 10
+Queen's Gambit Declined
+r2q1rk1/3nbppp/2p2n2/p2p3b/1p1P1B2/4PN1P/PP2BPP1/RN1QK2R w KQ - 0 14
+Scandinavian Defense
+r2q2k1/ppp2ppp/7n/2b5/2B1r1P1/P4N1P/1P6/R1BQK2R w KQ - 0 17
+Englund Gambit Declined, Reversed Krebs
+1n1q1rk1/rp2b1pp/pNp1bn2/P2p1p2/2PPp3/1Q2P3/1P1N1PPP/R1B1KB1R w KQ - 5 12
+Hungarian Opening
+r3r1k1/ppp2pp1/3b4/3p3p/3P2b1/1PP3P1/P1q1PRBP/RN2Q1K1 w - - 7 17
+Horwitz Defense
+r4rk1/pp1bn2p/1qnbppp1/3p4/3P1P1N/2PB1NP1/PP5P/R1BQ1RK1 w - - 7 13
+English Opening
+2kr1b1r/ppqn1ppp/2p2n2/4p2b/2P5/2NPPN1P/PP2B1P1/R1BQ1RK1 w - - 1 11
+Scotch Game
+r2k1b1r/ppp2ppp/4bn2/4p3/2B5/2N5/PPP2PPP/R1B1K2R w KQ - 2 10
+Caro-Kann Defense: Panov Attack #2
+rn1qk2r/pp2bppp/5n2/3p1b2/3P4/2N2N1P/PP2QPP1/R1B1KB1R w KQkq - 4 10
+Modern Defense
+r1bqk2r/pp2npbp/2n3p1/3p4/3P4/1B3N2/PP3PPP/RNBQ1RK1 w kq - 4 10
+Alekhine Defense: Maroczy Variation
+r2q1rk1/1p3ppp/p1n2b2/3p3b/1P2n3/2P1BN1P/P3BPP1/1NRQ1RK1 w - - 1 16
+English Opening: King's English Variation
+r2q1rk1/pp4pp/2b1n3/3p1p2/3Pp3/P1N3P1/1P1QPPBP/2R2RK1 w - - 3 18
+Scandinavian Defense: Mieses-Kotroc Variation
+r1bbk2r/1pp2pp1/p1n1p2p/8/8/2NP4/PPP2PPP/R1B1KB1R w KQ - 2 14
+Modern Defense
+r3kbnr/ppp4p/2np2p1/5p2/3P4/2N2N2/PPP1KPPP/R1B4R w kq - 1 10
+English Opening: Agincourt Defense, Catalan Defense, Semi-Slav Defense
+r3r1k1/pp1q1p2/1n1b1np1/3pp3/6pN/1P1PPPP1/PB1N3P/2RQ1RK1 w - - 1 17
+Sicilian Defense: Bowdler Attack
+r2qk2r/pb1pnpbp/1pn1p1p1/2p5/2B1PB2/P1PP1N2/1P2QPPP/RN2K2R w KQkq - 2 9
+Indian Game: Spielmann-Indian
+r2q1rk1/pp3ppp/2nb1n2/2ppp3/3P2b1/2PBPNB1/PP1N1PPP/R2Q1RK1 w - - 0 10
+Italian Game: Two Knights Defense, Lolli Attack
+r4b1r/ppp1kBpp/4b3/8/4q3/8/PP3PPP/RN1Q1K1R w - - 0 14
+English Opening: Agincourt Defense #3
+rn1q1rk1/pp3ppp/2p2n2/3p1b2/1b6/1P3NP1/PB1PPPBP/RN1Q1RK1 w - - 2 9
+Italian Game: Giuoco Pianissimo, Italian Four Knights Variation
+r1bq1rk1/p1p2pp1/1pnp1n1p/4p3/2B1P2B/P1bP1N2/1PPQ1PPP/R4RK1 w - - 0 11
+Bishop's Opening
+r2qk1nr/1p1n1pbp/6p1/p2p4/P2Np3/2P5/1P1P1PPP/RNBQ1RK1 w kq - 1 11
+French Defense: Rubinstein Variation, Blackburne Defense
+r1b1kb1r/pp1n1pp1/1q2p2p/8/3p1Bn1/3B1N2/PPP1NPPP/R2QK2R w KQkq - 0 11
+Scandinavian Defense: Mieses-Kotroc Variation
+r4rk1/ppq1bppp/2p1pn2/4N3/3P4/2P4P/PP2bPP1/R1BQ1RK1 w - - 0 15
+Philidor Defense: Lion Variation
+rq2k1r1/pp2bp2/2p1bnnp/2B1p1p1/2Q1P3/2N4P/PPP1BPPN/3R1RK1 w q - 8 16
+French Defense: Queen's Knight
+r3kbnr/pbq2pp1/1pn1p3/2p4p/3pPP2/3P1BN1/PPP3PP/RNBQK2R w KQkq - 0 10
+Mieses Opening
+r1bqkb1r/1p4pp/p1n1pp2/2p1P3/2Pp2n1/3P1N2/PP2QPPP/RNB1KB1R w KQkq - 0 10
+Elephant Gambit
+3r1rk1/ppp2pp1/4bq1p/4n3/8/P2N4/1PP1BPPP/R3QRK1 w - - 3 15
+Zukertort Opening: Slav Invitation
+r2qr1k1/1p1nbppp/p1n1p3/3p2B1/3P4/2P2B1P/PPQN1PP1/R3R1K1 w - - 7 14
+Danish Gambit
+r1bq1rk1/p4ppp/5n2/2bp4/1nB5/1QN2N2/P4PPP/R1BR2K1 w - - 0 16
+English Opening: The Whale
+rnb2rk1/ppp2p2/3p1p1p/2b1p3/2P1P3/2NP4/PP3PPP/R3KBNR w KQ - 0 9
+English Opening: The Whale
+rn2k2r/pp2qpb1/3p2pp/2p1p3/2P1P3/3P1b1P/PP2BPP1/R1BQ1RK1 w kq - 0 11
+Colle System
+r1bq1rk1/1p1n1ppp/p2bpn2/3p4/3P4/P1NBPN2/1P3PPP/R1BQ1RK1 w - - 5 10
+Slav Defense: Exchange Variation
+2r2rk1/p3bpp1/1q2pn1p/2ppNb2/Q2P1B2/1PN1P3/P4PPP/2R2RK1 w - - 0 15
+Philidor Defense #2
+r2qk2r/ppp1bppp/3p1n2/4p3/2P1P3/2N2n1P/PP1P1PP1/R1BQR1K1 w kq - 0 10
+Queen's Pawn Game: Symmetrical Variation
+rnbqk2r/ppp2p2/4pn1p/3p2p1/3P4/4PN1P/PPP2PPb/RN1QKB1R w KQkq - 0 9
+Hungarian Opening
+r1bqk2r/pp2bppp/2n2n2/2pp4/8/1N1P2P1/PPP2PBP/RNBQ1RK1 w kq - 1 9
+Mieses Opening
+r2q1rk1/1pp1b1pp/3p1n2/p3p3/PnP1P3/1N3BPP/1P2QP2/R1B2RK1 w - - 1 15
+Slav Defense #2
+r2q1rk1/pp3pp1/2n1pnp1/3p2B1/1b1P4/2N3P1/PP2PPBP/R2Q1RK1 w - - 2 12
+Indian Game: Wade-Tartakower Defense
+r1b1qrk1/ppp2pbp/2n2np1/4p1B1/2B5/2P1PN2/PP1N1PPP/R2Q1RK1 w - - 0 10
+Queen's Gambit Declined
+r1bq1rk1/1ppn1pbp/p3pnp1/3p4/2PP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 2 9
+Queen's Pawn Game #3
+r1bq1rk1/pp2bppp/2p1p3/4P3/B3p3/4P3/PPP2PPP/R1BQ1RK1 w - - 0 11
+Modern Defense
+r2qr1k1/pppb1pbp/3p1np1/3P1n2/1PP5/P4N1P/1BQ1BPP1/RN3RK1 w - - 3 14
+Reti Opening #2
+r4rk1/ppqn1pbp/2p2np1/4p3/5B2/2PBPP1P/PPQN1P2/2KR3R w - - 0 13
+Sicilian Defense: Grand Prix Attack
+r4rk1/1bn1bpp1/p1p1p2p/1pp1P2N/2P2P2/3q1N2/PP4PP/R1B1QRK1 w - - 0 15
+King's Indian Defense
+r1bq2k1/ppp1nrbp/3p1n2/3PppB1/2P5/2N3PP/PP2NPB1/R1Q2RK1 w - - 4 14
+King's Indian Defense: Saemisch Variation, Bobotsov-Korchnoi-Petrosian Variation
+r1b2rk1/p4pb1/3p1np1/q1pPn3/1p2P2B/2N2P1P/PP1QB1P1/R3KN1R w KQ - 0 16
+French Defense: Exchange Variation, Monte Carlo Variation
+rn1qk2r/pp3pbp/2p1bnp1/2Pp4/3P4/2N2N2/PP2BPPP/R1BQK2R w KQkq - 2 9
+Sicilian Defense: Canal-Sokolsky Attack
+r4rk1/1bqnbppp/pp1ppn2/6B1/P1BQP3/2N2N2/1PP2PPP/3RR1K1 w - - 4 13
+Benoni Defense: Benoni Gambit Accepted
+r2q1rk1/pp3pp1/3p3p/P1bnp2b/4P3/2PB1N1P/1P3PP1/R2Q1RK1 w - - 0 15
+French Defense: Knight Variation
+r5k1/1pqn1ppp/2p2n2/p1Pp1bB1/1b1P4/1P3N1P/P1QN1PP1/4R1K1 w - - 0 18
+Sicilian Defense: Sozin Attack
+r1b2rk1/2qnbppp/pp1ppn2/8/P3PP2/2NB1N2/1PP3PP/R1BQ1RK1 w - - 2 12
+Queen's Pawn Game: Symmetrical Variation
+r2qk2r/pp1nnppp/4p3/2bp4/8/2P1PN2/PP1N1PPP/R1BQ1RK1 w kq - 0 12
+Scandinavian Defense: Modern Variation #2
+r2q1rk1/pp2b3/1n2pppP/2p3p1/P3N3/1P1PB3/1P1Q1PP1/R3K2R w KQ - 0 18
+Slav Defense #2
+2rq1rk1/pb2bppp/1pp1pn2/3nN3/3P4/P1NBP1B1/1PQ2PPP/2R1K2R w K - 4 14
+Bird Opening
+rnbq1rk1/p3bppp/4pn2/2pp4/1p3P2/1P1PPNP1/PBPN2BP/R2Q1RK1 w - - 0 11
+French Defense: Queen's Knight
+r4rk1/ppp2pp1/1n3q1p/3p4/1b1P4/5N2/PPP1NPPP/R2Q1RK1 w - - 4 12
+Indian Game: Budapest Defense
+r2q1rk1/pp3ppp/1np2n2/5b2/2BP1B2/P1P2N2/5PPP/R2Q1RK1 w - - 3 13
+Queen's Pawn Game: Chigorin Variation
+r2q1rk1/ppp2ppp/3b1n2/3p4/8/2P1PN2/PP2QPPP/R1B1R1K1 w - - 2 13
+St. George Defense
+r2qkbnr/1pp2pp1/p1npp3/7b/4P3/P1NPBN1P/1PP1QPB1/R3K2R w KQkq - 1 11
+Queen's Pawn Game: Zukertort Variation
+2r2rk1/pp3ppp/2nqpn2/1B1pNb2/Q2P4/4P3/PP1N1PPP/R3K2R w KQ - 4 12
+Slav Defense: Quiet Variation
+rn1qkb1r/1b3ppp/p1p1pn2/1p6/3P4/3BPN2/PP1B1PPP/RN1QK2R w KQkq - 0 9
+Zukertort Opening: Queen's Gambit Invitation
+r1bq1rk1/1pp2pbp/p1n1pnp1/3p4/3P4/P1NBPN2/1PPB1PPP/R2Q1RK1 w - - 4 9
+Catalan Opening
+r1bq1rk1/1pp1nppp/3p1n2/p2Pp3/1bP1P3/6P1/PP1BNPBP/RN1Q1RK1 w - - 1 10
+King's Gambit Accepted, Fischer Defense
+r2q1rk1/pp3ppp/2n2n2/2bp4/5B2/1BNP1b1P/PPP3P1/R2Q1R1K w - - 0 13
+Queen's Gambit Accepted: Old Variation
+r2qk2r/3b1pp1/p1nppn1p/6B1/2pP4/2N2N1P/PP3PP1/R2Q1RK1 w kq - 0 13
+Torre Attack #2
+r4rk1/p2nq1pp/bp2pp2/2pp4/3Pn3/2P1PN2/PP1NQPPP/R4RK1 w - - 0 14
+Polish Opening: King's Indian Variation
+r4rk1/ppq1ppbp/2p1bnp1/2Ppn3/1P5N/P2P4/1BQNPPPP/R3KB1R w KQ - 9 12
+Italian Game: Classical Variation, Greco Gambit, Traditional Line
+r1bqk2r/pppp1ppp/8/8/1nBPn3/5N2/PP3PPP/RN1QK2R w KQkq - 0 9
+Nimzo-Larsen Attack: Modern Variation #3
+r4rk1/p1pqb1pp/np1p4/3Ppp2/2P1BP2/1P2P1Pb/PB1Q1R1P/RN4K1 w - - 0 17
+Queen's Pawn
+r1bk1b1r/ppp2pp1/5n1p/4p3/7B/4P3/PPP2PPP/RN2KB1R w KQ - 0 9
+Indian Game
+r2q1rk1/pbpnppbp/1p1p1np1/6B1/3P4/2N1PN1P/PPP1BPP1/R2Q1RK1 w - - 3 9
+King's Indian Attack: Symmetrical Defense
+rn1q1rk1/pb1pppbp/5np1/2p5/Pp2P3/3P1NP1/1PPN1PBP/R1BQ1RK1 w - - 0 9
+Queen's Pawn Game: Mason Attack
+r2q1rk1/ppp2bpp/3b4/3ppp2/3P4/2P1PP2/PPQnNBPP/3R1RK1 w - - 0 18
+Italian Game: Anti-Fried Liver Defense
+r2q1rk1/ppp1bpp1/2np1n1p/4p3/2P1P3/5NP1/PBPP1PKP/RN1Q3R w - - 3 10
+King's Pawn Game: Dresden Opening
+r2q1rk1/pppbnppp/3p1n2/3P4/2P1P3/2N2N1P/PP4P1/R2QKB1R w KQ - 1 12
+Sicilian Defense: Modern Variations, Main Line
+r2q1rk1/4bppp/3ppn2/1p6/1P1Nb3/PQ1B4/3B1PPP/1R2K2R w K - 0 17
+Caro-Kann Defense
+2kr3r/pp1nbpp1/2p1p3/4Pn1p/2P1NB2/5N2/PPK2PPP/R6R w - - 6 14
+Anderssen Opening
+rnbq1rk1/pp2ppbp/2p3p1/8/3PQ3/P4N2/1PP2PPP/R1B1KB1R w KQ - 1 9
+Bird Opening
+r2q1rk1/4ppb1/npp3p1/p2p3p/5PnP/1PN1PN2/PBPPQ3/2K3RR w - - 0 14
+Sicilian Defense: Loewenthal Variation
+r1bqr1k1/p2p1ppp/2p2n2/4p1B1/1b2P3/2N5/PPPQ1PPP/2KR1B1R w - - 8 10
+Rubinstein Opening
+r1b2rk1/pp3ppp/5n2/3p4/8/1P1B4/PqPN1PPP/2RQR1K1 w - - 2 15
+Sicilian Defense: Classical Variation
+r2qkb1r/pp3ppp/2n1bn2/3pp3/4P3/2N1BN1P/PPP2PP1/R2QKB1R w KQkq - 0 9
+French Defense: Advance Variation #4
+r1bq1rk1/pp4pp/5b2/3pn3/8/P4N2/1P2BPPP/RN1Q1RK1 w - - 0 15
+Pirc Defense #5
+r1bq1rk1/ppp1ppbp/3p2pn/6N1/Q1nPP3/2P5/PP3PPP/RNB2RK1 w - - 0 9
+Colle System
+r4rk1/2bn1ppp/2p1pq2/p1Pp4/P2P4/2B1P3/3NQPPP/R4RK1 w - - 1 17
+Scandinavian Defense: Mieses-Kotroc Variation
+rn1qk2r/ppp2ppp/1b2b3/3n4/8/2N2N2/PPP2PPP/R1BQR1K1 w kq - 0 11
+Queen's Pawn Game: Chigorin Variation
+r2r2k1/p4ppp/1qn1pn2/2p1N3/2B5/1P2P2P/2Q2PP1/R3K2R w KQ - 1 18
+Slav Defense: Exchange Variation
+r1b2rk1/pp3ppp/2n1p3/3p4/3PnB2/2PBPN2/4KPPP/1R5R w - - 3 14
+Scandinavian Defense: Mieses-Kotroc Variation
+2kr1b1r/ppp1qp2/2n4p/4p1p1/1P2P3/P4b2/2PBBPPP/R3QRK1 w - - 0 15
+Paleface Attack
+r1bq2k1/pp1n2bp/4p1p1/2ppP3/3P2P1/7N/PPP4P/RNB2QK1 w - - 0 13
+Alekhine Defense: Modern Variation, Main Line
+r2qk2r/pp1nbppp/2n1p3/2Pp4/3P2b1/1P3N2/PB2BPPP/RN1Q1RK1 w kq - 1 12
+Van't Kruijs Opening
+3r1rk1/1pp2pbp/p1n2np1/8/1P2p3/P3P2P/1BP1BPP1/RN3RK1 w - - 0 14
+Scandinavian Defense: Gubinsky-Melts Defense
+r2q1rk1/pp3ppp/2p1p3/3n4/8/1PbP1Q1P/P1PBBPP1/1R2R1K1 w - - 4 18
+Scandinavian Defense: Main Line
+2r2rk1/ppq1bpp1/2p1pnp1/8/1P1PQ3/P3BN1P/2P2PP1/R4RK1 w - - 1 17
+Queen's Pawn Game: London System
+2kr3r/pp2bpp1/1np1p1p1/3n4/3P1B2/2NBP2P/PP3PP1/R3K2R w KQ - 1 15
+Queen's Gambit Declined: Traditional Variation
+rnbq1rk1/1p3pp1/p3pn1p/3p4/PbPp1B2/2NBPN2/1P3PPP/R2Q1RK1 w - - 0 11
+Tarrasch Defense: Symmetrical Variation
+r1bqk2r/pp2bppp/4pn2/8/2BP4/2N5/PP3PPP/R1BQK2R w KQkq - 1 10
+Scotch Game: Classical Variation
+r3k2r/pppb1ppp/3p1n2/3q4/1Q6/3B4/PPP2PPP/RN3RK1 w kq - 4 13
+Scandinavian Defense: Main Line
+r3k2r/pp1n1ppp/2pbpnb1/q3N1B1/2BP2P1/2N4P/PPP2P2/R2Q1RK1 w kq - 4 12
+Ruy Lopez: Morphy Defense, Graz Variation
+r2qk1nr/2p2ppp/p1np2b1/1pb1p3/4P1P1/1BP2N1P/PP1P1P2/RNBQ1RK1 w kq - 1 10
+Queen's Pawn
+r3kb1r/pp1n1ppb/2p1pq1p/3p4/3P2P1/P1N3BP/1PP1PP2/R2QKB1R w KQkq - 2 13
+Reti Opening: Anglo-Slav Variation, Bogoljubov Variation, III
+rn1qk2r/pp2bppp/2p1pnb1/3p4/2P3P1/1P1PPN1P/P2BBP2/RN1QK2R w KQkq - 1 10
+Semi-Slav Defense
+rn1q1rk1/pp3ppp/2p2b2/3p1b2/3P4/P1N1PN2/1P3PPP/R2QKB1R w KQ - 0 10
+Sicilian Defense: Smith-Morra Gambit #2
+2rqkb1r/pp2pppp/3p1n2/4n3/4PP2/2QB4/PPP2P1P/RNB2RK1 w k - 1 10
+Danish Gambit Accepted
+rnb1k1nr/ppppq2p/5pp1/3Q4/2B1P3/P1b5/1B3PPP/R3K1NR w KQkq - 0 10
+Nimzowitsch Defense: Pseudo-Spanish Variation
+r2q1rk1/p1p1bppp/2ppbn2/4p3/4P3/3P1N1P/PPP2PP1/RNBQR1K1 w - - 1 9
+Modern Defense
+r2q1rk1/pp2ppbp/2np1np1/8/3P1Pb1/2PB1N2/PP1N2PP/R1BQ1RK1 w - - 4 10
+Center Game: Normal Variation
+r1bqr1k1/ppp2ppp/2np1n2/8/1b2P3/2NB1P2/PPP1N1PP/R1BQK2R w KQ - 0 9
+Sicilian Defense: Boleslavsky Variation
+r2q1rk1/pp2bpp1/2npbn1p/4p3/4P3/2N2N1P/PPP1BPP1/R1BQR1K1 w - - 1 11
+Nimzo-Larsen Attack: Symmetrical Variation
+r2qkb1r/pb3ppp/1pn1pn2/3p4/2PP4/1P3N2/PB1N1PPP/R2QKB1R w KQkq - 0 9
+Nimzo-Indian Defense: Three Knights Variation, Duchamp Variation
+r2q1rk1/pbpn1pp1/1p1ppn1p/6B1/2PP4/P1PBPN2/5PPP/R2Q1RK1 w - - 0 11
+Benoni Defense: Hromadka System
+r2q1r2/4ppkp/3p2p1/1N1P4/2p1n1b1/P4N2/1P1Q1PPP/R4RK1 w - - 0 18
+Sicilian Defense: Hyperaccelerated Dragon
+r2q1rk1/pp1bppbp/2np1np1/8/3pP3/2N1BN1P/PPP1BPP1/R2Q1RK1 w - - 0 10
+Pirc Defense #4
+r2qk2r/pb1nbpp1/2p2n1p/3p2B1/B7/5N2/PP2QPPP/RN2R1K1 w kq - 0 14
+Queen's Pawn Game: Chigorin Variation
+r2qkbnr/ppp5/2n2p2/3ppb1p/3P2pP/4P1B1/PPP2PP1/RN1QKBNR w KQkq - 0 9
+Nimzo-Larsen Attack: Indian Variation
+r2q1rk1/pp2bppp/2n1pn2/2pp4/2PP2b1/1P2PN2/PB2BPPP/RN1Q1RK1 w - - 1 9
+Pterodactyl Defense: Western, Rhamphorhynchus
+r4rk1/pp1nppbp/3p2p1/8/4P1n1/P1NPBN2/1P3PPP/1R3RK1 w - - 1 15
+Queen's Pawn Game: Chigorin Variation
+r2qk2r/ppp2ppp/2n1p3/3p1n2/3P1b2/3BPQ1P/PPP2PP1/RN2K2R w KQkq - 0 10
+Polish Opening: King's Indian Variation
+2r3k1/p2nqpbp/2p1rnp1/1p6/1P2P3/3B1Q2/PBPN1PPP/R4RK1 w - - 2 17
+Slav Defense
+rn1q1rk1/pp2bppp/2p1bn2/2Pp4/3P4/2N2PP1/PP2N1BP/R1BQ1RK1 w - - 7 12
+Scandinavian Defense: Mieses-Kotroc Variation
+2kr1b1r/ppp2ppp/4pn2/8/3q4/2NP1B2/PPP1QPPP/2KR3R w - - 0 12
+Queen's Pawn Game: London System
+r2qk2r/pp2bppp/2n1pn2/2pp4/3P1B2/2PQPN2/PP1N1PPP/R3K2R w KQkq - 2 9
+Ruy Lopez: Exchange Variation, Keres Variation
+r2qk2r/1pp1bpp1/p4n1p/2p5/3pP3/2N1BQ1P/PPP2PP1/3R1RK1 w kq - 0 13
+Queen's Gambit Declined: 4.Bg5 Be7
+rn2k2r/pp2qppp/5b2/3p4/3P4/1QN2b2/PP2BPPP/R3K2R w KQkq - 0 12
+French Defense: Exchange Variation
+rn1q1rk1/pp2bppp/2p2n2/3p2B1/3P4/2N2B2/PPP2PPP/R2QR1K1 w - - 2 12
+Russian Game: Cozio (Lasker) Attack
+r1b1k2r/pp1nbppp/2pp1n2/6B1/8/2NP1N2/PPP1BPPP/2KR3R w kq - 0 11
+English Opening: Agincourt Defense
+r2qrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NQPN1P/PP3PP1/R3R1K1 w - - 5 13
+Philidor Defense #2
+r2q1rk1/1pp1bpp1/p1npbn1p/4p3/4P2B/2PP1N1P/PP2BPP1/RN1Q1RK1 w - - 1 10
+Bishop's Opening
+r2q1rk1/ppp2pp1/3p3p/n1bNp3/2B1PPb1/2PP4/PP2N1PP/R2Q1R1K w - - 1 13
+French Defense: King's Indian Attack
+r4rk1/1p1bbppp/pqp1p3/4n3/1P2P3/2P3P1/P2N1PBP/R1B1RQK1 w - - 2 16
+Sicilian Defense: Hyperaccelerated Dragon
+2rqk2r/pp2ppbp/2n3p1/1B1pPn2/3P4/4BQ1P/PP3PP1/RN3RK1 w k - 1 12
+Sicilian Defense: Najdorf Variation, English Attack, Anti-English
+r1b2rk1/2q1bppp/p1nppn2/1p6/4PP2/1NN1B3/PPP1B1PP/3RQRK1 w - - 0 17
+Sicilian Defense
+r2q1rk1/pb2n1bp/1pnp1pp1/2p1pP2/4P1PN/3P4/PPPQB2P/RNB1K2R w KQ - 0 13
+Queen's Pawn Game #2
+rn1q1rk1/pb2bppp/1p2p3/3pN3/3PnP2/2PB4/PP1N2PP/R1BQ1RK1 w - - 8 11
+Modern Defense
+rnb2rk1/1pq1bp1p/2n1p1p1/p2pN3/Q1PP4/4P3/PB1N1PPP/R3KB1R w KQ - 8 13
+Owen Defense
+rn1qkbnr/pbp2ppp/1p2p3/4P3/3P1P2/2P3P1/P6P/RNBQKBNR w KQkq - 1 9
+Ponziani Opening
+1r1qk2r/1pp2pp1/p1npbn1p/2b1p3/4P2N/2PP2P1/PPQ2PBP/RNB2RK1 w k - 6 11
+Modern Defense
+r1b2rk1/pp1nnpbp/2pqp1p1/8/8/1PNB1N2/PBPP1PPP/R2Q1RK1 w - - 2 10
+King's Knight Opening
+rn2k2r/1pp2pp1/p4n1p/3P4/6b1/5B2/PP1N1PPP/R1B1K2R w KQkq - 3 14
+Sicilian Defense: Dragon Variation
+r1bq1rk1/pp2ppbp/2np2p1/8/4P1n1/2NB4/PPP1NPPP/R1B1QRK1 w - - 8 10
+King's Pawn Game: Macleod Attack
+r3r1k1/ppq2ppp/1bn3n1/3pP3/8/1NP2N1P/PP2QPP1/R1B1R1K1 w - - 2 16
+Nimzowitsch Defense: Williams Variation
+r2qk2r/2pbbpp1/p1pppn1p/8/3PPB2/2N2N2/PPP2PPP/R2QK2R w KQkq - 4 10
+Mieses Opening
+r1bqk2r/pp3pp1/3p1b1p/2p1n3/8/2PBP1P1/PPQN1P1P/2KR2NR w kq - 4 13
+Queen's Pawn Game: Anglo-Slav Opening
+r1b2rk1/pp1nb1pp/1qpp1n2/4p3/2P1P3/2NB1N1P/PPQB1PP1/R3K2R w KQ - 7 12
+Queen's Gambit Declined: Exchange Variation, Positional Variation #2
+r1bq1rk1/pp2bppp/2n2n2/3p2B1/3P4/2N2N2/PP2BPPP/R2QK2R w KQ - 1 10
+Vienna Game: Anderssen Defense
+r2q1rk1/1pp2pp1/1pn2n1p/4p2b/2B1P3/2P2N1P/PP3PP1/R1BQ1RK1 w - - 0 13
+Caro-Kann Defense: Tartakower Variation
+r3r1k1/ppq2pp1/1np2pp1/8/2PP1bP1/1Q3N1P/PP1B1P2/R3R1K1 w - - 1 17
+Nimzowitsch Defense: Lean Variation
+r4rk1/4b1pp/p1nq1n2/1p1pppB1/8/1PNP1N2/1PPQ1PPP/R3R1K1 w - - 2 15
+Queen's Pawn
+r1bqk2r/3pnpbp/p1p3p1/4p3/2P5/2N1P1B1/PP3PPP/R2QKB1R w KQkq - 2 10
+Queen's Gambit Declined: 4.Bg5 Be7
+rnbqk2r/2p1bpp1/p3pn1p/1p6/2BP3B/2N1PN2/PP3PPP/R2QK2R w KQkq - 0 9
+Modern Defense
+r1b1k1nr/pp1ppp1p/2n3pP/8/8/q4N2/P2BPPP1/2RQKB1R w Kkq - 4 11
+Ruy Lopez: Berlin Defense, l'Hermet Variation
+r1bk1b1r/ppp2ppp/2p5/4Pn2/8/5N2/PPP2PPP/RNB2RK1 w - - 0 9
+Slav Defense: Three Knights Variation
+r2qk2r/pp2bppp/2p2n2/3p1b2/3Pn3/P1NBPN2/1P3PPP/R1BQ1RK1 w kq - 2 11
+Pirc Defense: Austrian Attack #2
+rn3rk1/pq3pbp/5pp1/1p6/3N1P2/1P2B3/PP2Q1bP/2R2RK1 w - - 0 18
+Zukertort Opening: Queen's Gambit Invitation
+2rqk2r/p4ppp/1p2p1n1/2b1P3/2p2P2/N1P1P3/P3Q1PP/R1B2RK1 w k - 2 15
+English Opening: Symmetrical Variation, Normal Variation
+2kr3r/ppqbbp2/3pp2p/2p1P2Q/2P2P2/2NPBN2/PP4P1/2KR4 w - - 5 16
+Philidor Defense #4
+r2qnrk1/pppnbpp1/3p3p/4p2b/2B1P2B/3P1N1P/PPPN1PP1/R3QRK1 w - - 2 11
+French Defense: Exchange Variation
+r2qr1k1/pp1n1ppp/2pbbn2/3p4/3P4/2PBBN1P/PP1N1PP1/R2Q1RK1 w - - 1 11
+Sicilian Defense: McDonnell Attack
+2rqk2r/pp2bp2/2n1p1p1/2ppP2p/5Pb1/2PPBN2/PP2B1PP/R2Q1RK1 w k - 0 13
+Ruy Lopez: Classical Variation
+r2q1rk1/ppp2ppp/1bn3b1/1B1pP3/3P2P1/2N1PN1P/PP6/R2Q1RK1 w - - 1 14
+Nimzo-Larsen Attack: Indian Variation
+r2q1rk1/pb1nbppp/1p6/2pn4/2B5/1P2PN2/PB3PPP/R2Q1RK1 w - - 0 13
+Sicilian Defense: Najdorf Variation, Opocensky Variation
+r4r2/1pq2pkp/p1np1np1/4p3/4P1b1/2N2N2/PPPQBPPP/R4R1K w - - 2 14
+Queen's Gambit Declined
+r4rk1/ppq1bpp1/1np2np1/3p4/3P4/2N3P1/PPQBPPBP/R4RK1 w - - 4 14
+King's Indian Defense: Fianchetto Variation, Debrecen Defense
+r1bqr1k1/pppn1pb1/3p1npp/4p1B1/2PP4/2N2NP1/PPQ1PPBP/R4RK1 w - - 0 10
+Bishop's Opening: Boi Variation
+r4r2/1p2np1k/p1p1bp1p/2bppN2/P3P1P1/1BPP3P/1P1N1P2/R3K2R w KQ - 4 18
+Sicilian Defense: Najdorf Variation
+rnbqk2r/1p3ppp/p2p1b2/4p3/4P3/2N2N2/PPP2PPP/R2QKB1R w KQkq - 0 9
+Scandinavian Defense
+r2q2k1/ppp2pbp/4b1p1/5p2/3P4/1Pn2N2/P1B2PPP/2RQR1K1 w - - 0 16
+Scotch Game
+r1bk2nr/ppp2ppp/8/4p3/1b6/2N5/PPP2PPP/R1B1KB1R w KQ - 2 9
+Caro-Kann Defense: Exchange Variation
+r1bq1rk1/1p1nbppp/p3p3/3p4/3P4/2NB4/PPP2PPP/R1BQK2R w KQ - 0 11
+Modern Defense
+r2qk1nr/pbp2p1p/1p1pp1p1/8/2BbPQ2/2NP4/PPP2PPP/R1B2RK1 w kq - 0 10
+Philidor Defense #3
+rn2k2r/ppp2ppp/8/2b1N3/8/5N2/PPP1KnPP/R1B1R3 w kq - 2 12
+Ruy Lopez: Exchange Variation, Alapin Gambit
+2kr1b1r/1pp5/p1p1qpn1/4p1pp/1P1PP3/2P1B2P/P2NQPP1/R4RK1 w - - 2 15
+English Opening: The Whale
+rn2r1k1/1p1q1p1p/p1p1bbp1/3pp3/PPP1P3/2NP1N1P/3QBPP1/R4RK1 w - - 0 14
+French Defense #2
+r2q1rk1/pp1n1ppp/2p2nb1/2bp4/6P1/3P1N1P/PPPN1PB1/R1BQ1RK1 w - - 1 13
+Sicilian Defense: Accelerated Dragon, Modern Variation
+r1bqk1nr/p2pppbp/2p3p1/4P3/8/2N1B3/PPP2PPP/R2QKB1R w KQkq - 1 9
+French Defense: Rubinstein Variation
+r1b1kb1r/pp3pp1/1qn1pn1p/2p5/3P4/4BNN1/PPP2PPP/1R1QKB1R w Kkq - 4 9
+Elephant Gambit: Paulsen Countergambit
+rnb2rk1/pp4pp/5B2/3q4/3Np3/8/Pb2QPPP/2KR1B1R w - - 0 14
+Sicilian Defense
+r2q1rk1/p4ppp/1pbb2n1/2p1p3/5P2/2NPBNP1/PPP4P/R2QKR2 w Q - 0 13
+English Opening: King's English Variation, Four Knights Variation, Flexible Line
+r1bq1rk1/1pp3pp/2np4/p3pp2/2P3n1/2NPPNP1/PP1QP1BP/R4RK1 w - - 0 11
+Queen's Pawn Game: Steinitz Countergambit
+r2qkb1r/p4ppp/2p1pn2/2pp4/3P1B2/2P1P3/PP2bPPP/RN1QK2R w KQkq - 0 9
+English Opening: Agincourt Defense
+rnb2rk1/pp3ppp/5n2/q2p4/1bpP1B2/2N1PN2/PPB2PPP/R2QK2R w KQ - 2 10
+English Opening: Anglo-Indian Defense, Queen's Knight Variation
+r1bq1rk1/pp3pbp/2np1np1/2p1p3/2P1P3/2NP1NP1/PP3PBP/R1BQ1RK1 w - - 1 9
+Modern Defense
+rnb1r1k1/ppp2pbp/5np1/4p1B1/2P5/2N1PN2/PPB2PPP/R2qK2R w KQ - 0 11
+English Defense #2
+rn2k2r/pb2bppp/1p2p3/3q4/8/5NP1/PP2PPBP/R1BQK2R w KQkq - 0 12
+Colle System
+r2qr1k1/pb3ppp/1p1b1n2/2np4/8/2N1PNP1/PPQ2PBP/R1B1R1K1 w - - 0 13
+Queen's Pawn Game
+r3k1nr/pp3ppp/2nqp3/1B1p1b2/3P4/1QP2N2/PP3PPP/RN2K2R w KQkq - 0 10
+Caro-Kann Defense: Exchange Variation
+rn2k2r/ppq1bpp1/4pn1p/3pNb2/3P1P2/2PB4/PP4PP/RNB1QRK1 w kq - 6 11
+English Defense #2
+r2q1rk1/pb1n1pbp/1p2p1p1/3nP3/3p4/1NPB1N2/PP4PP/R1B1QRK1 w - - 0 14
+Sicilian Defense: Bowdler Attack
+r2qk2r/pp2bppp/2bp1n2/2p1p1B1/4P3/3P1N2/PPP2PPP/RN1Q1RK1 w kq - 4 9
+Owen Defense
+r3qrk1/2p1ppbp/1p3np1/p5B1/2P5/2NRQ3/PP3PPP/5RK1 w - - 1 15
+Vienna Game: Stanley Variation
+r2qk2r/pp1n1ppp/5n2/2bp4/3Np3/2N5/PPPP1PPP/R1BQ1RK1 w kq - 2 10
+French Defense: Knight Variation
+r4rk1/ppq2ppp/2pb1nn1/8/3P2b1/2NQ1NP1/PP2BP1P/R1B1R1K1 w - - 5 14
+Bird Opening
+rn3rk1/p3ppbp/qp1p1np1/2p5/3P1P2/2PQPN2/PP1N2PP/R3BRK1 w - - 3 12
+Four Knights Game: Italian Variation
+r2q2r1/pp2kp1p/1bpp1p2/4p3/2B1P3/3PBP1b/PPP2P1P/R2Q2RK w - - 7 15
+Sicilian Defense: Marshall Counterattack
+r2qk2r/pp1n1ppp/5n2/2bp4/8/2P2N2/PP3PPP/RNBQK2R w KQkq - 0 9
+Slav Defense #2
+r2q1rk1/1p1b1pp1/p1nbpn1p/3p4/3P3B/P1NBP3/1PQ2PPP/R3K1NR w KQ - 1 12
+Giuoco Piano
+r1bq1rk1/ppp2pp1/3p1n1p/8/2BpP3/P1NP3P/1PP2PP1/R2QK2R w KQ - 0 11
+Sicilian Defense: Mengarini Variation
+r1bq1rk1/pp2bppp/2nppn2/8/1P1PP3/P3BP2/6PP/RN1QKBNR w KQ - 3 9
+Russian Game: Cozio (Lasker) Attack
+r1b1kb1r/pp1n1pp1/2p2n1p/3p4/8/2NPBN1P/PPP1BPP1/R3K2R w KQkq - 0 12
+Queen's Pawn Game: Torre Attack
+r2q1rk1/pb1nbppp/1p2pn2/2pp2B1/3P4/2PBPN2/PP1NQPPP/R4RK1 w - - 0 10
+Scandinavian Defense: Main Line
+rn2kb1r/pp3ppp/1qp1pn2/4N3/3P4/2N5/PPPBbPPP/R2Q1RK1 w kq - 0 10
+Queen's Pawn Game: Chigorin Variation
+r2r2k1/1p2pp1p/p1p3p1/q3b3/3N4/2N1Pb1P/PPPQ4/R3KB1R w KQ - 0 18
+Semi-Slav Defense
+r3k2r/pb1nqppp/1pp1pn2/3p4/2PP4/1QN1PNb1/PP2BPPP/R4RK1 w kq - 0 11
+Rat Defense: Small Center Defense
+r1b1k2r/ppp2ppp/2n1pq2/4Q3/3P4/8/PPP2PPP/RN2KB1R w KQkq - 0 10
+Hungarian Opening
+r2qk2r/pppb1pbp/2n1p1p1/8/4NP2/3P2PP/PPP3B1/R1BQ1RK1 w kq - 1 13
+French Defense: Two Knights Variation
+r2q1rk1/pp2n1pp/1bn1bp2/4p3/4P3/2NP1NB1/PP2BPPP/R2Q1RK1 w - - 6 14
+French Defense: Marshall Variation
+r2q1rk1/pp2bppp/2n2n2/3p4/2pP1B2/2N2N1P/PPP1QPP1/R4RK1 w - - 5 14
+Queen's Pawn Game: Mason Attack
+r1bqk2r/1pp1bpp1/p1n1p2p/3p3n/3P1B2/2PBPP2/PPQ1N1PP/RN2K2R w KQkq - 4 9
+French Defense: Advance Variation, Main Line
+r4rk1/pp1bbppp/1qn1p3/3pPn2/1P1P4/P4N2/1B2BPPP/RN1Q1RK1 w - - 7 12
+Ruy Lopez: Berlin Defense, Hedgehog Variation
+r2qr1k1/p1pbbppp/2p2n2/4p3/3N4/2N2Q2/PPP2PPP/R1B1R1K1 w - - 0 12
+Zukertort Opening: Kingside Fianchetto
+r2q1r2/p1p2pbk/1pn1p1pp/4P3/2pP4/2B1N1P1/PP3P1P/R2Q1RK1 w - - 5 18
+King's Indian Defense: Orthodox Variation
+3qr1k1/2n1ppbp/3p1np1/2pP2B1/1rP1P3/2N2B1P/3Q1PP1/4RRK1 w - - 1 18
+Zukertort Opening: Sicilian Invitation
+3qr1k1/p3bppp/n2p1n2/2p1p3/2P1P1b1/P1BP1NP1/3NQPBP/1r3RK1 w - - 0 18
+French Defense: Knight Variation
+rn1q1rk1/pbp2ppp/1p1bp3/8/4N3/1P3N2/P1PP1PPP/R1BQR1K1 w - - 2 10
+Owen Defense
+r2q1rk1/1b4bp/5pp1/1pnp4/p3p1QN/P1N5/BPP2PPP/2KR3R w - - 0 18
+French Defense #2
+3rr1k1/ppqn1ppp/2pb1n2/3p4/8/P2P1bPP/1PPN1PB1/R1Q1BRK1 w - - 0 16
+Slav Defense
+rn3rk1/2q1bppp/2p1pn2/p1N5/1ppPP1b1/5NP1/PP3PBP/R1BQ1RK1 w - - 1 14
+Sicilian Defense: Paulsen Variation, Normal Variation
+r1bq1rk1/1p1pbppp/p1n1p3/1B6/4P3/2N1B3/PPP2PPP/R2Q1RK1 w - - 0 10
+Caro-Kann Defense
+r3k2r/1p3ppp/p1nqpn2/3p4/3P4/2PQ1N2/PP3PPP/RN2R1K1 w kq - 0 12
+French Defense: Exchange Variation
+r2q1rk1/pbpn1ppp/1p3b2/3p4/3P4/2PB1N2/PP1N1PPP/R2Q1RK1 w - - 2 11
+Scotch Game: Schmidt Variation
+r1bq1rk1/p1pn1ppp/2p5/2bpP3/5B2/3B4/PPP2PPP/RN1Q1RK1 w - - 5 10
+Queen's Pawn Game: Symmetrical Variation, Pseudo-Catalan
+r1bq1rk1/pp2ppbp/2n3p1/2pp4/3Pn3/1P3NP1/PBPNPPBP/R2Q1RK1 w - - 2 9
+French Defense: Schlechter Variation
+r4rk1/pp1q1ppp/5b2/2np4/5B2/2PQ3P/PP1N1PP1/R4RK1 w - - 5 16
+Pterodactyl Defense: Queen Pterodactyl, Quiet Line
+r1bq1rk1/1p2ppbp/p1n2np1/8/2BP4/2N2N1P/PP3PP1/R1BQ1RK1 w - - 0 11
+Bird Opening: Dutch Variation
+r3k2r/1ppqnpp1/p3p2p/3p1b2/3PnP2/2P1PN2/PP2B1PP/RN1Q1RK1 w kq - 0 12
+Polish Opening
+r3r1k1/1pp2ppp/p2b4/n4bN1/2P5/4P3/PB2BPPP/2R2RK1 w - - 2 17
+English Opening: Agincourt Defense #3
+r1b2rk1/ppp1qpp1/2n1p2p/4p3/2PP4/2PB1N2/P4PPP/R2Q1RK1 w - - 0 12
+Scandinavian Defense
+rn2kbnr/1p4pp/2p1bp2/p3p3/4P3/2PNB3/PP3PPP/R2K1BNR w kq - 2 10
+English Opening: King's English Variation
+r2qkb1r/1p1b1ppp/p1np1n2/2p1p3/2P5/P1N1P2P/1P1P1PP1/R1BQKBNR w KQkq - 4 10
+Nimzo-Larsen Attack
+r1bq1rk1/4bppp/4pn2/p2p4/8/1P2P3/PB2BPPP/RN1Q1RK1 w - - 0 12
+Queen's Pawn Game: Mason Attack
+r3k2r/1pp1qppp/p1n1pn2/3p4/3P1P2/P2QP1P1/1PPN2P1/R3K1NR w KQkq - 3 11
+Queen's Pawn Game: Franco-Sicilian Defense
+r2qkb1r/1b3ppp/pp1ppn2/3PP3/2p5/P1NQ1N2/1PP2PPP/R1B2RK1 w kq - 0 12
+Ruy Lopez: Open Variations, Open Variation
+r1bqk2r/1ppnbppp/p1p5/4R3/3P4/5N2/PPP2PPP/RNBQ2K1 w kq - 1 10
+Grob Opening: Double Grob
+r3k1nr/ppp1p2p/n2q1p2/3p3b/3P1P2/7P/PPPQP1B1/RN2K1NR w KQkq - 1 10
+Scotch Game: Classical Variation
+r1b1r1k1/ppp2ppp/5q2/2p1n3/2B1P3/2P2P2/PP1N2PP/R2Q1RK1 w - - 1 13
+Bird Opening: Dutch Variation
+r2q1rk1/1p3ppp/p1nbpn2/2pp4/3P1P2/2PBPR2/PP1N2PP/R1B1Q1K1 w - - 0 11
+Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation
+r1bqk2r/5ppp/p1np1b2/1p1Np3/4P3/N7/PPP2PPP/R2QKB1R w KQkq - 0 11
+Vienna Game: Falkbeer Variation
+r3k3/ppq2p2/2pp3p/4n1b1/4P1Q1/2NP1NP1/PPP5/R3K3 w Qq - 4 18
+King's Indian Attack: Yugoslav Variation
+r2qk2r/1p1nbpp1/2p1pn1p/3p4/p1PP2b1/1P3NP1/PB1NPPBP/2RQ1RK1 w kq - 0 11
+Giuoco Piano
+r2q1rk1/1pp2pp1/p1np1nbp/P3p3/1PB1P1P1/2PPbN1P/3Q1P2/RN2R1K1 w - - 0 15
+French Defense: Exchange Variation
+r4rk1/ppp2ppp/2nq1n2/3p2B1/3P4/2P2b1P/P1P1BPP1/R2Q1RK1 w - - 0 12
+Indian Game: Seirawan Attack
+r1b1k2r/p1R2p1p/n3pp2/1p6/3P4/2N5/1q2PPPP/3QKBNR w Kkq - 1 12
+Philidor Defense #3
+r2q1rk1/ppp2ppp/3p1b2/4p2Q/2BnP3/3P3P/PPP2PP1/R1B1K2R w KQ - 2 11
+Philidor Defense #2
+r2q1rk1/1bpnbpp1/p2p1n1p/1p2p1B1/4P3/P1PP1N1P/1P1NBPP1/R2Q1RK1 w - - 0 11
+Four Knights Game: Scotch Variation Accepted
+r1bq1rk1/p4ppp/2p2n2/3p2B1/1b6/2NB4/PPP2PPP/R2Q1RK1 w - - 0 11
+Mieses Opening
+rnbk3r/pp3ppp/2p2n2/4p3/4P3/2bB1N2/PPP2PPP/R1BK3R w - - 0 10
+Scandinavian Defense: Mieses-Kotroc Variation
+r4rk1/1b1npp1p/2p2np1/p7/1p6/PBN1PN1P/1PP2PP1/3R1RK1 w - - 0 18
+Sicilian Defense: Accelerated Dragon, Modern Variation
+r1bqk1nr/p2pppbp/2p3p1/4P3/8/2N1B3/PPP2PPP/R2QKB1R w KQkq - 1 9
+Queen's Pawn Game: Mason Attack
+r1bqk2r/1pp2p2/p1nbpn1p/3p2p1/3P1B2/P1N2N2/1PPQPPPP/R3KB1R w KQkq - 0 9
+Indian Game
+1nbq1rk1/1p1pppbp/5np1/2P5/1P6/2N1P3/2PB1PPP/r2QKBNR w K - 0 9
+Sicilian Defense: Smith-Morra Gambit #2
+r2qk2r/1p2bpp1/p1npbn1p/4p3/4P3/1PN4P/PBP1QPP1/2KR1BNR w kq - 0 11
+Caro-Kann Defense: Exchange Variation
+rnbqk2r/pp3pp1/5p1p/b2p4/3P4/2P2N2/PP3PPP/RN1QKB1R w KQkq - 1 9
+Queen's Gambit Declined: Three Knights Variation
+r1bq1rk1/ppp1bppp/2n5/3p4/3P4/3BPN2/PP3PPP/R1BQK2R w KQ - 2 9
+English Opening: Agincourt Defense
+r2qk2r/p2n1pp1/1p1p1n2/2pPpP1p/4P2P/3P2P1/PP2N1B1/2RQ1RK1 w kq - 1 15
+Philidor Defense: Exchange Variation #2
+r2qk2r/1pp1bpp1/p1bp1n1p/8/4P2B/2NB4/PPP2PPP/R2Q1RK1 w kq - 0 11
+Van't Kruijs Opening
+r1bqr1k1/pp1nbppp/2p5/3p4/3Pn3/1PN1PN2/PB2BPPP/R2Q1RK1 w - - 3 11
+French Defense: Advance Variation
+r4rk1/pp3ppp/1qb1p3/3pPn2/1b1P1P2/2N2N2/PP4PP/R1BQR1K1 w - - 3 13
+Polish Opening: Bugayev Attack
+rn1q1rk1/pp1n1p1p/3bb1p1/2ppp1P1/1P5P/P2PP3/1BPNBP2/R2QK1NR w KQ - 0 11
+Four Knights Game: Scotch Variation Accepted
+r1bq1rk1/p3bpp1/2p2n1p/3p2B1/8/2NB1Q2/PPP2PPP/4RRK1 w - - 0 13
+Sicilian Defense: Nyezhmetdinov-Rossolimo Attack
+r4rk1/pbqn1ppp/2pbp3/2pp4/P3P3/1PPP1N1P/3NQPP1/R1B2RK1 w - - 1 13
+Italian Game: Giuoco Pianissimo
+r1bqr3/2p2ppk/p2p1n1p/1pb5/3nPB2/1BNP3P/PPP3PN/R1Q2R1K w - - 3 14
+Caro-Kann Defense: Gurgenidze System
+rn1qkbnr/1p3p2/p1p1p1p1/3pP2p/3P1P2/2N1B3/PPP1Q1PP/R3K1NR w KQkq - 0 9
+Pirc Defense: Classical Variation
+r2qk2r/ppp1pp1p/3p1bp1/3Pn3/4P1b1/2N2N2/PPP1BPPP/R2QK2R w KQkq - 0 9
+Reti Opening #2
+r2q1rk1/pbpn1pbp/1p1p1np1/4p3/4P3/1PNP1NP1/PBP2PBP/R2Q1RK1 w - - 0 10
+Neo-Gruenfeld Defense: Classical Variation, Original Defense
+rn1q1rk1/pp2ppbp/2p2np1/8/P1pP2b1/2N2NP1/1P2PPBP/R1BQ1RK1 w - - 1 9
+French Defense: Exchange Variation
+rnbq1rk1/pp3pp1/2p2b1p/3p4/3P4/3B1N2/PPP2PPP/RN1Q1RK1 w - - 0 10
+Sicilian Defense: Smith-Morra Gambit Accepted, Scheveningen Formation
+r1bq1rk1/1p2bpp1/p1np3p/3Bp3/4P3/4BN2/PP2QPPP/R2R2K1 w - - 1 14
+Caro-Kann Defense: Classical Variation
+r4rk1/pp3ppp/1qp1pn2/8/1bPP4/1P1Q1NN1/P4PPP/3RR1K1 w - - 0 17
+Sicilian Defense: Najdorf, Lipnitsky Attack
+r1bk3r/1p1nppbp/p5p1/8/2p1NP2/5N2/PPP3PP/R1BR2K1 w - - 2 13
+Queen's Gambit Declined
+r2q1rk1/1p1nbpp1/p1p1b2p/3p4/1P1P4/P2BPN2/2QB1PPP/R3R1K1 w - - 2 15
+Alekhine Defense: Four Pawns Attack, Fianchetto Variation
+r2q1rk1/pp1nppbp/6p1/2pPn3/2P2Q2/1PN2B2/PB4PP/3R1RK1 w - - 3 17
+French Defense: Knight Variation
+3qk2r/r1pbn1pp/pp1ppp2/3P4/N1PQP3/5N2/PP3PPP/R4RK1 w k - 0 15
+Franco-Benoni Defense
+rn1q1rk1/1p2bppp/p2p1n2/1NpP4/5B2/5N2/PPP2PPP/R2Q1RK1 w - - 0 11
+English Defense #2
+r2q1rk1/pb2bppp/1pn1p3/3n4/3P4/P1NB1N2/1P3PPP/R1BQR1K1 w - - 0 13
+Hungarian Opening
+2kr1br1/ppp2p2/2nqb2p/4pp2/3pP3/1N1P1NP1/PPP2PBP/2RQ1RK1 w - - 0 14
+Philidor Defense #3
+r2qkbnr/1p3pp1/p1npb2p/2p5/4P3/2PB1N2/PP3PPP/RNBQK2R w KQkq - 1 9
+Sicilian Defense: Smith-Morra Gambit Declined, Center Formation
+r1b1k2r/pp3ppp/2n5/q2n4/1b6/2NB4/PP1B1PPP/R2QK1NR w KQkq - 0 11
+Queen's Gambit Declined
+r1b1k2r/pp1n1ppp/2p1p3/6n1/1PBP4/P3PN2/5PPP/R3K2R w KQkq - 0 13
+Queen's Pawn Game: Franco-Sicilian Defense
+r1b1k2r/ppqp1pp1/2n1p3/2b4p/N3P1n1/3B1N2/PPP1QPPP/R1B2RK1 w kq - 2 10
+Englund Gambit Declined, Reversed Alekhine
+r1bqk2r/ppp2pp1/3p1n1p/6B1/2PQ4/2P2P2/P3P1PP/R3KB1R w KQkq - 0 10
+Franco-Benoni Defense
+rn1q2k1/p2p1ppp/1p1Qrn2/1N6/4b3/8/PPP2PPP/2KR1BNR w - - 2 13
+Caro-Kann Defense: Exchange Variation
+r2qk2r/1p3ppp/p1nbpn2/3pN3/3P4/2N1B2P/PPP1QPP1/R4RK1 w kq - 1 12
+King's Pawn Game: Leonardis Variation
+r3kbnr/pppq1p1p/3p2p1/8/3pP3/2NP3P/PPP2PP1/R2QKB1R w KQkq - 0 10
+Zukertort Opening: Pirc Invitation
+r1b2rk1/ppqnppbp/2pp1np1/8/2P5/PP1PPN2/1B1N1PPP/R2QKB1R w KQ - 3 9
+Queen's Pawn Game #2
+r2q1rk1/pp2bppp/2n1pn2/3p4/3P4/P1NQPN2/1P3PPP/R1B2RK1 w - - 5 11
+Queen's Pawn Game: Zukertort Variation
+r2qk2r/pp1n1ppp/2p1pn2/3p1b2/2PP4/4PNP1/PP1N1PP1/R2QKB1R w KQkq - 1 9
+French Defense: Advance Variation, Milner-Barry Gambit
+r3kbnr/pp1b1ppp/1q2p3/3pP3/3n4/3B1N2/PP3PPP/RNBQ1RK1 w kq - 0 9
+Giuoco Piano
+r1bq1rk1/pp3ppp/2pp1n2/2b1p1B1/2BnP3/2NP1N1P/PPP2PP1/R2Q1RK1 w - - 0 9
+Vienna Game: Vienna Gambit
+r4rk1/pppn1ppp/1bn5/4P3/2B2Bb1/2N2N2/PPP3PP/3R1R1K w - - 1 13
+King's Pawn Game: Busch-Gass Gambit
+rnb4r/ppp1k1pp/3p4/2bBN3/8/8/PPPP1nPP/RNB2RK1 w - - 0 10
+English Opening: King's English Variation, Four Knights Variation, Fianchetto Line
+r4rk1/ppp2pp1/2np1q1p/4pb2/2P5/1PP3P1/P2NPPBP/R2Q1RK1 w - - 2 12
+Semi-Slav Defense
+rnbq1rk1/1p3pp1/2p1pb1p/p2p4/1PPP4/2N1PN2/P4PPP/2RQKB1R w K - 0 10
+Gruenfeld Defense
+r2q1rk1/ppp1ppb1/2b3pp/2Pp4/3P4/2N1PN2/PP3PPP/R2QK2R w KQ - 0 12
+Sicilian Defense: Smith-Morra Gambit #2
+r1bqk2r/5pbp/p1np1np1/1p2p3/2B1P1P1/P1N1BP2/1PP4P/R2QK1NR w KQkq - 0 11
+English Defense #2
+1q4k1/pbrnnpbp/1p1pp1p1/1P6/3P4/P3PN2/1B1NBPPP/Q1R3K1 w - - 1 17
+Queen's Pawn Game: Mason Attack
+r3k2r/pp3pp1/2pq1n1p/3p4/8/2PQP2P/PP1N1PP1/R3K2R w KQkq - 4 16
+French Defense: Exchange Variation
+r3r1k1/pp1qn1pp/n1p1Rp2/3p4/3P4/2NQ1Nb1/PPP2PPP/4R1K1 w - - 0 15
+English Opening: Anglo-Scandinavian Defense
+r2qk1nr/1p3ppp/p1nbp3/3p1b2/1P1P4/P1N1PN2/5PPP/R1BQKB1R w KQkq - 1 9
+Gruenfeld Defense: Exchange Variation, Modern Exchange Variation
+r2q1rk1/pp2ppb1/2n3pp/4P3/3P2b1/3BBN2/P4PPP/R2QK2R w KQ - 4 13
+Queen's Indian Defense: Fianchetto Variation, Saemisch Variation
+rnq1kb1r/p2p1ppp/1p2pn2/8/2PN4/6P1/PP2PPKP/RNBQ1R2 w kq - 1 9
+Italian Game
+r1b2rk1/1pp1qpp1/p1np1n1p/4p1B1/2B1P3/3P1N2/PPPQ1PPP/2KR3R w - - 0 11
+Queen's Pawn Game: Stonewall Attack
+r1bqk2r/pp3pbp/2n1pnp1/3p4/3P4/3BPN2/PP1N1PPP/R1BQ1RK1 w kq - 2 9
+Tarrasch Defense: Symmetrical Variation
+r1bq1rk1/pp2bppp/2n2n2/2pp4/3P4/2N1PN2/PP2BPPP/R1BQ1RK1 w - - 4 9
+Petrov's Defense
+r3k2r/pp1nb1pp/2p2p2/3q2B1/Q2PN3/5P1P/PP4P1/R4RK1 w kq - 0 18
+Polish Opening: Schiffler-Sokolsky Variation
+r2r2k1/pbqnbppp/1p2pn2/1Pp5/2P5/1QN1PN2/PB2BPPP/R4RK1 w - - 1 13
+English Opening: Caro-Kann Defensive System
+r1b2rk1/ppqnbppp/2p2n2/4p3/2P1P3/2N2NP1/PP3PBP/R1BQ1RK1 w - - 1 10
+Queen's Pawn Game #3
+r1bq1rk1/1p3ppp/p3p3/2npP3/2P5/P3PP2/2Q3PP/R1B1KB1R w KQ - 1 14
+Sicilian Defense: Paulsen Variation
+r1bk3r/4bppp/p1p1pn2/1p6/4P3/1BN1B3/PPP2PPP/R3K2R w KQ - 2 11
+English Opening: Anglo-Lithuanian Variation
+2kr3r/ppp2p1p/2npqb2/6p1/4PB2/3P2P1/PP4BP/R2Q1RK1 w - - 0 15
+Scandinavian Defense: Main Line
+3r1rk1/ppq2ppp/1npbpnb1/4N3/3P1PP1/1BN4P/PPPB4/R2QR1K1 w - - 3 15
+Caro-Kann Defense
+r2qk2r/pp2bppp/2n1pn2/3p2B1/3P2b1/2PB1N2/PP3PPP/RN1Q1RK1 w kq - 4 9
+Italian Game: Hungarian Defense
+r2q1rk1/pppnbppp/3pb3/4p3/P2nP3/3P3P/BPP2PPN/RNBQ1RK1 w - - 5 10
+English Opening: Agincourt Defense
+rn1q1rk1/pbp2pbp/1p2p1p1/3n4/8/1PN1P1N1/PBQP1PPP/R3KB1R w KQ - 0 10
+Scandinavian Defense
+r2qk1nr/ppp2ppp/2n1p1b1/2b1P3/2B2BP1/2PP1N1P/P4P2/RN1QK2R w KQkq - 1 11
+Sicilian Defense: Paulsen Variation
+r3k2r/p2p1ppp/q1p1pn2/8/1b1BP3/2N2P2/PPP3PP/R2QK2R w KQkq - 0 11
+Scandinavian Defense
+2kr3r/3n1pp1/1p1bbn2/p1p1p1Bp/P2pP3/1P1P1N1P/2PNBPP1/RR4K1 w - - 0 17
+French Defense: Advance Variation #2
+r3k2r/pp1bbppp/1qn1p3/3pPn2/3P4/1P3N2/PB2BPPP/RN1Q1RK1 w kq - 3 11
+Caro-Kann Defense: Accelerated Panov Attack #2
+r2q1rk1/p3ppbp/1pn2np1/8/3P4/1QN2N2/PP3PPP/R1B2RK1 w - - 1 14
+Sicilian Defense
+2r2rk1/2qbbppp/p2ppn2/1pp1n3/4P3/PP1P1NPP/1BPN1PB1/2RQR1K1 w - - 1 14
+French Defense: Rubinstein Variation, Blackburne Defense
+r2q1rk1/pb1nbpp1/1p2pn1p/8/2PpN3/3BBN1P/PPQ2PP1/R3R1K1 w - - 0 13
+Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense
+r2qkb1r/4np2/2n1p1p1/3pP2p/pppP1PP1/2P1BN1P/PPQ1NK2/R6R w kq - 0 18
+Queen's Gambit Declined
+r3kb1r/pp2qppp/2b2n2/3pQ3/5B2/2N1P3/PP3PPP/R3K1NR w KQkq - 2 11
+Indian Game: Wade-Tartakower Defense
+r2q1rk1/pb1n1pbp/1p4p1/2p5/P2pp3/1NP1P2P/1P2BPPB/R2QR1K1 w - - 0 16
+Saragossa Opening
+r4rk1/ppp1p1bp/2q1b1p1/3pP3/8/n1PB1N2/P2B1PPP/R2QR1K1 w - - 0 16
+Modern Defense
+r2qr1k1/pb1n1pbp/1ppp1np1/8/3P4/2PB1N1P/PP3PP1/RNBQR1K1 w - - 4 12
+Indian Game
+r2r2k1/ppp1qpbp/5np1/4p3/2B5/2N1P1QP/PPP2PP1/3R1RK1 w - - 4 14
+Alekhine Defense: Maroczy Variation
+r1bq1r2/ppp2pkp/1n4p1/2P5/3p4/2N5/PP2BPPP/R2Q1RK1 w - - 0 16
+Slav Defense: Modern Line
+r4rk1/pp3ppp/2nqpn2/3p3b/3P4/2N1PN1P/PP2BPP1/R2Q1RK1 w - - 2 12
+Bird Opening: Dutch Variation
+r2qk2r/pb2bppp/1pn1pn2/2ppN3/3P1P2/2P1P3/PP2B1PP/RNBQ1RK1 w kq - 2 9
+Queen's Pawn Game
+r2q1rk1/2p2ppp/p1pbpn2/3p4/3Pb3/P1N1PN1P/1PP2PP1/R1BQR1K1 w - - 6 11
+Sicilian Defense: French Variation
+r1b1k2r/1pq1bpp1/p1nppn1p/8/P1BpP3/2N2N1P/1PP2PP1/R1BQR1K1 w kq - 0 11
+Sicilian Defense: Delayed Alapin
+r4rk1/1p1nbppp/pq2pn2/1B6/3P4/2N1BQ2/PP3PPP/R4RK1 w - - 0 14
+Hungarian Opening: Symmetrical Variation
+r2q1rk1/pp2npbp/3p1np1/3pp3/4P3/2N3PP/PPP2PB1/R1BQR1K1 w - - 0 14
+Sicilian Defense
+2rqkbnr/1b3ppp/p1npp3/1p6/4P3/2Q1BN2/PPP1BPPP/RN3RK1 w k - 5 10
+Torre Attack #2
+2q2rk1/3nbppp/pr2p3/1pp5/3PQB2/2P3P1/PPN2P1P/R2R2K1 w - - 1 17
+Ruy Lopez: Exchange Variation, Normal Variation
+r1b2rk1/1pp3bp/p1p3p1/3nPpN1/8/8/PPPP1PPP/RNB2RK1 w - - 1 14
+Sicilian Defense: Modern Variations, Tartakower
+r1b2rk1/pp3ppp/3bpn2/3nN3/3P1P2/2N5/PP2B1PP/R1B2RK1 w - - 5 13
+Slav Defense: Chameleon Variation
+r2q1rk1/1p1n1ppp/p1p1pn2/3p1b2/2PP4/2N1PNP1/PP2BPP1/R2Q1RK1 w - - 1 11
+French Defense: Advance Variation, Paulsen Attack
+4kbnr/3q1p1p/4p1p1/pr1pP3/Q1pP4/4BN2/RP3PPP/5RK1 w k - 2 17
+Pirc Defense #4
+r1bq1rk1/pp3pbp/3p1np1/2p1p3/4P3/2PP1NP1/PP3PBP/R1BQR1K1 w - - 0 11
+East Indian Defense
+r1b1r1k1/ppq2pbp/2pp1np1/4n3/1P6/P3PNP1/1BPN1PBP/R2Q1RK1 w - - 0 12
+Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense
+2rq1rk1/1p3ppp/pn2p1n1/3pP1N1/3P4/1PNQ4/P4PPP/R4RK1 w - - 3 16
+Sicilian Defense: Snyder Variation
+r2qk2r/1p1bbppp/p1nppn2/2p5/4P3/1PNB1N2/PBPPQPPP/R3K2R w KQkq - 2 9
+Scandinavian Defense: Mieses-Kotroc Variation
+3rk2r/ppp2ppp/3bpn1q/8/2PP4/1N1N4/PP3PPP/R2Q1RK1 w k - 7 17
+Sicilian Defense: Alapin Variation
+r2q1rk1/pp2bppp/2n1bn2/2pp4/3P4/2P2N1P/PPB2PP1/RNBQ1RK1 w - - 1 10
+French Defense: Knight Variation
+r2q1rk1/pbpp2bp/1p2p1p1/n7/3P4/N1PBQN2/PP3PPP/R4RK1 w - - 2 13
+Queen's Pawn Game: Stonewall Attack
+r2qbrk1/pp4pp/3bpn2/2p1Np2/3PpP2/P1P1P3/1P1BB1PP/R2Q1RK1 w - - 1 14
+Scandinavian Defense: Mieses-Kotroc Variation
+r2qk2r/2p2p1p/p2bp1p1/1p1nN2Q/3P1B2/2P5/PP3PPP/R4RK1 w kq - 0 18
+French Defense: Mediterranean Defense
+r1bqkb1r/pp1p1ppp/8/3pP3/3n4/2P5/PP3PPP/RN1QK1NR w KQkq - 0 9
+Mikenas Defense: Lithuanian Variation
+r1bq1rk1/ppp2ppp/3p1nn1/2bPp3/2P1P3/2N2N1P/PP2BPP1/R1BQK2R w KQ - 4 9
+King's Indian Attack: Symmetrical Defense
+r1b2rk1/p1q2pbp/1pnp1np1/2p1p3/P1N1P3/3P1NP1/1PP2PBP/R1BQR1K1 w - - 0 11
+Owen Defense
+r2qk2r/pbpp1ppp/1pn1p3/4P3/2PPnP2/2P1B3/P5PP/R2QKBNR w KQkq - 1 9
+King's Pawn Game: Gunderam Gambit
+r1b2rk1/1p1qbpp1/2p1n2p/p1Pp4/3Pn1P1/P1NB1NBP/1PQ2P2/R3K2R w KQ - 1 18
+King's Pawn Game: Wayward Queen Attack
+r2qkb1r/ppp2p1p/3pbnp1/4p3/2BnP3/3PBP2/PPP3PP/RN1QK1NR w KQkq - 1 9
+Bishop's Opening
+r3k2r/b1p1nppp/p1np1q2/1p2p3/1PB1P3/B1PP1NPP/P3QP2/2KR3R w kq - 0 14
+Saragossa Opening
+r2qr1k1/p4pbp/bp1p1np1/3Pp3/4P3/2Nn2PP/PP1N1PB1/R1BQR1K1 w - - 8 15
+Queen's Gambit Accepted: Normal Variation
+r4rk1/1pp2ppp/p1nqpn2/5b2/P1BP4/RP2PN2/3N1PPP/3Q1RK1 w - - 1 13
+Nimzo-Larsen Attack: Modern Variation #4
+r1bq1rk1/pp1p1ppp/5b2/2p5/4n3/1P2P3/PBPN1PPP/R2QKB1R w KQ - 2 11
+Italian Game: Two Knights Defense, Modern Bishop's Opening
+r2qkb1r/ppp2ppp/2n3b1/3np3/2B3P1/3P1N1P/PPP2P2/RNBQ1RK1 w kq - 1 9
+East Indian Defense
+r1bqr1k1/pp1nppbp/2pp1np1/8/3P4/1P2PN2/P1PNBPPP/R1BQR1K1 w - - 1 9
+French Defense: Two Knights Variation
+r2qkb1r/pp3ppp/2b1pn2/2p5/3pP3/3P1NN1/PPP2PPP/R1BQK2R w KQkq - 1 9
+King's Knight Opening
+rn2k2r/ppp2ppp/4b3/4P3/q4P2/2N3P1/PP5P/R3KB1R w KQkq - 0 15
+Italian Game: Anti-Fried Liver Defense
+r3k1nr/2p2pp1/p1ppbq1p/4p3/4P3/2NPbN1P/PPP2PP1/R2Q1RK1 w kq - 0 11
+Caro-Kann Defense: Breyer Variation
+r1bqr1k1/pp3ppp/2pb1nn1/3pp3/P3P3/2PP1NPP/1P3PB1/R1BQRNK1 w - - 1 13
+Sicilian Defense
+r1bqk2r/4ppbp/1pn2np1/p1p5/4P1P1/P1P2N1P/1P1NQP2/R1B1KB1R w KQkq - 0 11
+Van't Kruijs Opening
+r2q1rk1/pppb1ppp/2nb1n2/1B2p3/8/1PN1PN2/PB1P1PPP/R2Q1RK1 w - - 9 10
+English Opening: King's English Variation
+r1bqr1k1/pp1nnppp/2p5/3p4/2PP1B2/2Q2NP1/PP2P1BP/R4RK1 w - - 5 12
+English Opening: Symmetrical Variation, Botvinnik System
+r4rk1/1p2ppbp/p1np2p1/2p4n/2P1PPq1/P1NP2P1/1P2N1K1/1RBQ3R w - - 3 16
+Queen's Gambit Declined: Charousek (Petrosian) Variation
+r3k2r/pp2np2/1npq2p1/3p1bPp/3P1N1P/2NBPP2/PP3K2/R2Q3R w kq - 0 17
+Nimzowitsch Defense: Scandinavian Variation, Exchange Variation
+r3kbnr/2p2ppp/p1p1p3/8/3P4/2P2P2/PP3P1P/RNB1K2R w KQkq - 0 10
+Caro-Kann Defense: Panov Attack
+r1bq1rk1/pp3ppp/2n1pn2/8/2pP4/1QP1BN2/P3BPPP/R3K2R w KQ - 0 11
+Nimzo-Larsen Attack: English Variation
+r1bq1rk1/3nbppp/p2ppn2/8/2pP4/1PNB1N2/PB2QPPP/R4RK1 w - - 0 12
+Benoni Defense: Old Benoni
+rnbqr1k1/pp5p/3p2p1/2pP1p2/P2b1P2/2N4P/1PPNB1P1/R2Q1RK1 w - - 1 15
+Nimzo-Larsen Attack: English Variation
+r2q1rk1/1p2ppbp/p5p1/8/P1BPb3/1P6/1B3PPP/R2Q1RK1 w - - 0 15
+Sicilian Defense: Bowdler Attack
+r1bqk2r/4bppp/p1pppn2/8/2B1P3/2N5/PPP2PPP/R1BQR1K1 w kq - 0 10
+Queen's Pawn Game: Chigorin Variation
+r2qk2r/ppp2pp1/2n1pnbp/3p4/1b1P4/1PN1P2P/PBPNBPP1/R2QK2R w KQkq - 3 11
+Sicilian Defense: Loewenthal Variation
+r1bq1rk1/p2p1pp1/2p2n1p/2b1p3/2P1P3/2NB4/PP3PPP/R1BQ1RK1 w - - 0 10
+Modern Defense: Three Pawns Attack
+r3k2r/pp1bnpbp/q1p1p1p1/3pP3/3P1PPP/2P2N2/PP1Q4/RNB1K2R w KQkq - 1 11
+Indian Game
+rn2k2r/ppp2ppp/3qpn2/3p4/3P4/2P1P1P1/PP2QPP1/RN2K1NR w KQkq - 1 9
+Horwitz Defense
+r1b1r1k1/ppqn1ppp/2pbpn2/3p4/2PP4/P3PNB1/1P1N1PPP/R2QKB1R w KQ - 1 10
+Four Knights Game: Gunsberg Variation
+r1bq1rk1/1pp2ppp/p1p5/8/4n3/P1P2N1P/2PP1PP1/R1BQK2R w KQ - 0 11
+Sicilian Defense: Pin Variation, Jaffe Variation
+r1bqk2r/pp1p1pp1/2n2n1p/4p3/1b2P3/2NB1N2/PPPB1PPP/R2QK2R w KQkq - 0 9
+Queen's Pawn Game: Chigorin Variation
+r1bq1rk1/1p1n1ppp/p4n2/2b1p1B1/2B1P3/2N2Q2/PPP3PP/R3K1NR w KQ - 0 11
+Ruy Lopez: Morphy Defense, Neo-Arkhangelsk Variation
+r2q1rk1/2p2ppp/p1npbn2/1pb1p3/4P3/1BPP1N1P/PP3PP1/RNBQ1RK1 w - - 1 10
+Ruy Lopez: Exchange Variation, Alekhine Variation
+r1b1k1nr/1pp2ppp/p2b4/2p5/3NP3/2N5/PPP2PPP/R1B1K2R w KQkq - 0 9
+Sicilian Defense: French Variation
+2r2rk1/1p1q1ppp/p1n2b2/3p4/8/2PQ1N1P/PP3PP1/RN2R1K1 w - - 0 16
+Zukertort Opening: Old Indian Attack
+1r1qk2r/1pp2pp1/p1n2n1p/2bp1b2/8/3P1NP1/PP1NPPBP/R1BQ1RK1 w k - 2 11
+Torre Attack
+1r1q1rk1/pp3p2/3p1ppp/n2b4/Q7/4PNP1/PP3PBP/R4RK1 w - - 0 17
+English Opening: King's English Variation, Two Knights Variation
+r2q1rk1/ppp2ppp/2n5/2b1p3/2P3b1/3P1NP1/PB2PPBP/R2QK2R w KQ - 3 11
+Indian Game: West Indian Defense
+r1bqr1k1/p3ppbp/1pnp1np1/2p5/2PP4/PPNBPN2/5PPP/R1BQ1RK1 w - - 0 10
+Queen's Gambit Accepted: Classical Defense, Rubinstein Variation
+3rk2r/1b3ppp/ppn1pn2/2b5/P1B5/2N1PN1P/1P1B1PP1/R2R1K2 w k - 4 14
+Zukertort Opening: Slav Invitation
+r3k1nr/pp1q1pp1/2p1p1p1/3p4/3P4/2N1P3/PPP2PPP/R2QK2R w KQkq - 0 11
+Trompowsky Attack
+rnbqr1k1/pp3p1p/2p2ppb/3P4/3P1N1P/4P3/PP3PP1/RN1QKB1R w KQ - 1 10
+Richter-Veresov Attack
+r1bqk2r/pppn1pp1/4pn1p/6B1/3PP3/P1P5/2P3PP/R2QKBNR w KQkq - 0 9
+French Defense #2
+rnbq1rk1/ppb2ppp/2p2n2/3pN3/3P1P2/1BP5/PP4PP/RNBQK2R w KQ - 5 10
+French Defense: Knight Variation
+r1bqr3/pp3p1k/2p3pp/3pRn2/B2P4/N1P4P/PP1Q1PP1/R5K1 w - - 1 18
+Philidor Defense #3
+rn2k1nr/p3bpp1/2ppq2p/1p2p3/4P3/2NPBN2/PPPQ1PPP/R3K2R w KQkq - 2 10
+Hungarian Opening: Sicilian Invitation
+1r3r2/4qpkp/p2p1np1/1p2pb2/8/2N3P1/PPPQPPBP/R4RK1 w - - 2 18
+King's Indian Defense: Zinnowitz Variation
+r2q1rk1/pppn1pbp/3p2p1/3Pp3/2PnP3/2N1BB1P/PP3PP1/R2QK2R w KQ - 1 12
+Reti Opening: Reti Accepted
+1r1q1rk1/pbp1bppp/1pn1pn2/8/P1N5/3P1NP1/1PQ1PPBP/R1B2RK1 w - - 1 11
+Sicilian Defense: Bowdler Attack
+r2qkb1r/pp1nppp1/3p3p/2p1n1N1/4PB2/3P4/PPP2PPP/RN1QK2R w KQkq - 0 9
+Pirc Defense #4
+r4rk1/p2b1pbp/4p1p1/q5N1/8/3P1Q2/PPP2PPP/R1B1K2R w KQ - 3 15
+Queen's Pawn Game: Krause Variation
+r2qk1nr/pp3ppp/2n1b3/2PNp3/2Pp4/5N2/PP2PPPP/R2QKB1R w KQkq - 1 10
+Mieses Opening: Reversed Rat
+r4rk1/p1q1bpp1/2n2n1p/1pp1p3/2N1P3/2P1BN1P/PPQ2PP1/R4RK1 w - - 0 14
+Queen's Gambit Declined: Orthodox Defense
+r2q1rk1/1b1nbpp1/p4n1p/1Bpp4/7B/2N1PN2/PP2QPPP/2R2RK1 w - - 0 14
+Scandinavian Defense: Anderssen Counterattack
+r4rk1/pppn1ppp/3b1n2/q2P4/4p3/2N4P/PPP1BPP1/R1BQ1RK1 w - - 4 12
+Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation
+r1b2rk1/pppp1pp1/5q2/3P3p/4PpnP/2N5/PPPQ2P1/2KR1B1R w - - 1 16
+Sicilian Defense: Old Sicilian
+r1bqkb1r/1p3pp1/p1n2n1p/2pp4/2BP4/2P2N2/PP3PPP/RNBQ1RK1 w kq - 0 9
+Four Knights Game
+r1bq1rk1/ppp2ppp/8/4p3/2Pn4/2nP1N2/P1P1BPPP/R1B1QRK1 w - - 3 11
+French Defense: Exchange Variation, Monte Carlo Variation
+r1bq1rk1/pp3ppp/2n5/1B1p4/3Pn3/1QP1B3/P3NPPP/R3K2R w KQ - 4 12
+Queen's Pawn Game: Veresov Attack, Dutch System
+r1bqk2r/pp1n2pp/2p1pn2/2QpBp2/3P4/P7/1PP1PPPP/R3KBNR w KQkq - 4 9
+Van't Kruijs Opening
+r3kb1r/ppp2ppp/4p3/3pP1q1/4n1Q1/2N1P2P/PPP2PP1/R1B1K2R w KQkq - 5 11
+Ruy Lopez: Morphy Defense, Fianchetto Defense Deferred
+r1b1kb1r/2p1qp1p/p1p3p1/8/4p3/3N4/PPPP2PP/R1BQR1K1 w kq - 0 13
+Sicilian Defense: McDonnell Attack
+r1bqkbnr/5ppp/p2pp3/1pp3N1/4PP2/1n1P4/PPP3PP/RNBQ1RK1 w kq - 0 9
+Sicilian Defense: Dragon Variation
+1rbq1rk1/p3ppbp/2pp1np1/6B1/4P3/2NB1P2/PPPQ2PP/R3K2R w KQ - 2 11
+Sicilian Defense: McDonnell Attack
+r1bq1rk1/pp2bppp/2n1p3/2p1Pn2/2PpNP2/5NP1/PP1P2BP/R1BQK2R w KQ - 4 10
+Indian Game
+r2q1rk1/pp3ppp/2p2n2/2b1n3/4PN2/1P3P2/PB1N2PP/R2Q1RK1 w - - 1 15
+French Defense: Marshall Variation
+r2qk1nr/1p1b1ppp/p1n5/1B1N4/8/4P3/PPP3PP/R2QK1NR w KQkq - 0 10
+Horwitz Defense
+r3k1nr/p4ppp/q3p3/3p4/1b6/2N1P3/PPQB1PPP/R3K2R w KQkq - 0 12
+Sicilian Defense
+r1bq1rk1/pp3p2/2n1pbp1/2pp3p/4P2P/P1PP4/1P1BBPP1/R2QK1NR w KQ - 0 12
+Slav Defense: Three Knights Variation
+r3k2r/ppq2ppp/2n1pn2/1B1p3b/Q2P4/P1P1PN1P/5PP1/R1B1K2R w KQkq - 1 13
+Scandinavian Defense: Main Line
+r3k2r/pp1nbppp/2p1pn2/q3Nb2/2BP1B2/2N5/PPP2PPP/R2Q1RK1 w kq - 4 10
+Old Benoni Defense
+2rq1rk1/p2b1ppp/2pbpn2/3pN3/3P1P2/2P5/PP1N2PP/R1BQ1RK1 w - - 3 12
+Torre Attack #2
+2r2rk1/1b3ppp/p1n1pq2/1pRp4/3P4/3BPN2/PP3PPP/3QK2R w K - 1 16
+Queen's Gambit Declined
+r1bqkbnr/p4ppp/2p5/1p2p3/3nP3/P1N1B3/BP3PPP/R2QK1NR w KQkq - 0 9
+King's Pawn Game: Leonardis Variation
+r4bnr/3k2pp/2n2p2/2p1p3/1p2P2P/5NP1/PP3P2/RNB2RK1 w - - 0 15
+Old Benoni Defense
+r4rk1/pbq1bppp/1pn1pn2/3p4/2P5/1P2PN2/PB1NBPPP/R2Q1RK1 w - - 1 12
+Philidor Defense #2
+r2qkb1r/1pp3p1/p1npp2p/8/4P3/2N4P/PPP2PP1/R1BQK2R w KQkq - 0 11
+Slav Defense #2
+r1b1r1k1/pp3pp1/1qp2b1p/3p4/3P4/4P3/PP2NPPP/1BRQ1RK1 w - - 0 16
+Ruy Lopez: Morphy Defense
+r1bqk2r/2p2ppp/p2p1n2/1p2n3/3QP3/1B6/PPP2PPP/RNB2RK1 w kq - 0 10
+English Opening: Anglo-Indian Defense, Hedgehog System
+r1bqr1k1/ppp2ppp/2n2n2/6B1/3p4/P1QP2P1/1P2PPBP/R3K1NR w KQ - 0 11
+Ware Opening
+r2q1rk1/1pp3pp/2n1b2n/p2p1p2/P2Pp2P/R1P1P1PB/1P2NP2/2BQK2R w K - 3 11
+English Opening: King's English Variation, Reversed Sicilian
+rnbq1r1k/4b1pp/2p2n2/1pPp1p2/1B1P1N2/2NBPP2/P6P/R2QK2R w KQ b6 0 14
+Englund Gambit
+r1bqkb1r/p2pn1pp/2p2p2/p5B1/3P3P/2P5/PP2QPP1/RN2K1NR w KQkq - 2 9
+Sicilian Defense
+r4rk1/p2p1pp1/bpnb1q1p/2p1p3/4P3/P1PP1N1P/1P2BPP1/RN1Q1RK1 w - - 2 11
+Hungarian Opening: Slav Formation
+r1bq1rk1/pp1n1pbp/2p1pnp1/3p4/8/1P1PP1P1/PBPNNPBP/R2QK2R w KQ - 5 9
+Pirc Defense: Classical Variation
+r2qr1k1/ppp2pbp/3p1np1/8/2Q1P3/2N1B2P/PPP2PP1/R4RK1 w - - 1 13
+Queen's Pawn Game: Krause Variation
+r2q1rk1/4bp1p/p3pnp1/np4B1/3P4/2NQ1b2/PPB2PPP/2R1R1K1 w - - 0 16
+King's Pawn Game: Maroczy Defense
+r6r/2p1k3/p1nbp2p/1p2p1pn/4P3/2N1BP2/PPPNK1PP/R2R4 w - - 2 16
+Czech Defense
+r2qkb1r/pp3ppp/2p5/4n3/2b1PN2/3B3P/PPPB2P1/R2QK2R w KQkq - 6 14
+French Defense: Advance Variation, Nimzowitsch System
+r1b1k2r/pp2nppp/2n1p3/2qpP3/8/1P1B1N2/P1P2PPP/RN1QK2R w KQkq - 2 10
+Queen's Gambit Accepted: Normal Variation, Traditional System
+rn1q1rk1/p1p1bppp/bp2pn2/8/3P4/1B2PN2/PP2QPPP/RNB2RK1 w - - 2 9
+Old Benoni Defense
+r1bq1rk1/pp2b1pp/2n2n2/2p3B1/3p4/2N2N2/PPP1BPPP/R2Q1RK1 w - - 0 11
+English Opening: King's English Variation, Reversed Sicilian
+r2q1rk1/pppn2b1/3pbnpp/4pp2/2P5/P1NPP3/1P1NBPPP/1RBQ1RK1 w - - 4 11
+French Defense: Exchange Variation, Monte Carlo Variation
+rn1q1rk1/ppp1bppp/4b3/8/3P4/2N1PN2/PP4PP/R2QKB1R w KQ - 1 10
+Queen's Pawn Game: Torre Attack
+r1bq1rk1/4bppp/ppn1pn2/2pp4/3P4/2P1PNB1/PP1NBPPP/R2QK2R w KQ - 2 10
+Philidor Defense #3
+2kr1b1r/pppq1ppp/3p1n2/3Np3/2BnP3/3P2QP/PPP2PP1/R1B1K2R w KQ - 5 10
+Ruy Lopez: Cozio Defense
+r1bq1rk1/1pp2ppp/1pp3n1/4p3/4P3/3P1N2/PPP2PPP/R1BQ1RK1 w - - 0 10
+King's Gambit Declined, Mafia Defense
+r2q1rk1/pp3ppp/2npbb2/2pB4/2P1PB2/3P1N2/PP1Q2PP/R3K2R w KQ - 1 12
+Sicilian Defense: Closed Variation, Traditional
+r1bqk2r/pp3pbp/3p1np1/2p1n3/4PB2/2NP2P1/PPP3BP/R2QK1NR w KQkq - 2 9
+English Defense #2
+rn1q1rk1/p1ppb1pp/1p2pn2/5p2/2PP4/4PN2/PP3PPP/RNBQK2R w KQ - 1 9
+Bishop's Opening
+r1b2rk1/ppp2pp1/3p2np/2b5/2B1P2Q/3P1N2/PPPN1PqP/R3KR2 w Q - 2 13
+Nimzo-Larsen Attack
+r2qk2r/pppbbppp/3p1n2/1B6/3n4/1P2P3/PBP2PPP/RN1Q1RK1 w kq - 0 9
+Bird Opening
+r1bqr1k1/5pbp/p1n2np1/2p1p3/1pPpPP2/3P1N1P/PPN1B1P1/R1BQ1RK1 w - - 0 14
+Queen's Gambit Declined
+r2qk2r/pp1bnpp1/2p1p2p/3p4/2PP4/4P3/PP3PPP/RN1QKB1R w KQkq - 0 9
+Catalan Opening: Open Defense
+r6r/pp1bkppp/2n1pn2/1Nb5/2p5/P4NP1/1P1BPPBP/R2R2K1 w - - 3 14
+Benko Gambit
+r1bq1rk1/p2pb1pp/2n1pn2/2p3B1/2P5/4PN2/P4PPP/RN1QKB1R w KQ - 1 10
+Zukertort Opening: Sicilian Invitation
+r1bq1rk1/p2pppbp/2p2np1/8/8/1P4P1/PBP1PPBP/RN1QK2R w KQ - 3 9
+Sicilian Defense: French Variation
+r3k1nr/1bqp1pp1/p1nbp3/7p/2B1P3/P4N2/1P3PPP/RNBQ1RK1 w kq - 0 12
+Caro-Kann Defense
+r2qkbnr/pp3ppp/2n1p3/3pP3/3p1P2/2PQ1N2/PP4PP/RNB1K2R w KQkq - 0 9
