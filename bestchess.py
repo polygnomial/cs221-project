@@ -60,7 +60,7 @@ def simulate_game(data):
         player2=player2,
         useGraphics=False,
         startingFen=fen).run()
-    return (opening, result)
+    return (opening, result, player1)
 
 def aggregate(positions: List[Tuple[str, str]]):
     opening_map = defaultdict(lambda: list())
@@ -69,7 +69,7 @@ def aggregate(positions: List[Tuple[str, str]]):
     return opening_map
 
 if __name__ == "__main__":
-    num_games = 500
+    num_games = 10
     numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
 
     chunks = random.sample(range(1, 21), 2)
@@ -77,10 +77,10 @@ if __name__ == "__main__":
     agent1 = MiniMaxAgent(depth=2)
     agent2 = MinimaxAgentWithPieceSquareTables(depth=2)
 
-    winnerMap = defaultdict(int)
-    unique_opening_positions = []
+    winnerMap = defaultdict(lambda : {"WHITE": 0, "BLACK": 0})
     positions_to_play = []
     for chunk in chunks:
+        unique_opening_positions = [] # need to reset here otherwise we end up with player1 == WHITE 75% of the time
         positions = read_positions(f"positions/unprocessed/chunk_{chunk}.txt")
         opening_map = aggregate(positions)
         for opening in opening_map:
@@ -97,20 +97,27 @@ if __name__ == "__main__":
 
     with Pool(processes=numWorkers) as pool:
         with tqdm(total=total_games, desc=f"Simulating {total_games} games") as pbar:
-            for opening, winner in pool.imap_unordered(simulate_game, positions_to_play):
+            for opening, winner, player1 in pool.imap_unordered(simulate_game, positions_to_play):
                 # Update running tally
                 games_played += 1
-                winnerMap[winner] += 1
+
+                if winner == player1.name():
+                    winnerMap[winner]["WHITE"] += 1
+                else:
+                    winnerMap[winner]["BLACK"] += 1
 
                 # Display running tally in tqdm's description
-                tie_count = winnerMap[None]
-                wins = defaultdict(lambda : 0)
-                for k, v in winnerMap.items():
-                    if k is not None:
-                        wins[k] = v
+                tie_count = winnerMap[None]["WHITE"] + winnerMap[None]["BLACK"]
                 
-                win_summary = ", ".join(f"{winner}: {count}" for winner, count in wins.items())
-                pbar.set_postfix_str(f"Agent 1 won {wins[agent1.name()]}/{games_played}, Agent 2 won {wins[agent2.name()]}/{games_played}, Ties: {tie_count}/{games_played}")
+                win_summary = ", ".join(f"{winner}: {count}" for winner, count in winnerMap.items())
+                a1_wins_w = winnerMap[agent1.name()]["WHITE"]
+                a1_losses_w = winnerMap[agent2.name()]["WHITE"]
+                a1_ties_w = winnerMap[None]["WHITE"]
+                a1_wins_b = winnerMap[agent1.name()]["BLACK"]
+                a1_losses_b = winnerMap[agent2.name()]["BLACK"]
+                a1_ties_b = winnerMap[None]["BLACK"]
+                
+                pbar.set_postfix_str(f"Agent 1 as white: {a1_wins_w}-{a1_losses_w}-{a1_ties_w}, Agent 1 as black: {a1_wins_b}-{a1_losses_b}-{a1_ties_b}")
                 pbar.update(1)
 
     # Final results
