@@ -69,7 +69,7 @@ def aggregate(positions: List[Tuple[str, str]]):
     return opening_map
 
 if __name__ == "__main__":
-    num_games = 2
+    num_games = 500
     numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
 
     chunks = random.sample(range(1, 21), 2)

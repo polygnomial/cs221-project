@@ -103,12 +103,13 @@ endgame_table = {
     ]
 }
 
-def game_phase(piece_count):
-    # Define game phase values based on piece count for interpolation
-    phase = sum(piece_count.get(piece, 0) for piece in ['P', 'N', 'B', 'R', 'Q'])
-    return min(1, max(0, (24 - phase) / 24))  # Normalize between 0 and 1
+orig_keys = list(opening_table.keys())
+for key in orig_keys:
+    black_key = key.lower()
+    opening_table[black_key] = sum([opening_table[key][i:i+8] for i in range(0, 64, 8)][::-1], [])
+    endgame_table[black_key] = sum([endgame_table[key][i:i+8] for i in range(0, 64, 8)][::-1], [])
 
-def game_phase2(piece_count, player):
+def game_phase(piece_count, player):
 
     # Endgame Transition (0->1)
     queenEndgameWeight = 45
@@ -129,17 +130,21 @@ def game_phase2(piece_count, player):
     
 
 def piece_square_table_score(board, piece_count):
-    phase = game_phase2(piece_count, board.turn)
+    endgameT = game_phase(piece_count, board.turn)
     score = 0
 
     for square in chess.SQUARES:
         piece = board.piece_at(square)
         if piece:
-            symbol = piece.symbol().upper()
-            position_score = (1 - phase) * opening_table[symbol][square] + phase * endgame_table[symbol][square]
-            if piece.color == chess.WHITE:
-                score += WEIGHT * position_score
-            else:
-                score -= WEIGHT * position_score
+            symbol = piece.symbol()
+            position_score = (1 - endgameT) * opening_table[symbol][square]
+            position_score += endgameT * endgame_table[symbol][square]
+            score += position_score
+            # I think we don't need the below because our 
+            # piece square tables have negative entries
+            # if piece.color == chess.WHITE:
+            #     score += WEIGHT * position_score
+            # else:
+            #     score -= WEIGHT * position_score
 
     return score
