@@ -1,6 +1,11 @@
 import chess
 import math
+import os, sys
+
+# disable printing of "hello from the pygame community" message
+sys.stdout = open(os.devnull, 'w')
 import pygame
+sys.stdout = sys.__stdout__
 
 class ChessGraphics():
     def __init__(self, board: chess.Board, dimension: int = 800):

@@ -65,7 +65,7 @@ def get_captured_piece(board: chess.Board, move: chess.Move):
             idx = move.from_square + 1
     return str(board.piece_at(idx))
 
-def dotProduct(self, d1: Dict, d2: Dict) -> float:
+def dotProduct(d1: Dict, d2: Dict) -> float:
     """
     The dot product of two vectors represented as dictionaries. This function
     goes over all the keys in d2, and for each key, multiplies the corresponding
@@ -77,7 +77,7 @@ def dotProduct(self, d1: Dict, d2: Dict) -> float:
     @return float: the dot product between d1 and d2
     """
     if len(d1) < len(d2):
-        return self.dotProduct(d2, d1)
+        return dotProduct(d2, d1)
     else:
         return sum(d1.get(f, 0) * v for f, v in list(d2.items()))
 
@@ -120,11 +120,11 @@ class MiniMaxAgent(Agent):
             "piece_square": 0,
         }
 
-    def featureExtractor(self):
+    def featureExtractor(self, piece_count: List[int], board: chess.Board):
         return {
             "piece_count": eval_piece_count(self.piece_count),
-            # "pawn_storm": eval_pawn_storm(board),
-            # "piece_square": piece_square_table_score(board, piece_count)
+            "pawn_storm": eval_pawn_storm(board) if self.weights["pawn_storm"] > 0.0 else 0,
+            "piece_square": piece_square_table_score(board, piece_count) if self.weights["piece_square"] > 0.0 else 0
         }
 
     # simple evaluation function
@@ -196,10 +196,18 @@ class MiniMaxAgent(Agent):
             board=self.board,
             piece_count=self.piece_count,
             depth=self.depth*2,
-            eval_fn=lambda: eval_piece_count(self.piece_count),
+            eval_fn=lambda: self.eval_board(self.board, self.piece_count),
             alpha=float('-inf'),
             beta=float('inf'))
         return move
+
+class MinimaxAgentWithPieceSquareTables(MiniMaxAgent):
+    def __init__(self, depth: int):
+        super().__init__(depth)
+        self.weights["piece_square"] = 1
+
+    def name(self) -> str:
+        return super().name() + "_with_piece_square_tables"
 
 # def iterative_deepening():
 #     depth = 2

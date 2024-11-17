@@ -1,12 +1,14 @@
 import chess
 from typing import Optional
-from agent import Agent, MiniMaxAgent, RandomAgent
+from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables
 from collections import defaultdict
 from graphics import ChessGraphics
 from multiprocessing import Pool, cpu_count
 import random
 from typing import List, Tuple
 from util import read_positions
+from tqdm import tqdm
+import os, sys
 
 class ChessGame():
     def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, startingFen: Optional[str] = None):
@@ -39,9 +41,9 @@ class ChessGame():
                     status = self.graphics.capture_human_interaction()
         
             if self.board.outcome() != None:
-                print(self.board.outcome())
+                # print(self.board.outcome())
                 status = False
-                print(self.board)
+                # print(self.board)
                 winner = self.board.outcome().winner
         if (winner == None):
             return None
@@ -67,13 +69,13 @@ def aggregate(positions: List[Tuple[str, str]]):
     return opening_map
 
 if __name__ == "__main__":
-    num_games = 500
+    num_games = 2
     numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
 
-    chunks = random.sample(range(1,21), 2)
+    chunks = random.sample(range(1, 21), 2)
 
-    agent1 = RandomAgent()
-    agent2 = MiniMaxAgent(depth=2)
+    agent1 = MiniMaxAgent(depth=2)
+    agent2 = MinimaxAgentWithPieceSquareTables(depth=2)
 
     winnerMap = defaultdict(int)
     unique_opening_positions = []
@@ -87,22 +89,33 @@ if __name__ == "__main__":
         positions_to_play += random.sample(unique_opening_positions, num_games)
 
         # swap agents so they take turns playing white and black per chunk
-        tmp = agent1
-        agent1 = agent2
-        agent2 = tmp
-        
-    # Run games in parallel
-    with Pool(processes=numWorkers) as pool:
-        results = pool.map(simulate_game, positions_to_play)
+        agent1, agent2 = agent2, agent1
 
-    # Aggregate results
-    for opening, winner in results:
-        print(f"{winner} won opening {opening}")
-        winnerMap[winner] += 1
-    
-    # Print the results
+    # Run games in parallel with a progress bar and running tally
+    total_games = len(positions_to_play)
+    games_played = 0
+
+    with Pool(processes=numWorkers) as pool:
+        with tqdm(total=total_games, desc=f"Simulating {total_games} games") as pbar:
+            for opening, winner in pool.imap_unordered(simulate_game, positions_to_play):
+                # Update running tally
+                games_played += 1
+                winnerMap[winner] += 1
+
+                # Display running tally in tqdm's description
+                tie_count = winnerMap[None]
+                wins = defaultdict(lambda : 0)
+                for k, v in winnerMap.items():
+                    if k is not None:
+                        wins[k] = v
+                
+                win_summary = ", ".join(f"{winner}: {count}" for winner, count in wins.items())
+                pbar.set_postfix_str(f"Agent 1 won {wins[agent1.name()]}/{games_played}, Agent 2 won {wins[agent2.name()]}/{games_played}, Ties: {tie_count}/{games_played}")
+                pbar.update(1)
+
+    # Final results
     for winner, count in winnerMap.items():
-        if (winner is None):
-            print(f"agents tied {count}/{len(positions_to_play)}")
+        if winner is None:
+            print(f"Agents tied {count}/{total_games}")
         else:
-            print(f"{winner} won {count}/{len(positions_to_play)}")
+            print(f"{winner} won {count}/{total_games}")
