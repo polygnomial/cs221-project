@@ -4,7 +4,7 @@ import numpy as np
 # Piece-square tables for opening and endgame stages
 # Opening tables
 
-WEIGHT = 0.05
+WEIGHT = 0.02
 
 opening_table = {
     'P': [
@@ -139,7 +139,7 @@ def piece_square_table_score(board, piece_count):
             symbol = piece.symbol()
             position_score = (1 - endgameT) * opening_table[symbol][square]
             position_score += endgameT * endgame_table[symbol][square]
-            score += position_score
+            score += WEIGHT * position_score
             # I think we don't need the below because our 
             # piece square tables have negative entries
             # if piece.color == chess.WHITE:

@@ -8,7 +8,6 @@ import random
 from typing import List, Tuple
 from util import read_positions
 from tqdm import tqdm
-import os, sys
 
 class ChessGame():
     def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, startingFen: Optional[str] = None):
@@ -69,13 +68,15 @@ def aggregate(positions: List[Tuple[str, str]]):
     return opening_map
 
 if __name__ == "__main__":
-    num_games = 10
+    num_games = 16
     numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
-
+    print(numWorkers)
     chunks = random.sample(range(1, 21), 2)
 
-    agent1 = MiniMaxAgent(depth=2)
-    agent2 = MinimaxAgentWithPieceSquareTables(depth=2)
+    # agent1 = RandomAgent("RandAgent1")
+    # agent2 = RandomAgent("RandAgent2")
+    agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
+    agent2 = MiniMaxAgent("mma", depth=2)
 
     winnerMap = defaultdict(lambda : {"WHITE": 0, "BLACK": 0})
     positions_to_play = []
@@ -91,6 +92,9 @@ if __name__ == "__main__":
         # swap agents so they take turns playing white and black per chunk
         agent1, agent2 = agent2, agent1
 
+    # Reset agents so our statistics are accurate
+    agent1, agent2 = agent2, agent1
+
     # Run games in parallel with a progress bar and running tally
     total_games = len(positions_to_play)
     games_played = 0
@@ -102,14 +106,16 @@ if __name__ == "__main__":
                 games_played += 1
 
                 if winner == player1.name():
-                    winnerMap[winner]["WHITE"] += 1
-                else:
+                    winnerMap[winner]["WHITE"] += 1    
+                elif winner is not None:
                     winnerMap[winner]["BLACK"] += 1
+                if winner is None:
+                    if player1.name() == agent1.name():
+                        winnerMap[None]["WHITE"] += 1
+                    else:
+                        winnerMap[None]["BLACK"] += 1
 
                 # Display running tally in tqdm's description
-                tie_count = winnerMap[None]["WHITE"] + winnerMap[None]["BLACK"]
-                
-                win_summary = ", ".join(f"{winner}: {count}" for winner, count in winnerMap.items())
                 a1_wins_w = winnerMap[agent1.name()]["WHITE"]
                 a1_losses_w = winnerMap[agent2.name()]["WHITE"]
                 a1_ties_w = winnerMap[None]["WHITE"]
