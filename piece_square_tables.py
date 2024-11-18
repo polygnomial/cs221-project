@@ -4,7 +4,7 @@ import numpy as np
 # Piece-square tables for opening and endgame stages
 # Opening tables
 
-WEIGHT = 0.02
+WEIGHT = 0.01
 
 opening_table = {
     'P': [

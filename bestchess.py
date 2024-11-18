@@ -1,4 +1,5 @@
 import chess
+from copy import deepcopy
 from typing import Optional
 from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables
 from collections import defaultdict
@@ -68,36 +69,41 @@ def aggregate(positions: List[Tuple[str, str]]):
     return opening_map
 
 if __name__ == "__main__":
-    num_games = 16
+    num_games = 256
+    num_chunks = 4
+    assert num_games % num_chunks == 0
+    num_games //= num_chunks
     numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
     print(numWorkers)
-    chunks = random.sample(range(1, 21), 2)
-
-    # agent1 = RandomAgent("RandAgent1")
-    # agent2 = RandomAgent("RandAgent2")
-    agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
-    agent2 = MiniMaxAgent("mma", depth=2)
-
-    winnerMap = defaultdict(lambda : {"WHITE": 0, "BLACK": 0})
+    
+    agent1 = RandomAgent("RandAgent1")
+    agent2 = RandomAgent("RandAgent2")
+    # agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
+    # agent2 = MiniMaxAgent("mma", depth=2)
+    
+    chunks = random.sample(range(1, 21), num_chunks)
     positions_to_play = []
     for chunk in chunks:
-        unique_opening_positions = [] # need to reset here otherwise we end up with player1 == WHITE 75% of the time
         positions = read_positions(f"positions/unprocessed/chunk_{chunk}.txt")
         opening_map = aggregate(positions)
+        unique_opening_positions = []
         for opening in opening_map:
             fen = random.choice(opening_map[opening])
             unique_opening_positions.append((opening, fen, agent1, agent2))
-        positions_to_play += random.sample(unique_opening_positions, num_games)
 
-        # swap agents so they take turns playing white and black per chunk
-        agent1, agent2 = agent2, agent1
-
-    # Reset agents so our statistics are accurate
-    agent1, agent2 = agent2, agent1
+        # changed this so that each opening is played twice, once with each agent as white
+        player1_as_white = random.sample(unique_opening_positions, num_games)
+        player2_as_white = deepcopy(player1_as_white)
+        for i in range(num_games):
+            player2_as_white[i] = (player2_as_white[i][0], player2_as_white[i][1], player2_as_white[i][3], player2_as_white[i][2])
+        
+        positions_to_play.extend(player1_as_white)
+        positions_to_play.extend(player2_as_white)
 
     # Run games in parallel with a progress bar and running tally
     total_games = len(positions_to_play)
     games_played = 0
+    winnerMap = defaultdict(lambda : {"WHITE": 0, "BLACK": 0})
 
     with Pool(processes=numWorkers) as pool:
         with tqdm(total=total_games, desc=f"Simulating {total_games} games") as pbar:
