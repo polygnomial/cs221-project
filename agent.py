@@ -37,6 +37,13 @@ scoring= {
     'K': 0,  # White king
 }
 
+# initialize and return a piece count dictionary
+def initialize_piece_count(board: chess.Board) -> List[int]:
+    piece_count = [0 for _ in range(12)]
+    for piece in board.piece_map().values():
+        piece_count[get_piece_index(piece)] += 1
+    return piece_count
+
 def eval_piece_count(piece_count):
     score = 0
     for i in range(len(piece_count)):
@@ -81,38 +88,31 @@ def dotProduct(d1: Dict, d2: Dict) -> float:
     else:
         return sum(d1.get(f, 0) * v for f, v in list(d2.items()))
 
-# initialize and return a piece count dictionary
-def initialize_piece_count(board: chess.Board) -> List[int]:
-    piece_count = [0 for _ in range(12)]
-    for piece in board.piece_map().values():
-        piece_count[get_piece_index(piece)] += 1
-    return piece_count
 
 class Agent():
-    def __init__(self):
+    def __init__(self, name: str):
         self.piece_count = None
         self.board = None
+        self._name = name
     
     def initialize(self, board: chess.Board):
         self.piece_count = initialize_piece_count(board)
         self.board = board
 
     def name(self) -> str:
-        raise Exception("Not yet implemented")
+        return self._name
 
     def get_move(self):
         raise Exception("Not yet implemented")
     
 class RandomAgent(Agent):
 
-    def name(self) -> str:
-        return "random_agent"
-
     def get_move(self):
         return random.choice(list(self.board.legal_moves))
 
 class MiniMaxAgent(Agent):
-    def __init__(self, depth: int):
+    def __init__(self, name, depth: int):
+        super().__init__(name)
         self.depth = depth
         self.weights =  {
             "piece_count": 1.0,
@@ -168,10 +168,11 @@ class MiniMaxAgent(Agent):
                 alpha=alpha,
                 beta=beta)
 
+            board.pop()
+
             # reset board and piece count
             if captured_piece is not None:
                 piece_count[piece_indices[captured_piece]] += 1
-            board.pop()
 
             if (board.turn == chess.WHITE): # max
                 if (score >= beta): #prune
@@ -188,9 +189,6 @@ class MiniMaxAgent(Agent):
         bestScore = max(scores) if board.turn == chess.WHITE else min(scores)
         return (bestScore, moves[scores.index(bestScore)])
 
-    def name(self) -> str:
-        return "minimax_agent"
-
     def get_move(self):
         _, move = self.min_maxN(
             board=self.board,
@@ -202,12 +200,9 @@ class MiniMaxAgent(Agent):
         return move
 
 class MinimaxAgentWithPieceSquareTables(MiniMaxAgent):
-    def __init__(self, depth: int):
-        super().__init__(depth)
+    def __init__(self, name, depth: int):
+        super().__init__(name, depth)
         self.weights["piece_square"] = 1
-
-    def name(self) -> str:
-        return super().name() + "_with_piece_square_tables"
 
 # def iterative_deepening():
 #     depth = 2
