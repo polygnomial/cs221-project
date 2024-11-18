@@ -1,6 +1,6 @@
 import chess
 from typing import Optional
-from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables
+from agent import Agent, MiniMaxAgent, MinimaxAgentWithPieceSquareTables, OptimizedMiniMaxAgent, RandomAgent
 from collections import defaultdict
 from graphics import ChessGraphics
 from multiprocessing import Pool, cpu_count
@@ -8,7 +8,6 @@ import random
 from typing import List, Tuple
 from util import read_positions
 from tqdm import tqdm
-import os, sys
 
 class ChessGame():
     def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, startingFen: Optional[str] = None):
@@ -75,7 +74,7 @@ if __name__ == "__main__":
     chunks = random.sample(range(1, 21), 2)
 
     agent1 = MiniMaxAgent(depth=2)
-    agent2 = MinimaxAgentWithPieceSquareTables(depth=2)
+    agent2 = OptimizedMiniMaxAgent(depth=2)
 
     winnerMap = defaultdict(int)
     unique_opening_positions = []
