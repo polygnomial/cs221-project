@@ -1,7 +1,7 @@
 import chess
 from copy import deepcopy
 from typing import Optional
-from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables
+from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables, KingSafetyAndMobility
 from collections import defaultdict
 from graphics import ChessGraphics
 from multiprocessing import Pool, cpu_count
@@ -69,19 +69,19 @@ def aggregate(positions: List[Tuple[str, str]]):
     return opening_map
 
 if __name__ == "__main__":
-    num_games = 256
+    num_games = 4
     num_chunks = 4
     assert num_games % num_chunks == 0
     num_games //= num_chunks
     numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
     print(numWorkers)
     
-    #agent1 = RandomAgent("RandAgent1")
-    #agent2 = RandomAgent("RandAgent2")
+    # agent1 = RandomAgent("RandAgent1")
+    # agent2 = RandomAgent("RandAgent2")
     #agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
-    #agent2 = MiniMaxAgent("mma", depth=2)
-    agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
-    agent2 = MiniMaxAgent("with_King_safety_and_mobility", depth=2)
+    agent1 = MiniMaxAgent("mma", depth=2)
+    # agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
+    agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
     
     chunks = random.sample(range(1, 21), num_chunks)
     positions_to_play = []
