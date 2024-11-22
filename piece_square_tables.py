@@ -148,3 +148,17 @@ def piece_square_table_score(board, piece_count):
             #     score -= WEIGHT * position_score
 
     return score
+
+def piece_square_table_move_score(board: chess.Board, piece_count, move: chess.Move):
+    phase = game_phase(piece_count, board.turn)
+    score = 0
+    piece = board.piece_at(move.from_square)
+    symbol = piece.symbol().upper()
+    
+    position_score = (1 - phase) * opening_table[symbol][move.to_square] - phase * endgame_table[symbol][move.from_square]
+    if piece.color == chess.WHITE:
+        score += WEIGHT * position_score
+    else:
+        score -= WEIGHT * position_score
+
+    return score

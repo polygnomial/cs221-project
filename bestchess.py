@@ -1,27 +1,39 @@
 import chess
 from copy import deepcopy
+from enum import Enum
 from typing import Optional
-from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables, KingSafetyAndMobility
+from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables, OptimizedMiniMaxAgent, KingSafetyAndMobility
 from collections import defaultdict
+from audio import ChessAudio
 from graphics import ChessGraphics
 from multiprocessing import Pool, cpu_count
 import random
+import sys
 from typing import List, Tuple
 from util import read_positions
 from tqdm import tqdm
 
 class ChessGame():
-    def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, startingFen: Optional[str] = None):
+    def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, useAudio: bool = True, startingFen: Optional[str] = None):
         self.player1 = player1
         self.player2 = player2
         self.board = chess.Board()
         if (startingFen):
             self.board.set_fen(startingFen)
-        self.graphics = ChessGraphics(board=self.board) if (useGraphics or player1 is None or player2 is None) else None
+        self.audio = ChessAudio() if (useAudio or player1 is None or player2 is None) else None
+        self.graphics = ChessGraphics(board=self.board, audio=self.audio) if (useGraphics or player1 is None or player2 is None) else None
         if (self.player1 is not None):
             self.player1.initialize(board=self.board)
         if (self.player2 is not None):
             self.player2.initialize(board=self.board)
+
+    def play_audio(self, move: chess.Move):
+        if (self.audio is None):
+            return
+        if (self.board.is_capture(move)):
+            self.audio.play_capture()
+        else:
+            self.audio.play_move()
 
     def run(self):
         status = True
@@ -31,12 +43,16 @@ class ChessGame():
                 self.graphics.draw_game()
             if self.board.turn == chess.WHITE:
                 if (self.player1 is not None):
-                    self.board.push(self.player1.get_move())
+                    move = self.player1.get_move()
+                    self.play_audio(move)
+                    self.board.push(move)
                 else:
                     status = self.graphics.capture_human_interaction()
             else:
                 if (self.player2 is not None):
-                    self.board.push(self.player2.get_move())
+                    move = self.player2.get_move()
+                    self.play_audio(move)
+                    self.board.push(move)
                 else:
                     status = self.graphics.capture_human_interaction()
         
@@ -59,6 +75,7 @@ def simulate_game(data):
         player1=player1,
         player2=player2,
         useGraphics=False,
+        useAudio=False,
         startingFen=fen).run()
     return (opening, result, player1)
 
@@ -68,21 +85,33 @@ def aggregate(positions: List[Tuple[str, str]]):
         opening_map[opening].append(fen)
     return opening_map
 
-if __name__ == "__main__":
-    num_games = 256
+class Variant(Enum):
+    Manual = 1
+    TestAgents = 2
+
+def testAgents():
+    num_games = 4
     num_chunks = 4
     assert num_games % num_chunks == 0
     num_games //= num_chunks
     numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
+
+    print(numWorkers)
     
     # agent1 = RandomAgent("RandAgent1")
     # agent2 = RandomAgent("RandAgent2")
-    #agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
-    agent1 = MiniMaxAgent("mma", depth=2)
     # agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
-    agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
+    # agent2 = MiniMaxAgent("mma", depth=2)
+
+    # agent1 = MiniMaxAgent("mma", depth=2)
+    # agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
+    # agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
+
+    agent1 = MiniMaxAgent(depth=2, name="MinimaxAgent")
+    agent2 = OptimizedMiniMaxAgent(depth=2,  name="OptimizedMinimaxAgent")
     
     chunks = random.sample(range(1, 21), num_chunks)
+
     positions_to_play = []
     for chunk in chunks:
         positions = read_positions(f"positions/unprocessed/chunk_{chunk}.txt")
@@ -139,3 +168,27 @@ if __name__ == "__main__":
             print(f"{agent1.name()} tied {count["WHITE"]} as white, {count["BLACK"]} as black")
         else:
             print(f"{winner} won {count}/{total_games}")
+
+def runManual():
+    ChessGame(player2=OptimizedMiniMaxAgent(name="agent", depth=2)).run()
+
+
+def runVariant(variant: Variant):
+    match variant:
+        case Variant.Manual:
+            return runManual()
+        case Variant.TestAgents:
+            return testAgents()
+        case _:
+            return f"Unknown variant {variant}"
+
+if __name__ == "__main__":
+    numArgs = len(sys.argv) 
+    assert numArgs == 1 or numArgs == 3
+    variant = Variant.TestAgents
+    if (numArgs == 3):
+        assert sys.argv[1] == '-v'
+        assert sys.argv[2] == "manual" or sys.argv[2] == "test"
+        if (sys.argv[2] == "manual"):
+            variant = Variant.Manual
+    print(runVariant(variant))
