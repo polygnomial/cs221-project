@@ -1,26 +1,39 @@
 import chess
+from copy import deepcopy
+from enum import Enum
 from typing import Optional
 from agent import Agent, MiniMaxAgent, MinimaxAgentWithPieceSquareTables, OptimizedMiniMaxAgent, RandomAgent
 from collections import defaultdict
+from audio import ChessAudio
 from graphics import ChessGraphics
 from multiprocessing import Pool, cpu_count
 import random
+import sys
 from typing import List, Tuple
 from util import read_positions
 from tqdm import tqdm
 
 class ChessGame():
-    def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, startingFen: Optional[str] = None):
+    def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, useAudio: bool = True, startingFen: Optional[str] = None):
         self.player1 = player1
         self.player2 = player2
         self.board = chess.Board()
         if (startingFen):
             self.board.set_fen(startingFen)
-        self.graphics = ChessGraphics(board=self.board) if (useGraphics or player1 is None or player2 is None) else None
+        self.audio = ChessAudio() if (useAudio or player1 is None or player2 is None) else None
+        self.graphics = ChessGraphics(board=self.board, audio=self.audio) if (useGraphics or player1 is None or player2 is None) else None
         if (self.player1 is not None):
             self.player1.initialize(board=self.board)
         if (self.player2 is not None):
             self.player2.initialize(board=self.board)
+
+    def play_audio(self, move: chess.Move):
+        if (self.audio is None):
+            return
+        if (self.board.is_capture(move)):
+            self.audio.play_capture()
+        else:
+            self.audio.play_move()
 
     def run(self):
         status = True
@@ -30,12 +43,16 @@ class ChessGame():
                 self.graphics.draw_game()
             if self.board.turn == chess.WHITE:
                 if (self.player1 is not None):
-                    self.board.push(self.player1.get_move())
+                    move = self.player1.get_move()
+                    self.play_audio(move)
+                    self.board.push(move)
                 else:
                     status = self.graphics.capture_human_interaction()
             else:
                 if (self.player2 is not None):
-                    self.board.push(self.player2.get_move())
+                    move = self.player2.get_move()
+                    self.play_audio(move)
+                    self.board.push(move)
                 else:
                     status = self.graphics.capture_human_interaction()
         
@@ -58,8 +75,9 @@ def simulate_game(data):
         player1=player1,
         player2=player2,
         useGraphics=False,
+        useAudio=False,
         startingFen=fen).run()
-    return (opening, result)
+    return (opening, result, player1)
 
 def aggregate(positions: List[Tuple[str, str]]):
     opening_map = defaultdict(lambda: list())
@@ -67,49 +85,76 @@ def aggregate(positions: List[Tuple[str, str]]):
         opening_map[opening].append(fen)
     return opening_map
 
-if __name__ == "__main__":
-    num_games = 500
+class Variant(Enum):
+    Manual = 1
+    TestAgents = 2
+
+def testAgents():
+    num_games = 4
+    num_chunks = 4
+    assert num_games % num_chunks == 0
+    num_games //= num_chunks
     numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
 
-    chunks = random.sample(range(1, 21), 2)
+    print(numWorkers)
+    
+    # agent1 = RandomAgent("RandAgent1")
+    # agent2 = RandomAgent("RandAgent2")
+    # agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
+    # agent2 = MiniMaxAgent("mma", depth=2)
+    agent1 = MiniMaxAgent(depth=2, name="MinimaxAgent")
+    agent2 = OptimizedMiniMaxAgent(depth=2,  name="OptimizedMinimaxAgent")
+    
+    chunks = random.sample(range(1, 21), num_chunks)
 
-    agent1 = MiniMaxAgent(depth=2)
-    agent2 = OptimizedMiniMaxAgent(depth=2)
-
-    winnerMap = defaultdict(int)
-    unique_opening_positions = []
     positions_to_play = []
     for chunk in chunks:
         positions = read_positions(f"positions/unprocessed/chunk_{chunk}.txt")
         opening_map = aggregate(positions)
+        unique_opening_positions = []
         for opening in opening_map:
             fen = random.choice(opening_map[opening])
             unique_opening_positions.append((opening, fen, agent1, agent2))
-        positions_to_play += random.sample(unique_opening_positions, num_games)
 
-        # swap agents so they take turns playing white and black per chunk
-        agent1, agent2 = agent2, agent1
+        # changed this so that each opening is played twice, once with each agent as white
+        player1_as_white = random.sample(unique_opening_positions, num_games)
+        player2_as_white = deepcopy(player1_as_white)
+        for i in range(num_games):
+            player2_as_white[i] = (player2_as_white[i][0], player2_as_white[i][1], player2_as_white[i][3], player2_as_white[i][2])
+        
+        positions_to_play.extend(player1_as_white)
+        positions_to_play.extend(player2_as_white)
 
     # Run games in parallel with a progress bar and running tally
     total_games = len(positions_to_play)
     games_played = 0
+    winnerMap = defaultdict(lambda : {"WHITE": 0, "BLACK": 0})
 
     with Pool(processes=numWorkers) as pool:
         with tqdm(total=total_games, desc=f"Simulating {total_games} games") as pbar:
-            for opening, winner in pool.imap_unordered(simulate_game, positions_to_play):
+            for opening, winner, player1 in pool.imap_unordered(simulate_game, positions_to_play):
                 # Update running tally
                 games_played += 1
-                winnerMap[winner] += 1
+
+                if winner == player1.name():
+                    winnerMap[winner]["WHITE"] += 1    
+                elif winner is not None:
+                    winnerMap[winner]["BLACK"] += 1
+                if winner is None:
+                    if player1.name() == agent1.name():
+                        winnerMap[None]["WHITE"] += 1
+                    else:
+                        winnerMap[None]["BLACK"] += 1
 
                 # Display running tally in tqdm's description
-                tie_count = winnerMap[None]
-                wins = defaultdict(lambda : 0)
-                for k, v in winnerMap.items():
-                    if k is not None:
-                        wins[k] = v
+                a1_wins_w = winnerMap[agent1.name()]["WHITE"]
+                a1_losses_w = winnerMap[agent2.name()]["WHITE"]
+                a1_ties_w = winnerMap[None]["WHITE"]
+                a1_wins_b = winnerMap[agent1.name()]["BLACK"]
+                a1_losses_b = winnerMap[agent2.name()]["BLACK"]
+                a1_ties_b = winnerMap[None]["BLACK"]
                 
-                win_summary = ", ".join(f"{winner}: {count}" for winner, count in wins.items())
-                pbar.set_postfix_str(f"Agent 1 won {wins[agent1.name()]}/{games_played}, Agent 2 won {wins[agent2.name()]}/{games_played}, Ties: {tie_count}/{games_played}")
+                pbar.set_postfix_str(f"Agent 1 as white: {a1_wins_w}-{a1_losses_w}-{a1_ties_w}, Agent 1 as black: {a1_wins_b}-{a1_losses_b}-{a1_ties_b}")
                 pbar.update(1)
 
     # Final results
@@ -118,3 +163,27 @@ if __name__ == "__main__":
             print(f"Agents tied {count}/{total_games}")
         else:
             print(f"{winner} won {count}/{total_games}")
+
+def runManual():
+    ChessGame(player2=OptimizedMiniMaxAgent(name="agent", depth=2)).run()
+
+
+def runVariant(variant: Variant):
+    match variant:
+        case Variant.Manual:
+            return runManual()
+        case Variant.TestAgents:
+            return testAgents()
+        case _:
+            return f"Unknown variant {variant}"
+
+if __name__ == "__main__":
+    numArgs = len(sys.argv) 
+    assert numArgs == 1 or numArgs == 3
+    variant = Variant.TestAgents
+    if (numArgs == 3):
+        assert sys.argv[1] == '-v'
+        assert sys.argv[2] == "manual" or sys.argv[2] == "test"
+        if (sys.argv[2] == "manual"):
+            variant = Variant.Manual
+    print(runVariant(variant))

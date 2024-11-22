@@ -1,6 +1,7 @@
 import chess
 import math
 import os, sys
+from audio import ChessAudio
 
 # disable printing of "hello from the pygame community" message
 sys.stdout = open(os.devnull, 'w')
@@ -8,7 +9,7 @@ import pygame
 sys.stdout = sys.__stdout__
 
 class ChessGraphics():
-    def __init__(self, board: chess.Board, dimension: int = 800):
+    def __init__(self, board: chess.Board, audio: ChessAudio, dimension: int = 800):
         #basic colors
         self.WHITE = (255, 255, 255)
         self.GREY = (128, 128, 128)
@@ -21,6 +22,7 @@ class ChessGraphics():
         self.BROWN = (174, 138, 104)
 
         self.board = board
+        self.audio = audio
         
         self.screen = self.initialize_screen(dimension)
         #make background black
@@ -96,7 +98,7 @@ class ChessGraphics():
     def draw_board(self):
         for i in range(8):
             for j in range(8):
-                color = self.TAN if (i%2 == j%2) else self.BROWN
+                color = self.TAN if ((i+j) % 2 == 0) else self.BROWN
                 pygame.draw.rect(self.screen, color,(j*100, i*100, 100, 100))
     
     def draw_pieces(self):
@@ -113,6 +115,13 @@ class ChessGraphics():
 
         pygame.display.flip()
 
+    def play_audio(self, move: chess.Move):
+        if (self.audio is None):
+            return
+        if (self.board.is_capture(move)):
+            self.audio.play_capture()
+        else:
+            self.audio.play_move()
 
     def capture_human_interaction(self):
         for event in pygame.event.get():
@@ -135,8 +144,10 @@ class ChessGraphics():
                 index = (7-square[1])*8+(square[0])
 
                 if index in self.moves: # make the move
-                    self.board.push(self.moves[index])
-                    self.last_move = self.moves[index]
+                    move = self.moves[index]
+                    self.play_audio(move)
+                    self.board.push(move)
+                    self.last_move = move
                     self.moves = dict()
                 else: # show possible moves
                     self.moves = dict()
