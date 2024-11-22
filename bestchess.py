@@ -2,7 +2,7 @@ import chess
 from copy import deepcopy
 from enum import Enum
 from typing import Optional
-from agent import Agent, MiniMaxAgent, MinimaxAgentWithPieceSquareTables, OptimizedMiniMaxAgent, RandomAgent
+from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables, OptimizedMiniMaxAgent, KingSafetyAndMobility
 from collections import defaultdict
 from audio import ChessAudio
 from graphics import ChessGraphics
@@ -102,6 +102,11 @@ def testAgents():
     # agent2 = RandomAgent("RandAgent2")
     # agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
     # agent2 = MiniMaxAgent("mma", depth=2)
+
+    # agent1 = MiniMaxAgent("mma", depth=2)
+    # agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
+    # agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
+
     agent1 = MiniMaxAgent(depth=2, name="MinimaxAgent")
     agent2 = OptimizedMiniMaxAgent(depth=2,  name="OptimizedMinimaxAgent")
     
@@ -124,7 +129,7 @@ def testAgents():
         
         positions_to_play.extend(player1_as_white)
         positions_to_play.extend(player2_as_white)
-
+        
     # Run games in parallel with a progress bar and running tally
     total_games = len(positions_to_play)
     games_played = 0
@@ -148,10 +153,10 @@ def testAgents():
 
                 # Display running tally in tqdm's description
                 a1_wins_w = winnerMap[agent1.name()]["WHITE"]
-                a1_losses_w = winnerMap[agent2.name()]["WHITE"]
+                a1_losses_w = winnerMap[agent2.name()]["BLACK"]
                 a1_ties_w = winnerMap[None]["WHITE"]
                 a1_wins_b = winnerMap[agent1.name()]["BLACK"]
-                a1_losses_b = winnerMap[agent2.name()]["BLACK"]
+                a1_losses_b = winnerMap[agent2.name()]["WHITE"]
                 a1_ties_b = winnerMap[None]["BLACK"]
                 
                 pbar.set_postfix_str(f"Agent 1 as white: {a1_wins_w}-{a1_losses_w}-{a1_ties_w}, Agent 1 as black: {a1_wins_b}-{a1_losses_b}-{a1_ties_b}")
@@ -160,7 +165,7 @@ def testAgents():
     # Final results
     for winner, count in winnerMap.items():
         if winner is None:
-            print(f"Agents tied {count}/{total_games}")
+            print(f"{agent1.name()} tied {count["WHITE"]} as white, {count["BLACK"]} as black")
         else:
             print(f"{winner} won {count}/{total_games}")
 
