@@ -2,6 +2,8 @@ import chess
 import random
 from piece_square_tables import piece_square_table_score
 from pawn_shield_storm import eval_pawn_storm
+from king_safety import evaluate_king_safety
+from mobility import evaluate_mobility
 from typing import Callable, Dict, List
 from collections import defaultdict
 
@@ -116,6 +118,8 @@ class MiniMaxAgent(Agent):
         self.depth = depth
         self.weights =  {
             "piece_count": 1.0,
+            "mobility_assess": 0.0, #added mobility WRT legal moves vs. opponent
+            "king_safety": 0.0, #added king safety vs. opponent
             "pawn_storm": 0,
             "piece_square": 0,
         }
@@ -123,6 +127,8 @@ class MiniMaxAgent(Agent):
     def featureExtractor(self, piece_count: List[int], board: chess.Board):
         return {
             "piece_count": eval_piece_count(self.piece_count),
+            "mobility_assess": evaluate_mobility(board) if self.weights.get("mobility_assess", 0) > 0 else 0, #how many legal moves availabl assuming >0
+            "king_safety": evaluate_king_safety(board) if self.weights.get("king_safety", 0) > 0 else 0,
             "pawn_storm": eval_pawn_storm(board) if self.weights["pawn_storm"] > 0.0 else 0,
             "piece_square": piece_square_table_score(board, piece_count) if self.weights["piece_square"] > 0.0 else 0
         }
@@ -203,6 +209,13 @@ class MinimaxAgentWithPieceSquareTables(MiniMaxAgent):
     def __init__(self, name, depth: int):
         super().__init__(name, depth)
         self.weights["piece_square"] = 1
+
+class KingSafetyAndMobility(MiniMaxAgent):
+    def __init__(self, name, depth: int):
+        super().__init__(name, depth)
+        self.weights["mobility_assess"] = 0.2
+        self.weights["king_safety"] = 0.5
+
 
 # def iterative_deepening():
 #     depth = 2

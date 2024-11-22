@@ -1,7 +1,7 @@
 import chess
 from copy import deepcopy
 from typing import Optional
-from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables
+from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables, KingSafetyAndMobility
 from collections import defaultdict
 from graphics import ChessGraphics
 from multiprocessing import Pool, cpu_count
@@ -74,12 +74,13 @@ if __name__ == "__main__":
     assert num_games % num_chunks == 0
     num_games //= num_chunks
     numWorkers = cpu_count()  # Adjust this to the number of CPU cores you want to use
-    print(numWorkers)
     
-    agent1 = RandomAgent("RandAgent1")
-    agent2 = RandomAgent("RandAgent2")
+    # agent1 = RandomAgent("RandAgent1")
+    # agent2 = RandomAgent("RandAgent2")
+    #agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
+    agent1 = MiniMaxAgent("mma", depth=2)
     # agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
-    # agent2 = MiniMaxAgent("mma", depth=2)
+    agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
     
     chunks = random.sample(range(1, 21), num_chunks)
     positions_to_play = []
@@ -99,7 +100,7 @@ if __name__ == "__main__":
         
         positions_to_play.extend(player1_as_white)
         positions_to_play.extend(player2_as_white)
-
+        
     # Run games in parallel with a progress bar and running tally
     total_games = len(positions_to_play)
     games_played = 0
@@ -123,10 +124,10 @@ if __name__ == "__main__":
 
                 # Display running tally in tqdm's description
                 a1_wins_w = winnerMap[agent1.name()]["WHITE"]
-                a1_losses_w = winnerMap[agent2.name()]["WHITE"]
+                a1_losses_w = winnerMap[agent2.name()]["BLACK"]
                 a1_ties_w = winnerMap[None]["WHITE"]
                 a1_wins_b = winnerMap[agent1.name()]["BLACK"]
-                a1_losses_b = winnerMap[agent2.name()]["BLACK"]
+                a1_losses_b = winnerMap[agent2.name()]["WHITE"]
                 a1_ties_b = winnerMap[None]["BLACK"]
                 
                 pbar.set_postfix_str(f"Agent 1 as white: {a1_wins_w}-{a1_losses_w}-{a1_ties_w}, Agent 1 as black: {a1_wins_b}-{a1_losses_b}-{a1_ties_b}")
@@ -135,6 +136,6 @@ if __name__ == "__main__":
     # Final results
     for winner, count in winnerMap.items():
         if winner is None:
-            print(f"Agents tied {count}/{total_games}")
+            print(f"{agent1.name()} tied {count["WHITE"]} as white, {count["BLACK"]} as black")
         else:
             print(f"{winner} won {count}/{total_games}")
