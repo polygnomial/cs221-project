@@ -12,20 +12,47 @@ import sys
 from typing import List, Tuple
 from util import read_positions
 from tqdm import tqdm
+from bitboards import BitboardUtils
+from repetitions import RepetitionTable
+from another_bot import AnotherChessBot
+import util
+from timer import Timer
+
+class Variant(Enum):
+    Manual = 1
+    TestAgents = 2
 
 class ChessGame():
     def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, useAudio: bool = True, startingFen: Optional[str] = None):
         self.player1 = player1
         self.player2 = player2
         self.board = chess.Board()
+        self.bitboard_utils = BitboardUtils(board=self.board)
+        self.bitboard_utils.initialize_bitboards()
+        self.repetition_table = RepetitionTable()
+        self.repetition_table.initialize_table(self.board)
         if (startingFen):
             self.board.set_fen(startingFen)
         self.audio = ChessAudio() if (useAudio or player1 is None or player2 is None) else None
-        self.graphics = ChessGraphics(board=self.board, audio=self.audio) if (useGraphics or player1 is None or player2 is None) else None
+        self.player1_timer = Timer(600000000000) # 10 min
+        self.player2_timer = Timer(600000000000) # 10 min
+        self.graphics = ChessGraphics(
+            board=self.board,
+            bitboard_utils=self.bitboard_utils,
+            repetition_table=self.repetition_table,
+            audio=self.audio) if (useGraphics or player1 is None or player2 is None) else None
         if (self.player1 is not None):
-            self.player1.initialize(board=self.board)
+            self.player1.initialize(
+                board=self.board,
+                bitboard_utils=self.bitboard_utils,
+                repetition_table=self.repetition_table,
+                timer=self.player1_timer)
         if (self.player2 is not None):
-            self.player2.initialize(board=self.board)
+            self.player2.initialize(
+                board=self.board,
+                bitboard_utils=self.bitboard_utils,
+                repetition_table=self.repetition_table,
+                timer=self.player2_timer)
 
     def play_audio(self, move: chess.Move):
         if (self.audio is None):
@@ -35,6 +62,10 @@ class ChessGame():
         else:
             self.audio.play_move()
 
+    def add_new_board_hash_to_repetition_table(self, reset: bool):
+        zobrist_key = chess.polyglot.zobrist_hash(self.board)
+        self.repetition_table.push(zobrist_key, reset)
+
     def run(self):
         status = True
         winner = None
@@ -42,30 +73,57 @@ class ChessGame():
             if (self.graphics is not None):
                 self.graphics.draw_game()
             if self.board.turn == chess.WHITE:
+                self.player1_timer.resume()
                 if (self.player1 is not None):
                     move = self.player1.get_move()
                     self.play_audio(move)
+                    move_piece_type = util.get_piece_type_int(util.get_moved_piece(self.board, move))
+                    is_capture_move = self.board.is_capture(move)
+                    self.bitboard_utils.make_move(move)
                     self.board.push(move)
+                    self.graphics.update_last_move(move)
+                    self.add_new_board_hash_to_repetition_table(reset=is_capture_move or move_piece_type == 1)
                 else:
                     status = self.graphics.capture_human_interaction()
+                self.player1_timer.pause()
+                if (self.player1_timer.did_buzz()):
+                    print("buzz buzz")
+                    status = False
+                    winner = chess.BLACK
             else:
+                self.player2_timer.resume()
                 if (self.player2 is not None):
+                    # print("ai turn started")
+                    # print(self.board)
                     move = self.player2.get_move()
+                    print(move)
                     self.play_audio(move)
+                    move_piece_type = util.get_piece_type_int(util.get_moved_piece(self.board, move))
+                    is_capture_move = self.board.is_capture(move)
+                    self.bitboard_utils.make_move(move)
                     self.board.push(move)
+                    self.graphics.update_last_move(move)
+                    # print("ai turn complete")
+                    # print(self.board)
+                    self.add_new_board_hash_to_repetition_table(reset=is_capture_move or move_piece_type == 1)
                 else:
                     status = self.graphics.capture_human_interaction()
+                self.player2_timer.pause()
+                if (self.player2_timer.did_buzz()):
+                    print("buzz buzz")
+                    status = False
+                    winner = chess.WHITE
         
             if self.board.outcome() != None:
-                # print(self.board.outcome())
                 status = False
-                # print(self.board)
                 winner = self.board.outcome().winner
         if (winner == None):
             return None
         if (chess.WHITE == winner):
+            print("white won")
             return self.player1.name() if (self.player1 is not None) else "white"
         else:
+            print("black won")
             return self.player2.name() if (self.player2 is not None) else "black"
 
 # Simulate a single game and return the winner
@@ -85,10 +143,6 @@ def aggregate(positions: List[Tuple[str, str]]):
         opening_map[opening].append(fen)
     return opening_map
 
-class Variant(Enum):
-    Manual = 1
-    TestAgents = 2
-
 def testAgents():
     num_games = 4
     num_chunks = 4
@@ -107,8 +161,8 @@ def testAgents():
     # agent1 = MinimaxAgentWithPieceSquareTables("psquaretables", depth=2)
     # agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
 
-    agent1 = MiniMaxAgent(depth=2, name="MinimaxAgent")
-    agent2 = OptimizedMiniMaxAgent(depth=2,  name="OptimizedMinimaxAgent")
+    agent1 = lambda: MiniMaxAgent(depth=2, name="MinimaxAgent")
+    agent2 = lambda: AnotherChessBot()
     
     chunks = random.sample(range(1, 21), num_chunks)
 
@@ -119,7 +173,7 @@ def testAgents():
         unique_opening_positions = []
         for opening in opening_map:
             fen = random.choice(opening_map[opening])
-            unique_opening_positions.append((opening, fen, agent1, agent2))
+            unique_opening_positions.append((opening, fen, agent1(), agent2()))
 
         # changed this so that each opening is played twice, once with each agent as white
         player1_as_white = random.sample(unique_opening_positions, num_games)
@@ -170,8 +224,7 @@ def testAgents():
             print(f"{winner} won {count}/{total_games}")
 
 def runManual():
-    ChessGame(player2=OptimizedMiniMaxAgent(name="agent", depth=2)).run()
-
+    ChessGame(player2=AnotherChessBot()).run()
 
 def runVariant(variant: Variant):
     match variant:
