@@ -6,24 +6,13 @@ from pawn_shield_storm import eval_pawn_storm
 from king_safety import evaluate_king_safety
 from mobility import evaluate_mobility
 from typing import Callable, Dict, List
+from bitboards import BitboardUtils
+from repetitions import RepetitionTable
+from timer import Timer
 
+import util
 from piece_square_tables import piece_square_table_score, piece_square_table_move_score
 from pawn_shield_storm import eval_pawn_storm
-
-piece_indices = {
-    'p': 0, # Black pawn
-    'n': 1, # Black knight
-    'b': 2, # Black bishop
-    'r': 3, # Black rook
-    'q': 4, # Black queen
-    'k': 5,  # Black king
-    'P': 6,  # White pawn
-    'N': 7,  # White knight
-    'B': 8,  # White bishop
-    'R': 9,  # White rook
-    'Q': 10,  # White queen
-    'K': 11,  # White king
-}
 
 index_pieces = ['p', 'n', 'b', 'r', 'q', 'k', 'P', 'N', 'B', 'R', 'Q', 'K']
 
@@ -42,40 +31,11 @@ scoring= {
     'K': 0,  # White king
 }
 
-# initialize and return a piece count dictionary
-def initialize_piece_count(board: chess.Board) -> List[int]:
-    piece_count = [0 for _ in range(12)]
-    for piece in board.piece_map().values():
-        piece_count[get_piece_index(piece)] += 1
-    return piece_count
-
 def eval_piece_count(piece_count):
     score = 0
     for i in range(len(piece_count)):
         score += piece_count[i] * scoring[index_pieces[i]]
     return score
-
-def get_piece_index(piece: chess.Piece):
-    return piece_indices[piece.symbol()]
-
-def get_captured_piece(board: chess.Board, move: chess.Move):
-    captured_piece = board.piece_at(move.to_square)
-    if (captured_piece is not None):
-        return captured_piece.symbol()
-    
-    #en passant
-    idx = 0
-    if (move.from_square > move.to_square): # black captures white piece
-        if (move.from_square - 7 == move.to_square): # piece is to the right
-            idx = move.from_square + 1
-        else: # piece is to the left
-            idx = move.from_square - 1
-    else: # white captures black piece
-        if (move.from_square + 7 == move.to_square): # piece is to the left
-            idx = move.from_square - 1
-        else: # piece is to the right
-            idx = move.from_square + 1
-    return str(board.piece_at(idx))
 
 def dotProduct(d1: Dict, d2: Dict) -> float:
     """
@@ -135,8 +95,8 @@ def score_move(board: chess.Board, piece_count: List[int], move: chess.Move):
 
     # make move
     if (board.is_capture(move)):
-        captured_piece = get_captured_piece(board, move)
-        piece_count[piece_indices[captured_piece]] -= 1
+        _, captured_piece = util.get_captured_piece(board, move)
+        piece_count[util.piece_indices[captured_piece.symbol()]] -= 1
     board.push(move)
 
     pieces_that_can_move_to_square = can_move_to_square(board, move.to_square)
@@ -149,7 +109,7 @@ def score_move(board: chess.Board, piece_count: List[int], move: chess.Move):
     # undo move
     board.pop()
     if captured_piece is not None:
-        piece_count[piece_indices[captured_piece]] += 1
+        piece_count[util.piece_indices[captured_piece]] += 1
 
     if (board.is_capture(move)):
         capture_point_differential = scoring[captured_piece] - scoring[move_piece.symbol()]
@@ -179,11 +139,17 @@ class Agent():
     def __init__(self, name: str):
         self.piece_count = None
         self.board = None
+        self.bitboard_utils = None
+        self.repetition_table = None
+        self.timer = None
         self._name = name
     
-    def initialize(self, board: chess.Board):
-        self.piece_count = initialize_piece_count(board)
+    def initialize(self, board: chess.Board, bitboard_utils: BitboardUtils, repetition_table: RepetitionTable, timer: Timer):
+        self.piece_count = util.initialize_piece_count(board)
         self.board = board
+        self.bitboard_utils = bitboard_utils
+        self.repetition_table = repetition_table
+        self.timer = timer
 
     def name(self) -> str:
         return self._name
@@ -244,9 +210,10 @@ class MiniMaxAgent(Agent):
             # if the move is a capture, decrement the count of the captured piece
             captured_piece = None
             if board.is_capture(move):
-                captured_piece = get_captured_piece(board, move)
-                piece_count[piece_indices[captured_piece]] -= 1
+                _, captured_piece = util.get_captured_piece(board, move)
+                piece_count[util.piece_indices[captured_piece.symbol()]] -= 1
 
+            self.bitboard_utils.make_move(move)
             board.push(move)
 
             # recursive call delegating to the other player
@@ -259,10 +226,11 @@ class MiniMaxAgent(Agent):
                 beta=beta)
 
             board.pop()
+            self.bitboard_utils.make_move(move)
 
             # reset board and piece count
             if captured_piece is not None:
-                piece_count[piece_indices[captured_piece]] += 1
+                piece_count[util.piece_indices[captured_piece]] += 1
 
             if (board.turn == chess.WHITE): # max
                 if (score >= beta): #prune
@@ -339,9 +307,10 @@ class OptimizedMiniMaxAgent(MiniMaxAgent):
             # if the move is a capture, decrement the count of the captured piece
             captured_piece = None
             if board.is_capture(move):
-                captured_piece = get_captured_piece(board, move)
-                piece_count[piece_indices[captured_piece]] -= 1
+                _, captured_piece = util.get_captured_piece(board, move)
+                piece_count[util.piece_indices[captured_piece.symbol()]] -= 1
 
+            self.bitboard_utils.make_move(move)
             board.push(move)
 
             # extend the search if the the opposing king is in check
@@ -359,8 +328,9 @@ class OptimizedMiniMaxAgent(MiniMaxAgent):
 
             # reset board and piece count
             if captured_piece is not None:
-                piece_count[piece_indices[captured_piece]] += 1
+                piece_count[util.piece_indices[captured_piece]] += 1
             board.pop()
+            self.bitboard_utils.make_move(move)
 
             if (board.turn == chess.WHITE): # max
                 if (score >= beta): #prune
@@ -395,13 +365,14 @@ class OptimizedMiniMaxAgent(MiniMaxAgent):
         if (evaluation > alpha):
             alpha = evaluation
 
-        capture_moves = [move for move in board.legal_moves if board.is_capture(move)]
+        capture_moves = util.get_capture_moves(board)
         sorted(capture_moves, key=cmp_to_key(lambda item1, item2: score_fn(board, piece_count, item1) - score_fn(board, piece_count, item2)))
         bestMove = None
         for move in capture_moves:
-            captured_piece = get_captured_piece(board, move)
-            piece_count[piece_indices[captured_piece]] -= 1
+            _, captured_piece = util.get_captured_piece(board, move)
+            piece_count[util.piece_indices[captured_piece.symbol()]] -= 1
 
+            self.bitboard_utils.make_move(move)
             board.push(move)
 
             evaluation, _ = self.quiescence_search(
@@ -415,8 +386,9 @@ class OptimizedMiniMaxAgent(MiniMaxAgent):
 
             # reset board and piece count
             if captured_piece is not None:
-                piece_count[piece_indices[captured_piece]] += 1
+                piece_count[util.piece_indices[captured_piece]] += 1
             board.pop()
+            self.bitboard_utils.make_move(move)
 
             if (evaluation >= beta):
                 return (evaluation, move)

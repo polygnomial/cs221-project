@@ -2,6 +2,9 @@ import chess
 import math
 import os, sys
 from audio import ChessAudio
+from bitboards import BitboardUtils
+import util
+from repetitions import RepetitionTable
 
 # disable printing of "hello from the pygame community" message
 sys.stdout = open(os.devnull, 'w')
@@ -9,7 +12,7 @@ import pygame
 sys.stdout = sys.__stdout__
 
 class ChessGraphics():
-    def __init__(self, board: chess.Board, audio: ChessAudio, dimension: int = 800):
+    def __init__(self, board: chess.Board, bitboard_utils: BitboardUtils, repetition_table: RepetitionTable, audio: ChessAudio, dimension: int = 800):
         #basic colors
         self.WHITE = (255, 255, 255)
         self.GREY = (128, 128, 128)
@@ -22,6 +25,8 @@ class ChessGraphics():
         self.BROWN = (174, 138, 104)
 
         self.board = board
+        self.bitboard_utils = bitboard_utils
+        self.repetition_table = repetition_table
         self.audio = audio
         
         self.screen = self.initialize_screen(dimension)
@@ -71,6 +76,9 @@ class ChessGraphics():
         row = square%8
         col = 7-square//8
         return (row, col)
+    
+    def update_last_move(self, move):
+        self.last_move = move
     
     def draw_last_move_square(self, square):
         if (square not in self.moves):
@@ -146,7 +154,14 @@ class ChessGraphics():
                 if index in self.moves: # make the move
                     move = self.moves[index]
                     self.play_audio(move)
+                    move_piece_type = util.get_piece_type_int(util.get_moved_piece(self.board, move))
+                    is_capture_move = self.board.is_capture(move)
+                    self.bitboard_utils.make_move(move)
                     self.board.push(move)
+                    # print("human turn complete")
+                    # print(self.board)
+                    zobrist_key = chess.polyglot.zobrist_hash(self.board)
+                    self.repetition_table.push(zobrist_key, is_capture_move or move_piece_type == 1)
                     self.last_move = move
                     self.moves = dict()
                 else: # show possible moves

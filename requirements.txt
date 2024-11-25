@@ -2,3 +2,4 @@ chess
 pygame
 stockfish
 tqdm
+gmpy2
