@@ -17,7 +17,7 @@ class AnotherChessBot(Agent):
 
         # each row is 196 bits or 24 bytes
         # multiply by 10666667 to give us approximately 256 MB transposition table cache
-        self.transposition_table = np.zeros(10666667, dtype='u8, u2, i4, i4, i4')
+        self.transposition_table = [[0,0,0,0,0] for _ in range(0x800000)]
         
         # Piece-to-history tables per color
         self.history = np.zeros((2, 7, 64), dtype=int)
@@ -62,19 +62,19 @@ class AnotherChessBot(Agent):
 
             self.searching_depth += 1
 
-        print(f"push_pop_counter = {self.push_pop_counter}")
+        # needed to fix board state after a timeout
         while(self.push_pop_counter > 0):
             move = self.board.pop()
             # only undo null moves
             if (bool(move)):
-                self.bitboard_utils.make_move(move)
+                self.bitboard_utils.undo_move(move)
             self.push_pop_counter -= 1
 
         return self.root_best_move
 
     def eval_weight(self, item):
         """Extract evaluation weight based on packed data."""
-        return (self.packed_data[item >> 1] >> (item * 32)) & 0xFFFFFFFF
+        return int(self.packed_data[item >> 1] >> (item * 32))
 
     def negamax(self, alpha, beta, depth):
         """Negamax algorithm with alpha-beta pruning."""
@@ -93,7 +93,6 @@ class AnotherChessBot(Agent):
         inQSearch = depth <= 0
 
         # Search state
-        evaluation = 0x000b000a  # Tempo bonus
         best_score = int(self.board.ply() - 30000)
         old_alpha = alpha
 
@@ -116,16 +115,16 @@ class AnotherChessBot(Agent):
         elif (depth > 3):
             depth -= 1
 
-        evaluation = score if(tt_hit and not inQSearch) else self.eval_board(evaluation) // 24
+        evaluation = int(score if(tt_hit and not inQSearch) else self.eval_board() // 24)
 
         # Quiescence search
         if (inQSearch):
-            best_score = int(evaluation)
+            best_score = evaluation
             alpha = max(alpha, best_score)
         elif (nonPv and evaluation >= beta and self.try_skip_turn()): # Pruning based on null move observation
             # Reverse Futility Pruning
             # Adaptive Null Move Pruning
-            best_score = int(evaluation - 58 * depth if (depth <= 4) else -self.negamax(-beta, -alpha, (depth * 100 + beta - evaluation) // 186 - 1))
+            best_score = evaluation - 58 * depth if (depth <= 4) else -self.negamax(-beta, -alpha, int((depth * 100 + beta - evaluation) // 186 - 1))
             self.board.pop()
             self.push_pop_counter -= 1
         if (best_score >= beta):
@@ -174,10 +173,10 @@ class AnotherChessBot(Agent):
 
             nextDepth = depth if(self.board.is_check()) else depth - 1
             # Late move reduction and history reduction
-            reduction = (depth - nextDepth) * max(
+            reduction = int((depth - nextDepth) * max(
                 (move_count * 93 + depth * 144) // 1000 + scored_moves[move_count][0] // 172,
                 0
-            )
+            ))
             if (self.repetition_table.contains(zobrist_key)):
                 score = 0
             else:
@@ -191,7 +190,7 @@ class AnotherChessBot(Agent):
             self.repetition_table.try_pop()
             self.board.pop()
             self.push_pop_counter -= 1
-            self.bitboard_utils.make_move(move)
+            self.bitboard_utils.undo_move(move)
 
             if (score > best_score):
                 best_score = score
@@ -241,29 +240,30 @@ class AnotherChessBot(Agent):
         ply = self.board.ply() & 1
         self.history[ply, util.get_piece_type_int(self.board.piece_at(move.from_square)), move.to_square] = self.history_value(move) + value
 
-    def eval_board(self, evaluation):
+    def eval_board(self):
+        evaluation = 0x000b000a  # Tempo bonus
         pieces = self.bitboard_utils.all_pieces_bitboard
         tmp = 0
         while (pieces != 0):
-            sqIndex = self.bitboard_utils.get_lsb_index(pieces)
+            square = self.bitboard_utils.get_lsb_index(pieces)
             pieces = self.bitboard_utils.clear_lsb(pieces)
-            piece = self.board.piece_at(sqIndex)
+            piece = self.board.piece_at(square)
             piece_type = util.get_piece_type_int(piece)
             piece_is_white = piece.color == chess.WHITE
             king_file = chess.square_file(self.bitboard_utils.white_king_square) if (piece_is_white) else chess.square_file(self.bitboard_utils.black_king_square)
-            piece_type -= (sqIndex & 0b111 ^ king_file) >> 1 >> piece_type
-            sqIndex = self.eval_weight(112 + piece_type)
+            piece_type -= (square & 0b111 ^ king_file) >> 1 >> piece_type
+            square_index = self.eval_weight(112 + piece_type)
             # packed data
-            sqIndex += self.packed_data[piece_type * 64 + sqIndex >> 3 ^ (0 if (piece_is_white) else 0b111)] \
-                >> (0x01455410 >> sqIndex * 4) * 8 & 0xFF00FF
-            sqIndex += self.eval_weight(11 + piece_type) \
-                * self.bitboard_utils.get_slider_attacks(min(5, piece_type), sqIndex).bit_count()
+            square_index += self.packed_data[piece_type * 64 + square >> 3 ^ (0 if (piece_is_white) else 0b111)] \
+                >> (0x01455410 >> square * 4) * 8 & 0xFF00FF
+            square_index += self.eval_weight(11 + piece_type) \
+                * self.bitboard_utils.get_slider_attacks(min(5, piece_type), square).bit_count()
             # own pawn ahead
-            sqIndex += self.eval_weight(118 + piece_type) \
-                * (0x0101010101010100 << sqIndex if(piece_is_white) else 0x0080808080808080 >> 63 - sqIndex).bit_count() \
-                    & self.bitboard_utils.get_piece_bitboard(1, piece_is_white)
+            square_index += self.eval_weight(118 + piece_type) \
+                * ((0x0101010101010100 << square if(piece_is_white) else 0x0080808080808080 >> 63 - square) \
+                    & self.bitboard_utils.get_piece_bitboard(1, piece_is_white)).bit_count()
             is_white_turn = self.board.ply() % 2 == 0
-            evaluation += sqIndex if(piece_is_white == is_white_turn) else -sqIndex
+            evaluation += square_index if(piece_is_white == is_white_turn) else -square_index
             tmp += 0x0421100 >> piece_type * 4 & 0xF
         return evaluation * tmp + evaluation // 0x10000 * (24 - tmp)
 

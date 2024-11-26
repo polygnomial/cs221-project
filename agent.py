@@ -230,7 +230,7 @@ class MiniMaxAgent(Agent):
 
             # reset board and piece count
             if captured_piece is not None:
-                piece_count[util.piece_indices[captured_piece]] += 1
+                piece_count[util.piece_indices[captured_piece.symbol()]] += 1
 
             if (board.turn == chess.WHITE): # max
                 if (score >= beta): #prune
@@ -328,7 +328,7 @@ class OptimizedMiniMaxAgent(MiniMaxAgent):
 
             # reset board and piece count
             if captured_piece is not None:
-                piece_count[util.piece_indices[captured_piece]] += 1
+                piece_count[util.piece_indices[captured_piece.symbol()]] += 1
             board.pop()
             self.bitboard_utils.make_move(move)
 

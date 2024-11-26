@@ -100,9 +100,10 @@ class BitboardUtils:
 
         self.all_pieces_bitboard = self.color_bitboards[0] | self.color_bitboards[1]
 
+    def undo_move(self, move: chess.Move):
+        self.make_move(move = move, undo_move = True)
 
-
-    def make_move(self, move: chess.Move):
+    def make_move(self, move: chess.Move, undo_move: bool = False):
         piece = self.board.piece_at(move.from_square)
         color_index = 0 if (piece.color == chess.WHITE) else 1
         piece_type = util.piece_type_map[piece.symbol()]
@@ -124,6 +125,10 @@ class BitboardUtils:
         move_type = util.get_move_type(self.board, move)
         if (move_type == util.MoveType.CASTLING):
             is_kingside = move.to_square == chess.G1 or move.to_square == chess.G8
+            if (piece.color == chess.WHITE):
+                self.white_king_square = move.from_square if (undo_move) else move.to_square
+            else:
+                self.black_king_square = move.from_square if (undo_move) else move.to_square
             castling_rook_from_index = move.to_square + 1  if (is_kingside) else move.to_square - 2
             castling_rook_to_index = move.to_square - 1 if (is_kingside) else move.to_square + 1
             rook_piece_index = 4 | (color_index << 3)
