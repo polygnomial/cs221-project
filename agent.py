@@ -37,23 +37,6 @@ def eval_piece_count(piece_count):
         score += piece_count[i] * scoring[index_pieces[i]]
     return score
 
-def dotProduct(d1: Dict, d2: Dict) -> float:
-    """
-    The dot product of two vectors represented as dictionaries. This function
-    goes over all the keys in d2, and for each key, multiplies the corresponding
-    values in d1 and d2 and adds the result to a running sum. If the key is not
-    in d1, it is treated as having value 0.
-
-    @param dict d1: a feature vector represented by a mapping from a feature (string) to a weight (float).
-    @param dict d2: same as d1
-    @return float: the dot product between d1 and d2
-    """
-    if len(d1) < len(d2):
-        return dotProduct(d2, d1)
-    else:
-        return sum(d1.get(f, 0) * v for f, v in list(d2.items()))
-
-
 million = 1000000
 winning_capture_bias = 8 * million
 promote_bias = 6 * million
@@ -185,7 +168,7 @@ class MiniMaxAgent(Agent):
 
     # simple evaluation function
     def eval_board(self, board: chess.Board, piece_count: List[int]):
-        return dotProduct(self.featureExtractor(piece_count, board), self.weights)
+        return util.dotProduct(self.featureExtractor(piece_count, board), self.weights)
 
     def min_maxN(
             self,

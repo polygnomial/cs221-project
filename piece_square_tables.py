@@ -103,11 +103,17 @@ endgame_table = {
     ]
 }
 
+def flip_square(square):
+    return (7 - chess.square_rank(square)) * 8 + chess.square_file(square)
+
 orig_keys = list(opening_table.keys())
 for key in orig_keys:
     black_key = key.lower()
-    opening_table[black_key] = sum([opening_table[key][i:i+8] for i in range(0, 64, 8)][::-1], [])
-    endgame_table[black_key] = sum([endgame_table[key][i:i+8] for i in range(0, 64, 8)][::-1], [])
+    opening_table[black_key] = [opening_table[key][flip_square(i)] for i in range(64)]
+    endgame_table[black_key] = [endgame_table[key][flip_square(i)] for i in range(64)]
+
+def evaluate_piece_at_square(piece: chess.Piece, square: int, end_game_percentage: float):
+    return int(opening_table[piece.symbol()][square] * (1-end_game_percentage)) + int(endgame_table[piece.symbol()][square] * end_game_percentage)
 
 def game_phase(piece_count, player):
 

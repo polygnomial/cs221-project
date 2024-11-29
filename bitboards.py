@@ -17,6 +17,8 @@ class BitboardUtils:
 
         self.rook_directions = [ (-1, 0), (1, 0), (0, 1), (0, -1) ]
         self.bishop_directions = [ (-1, 1), (1, 1), (1, -1), (-1, -1) ]
+        self.knight_jumps = [ (-2, -1), (-2, 1), (-1, 2), (1, 2), (2, 1), (2, -1), (1, -2), (-1, -2) ]
+        self.king_directions = [ (-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1) ]
 
         self.rook_shifts = [
             52, 52, 52, 52, 52, 52, 52, 52,
@@ -78,6 +80,10 @@ class BitboardUtils:
 
         self.rook_mask = [self.create_movement_mask(i, True) for i in range(64)]
         self.rook_attacks = [self.create_table(i, True, self.rook_magics[i], self.rook_shifts[i]) for i in range(64)]
+        self.knight_attacks = [self.create_knight_attack_table(i) for i in range(64)]
+        self.king_attacks = [self.create_king_attack_table(i) for i in range(64)]
+        self.white_pawn_attacks = [self.create_white_pawn_attack_table(i) for i in range(64)]
+        self.black_pawn_attacks = [self.create_black_pawn_attack_table(i) for i in range(64)]
 
         self.bishop_mask = [self.create_movement_mask(i, False) for i in range(64)]
         self.bishop_attacks = [self.create_table(i, False, self.bishop_magics[i], self.bishop_shifts[i]) for i in range(64)]
@@ -99,6 +105,48 @@ class BitboardUtils:
             self.color_bitboards[color_index] = self.set_square(self.color_bitboards[color_index], square)
 
         self.all_pieces_bitboard = self.color_bitboards[0] | self.color_bitboards[1]
+
+    def create_knight_attack_table(self, square: int):
+        attacks = 0
+        rank = chess.square_rank(square)
+        file = chess.square_file(square)
+        for x, y in self.knight_jumps:
+            new_rank = rank + x
+            new_file = file + y
+            if (util.is_valid_square(rank=new_rank, file=new_file)):
+                attacks |= (1 << util.rank_and_file_to_square(rank=new_rank, file=new_file))
+        return attacks
+    
+    def create_king_attack_table(self, square: int):
+        attacks = 0
+        rank = chess.square_rank(square)
+        file = chess.square_file(square)
+        for x, y in self.king_directions:
+            new_rank = rank + x
+            new_file = file + y
+            if (util.is_valid_square(rank=new_rank, file=new_file)):
+                attacks |= (1 << util.rank_and_file_to_square(rank=new_rank, file=new_file))
+        return attacks
+
+    def create_white_pawn_attack_table(self, square: int):
+        forward_left_square = square + 7
+        forward_right_square = square + 9
+        attacks = 0
+        if (forward_left_square < 64):
+            attacks |= (1 << forward_left_square)
+        if (forward_right_square < 64):
+            attacks |= (1 << forward_right_square)
+        return attacks
+    
+    def create_black_pawn_attack_table(self, square: int):
+        forward_left_square = square - 7
+        forward_right_square = square - 9
+        attacks = 0
+        if (forward_left_square >= 0):
+            attacks |= (1 << forward_left_square)
+        if (forward_right_square >= 0):
+            attacks |= (1 << forward_right_square)
+        return attacks
 
     def undo_move(self, move: chess.Move):
         self.make_move(move = move, undo_move = True)
@@ -277,7 +325,81 @@ class BitboardUtils:
             return self.get_queen_attacks(square, self.all_pieces_bitboard)
         else:
             return 0
+        
+    def get_knight_attacks(self, color_index: int):
+        attacks = 0
+        knights = self.piece_bitboards[(color_index << 3) | 2]
+
+        while (knights > 0):
+            square = self.get_lsb_index(knights)
+            knights = self.clear_lsb(knights)
+            piece = self.board.piece_at(square)
+            assert util.get_piece_type_int(piece) == 2
+
+            attacks |= self.knight_attacks[square]
+        
+        return attacks
+    
+    def get_king_attacks(self, color_index):
+        king_square = self.white_king_square if (color_index == 0) else self.black_king_square
+
+        return self.king_attacks[king_square]
+    
+    def get_pawn_attacks(self, color_index):
+        attacks = 0
+        pawns = self.piece_bitboards[(color_index << 3) | 1]
+        pawn_attacks = self.white_pawn_attacks if (color_index == 0) else self.black_pawn_attacks
+
+        while (pawns > 0):
+            square = self.get_lsb_index(pawns)
+            pawns = self.clear_lsb(pawns)
+            piece = self.board.piece_at(square)
+            assert util.get_piece_type_int(piece) == 1
+
+            attacks |= pawn_attacks[square]
+        
+        return attacks
+
+    def get_piece_attacks(self, piece_type: int, color_index: int, square: int):
+        if (piece_type == 1):
+            return self.get_pawn_attacks(color_index)
+        if (piece_type == 2):
+            return self.get_knight_attacks(color_index=color_index)
+        elif (piece_type >= 3 and piece_type <= 5): # bishop, rook, queen
+            return self.get_slider_attacks(piece_type, square)
+        elif (piece_type == 6):
+            return self.get_king_attacks(color_index)
+        else:
+            return 0
     
     def get_piece_bitboard(self, piece_type: int, piece_is_white: bool):
         piece_index = piece_type if (piece_is_white) else 8 | piece_type
         return self.piece_bitboards[piece_index]
+    
+    def print_all_color_bitboards(self):
+        self.print_color_bitboards(chess.WHITE)
+        self.print_color_bitboards(chess.BLACK)
+    
+    def print_color_bitboards(self, color: chess.Color):
+        print("---------------")
+        if (color == chess.WHITE):
+            print("WHITE")
+            color_index = 0
+        else:
+            print("BLACK")
+            color_index = 1
+        pieces = self.color_bitboards[color_index]
+        self.print_bitboard(pieces)
+        print("---------------")
+
+    def print_bitboard(self, pieces):
+        rows = []
+        for _ in range(8):
+            row = []
+            for _ in range(8):
+                row.append(pieces & 1)
+                pieces = pieces >> 1
+            rows.insert(0, row)
+        for r in rows:
+            print(r)
+        

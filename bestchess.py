@@ -15,25 +15,33 @@ from tqdm import tqdm
 from bitboards import BitboardUtils
 from repetitions import RepetitionTable
 from another_bot import AnotherChessBot
+from improved_bot import ImprovedMiniMaxAgent
 import util
 from timer import Timer
 
 class Variant(Enum):
     Manual = 1
     TestAgents = 2
+    Watch = 3
+    Fresh = 4
 
 class ChessGame():
     def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, useAudio: bool = True, startingFen: Optional[str] = None):
         self.player1 = player1
         self.player2 = player2
         self.board = chess.Board()
-        self.bitboard_utils = BitboardUtils(board=self.board)
-        self.bitboard_utils.initialize_bitboards()
-        self.repetition_table = RepetitionTable()
-        self.repetition_table.initialize_table(self.board)
         if (startingFen):
             self.board.set_fen(startingFen)
+        
+        self.bitboard_utils = BitboardUtils(board=self.board)
+        self.bitboard_utils.initialize_bitboards()
+
+        self.repetition_table = RepetitionTable()
+        self.repetition_table.initialize_table(self.board)
+
         self.audio = ChessAudio() if (useAudio or player1 is None or player2 is None) else None
+        # self.player1_timer = Timer(300000000000) # 5 min
+        # self.player2_timer = Timer(300000000000) # 5 min
         self.player1_timer = Timer(600000000000) # 10 min
         self.player2_timer = Timer(600000000000) # 10 min
         self.graphics = ChessGraphics(
@@ -65,6 +73,11 @@ class ChessGame():
     def add_new_board_hash_to_repetition_table(self, reset: bool):
         zobrist_key = chess.polyglot.zobrist_hash(self.board)
         self.repetition_table.push(zobrist_key, reset)
+    
+    def pretty_print_timer(self, timer: Timer):
+        remaining, millis = divmod(timer.remaining_time_nanos() // 1000000, 1000) 
+        mins, secs = divmod(remaining, 60) 
+        print("{:02d}:{:02d}:{:03d}".format(mins, secs, millis))
 
     def run(self):
         status = True
@@ -81,10 +94,13 @@ class ChessGame():
                     is_capture_move = self.board.is_capture(move)
                     self.bitboard_utils.make_move(move)
                     self.board.push(move)
-                    self.graphics.update_last_move(move)
+                    if (self.graphics is not None):
+                        self.graphics.update_last_move(move)
                     self.add_new_board_hash_to_repetition_table(reset=is_capture_move or move_piece_type == 1)
                 else:
                     status = self.graphics.capture_human_interaction()
+                print("Player 1 has:")
+                self.pretty_print_timer(self.player1_timer)
                 self.player1_timer.pause()
                 if (self.player1_timer.did_buzz()):
                     print("buzz buzz")
@@ -102,7 +118,8 @@ class ChessGame():
                     is_capture_move = self.board.is_capture(move)
                     self.bitboard_utils.make_move(move)
                     self.board.push(move)
-                    self.graphics.update_last_move(move)
+                    if (self.graphics is not None):
+                        self.graphics.update_last_move(move)
                     # print("ai turn complete")
                     # print(self.board)
                     self.add_new_board_hash_to_repetition_table(reset=is_capture_move or move_piece_type == 1)
@@ -113,6 +130,12 @@ class ChessGame():
                     print("buzz buzz")
                     status = False
                     winner = chess.WHITE
+                print("Player 2 has:")
+                self.pretty_print_timer(self.player2_timer)
+            
+            if (self.board.can_claim_fifty_moves()):
+                status = False
+                return None
         
             if self.board.outcome() != None:
                 status = False
@@ -162,7 +185,10 @@ def testAgents():
     # agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
 
     agent1 = lambda: MiniMaxAgent(depth=2, name="MinimaxAgent")
-    agent2 = lambda: AnotherChessBot()
+    agent2 = lambda: ImprovedMiniMaxAgent()
+
+    agent1_name = agent1().name()
+    agent2_name = agent2().name()
     
     chunks = random.sample(range(1, 21), num_chunks)
 
@@ -200,17 +226,17 @@ def testAgents():
                 elif winner is not None:
                     winnerMap[winner]["BLACK"] += 1
                 if winner is None:
-                    if player1.name() == agent1.name():
+                    if player1.name() == agent1_name:
                         winnerMap[None]["WHITE"] += 1
                     else:
                         winnerMap[None]["BLACK"] += 1
 
                 # Display running tally in tqdm's description
-                a1_wins_w = winnerMap[agent1.name()]["WHITE"]
-                a1_losses_w = winnerMap[agent2.name()]["BLACK"]
+                a1_wins_w = winnerMap[agent1_name]["WHITE"]
+                a1_losses_w = winnerMap[agent2_name]["BLACK"]
                 a1_ties_w = winnerMap[None]["WHITE"]
-                a1_wins_b = winnerMap[agent1.name()]["BLACK"]
-                a1_losses_b = winnerMap[agent2.name()]["WHITE"]
+                a1_wins_b = winnerMap[agent1_name]["BLACK"]
+                a1_losses_b = winnerMap[agent2_name]["WHITE"]
                 a1_ties_b = winnerMap[None]["BLACK"]
                 
                 pbar.set_postfix_str(f"Agent 1 as white: {a1_wins_w}-{a1_losses_w}-{a1_ties_w}, Agent 1 as black: {a1_wins_b}-{a1_losses_b}-{a1_ties_b}")
@@ -219,12 +245,15 @@ def testAgents():
     # Final results
     for winner, count in winnerMap.items():
         if winner is None:
-            print(f"{agent1.name()} tied {count["WHITE"]} as white, {count["BLACK"]} as black")
+            print(f"{agent1_name} tied {count["WHITE"]} as white, {count["BLACK"]} as black")
         else:
             print(f"{winner} won {count}/{total_games}")
 
 def runManual():
-    ChessGame(player2=AnotherChessBot()).run()
+    ChessGame(player2=ImprovedMiniMaxAgent()).run()
+
+def runSingleGame(startingFen):
+    ChessGame(player1=ImprovedMiniMaxAgent(), player2=MiniMaxAgent(name="minimax_agent", depth=2), startingFen=startingFen).run()
 
 def runVariant(variant: Variant):
     match variant:
@@ -232,6 +261,13 @@ def runVariant(variant: Variant):
             return runManual()
         case Variant.TestAgents:
             return testAgents()
+        case Variant.Watch:
+            chunk = random.randrange(1, 21)
+            positions = read_positions(f"positions/unprocessed/chunk_{chunk}.txt")
+            _, fen = random.choice(positions)
+            return runSingleGame(startingFen=fen)
+        case Variant.Fresh:
+            return runSingleGame()
         case _:
             return f"Unknown variant {variant}"
 
@@ -241,7 +277,14 @@ if __name__ == "__main__":
     variant = Variant.TestAgents
     if (numArgs == 3):
         assert sys.argv[1] == '-v'
-        assert sys.argv[2] == "manual" or sys.argv[2] == "test"
         if (sys.argv[2] == "manual"):
             variant = Variant.Manual
+        elif (sys.argv[2] == "watch"):
+            variant = Variant.Watch
+        elif (sys.argv[2] == "fresh"):
+            variant = Variant.Fresh
+        elif (sys.argv[2] == "test"):
+            variant = Variant.TestAgents
+        else:
+            raise Exception(f"Unknown argument {sys.argv[2]}")
     print(runVariant(variant))

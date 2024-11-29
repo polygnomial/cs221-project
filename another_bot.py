@@ -143,7 +143,7 @@ class AnotherChessBot(Agent):
             move_piece_type = util.get_piece_type_int(util.get_moved_piece(self.board, move))
             move_raw_value = util.get_move_value(self.board, move)
             score = 1000000 if (tt_hit and move_raw_value == tt_move_raw) else max(
-                captured_piece_type * 32768 - move_piece_type - 16384,
+                captured_piece_type * 32768 - move_piece_type * 16384,
                 self.history_value(move)
             )
             scored_moves[tmp] = (-score, move)

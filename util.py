@@ -1,7 +1,7 @@
 import chess
 from enum import Enum
 import itertools
-from typing import List
+from typing import Dict, List
 
 class MoveType(Enum):
     REGULAR = 0
@@ -115,3 +115,39 @@ def initialize_piece_count(board: chess.Board) -> List[int]:
 
 def get_piece_index(piece: chess.Piece):
     return piece_indices[piece.symbol()]
+
+def dotProduct(d1: Dict, d2: Dict) -> float:
+    """
+    The dot product of two vectors represented as dictionaries. This function
+    goes over all the keys in d2, and for each key, multiplies the corresponding
+    values in d1 and d2 and adds the result to a running sum. If the key is not
+    in d1, it is treated as having value 0.
+
+    @param dict d1: a feature vector represented by a mapping from a feature (string) to a weight (float).
+    @param dict d2: same as d1
+    @return float: the dot product between d1 and d2
+    """
+    if len(d1) < len(d2):
+        return dotProduct(d2, d1)
+    else:
+        return sum(d1.get(f, 0) * v for f, v in list(d2.items()))
+    
+def manhattan_distance(sq1: int, sq2: int):
+    return abs(chess.square_rank(sq1)-chess.square_rank(sq2)) + abs(chess.square_file(sq1)-chess.square_file(sq2))
+
+def manhattan_distance_from_center(square: int):
+    file_dist_from_center = max(3 - chess.square_file(square), chess.square_file(square) - 4)
+    rank_dist_from_center = max(3 - chess.square_rank(square), chess.square_rank(square) - 4)
+    return file_dist_from_center + rank_dist_from_center
+
+def clamp(value, minimum, maximum):
+    return min(max(value, minimum), maximum)
+
+def rank_and_file_to_square(rank: int, file: int):
+    return rank * 8 + file
+
+def is_valid_square(rank: int, file: int) -> bool:
+    return rank >= 0 and rank < 8 and file >= 0 and file < 8
+
+a_file = 0x101010101010101
+h_file = a_file << 7
