@@ -29,7 +29,7 @@ class Timer:
     def did_buzz(self):
         return self.remaining_time_nanos() <= 0
     
-    def pretty_print_time_remaining(self, timer):
-        remaining, millis = divmod(timer.remaining_time_nanos() // 1000000, 1000) 
+    def pretty_print_time_remaining(self):
+        remaining, millis = divmod(self.remaining_time_nanos() // 1000000, 1000) 
         mins, secs = divmod(remaining, 60)
         print("{:02d}:{:02d}:{:03d}".format(mins, secs, millis))
