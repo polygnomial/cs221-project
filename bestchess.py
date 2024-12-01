@@ -177,7 +177,7 @@ def testAgents():
     # agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
 
     agent1 = lambda: MiniMaxAgent(depth=2, name="MinimaxAgent")
-    agent2 = lambda: YetAnotherAgent(depth=2, name="YetAnotherMinimaxAgent")
+    agent2 = lambda: YetAnotherAgent(name="YetAnotherMinimaxAgent")
 
     agent1_name = agent1().name()
     agent2_name = agent2().name()

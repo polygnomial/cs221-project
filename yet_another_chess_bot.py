@@ -18,9 +18,8 @@ ROOK_VALUE = 500
 QUEEN_VALUE = 900
 
 class YetAnotherAgent(Agent):
-    def __init__(self, name, depth: int):
+    def __init__(self, name):
         super().__init__(name)
-        self.depth = depth
         self.weights =  {
             "piece_count": 1.0,
             "mobility_assess": 0.0, #added mobility WRT legal moves vs. opponent
@@ -28,6 +27,13 @@ class YetAnotherAgent(Agent):
             "pawn_storm": 0,
             "piece_square": 0,
         }
+        # Configuration
+        self.max_search_time = None
+        self.searching_depth = 0
+        self.last_score = 0
+        self.push_pop_counter = 0
+        self.num_moves = 0
+        self.search_best_move = None
 
     def featureExtractor(self, piece_count: List[int], board: chess.Board):
         return {
@@ -43,6 +49,8 @@ class YetAnotherAgent(Agent):
         return util.dotProduct(self.featureExtractor(piece_count, board), self.weights)
 
     def negamax(self, depth: int, alpha: float, beta: float):
+        if self.timer.elapsed_time_nanos() >= self.max_search_time and self.search_best_move is not None:
+            raise TimeoutError()
         if (self.board.is_stalemate() or self.board.is_insufficient_material()):
             return (0, None)
         if (self.board.is_checkmate()):
@@ -87,11 +95,41 @@ class YetAnotherAgent(Agent):
             scores.append(score)
 
         bestScore = max(scores) if self.board.turn == chess.WHITE else min(scores)
+        self.search_best_move = moves[scores.index(bestScore)]
         return (bestScore, moves[scores.index(bestScore)])
 
     def get_move(self):
-        _, move = self.negamax(
-            depth=self.depth*2,
-            alpha=float('-inf'),
-            beta=float('inf'))
-        return move
+        if (self.max_search_time is None):
+            self.max_search_time = self.timer.remaining_time_nanos() // 70
+        if (self.num_moves > 70):
+            self.max_search_time = self.timer.remaining_time_nanos() // 4
+        self.searching_depth = 1
+        self.push_pop_counter = 0
+        self.color = chess.WHITE if (self.board.ply() % 2 == 0) else chess.BLACK
+        self.search_best_move = None
+
+        while (self.searching_depth <= 10 and self.timer.elapsed_time_nanos() < self.max_search_time):
+            try:
+                self.negamax(alpha=float('-inf'), beta=float('inf'), depth=self.searching_depth)
+                
+                self.root_best_move = self.search_best_move
+            except TimeoutError:
+                print("timeout exception")
+                break
+
+            self.searching_depth += 1
+        
+        # needed to fix board state after a timeout
+        while(self.push_pop_counter > 0):
+            move = self.board.pop()
+            # only undo null moves
+            if (bool(move)):
+                self.bitboard_utils.undo_move(move)
+            self.push_pop_counter -= 1
+
+        print("board is:")
+        print(self.board)
+        print("The best move is:")
+        print(self.root_best_move)
+        self.num_moves += 1
+        return self.root_best_move
