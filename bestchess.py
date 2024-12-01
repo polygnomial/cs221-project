@@ -136,10 +136,10 @@ class ChessGame():
             return None
         if (chess.WHITE == winner):
             print("white won")
-            return self.player1.name() if (self.player1 is not None) else "white"
+            return self.player1.name() if (self.player1 is not None) else 'WHITE'
         else:
             print("black won")
-            return self.player2.name() if (self.player2 is not None) else "black"
+            return self.player2.name() if (self.player2 is not None) else 'BLACK'
 
 # Simulate a single game and return the winner
 def simulate_game(data):
@@ -205,7 +205,7 @@ def testAgents():
     # Run games in parallel with a progress bar and running tally
     total_games = len(positions_to_play)
     games_played = 0
-    winnerMap = defaultdict(lambda : {"WHITE": 0, "BLACK": 0})
+    winnerMap = defaultdict(lambda : {'WHITE': 0, 'BLACK': 0})
 
     with Pool(processes=numWorkers) as pool:
         with tqdm(total=total_games, desc=f"Simulating {total_games} games") as pbar:
@@ -214,22 +214,22 @@ def testAgents():
                 games_played += 1
 
                 if winner == player1.name():
-                    winnerMap[winner]["WHITE"] += 1    
+                    winnerMap[winner]['WHITE'] += 1    
                 elif winner is not None:
-                    winnerMap[winner]["BLACK"] += 1
+                    winnerMap[winner]['BLACK'] += 1
                 if winner is None:
                     if player1.name() == agent1_name:
-                        winnerMap[None]["WHITE"] += 1
+                        winnerMap[None]['WHITE'] += 1
                     else:
-                        winnerMap[None]["BLACK"] += 1
+                        winnerMap[None]['BLACK'] += 1
 
                 # Display running tally in tqdm's description
-                a1_wins_w = winnerMap[agent1_name]["WHITE"]
-                a1_losses_w = winnerMap[agent2_name]["BLACK"]
-                a1_ties_w = winnerMap[None]["WHITE"]
-                a1_wins_b = winnerMap[agent1_name]["BLACK"]
-                a1_losses_b = winnerMap[agent2_name]["WHITE"]
-                a1_ties_b = winnerMap[None]["BLACK"]
+                a1_wins_w = winnerMap[agent1_name]['WHITE']
+                a1_losses_w = winnerMap[agent2_name]['BLACK']
+                a1_ties_w = winnerMap[None]['WHITE']
+                a1_wins_b = winnerMap[agent1_name]['BLACK']
+                a1_losses_b = winnerMap[agent2_name]['WHITE']
+                a1_ties_b = winnerMap[None]['BLACK']
                 
                 pbar.set_postfix_str(f"Agent 1 as white: {a1_wins_w}-{a1_losses_w}-{a1_ties_w}, Agent 1 as black: {a1_wins_b}-{a1_losses_b}-{a1_ties_b}")
                 pbar.update(1)
@@ -237,7 +237,7 @@ def testAgents():
     # Final results
     for winner, count in winnerMap.items():
         if winner is None:
-            print(f"{agent1_name} tied {count["WHITE"]} as white, {count["BLACK"]} as black")
+            print(f"{agent1_name} tied {count['WHITE']} as white, {count['BLACK']} as black")
         else:
             print(f"{winner} won {count}/{total_games}")
 
