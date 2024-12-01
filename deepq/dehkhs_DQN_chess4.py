@@ -615,12 +615,12 @@ if __name__ == "__main__":
     target_net = DeepChessDQNetwork(action_size).to(device)  # Target network for stability
 
     # Load from episode 9000 checkpoint
-    print("Loading checkpoint from episode 9000...")
-    checkpoint_path = 'checkpoint_ep9000.pth'
+    print("Loading checkpoint from episode 5000...")
+    checkpoint_path = 'checkpoint_ep5000.pth'
     checkpoint = torch.load(checkpoint_path)
     policy_net.load_state_dict(checkpoint['policy_net_state_dict'])
     target_net.load_state_dict(checkpoint['policy_net_state_dict'])  # Make sure target net is synced
-    episode = 9000 #explicit call to prior run of terminated training final stable checkpoint
+    episode = 5000 #explicit call to prior run of terminated training final stable checkpoint
 
     target_net.load_state_dict(policy_net.state_dict())  # Initialize target network with policy network weights
     target_net.eval()  # Set target network to evaluation mode
