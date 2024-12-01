@@ -71,12 +71,14 @@ class YetAnotherAgent(Agent):
 
             self.bitboard_utils.make_move(move)
             self.board.push(move)
+            self.push_pop_counter += 1
 
             # recursive call delegating to the other player
             score, _ = self.negamax(depth=depth - 1, alpha=-beta, beta=-alpha)
 
             self.board.pop()
             self.bitboard_utils.undo_move(move)
+            self.push_pop_counter -= 1
 
             # reset board and piece count
             if captured_piece is not None:
@@ -95,7 +97,8 @@ class YetAnotherAgent(Agent):
             scores.append(score)
 
         bestScore = max(scores) if self.board.turn == chess.WHITE else min(scores)
-        self.search_best_move = moves[scores.index(bestScore)]
+        if (self.board.turn == self.color):
+            self.search_best_move = moves[scores.index(bestScore)]
         return (bestScore, moves[scores.index(bestScore)])
 
     def get_move(self):
@@ -115,6 +118,7 @@ class YetAnotherAgent(Agent):
                 self.root_best_move = self.search_best_move
             except TimeoutError:
                 print("timeout exception")
+                self.timer.pretty_print_time_remaining()
                 break
 
             self.searching_depth += 1

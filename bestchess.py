@@ -74,11 +74,6 @@ class ChessGame():
     def add_new_board_hash_to_repetition_table(self, reset: bool):
         zobrist_key = chess.polyglot.zobrist_hash(self.board)
         self.repetition_table.push(zobrist_key, reset)
-    
-    def pretty_print_timer(self, timer: Timer):
-        remaining, millis = divmod(timer.remaining_time_nanos() // 1000000, 1000) 
-        mins, secs = divmod(remaining, 60)
-        print("{:02d}:{:02d}:{:03d}".format(mins, secs, millis))
 
     def run(self):
         status = True
