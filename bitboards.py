@@ -1,5 +1,4 @@
 import chess
-from gmpy2 import bit_scan1
 
 import util
 
@@ -155,6 +154,12 @@ class BitboardUtils:
         piece = self.board.piece_at(move.from_square)
         color_index = 0 if (piece.color == chess.WHITE) else 1
         piece_type = util.piece_type_map[piece.symbol()]
+        move_type = util.get_move_type(self.board, move)
+        if (piece_type == 6 and move_type != util.MoveType.CASTLING):
+            if (piece.color == chess.WHITE):
+                self.white_king_square = move.from_square if (undo_move) else move.to_square
+            else:
+                self.black_king_square = move.from_square if (undo_move) else move.to_square
         piece_index = piece_type | (color_index << 3)
 
         self.piece_bitboards[piece_index] = self.toggle_square(self.piece_bitboards[piece_index], move.from_square)
@@ -170,7 +175,6 @@ class BitboardUtils:
             self.piece_bitboards[captured_piece_index] = self.toggle_square(self.piece_bitboards[captured_piece_index], captured_piece_square)
             self.color_bitboards[captured_piece_color_index] = self.toggle_square(self.color_bitboards[captured_piece_color_index], captured_piece_square)
 
-        move_type = util.get_move_type(self.board, move)
         if (move_type == util.MoveType.CASTLING):
             is_kingside = move.to_square == chess.G1 or move.to_square == chess.G8
             if (piece.color == chess.WHITE):
@@ -297,7 +301,7 @@ class BitboardUtils:
         return bitboard & (bitboard - 1)
 
     def get_lsb_index(self, bitboard):
-        return bit_scan1(bitboard)
+        return (bitboard&-bitboard).bit_length()-1
 
     def get_bishop_attacks(self, square, blockers):
         mask = self.bishop_mask[square]

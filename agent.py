@@ -1,11 +1,13 @@
 import chess
 from functools import cmp_to_key
 import random
+
+from piece_count import eval_piece_count
 from piece_square_tables import piece_square_table_score
 from pawn_shield_storm import eval_pawn_storm
 from king_safety import evaluate_king_safety
 from mobility import evaluate_mobility
-from typing import Callable, Dict, List
+from typing import Callable, List
 from bitboards import BitboardUtils
 from repetitions import RepetitionTable
 from timer import Timer
@@ -13,29 +15,6 @@ from timer import Timer
 import util
 from piece_square_tables import piece_square_table_score, piece_square_table_move_score
 from pawn_shield_storm import eval_pawn_storm
-
-index_pieces = ['p', 'n', 'b', 'r', 'q', 'k', 'P', 'N', 'B', 'R', 'Q', 'K']
-
-scoring= {
-    'p': -1, # Black pawn
-    'n': -3, # Black knight
-    'b': -3, # Black bishop (should be slightly more valuable than knight ideally for better evaluation)
-    'r': -5, # Black rook
-    'q': -9, # Black queen
-    'k': 0,  # Black king
-    'P': 1,  # White pawn
-    'N': 3,  # White knight
-    'B': 3,  # White bishop (should be slightly more valuable than knight ideally for better evaluation)  
-    'R': 5,  # White rook
-    'Q': 9,  # White queen
-    'K': 0,  # White king
-}
-
-def eval_piece_count(piece_count):
-    score = 0
-    for i in range(len(piece_count)):
-        score += piece_count[i] * scoring[index_pieces[i]]
-    return score
 
 million = 1000000
 winning_capture_bias = 8 * million
@@ -313,7 +292,7 @@ class OptimizedMiniMaxAgent(MiniMaxAgent):
             if captured_piece is not None:
                 piece_count[util.piece_indices[captured_piece.symbol()]] += 1
             board.pop()
-            self.bitboard_utils.make_move(move)
+            self.bitboard_utils.undo_move(move)
 
             if (board.turn == chess.WHITE): # max
                 if (score >= beta): #prune

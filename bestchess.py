@@ -16,6 +16,7 @@ from bitboards import BitboardUtils
 from repetitions import RepetitionTable
 from another_bot import AnotherChessBot
 from improved_bot import ImprovedMiniMaxAgent
+from yet_another_chess_bot import YetAnotherAgent
 import util
 from timer import Timer
 
@@ -76,7 +77,7 @@ class ChessGame():
     
     def pretty_print_timer(self, timer: Timer):
         remaining, millis = divmod(timer.remaining_time_nanos() // 1000000, 1000) 
-        mins, secs = divmod(remaining, 60) 
+        mins, secs = divmod(remaining, 60)
         print("{:02d}:{:02d}:{:03d}".format(mins, secs, millis))
 
     def run(self):
@@ -99,8 +100,6 @@ class ChessGame():
                     self.add_new_board_hash_to_repetition_table(reset=is_capture_move or move_piece_type == 1)
                 else:
                     status = self.graphics.capture_human_interaction()
-                print("Player 1 has:")
-                self.pretty_print_timer(self.player1_timer)
                 self.player1_timer.pause()
                 if (self.player1_timer.did_buzz()):
                     print("buzz buzz")
@@ -109,10 +108,7 @@ class ChessGame():
             else:
                 self.player2_timer.resume()
                 if (self.player2 is not None):
-                    # print("ai turn started")
-                    # print(self.board)
                     move = self.player2.get_move()
-                    print(move)
                     self.play_audio(move)
                     move_piece_type = util.get_piece_type_int(util.get_moved_piece(self.board, move))
                     is_capture_move = self.board.is_capture(move)
@@ -120,8 +116,6 @@ class ChessGame():
                     self.board.push(move)
                     if (self.graphics is not None):
                         self.graphics.update_last_move(move)
-                    # print("ai turn complete")
-                    # print(self.board)
                     self.add_new_board_hash_to_repetition_table(reset=is_capture_move or move_piece_type == 1)
                 else:
                     status = self.graphics.capture_human_interaction()
@@ -130,8 +124,6 @@ class ChessGame():
                     print("buzz buzz")
                     status = False
                     winner = chess.WHITE
-                print("Player 2 has:")
-                self.pretty_print_timer(self.player2_timer)
             
             if (self.board.can_claim_fifty_moves()):
                 status = False
@@ -185,7 +177,7 @@ def testAgents():
     # agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
 
     agent1 = lambda: MiniMaxAgent(depth=2, name="MinimaxAgent")
-    agent2 = lambda: ImprovedMiniMaxAgent()
+    agent2 = lambda: YetAnotherAgent(depth=2, name="YetAnotherMinimaxAgent")
 
     agent1_name = agent1().name()
     agent2_name = agent2().name()
