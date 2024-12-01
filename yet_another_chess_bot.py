@@ -110,14 +110,15 @@ class YetAnotherAgent(Agent):
         self.push_pop_counter = 0
         self.color = chess.WHITE if (self.board.ply() % 2 == 0) else chess.BLACK
         self.search_best_move = None
-
+        depth_explored = 0
         while (self.searching_depth <= 10 and self.timer.elapsed_time_nanos() < self.max_search_time):
             try:
                 self.negamax(alpha=float('-inf'), beta=float('inf'), depth=self.searching_depth)
                 
                 self.root_best_move = self.search_best_move
+                depth_explored = self.searching_depth
             except TimeoutError:
-                print("timeout exception")
+                print(f"timeout exception; depth_explored={depth_explored}")
                 self.timer.pretty_print_time_remaining()
                 break
 
