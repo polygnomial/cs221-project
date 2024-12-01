@@ -49,7 +49,7 @@ class YetAnotherAgent(Agent):
         return util.dotProduct(self.featureExtractor(piece_count, board), self.weights)
 
     def negamax(self, depth: int, alpha: float, beta: float):
-        if self.timer.elapsed_time_nanos() >= self.max_search_time and self.search_best_move is not None:
+        if self.timer.elapsed_time_nanos() >= self.max_search_time and self.searching_depth > 1:
             raise TimeoutError()
         if (self.board.is_stalemate() or self.board.is_insufficient_material()):
             return (0, None)
@@ -127,9 +127,5 @@ class YetAnotherAgent(Agent):
                 self.bitboard_utils.undo_move(move)
             self.push_pop_counter -= 1
 
-        print("board is:")
-        print(self.board)
-        print("The best move is:")
-        print(self.root_best_move)
         self.num_moves += 1
         return self.root_best_move
