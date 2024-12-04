@@ -29,3 +29,5 @@ class Bits:
 
             self.white_passed_pawn_mask[square] = (util.a_file << file | adjacent_files) & white_forward_mask
             self.black_passed_pawn_mask[square] = (util.a_file << file | adjacent_files) & black_forward_mask
+
+BITS = Bits()

@@ -2,7 +2,7 @@ import chess
 from copy import deepcopy
 from enum import Enum
 from typing import Optional
-from agent import Agent, MiniMaxAgent, RandomAgent, MinimaxAgentWithPieceSquareTables, OptimizedMiniMaxAgent, KingSafetyAndMobility
+from agent import Agent
 from collections import defaultdict
 from audio import ChessAudio
 from graphics import ChessGraphics
@@ -14,17 +14,19 @@ from util import read_positions
 from tqdm import tqdm
 from bitboards import BitboardUtils
 from repetitions import RepetitionTable
-from another_bot import AnotherChessBot
-from improved_bot import ImprovedMiniMaxAgent
 from yet_another_chess_bot import YetAnotherAgent
 import util
 from timer import Timer
+from minimax_agent import MiniMaxAgent
+from alpha_beta_agent import AlphaBetaAgent
+from stockfish_agent import StockfishAgent
 
 class Variant(Enum):
     Manual = 1
     TestAgents = 2
     Watch = 3
     Fresh = 4
+    TestSingleMove = 5
 
 class ChessGame():
     def __init__(self, player1: Optional[Agent] = None, player2: Optional[Agent] = None, useGraphics: bool = True, useAudio: bool = True, startingFen: Optional[str] = None):
@@ -43,8 +45,10 @@ class ChessGame():
         self.audio = ChessAudio() if (useAudio or player1 is None or player2 is None) else None
         # self.player1_timer = Timer(300000000000) # 5 min
         # self.player2_timer = Timer(300000000000) # 5 min
-        self.player1_timer = Timer(600000000000) # 10 min
-        self.player2_timer = Timer(600000000000) # 10 min
+        # self.player1_timer = Timer(600000000000) # 10 min
+        # self.player2_timer = Timer(600000000000) # 10 min
+        self.player1_timer = Timer(1200000000000) # 20 min
+        self.player2_timer = Timer(1200000000000) # 20 min
         self.graphics = ChessGraphics(
             board=self.board,
             bitboard_utils=self.bitboard_utils,
@@ -172,7 +176,7 @@ def testAgents():
     # agent2 = KingSafetyAndMobility("with_King_safety_and_mobility", depth=2)
 
     agent1 = lambda: MiniMaxAgent(depth=2, name="MinimaxAgent")
-    agent2 = lambda: YetAnotherAgent(name="YetAnotherMinimaxAgent")
+    agent2 = lambda: YetAnotherAgent()
 
     agent1_name = agent1().name()
     agent2_name = agent2().name()
@@ -186,16 +190,13 @@ def testAgents():
         unique_opening_positions = []
         for opening in opening_map:
             fen = random.choice(opening_map[opening])
-            unique_opening_positions.append((opening, fen, agent1(), agent2()))
+            unique_opening_positions.append((opening, fen))
 
         # changed this so that each opening is played twice, once with each agent as white
-        player1_as_white = random.sample(unique_opening_positions, num_games)
-        player2_as_white = deepcopy(player1_as_white)
-        for i in range(num_games):
-            player2_as_white[i] = (player2_as_white[i][0], player2_as_white[i][1], player2_as_white[i][3], player2_as_white[i][2])
-        
-        positions_to_play.extend(player1_as_white)
-        positions_to_play.extend(player2_as_white)
+        opening_positions = random.sample(unique_opening_positions, num_games)
+        for opening, fen in opening_positions:
+            positions_to_play.append((opening, fen, agent2(), agent1()))
+            positions_to_play.append((opening, fen, agent1(), agent2()))
         
     # Run games in parallel with a progress bar and running tally
     total_games = len(positions_to_play)
@@ -237,10 +238,10 @@ def testAgents():
             print(f"{winner} won {count}/{total_games}")
 
 def runManual():
-    ChessGame(player2=ImprovedMiniMaxAgent()).run()
+    ChessGame(player2=YetAnotherAgent(), startingFen="3n2r1/pp3kpp/8/3P4/PPb4b/2P2P1P/5BK1/R6R b - - 0 1").run()
 
 def runSingleGame(startingFen):
-    ChessGame(player1=ImprovedMiniMaxAgent(), player2=MiniMaxAgent(name="minimax_agent", depth=2), startingFen=startingFen).run()
+    ChessGame(player1=YetAnotherAgent(), player2=MiniMaxAgent(name="minimax_agent", depth=2), startingFen=startingFen).run()
 
 def runVariant(variant: Variant):
     match variant:
@@ -255,6 +256,24 @@ def runVariant(variant: Variant):
             return runSingleGame(startingFen=fen)
         case Variant.Fresh:
             return runSingleGame()
+        case Variant.TestSingleMove:
+            board = chess.Board()
+            board.set_fen("3n2r1/pp3kpp/8/3P4/PPb4b/2P1BP1P/6K1/R6R w - - 0 1")
+            bitboard_utils = BitboardUtils(board=board)
+            bitboard_utils.initialize_bitboards()
+            repetition_table = RepetitionTable()
+            repetition_table.initialize_table(board)
+            agent = YetAnotherAgent(debug=True)
+            agent_timer = Timer(600000000000) # 10 min
+            agent.initialize(
+                board=board,
+                bitboard_utils=bitboard_utils,
+                repetition_table=repetition_table,
+                timer=agent_timer)
+            agent_timer.resume()
+            move = agent.get_move()
+            print("AGENT PICKED")
+            print(move)
         case _:
             return f"Unknown variant {variant}"
 
@@ -272,6 +291,8 @@ if __name__ == "__main__":
             variant = Variant.Fresh
         elif (sys.argv[2] == "test"):
             variant = Variant.TestAgents
+        elif (sys.argv[2] == 'testSingleMove'):
+            variant = Variant.TestSingleMove
         else:
             raise Exception(f"Unknown argument {sys.argv[2]}")
     print(runVariant(variant))

@@ -19,12 +19,12 @@ class PrecomputedEvaluationData:
         file = util.clamp(chess.square_file(square), 1, 6)
 
         for file_offset in self.file_offsets:
-            self.add_if_valid(util.rank_and_file_to_square(file + file_offset, rank + 1), shield_indices_white)
-            self.add_if_valid(util.rank_and_file_to_square(file + file_offset, rank - 1), shield_indices_black)
+            self.add_if_valid(util.rank_and_file_to_square(rank + 1, file + file_offset), shield_indices_white)
+            self.add_if_valid(util.rank_and_file_to_square(rank - 1, file + file_offset), shield_indices_black)
 
         for file_offset in self.file_offsets:
-            self.add_if_valid(util.rank_and_file_to_square(file + file_offset, rank + 2), shield_indices_white)
-            self.add_if_valid(util.rank_and_file_to_square(file + file_offset, rank - 2), shield_indices_black)
+            self.add_if_valid(util.rank_and_file_to_square(rank + 2, file + file_offset), shield_indices_white)
+            self.add_if_valid(util.rank_and_file_to_square(rank - 2, file + file_offset), shield_indices_black)
 
         self.pawn_shield_squares_white[square] = shield_indices_white
         self.pawn_shield_squares_black[square] = shield_indices_black
@@ -32,3 +32,5 @@ class PrecomputedEvaluationData:
     def add_if_valid(self, square: int, shield_index_list: List[int]):
         if (square >= 0 and square < 64):
             shield_index_list.append(square)
+
+PRECOMPUTED_EVAL_DATA = PrecomputedEvaluationData()
