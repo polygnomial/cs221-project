@@ -29,7 +29,7 @@ class ChessGraphics():
         self.repetition_table = repetition_table
         self.audio = audio
         
-        self.screen = self.initialize_screen(dimension*1.2)
+        self.screen = self.initialize_screen(dimension)
         #make background black
         self.screen.fill(self.BLACK)
         #name window

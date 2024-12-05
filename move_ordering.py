@@ -18,6 +18,8 @@ def get_attacks(board: chess.Board, bitboard_utils: BitboardUtils, color_index: 
         piece_attacks = bitboard_utils.get_piece_attacks(piece_type, color_index, square)
         if (ply_from_root == 0):
             print(piece.symbol())
+            bitboard_utils.print_bitboard(bitboard_utils.piece_bitboards[color_index << 3 | piece_type])
+            print("====")
             bitboard_utils.print_bitboard(piece_attacks)
         attacks.append(piece_attacks)
         aggregated_attacks |= piece_attacks

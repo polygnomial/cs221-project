@@ -5,11 +5,14 @@ Add some papers here
 Add some medium articles here
 Maybe even some gh repos
 
+https://www.chessprogramming.org/Main_Page
+https://www.youtube.com/watch?v=_vqlIPDR2TU&ab_channel=SebastianLague
 https://arxiv.org/pdf/1712.01815
 https://blogs.cornell.edu/info2040/2022/09/30/game-theory-how-stockfish-mastered-chess/
 https://github.com/stanford-cs221/sample-projects/blob/master/arijitb-aparnak-chess.pdf
 https://www.semanticscholar.org/paper/Learning-the-Piece-Values-for-Three-Chess-Variants-Droste-F%C3%BCrnkranz/964f515a40fb84cf01973a82f1cc01df033c062f
 https://github.com/facebookresearch/minimax?tab=readme-ov-file
+
 
 2. Dataset
 what data set are we going to use?

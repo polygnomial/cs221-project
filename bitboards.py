@@ -77,12 +77,15 @@ class BitboardUtils:
             14537646123432199168,   9888547162215157388,    18140215579194907366,   18374682062228545019
         ]
 
-        self.rook_mask = [self.create_movement_mask(i, True) for i in range(64)]
-        self.rook_attacks = [self.create_table(i, True, self.rook_magics[i], self.rook_shifts[i]) for i in range(64)]
         self.knight_attacks = [self.create_knight_attack_table(i) for i in range(64)]
         self.king_attacks = [self.create_king_attack_table(i) for i in range(64)]
+        
         self.white_pawn_attacks = [self.create_white_pawn_attack_table(i) for i in range(64)]
         self.black_pawn_attacks = [self.create_black_pawn_attack_table(i) for i in range(64)]
+
+
+        self.rook_mask = [self.create_movement_mask(i, True) for i in range(64)]
+        self.rook_attacks = [self.create_table(i, True, self.rook_magics[i], self.rook_shifts[i]) for i in range(64)]
 
         self.bishop_mask = [self.create_movement_mask(i, False) for i in range(64)]
         self.bishop_attacks = [self.create_table(i, False, self.bishop_magics[i], self.bishop_shifts[i]) for i in range(64)]
@@ -131,19 +134,19 @@ class BitboardUtils:
         forward_left_square = square + 7
         forward_right_square = square + 9
         attacks = 0
-        if (forward_left_square < 64):
+        if (forward_left_square < 64 and chess.square_file(square) != 0):
             attacks |= (1 << forward_left_square)
-        if (forward_right_square < 64):
+        if (forward_right_square < 64 and chess.square_file(square) != 7):
             attacks |= (1 << forward_right_square)
         return attacks
     
     def create_black_pawn_attack_table(self, square: int):
-        forward_left_square = square - 7
-        forward_right_square = square - 9
+        forward_right_square = square - 7
+        forward_left_square = square - 9
         attacks = 0
-        if (forward_left_square >= 0):
+        if (forward_left_square >= 0 and chess.square_file(square) != 0):
             attacks |= (1 << forward_left_square)
-        if (forward_right_square >= 0):
+        if (forward_right_square >= 0 and chess.square_file(square) != 7):
             attacks |= (1 << forward_right_square)
         return attacks
 
@@ -228,7 +231,7 @@ class BitboardUtils:
         blockerPatterns = self.create_all_blocker_bitboards(movementMask)
 
         for pattern in blockerPatterns:
-            index = (pattern * magic) >> left_shift
+            index = ((pattern * magic) & (1 << 64 - 1)) >> left_shift
             moves = self.legal_move_bitboard_from_blockers(square, pattern, is_rook)
             table[index] = moves
 
@@ -295,7 +298,7 @@ class BitboardUtils:
         return ((bitboard >> square) & 1) != 0
 
     def is_valid_square(self, file, rank):
-        file >= 0 and file < 8 and rank >= 0 and rank < 8
+        return file >= 0 and file < 8 and rank >= 0 and rank < 8
 
     def clear_lsb(self, bitboard):
         return bitboard & (bitboard - 1)
@@ -307,18 +310,18 @@ class BitboardUtils:
         mask = self.bishop_mask[square]
         magic = self.bishop_magics[square]
         shift = self.bishop_shifts[square]
-        key = ((blockers & mask) * magic) >> shift
+        key =(((blockers & mask) * magic) & (1 << 64 - 1)) >> shift
         return self.bishop_attacks[square][key]
 
     def get_rook_attacks(self, square, blockers):
         mask = self.rook_mask[square]
         magic = self.rook_magics[square]
         shift = self.rook_shifts[square]
-        key = ((blockers & mask) * magic) >> shift
+        key = (((blockers & mask) * magic) & (1 << 64 - 1)) >> shift
         return self.rook_attacks[square][key]
 
     def get_queen_attacks(self, square, blockers):
-        return self.get_rook_attacks(square, blockers) | self.get_rook_attacks(square, blockers)
+        return self.get_rook_attacks(square, blockers) | self.get_bishop_attacks(square, blockers)
 
     def get_slider_attacks(self, piece_type, square):
         if (piece_type == 3): # bishop
