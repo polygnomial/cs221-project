@@ -19,7 +19,6 @@ import util
 from timer import Timer
 from minimax_agent import MiniMaxAgent
 from alpha_beta_agent import AlphaBetaAgent
-from stockfish_agent import StockfishAgent
 
 class Variant(Enum):
     Manual = 1
